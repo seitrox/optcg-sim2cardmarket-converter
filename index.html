@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OPTCGSIM to cardmarket converter</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    .align-top {
+        align-items: flex-start;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1 class="mt-4">OPTCGSIM to cardmarket converter</h1>
+    <div class="row mt-4 align-top">
+        <div class="col-md-6">
+            <label for="idInput">Enter IDs (optcgsim format)</label>
+            <textarea id="idInput" class="form-control" rows="30" placeholder="4xST04-002&#10;4xST04-012&#10;2xOP01-103&#10;2xST10-010&#10;4xOP02-085"></textarea>
+            <button class="btn btn-primary mt-2" onclick="convert()">Convert</button>
+            <div class="mt-3">
+                <a href="https://ko-fi.com/seitrox" target="_blank" title="Support me on Ko-fi"><img src="https://cdn.ko-fi.com/cdn/kofi3.png" border="0" alt="Support me on Ko-fi"></a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="idInput">Output (cardmarket format)</label>
+            <div id="output" class="border rounded p-3"></div>
+            <button id="copyBtn" class="btn btn-secondary mt-2 d-none" onclick="copyToClipboard()">Copy to Clipboard</button>
+            <span id="copyMessage" class="ml-2"></span>
+        </div>
+    </div>
+</div>
+
+<script>
+function convert() {
+    const idInput = document.getElementById('idInput').value.trim();
+    const idsWithNumbersAndX = idInput.split('\n').filter(Boolean);
+    const ids = idsWithNumbersAndX.map(id => id.replace(/^\d+x/, ''));
+    fetch('results/converter_card_data.csv')
+        .then(response => response.text())
+        .then(data => {
+            const rows = data.split('\n');
+            const idToName = {};
+            rows.forEach(row => {
+                const columns = row.split('|');
+                if (columns.length === 2) {
+                    const id = columns[0].trim();
+                    const name = columns[1].trim();
+                    idToName[id] = name;
+                }
+            });
+            const output = ids.map(id => {
+                const name = idToName[id];
+                const [count, rest] = idsWithNumbersAndX.find(x => x.endsWith(id)).split('x');
+                return name ? `${count.trim()} ${name} ${id}` : `${count.trim()} Not found ${id}`;
+            }).join('<br>');
+            document.getElementById('output').innerHTML = output;
+            document.getElementById('copyBtn').classList.remove('d-none');
+            document.getElementById('copyMessage').innerText = '';
+        })
+        .catch(error => console.error('Error:', error));
+}
+
+function copyToClipboard() {
+    const outputField = document.getElementById('output');
+    const range = document.createRange();
+    range.selectNode(outputField);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand('copy');
+    window.getSelection().removeAllRanges();
+    document.getElementById('copyMessage').innerText = 'Copied!';
+}
+</script>
+</body>
+</html>
