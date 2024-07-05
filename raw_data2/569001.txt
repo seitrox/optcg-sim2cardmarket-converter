@@ -1,0 +1,1159 @@
+
+<!doctype html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<!-- en.onepiece-cardgame.com に対する OneTrust Cookie 同意通知の始点 -->
+<script type="text/javascript" src="https://cdn-apac.onetrust.com/consent/6e249468-3ba0-441d-bb98-e0ed56cd64fa/OtAutoBlock.js" ></script>
+<script src="https://cdn-apac.onetrust.com/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="6e249468-3ba0-441d-bb98-e0ed56cd64fa" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- en.onepiece-cardgame.com に対する OneTrust Cookie 同意通知の終点 -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKN2G96');</script>
+<!-- End Google Tag Manager -->
+  <meta charset="utf-8">
+  <title>CARD LIST｜ONE PIECE CARD GAME - Official Web Site</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="Keywords" content="ONE PIECE,Luffy,Zolo,Nami,Usopp,Sanji,Chopper,Robin,Franky,Brook,Jimbei,Shanks,CARD GAME,Straw hat,Bandai,Eiichiro Oda,Oda-sensei,TCG">
+  <meta name="Description" content="New ONE PIECE CARD GAME setting sail for a simultaneous worldwide release! Check out the official website of ONE PIECE CARD GAME for the latest information!">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="CARD LIST｜ONE PIECE CARD GAME - Official Web Site">
+  <meta property="og:image" content="https://en.onepiece-cardgame.com/ogp.png?0307">
+  <meta property="og:url" content="https://en.onepiece-cardgame.com/cardlist/">
+  <meta property="og:site_name" content="ONE PIECE CARD GAME - Official Web Site">
+  <meta property="og:description" content="New ONE PIECE CARD GAME setting sail for a simultaneous worldwide release! Check out the official website of ONE PIECE CARD GAME for the latest information!">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CARD LIST｜ONE PIECE CARD GAME - Official Web Site">
+  <meta name="twitter:description" content="New ONE PIECE CARD GAME setting sail for a simultaneous worldwide release! Check out the official website of ONE PIECE CARD GAME for the latest information!">
+  <meta name="twitter:image" content="https://en.onepiece-cardgame.com/ogp.png?0307">
+  <meta name="theme-color" content="#fff">
+  <link rel="shortcut icon" type="image/png" href="https://en.onepiece-cardgame.com/favicon.ico">
+  <link rel="apple-touch-icon" href="https://en.onepiece-cardgame.com/webclip.png">
+  <link href="https://en.onepiece-cardgame.com/favicon.ico" rel="shortcut icon">
+  <link rel="alternate" hreflang="ja" href="https://www.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.onepiece-cardgame.cn">
+  <link rel="alternate" hreflang="zh-HK" href="https://asia-hk.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="zh-TW" href="https://asia-tw.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="th" href="https://asia-th.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-sg" href="https://asia-en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-my" href="https://asia-en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-id" href="https://asia-en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ph" href="https://asia-en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-us" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-aw" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-vi" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ca" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-cw" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-gl" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-do" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-bm" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-pr" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-mq" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-sv" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-bo" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-au" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-gu" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-as" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ws" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-sb" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-sb" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-tv" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-to" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-nr" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-nz" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-vu" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-pw" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-mh" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ag" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-uy" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ec" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-gy" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-cu" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-gt" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-cr" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-co" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-jm" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-sr" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-vc" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-kn" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-lc" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-cl" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-dm" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-tt" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ni" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-pa" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-bs" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-bb" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-br" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ve" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-bz" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-pe" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-hn" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-mx" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ar" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-is" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ie" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-al" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ad" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-gb" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-it" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ua" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-at" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-nl" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-mk" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-hr" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-sm" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-gi" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-se" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-es" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-sk" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-si" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-rs" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-dk" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-de" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-no" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-va" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-hu" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-fi" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-fo" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-gf" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-bg" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-by" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-be" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-pl" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ba" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-mt" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-mc" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-md" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-me" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-lv" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-lt" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ro" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-lu" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ru" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-ch" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-gr" href="https://en.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="en-pt" href="https://en.onepiece-cardgame.com/">
+  <link rel="stylesheet" href="/css/lib/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/css/layout.css?240315">
+  <script src="/js/lib/jquery.min.js?v=3.6.0"></script>
+  <script src="/js/lib/jquery.easing.1.4.min.js"></script>
+  <script src="/js/lib/jquery.fancybox.min.js"></script>
+  <script src="/js/common.js?240315"></script>
+  <link rel="stylesheet" href="/css/layout_en.css?240315">
+  <script src="/js/common_en.js?240315"></script>
+  <link rel="stylesheet" href="/css/cardlist.css?240315">
+  <script src="/js/cardlist.js?240315"></script>
+  <link rel="stylesheet" href="/css/cardlist_en.css?2403154">
+  <script src="/js/cardlist_en.js?2403154"></script>
+  <link rel="stylesheet" href="../css/lib/jquery.selmodal.css">
+  <script src="../js/modal.js?240315"></script>
+  <script src="../js/pager.js?240315"></script>
+  <script src="../js/lib/jquery.selmodal.js"></script>
+</head>
+
+<body id="cardlist">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKN2G96"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <header>
+    <h1 class="logo"><a href="/">ONE PIECE CARD GAME</a></h1>
+    <div id="gnMenuCol">
+      <span class="spBtnGnSearch js_spBtnGnSearchOut">SEARCH</span>
+      <span class="btnGnMenu js_btnGnMenu">MENU</span>
+    </div>
+    <div id="js_spGnSearchCol" class="spGnSearchCol">
+      <div class="spGnSearchInner">
+        <form action="/cardlist/" method="post" class="spGnSearchForm">
+          <input type="hidden" name="search" value="true">
+          <div class="spGnfreewordsCol">
+            <input class="spGnfreewords" type="text" name="freewords" placeholder="Search from cardlist">
+          </div>
+          <input class="spGnClearBtn" type="button" value="✕">
+          <input class="spGnSubmitSearch" type="submit" value="SEARCH">
+        </form>
+      </div>
+    </div>
+    <div id="headerNavCol" class="js_headerNavCol">
+      <div class="gnMenuHeader">
+        <div class="logo"><a href="/"><img src="/images/common/logo_op.png" alt="ONE PIECE CARD GAME"></a></div>
+        <div class="gnCloseCol">
+          <span class="spBtnGnSearch js_spBtnGnSearchIn">SEARCH</span>
+          <div class="gMenuClose js_gMenuClose">CLOSE</div>
+        </div>
+      </div>
+
+      <div class="headerNavTopCol">
+        <div class="gnSearchCol pc">
+          <form action="/cardlist/" method="post" class="gnSearchForm">
+            <input type="hidden" name="search" value="true">
+            <input class="gnfreewords" type="text" name="freewords" placeholder="Search from cardlist">
+            <input class="gnClearBtn" type="button" value="✕">
+            <input class="gnSubmitSearch" type="submit" value="SEARCH">
+            <span id="js_gnSearchBtn" class="gnSearchBtn">SEARCH</span>
+          </form>
+        </div>
+        <a class="icoGlobal" href="https://www.onepiece-cardgame.com/global/" target="_blank" rel="noopener">GLOBAL</a>
+        <dl class="socialMediaCol">
+          <dt>SOCIAL MEDIA</dt>
+          <dd class="youtube"><a href="https://www.youtube.com/channel/UCT5u6XqA2oaSqxsXKp3zubw" target="_blank" rel="noopener"><img src="/images/common/ico_youtube.png" alt="Official YouTube Channel"></a></dd>
+          <dd class="facebook"><a href="https://www.facebook.com/onepiecetcgen/" target="_blank" rel="noopener"><img src="/images/common/ico_facebook.png" alt="Official Facebook Page"></a></dd>
+          <dd class="twitter"><a href="https://twitter.com/ONEPIECE_tcg_EN" target="_blank" rel="noopener"><img src="/images/common/ico_twitter.png" alt="Official Twitter Account"></a></dd>
+        </dl>
+        <span class="btnGnLanguage js_btnGnLanguage">LANGUAGE</span>
+        <div id="js_gnLanguageCol">
+          <ul class="gnLanguageInner">
+            <li><a class="languageBtn ja" href="https://www.onepiece-cardgame.com/">日本語<span>Japanese</span></a></li>
+            <li><a class="languageBtn cn" href="https://www.onepiece-cardgame.cn" target="_blank" rel="noopener">简体中文<span>Simplified Chinese</span></a></li>
+            <li><a class="languageBtn hk" href="https://asia-hk.onepiece-cardgame.com/">繁體中文(HK)<span>Traditional Chinese(HK)</span></a></li>
+            <li><a class="languageBtn tw" href="https://asia-tw.onepiece-cardgame.com/">繁體中文(TW)<span>Traditional Chinese(TW)</span></a></li>
+            <li><a class="languageBtn th" href="https://asia-th.onepiece-cardgame.com/">ไทย<span>Thai</span></a></li>
+            <li><a class="languageBtn asia-en" href="https://asia-en.onepiece-cardgame.com/">English(Asia)<span>English(Asia)</span></a></li>
+            <li><a class="languageBtn en current" href="https://en.onepiece-cardgame.com/">English<br class="spInline">(US/Europe/LatAm/Oceania)<span>English<br class="spInline">(US/Europe/LatAm/Oceania)</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <nav class="gnaviCol">
+        <ul class="navInner">
+          <li class="navCategoryCol">
+            <div class="navBtn"><a href="/beginners/" class="navForBeginners">FOR BEGINNERS</a></div>
+          </li>
+          <li class="navCategoryCol">
+            <div class="navBtn"><a href="/topics/" class="navTopics">TOPICS</a><span class="js_acBtn">＋</span></div>
+            <ul class="navSubContentsCol js_acCol">
+              <li><a href="/topics/">ALL</a></li>
+              <li><a href="/topics/?tags=products">PRODUCTS</a></li>
+              <li><a href="/topics/?tags=events">EVENTS</a></li>
+              <li><a href="/topics/?tags=promotions">PROMOTIONS</a></li>
+              <li><a href="/topics/?tags=other">OTHER</a></li>
+              <li><a href="/topics/?tags=organized_play">ORGANIZED PLAY</a></li>
+            </ul>
+          </li>
+          <li class="navCategoryCol">
+            <div class="navBtn"><a href="/products/" class="navProducts">PRODUCTS</a><span class="js_acBtn">＋</span></div>
+            <ul class="navSubContentsCol js_acCol">
+              <li><a href="/products/">ALL</a></li>
+              <li><a href="/products/?tags=decks">DECKS</a></li>
+              <li><a href="/products/?tags=boosters">BOOSTERS</a></li>
+              <li><a href="/products/?tags=other">OTHER</a></li>
+            </ul>
+          </li>
+          <li class="navCategoryCol">
+            <div class="navBtn"><a href="/events/" class="navEvents">EVENTS</a></div>
+          </li>
+          <li class="navCategoryCol">
+            <div class="navBtn"><a href="/cardlist/" class="navCardlist current">CARD LIST</a></div>            
+          </li>
+          <li class="navCategoryCol">
+                        <div class="navBtn"><a href="/rules/" class="navRules">RULES</a></div>
+          </li>
+        </ul>
+      </nav>
+      <div class="gnMenuFooter">
+        <a class="icoGlobal" href="https://www.onepiece-cardgame.com/global/" target="_blank" rel="noopener">GLOBAL</a>
+        <dl class="socialMediaCol">
+          <dt>SOCIAL MEDIA</dt>
+          <dd class="youtube"><a href="https://www.youtube.com/channel/UCT5u6XqA2oaSqxsXKp3zubw" target="_blank" rel="noopener"><img src="/images/common/ico_youtube.png" alt="Official YouTube Channel"></a></dd>
+          <dd class="facebook"><a href="https://www.facebook.com/onepiecetcgen/" target="_blank" rel="noopener"><img src="/images/common/ico_facebook.png" alt="Official Facebook Page"></a></dd>
+          <dd class="twitter"><a href="https://twitter.com/ONEPIECE_tcg_EN" target="_blank" rel="noopener"><img src="/images/common/ico_twitter.png" alt="Official Twitter Account"></a></dd>
+        </dl>
+      </div>
+    </div>
+  </header>
+  <ul class="breadcrumbList">
+    <li><a href="/">HOME</a></li>
+    <li>CARD LIST</li>
+  </ul>
+  
+  <main class="mainCol">
+    <article>
+      <h2 class="categoryTitle">CARD LIST</h2>
+      <div class="contentsWrap isIndex">
+        <div class="searchCol">
+          <form action="" method="post">
+            <div class="formsetDefaultArea">
+              <div class="freewordsCol">
+                <input class="freewords" type="text" name="freewords" placeholder="Search..." value="" id="form-free">
+                <input class="clearBtn" type="button" value="✕" onclick="clearText()">
+                <input class="freewordsSearchBtn" type="button" value="SEARCH" onclick="freewordsSearch()">
+              </div>
+              <div class="seriesCol">
+                <select name="series" class="selectModal" id="series">
+                  <option value>Recording</option>
+                  <option value>ALL</option>
+                  <option value="569106" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-WINGS OF THE CAPTAIN- [OP-06]</option>
+                  <option value="569105" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-AWAKENING OF THE NEW ERA- [OP-05]</option>
+                  <option value="569104" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-KINGDOMS OF INTRIGUE- [OP-04]</option>
+                  <option value="569103" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-PILLARS OF STRENGTH- [OP-03]</option>
+                  <option value="569102" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-PARAMOUNT WAR- [OP-02]</option>
+                  <option value="569101" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-ROMANCE DAWN- [OP-01]</option>
+                  <option value="569012" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Zoro and Sanji- [ST-12]</option>
+                  <option value="569011" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Uta- [ST-11]</option>
+                  <option value="569010" >ULTRA DECK &lt;br class=&quot;spInline&quot;&gt;-The Three Captains- [ST-10]</option>
+                  <option value="569009" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Yamato- [ST-09]</option>
+                  <option value="569008" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Monkey D. Luffy- [ST-08]</option>
+                  <option value="569007" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Big Mom Pirates- [ST-07]</option>
+                  <option value="569006" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Absolute Justice- [ST-06]</option>
+                  <option value="569005" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-ONE PIECE FILM edition- [ST-05]</option>
+                  <option value="569004" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Animal Kingdom Pirates- [ST-04]</option>
+                  <option value="569003" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-The Seven Warlords of the Sea- [ST-03]</option>
+                  <option value="569002" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Worst Generation- [ST-02]</option>
+                  <option value="569001" selected>STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Straw Hat Crew- [ST-01]</option>
+                  <option value="569901" >Promotion card</option>
+                  <option value="569801" >Limited Product Card</option>
+                </select>
+              </div>
+            </div>
+
+            <a href="javascript:void(0);" class="commonBtn formsetDropBtn"><span>Add more</span></a>
+
+            <div class="formsetDropArea">
+              <div class="colorCol">
+                <h3 class="searchTit">Color</h3>
+                <div class="checkbtnCol">
+                  <a href="javascript:void(0);" class="checkbtnAll checked checkBtn">ALL</a>
+                  <input type="checkbox" name="colors[]" id="color_Red" value="Red" >
+                  <label class="checkBtn isColor_Red" for="color_Red">Red</label>
+                  <input type="checkbox" name="colors[]" id="color_Green" value="Green" >
+                  <label class="checkBtn isColor_Green" for="color_Green">Green</label>
+                  <input type="checkbox" name="colors[]" id="color_Blue" value="Blue" >
+                  <label class="checkBtn isColor_Blue" for="color_Blue">Blue</label>
+                  <input type="checkbox" name="colors[]" id="color_Purple" value="Purple" >
+                  <label class="checkBtn isColor_Purple" for="color_Purple">Purple</label>
+                  <input type="checkbox" name="colors[]" id="color_Black" value="Black" >
+                  <label class="checkBtn isColor_Black" for="color_Black">Black</label>
+                  <input type="checkbox" name="colors[]" id="color_Yellow" value="Yellow" >
+                  <label class="checkBtn isColor_Yellow" for="color_Yellow">Yellow</label>
+                  <input type="checkbox" name="colors[]" id="color_mix" value="mix" >
+                  <label class="checkBtn isColor_mix" for="color_mix">Multicolor</label>
+                  <div class="checkBtn disable"></div>
+                </div>
+              </div>
+
+              <div class="typeCol">
+                <h3 class="searchTit">Card type</h3>
+                <div class="checkbtnCol">
+                  <a href="javascript:void(0);" class="checkbtnAll checked checkBtn">ALL</a>
+                  <input type="checkbox" name="categories[]" id="category_Leader" value="Leader" >
+                  <label class="checkBtn" for="category_Leader">Leader</label>
+                  <input type="checkbox" name="categories[]" id="category_Character" value="Character" >
+                  <label class="checkBtn" for="category_Character">Character</label>
+                  <input type="checkbox" name="categories[]" id="category_Stage" value="Stage" >
+                  <label class="checkBtn" for="category_Stage">Stage</label>
+                  <input type="checkbox" name="categories[]" id="category_Event" value="Event" >
+                  <label class="checkBtn" for="category_Event">Event</label>
+                  <div class="checkBtn disable"></div>
+                </div>
+              </div>
+
+              <div class="illustTypeCol">
+                <h3 class="searchTit">Illustration Type</h3>                <div class="checkbtnCol">
+                  <a href="javascript:void(0);" class="checkbtnAll checked checkBtn">ALL</a>
+                  <input type="checkbox" name="illustrations[]" id="illustration_Comic" value="Comic" >
+                  <label class="checkBtn isIllustration_Comic" for="illustration_Comic">Comic</label>
+                  <input type="checkbox" name="illustrations[]" id="illustration_Animation" value="Animation" >
+                  <label class="checkBtn isIllustration_Animation" for="illustration_Animation">Animation</label>
+                  <input type="checkbox" name="illustrations[]" id="illustration_Original Illustrations" value="Original Illustrations" >
+                  <label class="checkBtn isIllustration_Original Illustrations" for="illustration_Original Illustrations">Original Illustrations</label>
+                  <input type="checkbox" name="illustrations[]" id="illustration_Other" value="Other" >
+                  <label class="checkBtn isIllustration_Other" for="illustration_Other">Other</label>
+                  <div class="checkBtn disable"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="commonBtn submitBtn"><input type="submit" value="SEARCH"><span>SEARCH</span></div>
+          </form>
+        </div>
+    
+    
+        <div class="pageDetailCol">
+          <div>
+            <a href="javascript:void(0);" onclick="cardSerchReset();" class="reset">&#x00D7; Clear</a>
+            <div class="countCol">17 results</div>
+          </div>
+
+          <div class="spnavi" id="view">
+            <a href="javascript:void(0);" class="prevBtn">PREV</a>
+            <a href="javascript:void(0);" class="nextBtn">NEXT</a>
+          </div>
+
+          <div class="pagerCol">
+            <a href="javascript:void(0);" class="prevBtn">PREV</a>
+            <div class="pager"></div>
+            <a href="javascript:void(0);" class="nextBtn">NEXT</a>
+          </div>
+        </div>
+        
+        <div class="resultCol">
+                  
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-001"><img src="../images/cardlist/card/ST01-001.png?240315" alt="Monkey.D.Luffy"></a>
+
+                    
+          <dl class="modalCol" id="ST01-001">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-001</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Monkey.D.Luffy</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-001.png?240315" alt="Monkey.D.Luffy">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Supernovas/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-002"><img src="../images/cardlist/card/ST01-002.png?240315" alt="Usopp"></a>
+
+                    
+          <dl class="modalCol" id="ST01-002">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-002</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Usopp</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-002.png?240315" alt="Usopp">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type04.png" alt="Ranged"><i>Ranged</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>2000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Play this card.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-003"><img src="../images/cardlist/card/ST01-003.png?240315" alt="Karoo"></a>
+
+                    
+          <dl class="modalCol" id="ST01-003">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-003</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Karoo</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-003.png?240315" alt="Karoo">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>3000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Animal/Alabasta</div>
+                <div class="text"><h3>Effect</h3>-</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-004"><img src="../images/cardlist/card/ST01-004.png?240315" alt="Sanji"></a>
+
+                    
+          <dl class="modalCol" id="ST01-004">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-004</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Sanji</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-004.png?240315" alt="Sanji">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>4000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[DON!! x2] This Character gains [Rush].<br>(This card can attack on the turn in which it is played.)</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-005"><img src="../images/cardlist/card/ST01-005.png?240315" alt="Jinbe"></a>
+
+                    
+          <dl class="modalCol" id="ST01-005">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-005</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Jinbe</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-005.png?240315" alt="Jinbe">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>3</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Fish-Man/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-006"><img src="../images/cardlist/card/ST01-006.png?240315" alt="Tony Tony.Chopper"></a>
+
+                    
+          <dl class="modalCol" id="ST01-006">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-006</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Tony Tony.Chopper</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-006.png?240315" alt="Tony Tony.Chopper">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>1000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Animal/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-007"><img src="../images/cardlist/card/ST01-007.png?240315" alt="Nami"></a>
+
+                    
+          <dl class="modalCol" id="ST01-007">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-007</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nami</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-007.png?240315" alt="Nami">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>1000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-008"><img src="../images/cardlist/card/ST01-008.png?240315" alt="Nico Robin"></a>
+
+                    
+          <dl class="modalCol" id="ST01-008">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-008</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nico Robin</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-008.png?240315" alt="Nico Robin">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>3</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>-</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-009"><img src="../images/cardlist/card/ST01-009.png?240315" alt="Nefeltari Vivi"></a>
+
+                    
+          <dl class="modalCol" id="ST01-009">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-009</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nefeltari Vivi</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-009.png?240315" alt="Nefeltari Vivi">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>4000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Alabasta</div>
+                <div class="text"><h3>Effect</h3>-</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-010"><img src="../images/cardlist/card/ST01-010.png?240315" alt="Franky"></a>
+
+                    
+          <dl class="modalCol" id="ST01-010">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-010</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Franky</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-010.png?240315" alt="Franky">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>-</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-011"><img src="../images/cardlist/card/ST01-011.png?240315" alt="Brook"></a>
+
+                    
+          <dl class="modalCol" id="ST01-011">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-011</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Brook</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-011.png?240315" alt="Brook">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>3000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-012"><img src="../images/cardlist/card/ST01-012.png?240315" alt="Monkey.D.Luffy"></a>
+
+                    
+          <dl class="modalCol" id="ST01-012">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-012</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Monkey.D.Luffy</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-012.png?240315" alt="Monkey.D.Luffy">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Supernovas/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Rush] (This card can attack on the turn in which it is played.)<br>[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-013"><img src="../images/cardlist/card/ST01-013.png?240315" alt="Roronoa Zoro"></a>
+
+                    
+          <dl class="modalCol" id="ST01-013">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-013</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Roronoa Zoro</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-013.png?240315" alt="Roronoa Zoro">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>3</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Supernovas/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[DON!! x1] This Character gains +1000 power.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-014"><img src="../images/cardlist/card/ST01-014.png?240315" alt="Guard Point"></a>
+
+                    
+          <dl class="modalCol" id="ST01-014">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-014</span> | <span>C</span> | <span>EVENT</span>
+              </div>
+              <div class="cardName">Guard Point</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-014.png?240315" alt="Guard Point">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    -<i></i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>-</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Animal/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-015"><img src="../images/cardlist/card/ST01-015.png?240315" alt="Gum-Gum Jet Pistol"></a>
+
+                    
+          <dl class="modalCol" id="ST01-015">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-015</span> | <span>C</span> | <span>EVENT</span>
+              </div>
+              <div class="cardName">Gum-Gum Jet Pistol</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-015.png?240315" alt="Gum-Gum Jet Pistol">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    -<i></i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>-</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Supernovas/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Main] K.O. up to 1 of your opponent's Characters with 6000 power or less.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Activate this card&#039;s [Main] effect.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-016"><img src="../images/cardlist/card/ST01-016.png?240315" alt="Diable Jambe"></a>
+
+                    
+          <dl class="modalCol" id="ST01-016">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-016</span> | <span>C</span> | <span>EVENT</span>
+              </div>
+              <div class="cardName">Diable Jambe</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-016.png?240315" alt="Diable Jambe">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    -<i></i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>-</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Main] Select up to 1 of your {Straw Hat Crew} type Leader or Character cards. Your opponent cannot activate [Blocker] if that Leader or Character attacks during this turn.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] K.O. up to 1 of your opponent&#039;s [Blocker] Characters with a cost of 3 or less.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-017"><img src="../images/cardlist/card/ST01-017.png?240315" alt="Thousand Sunny"></a>
+
+                    
+          <dl class="modalCol" id="ST01-017">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-017</span> | <span>C</span> | <span>STAGE</span>
+              </div>
+              <div class="cardName">Thousand Sunny</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img src="../images/cardlist/card/ST01-017.png?240315" alt="Thousand Sunny">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    -<i></i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>-</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Activate: Main] You may rest this Stage: Up to 1 {Straw Hat Crew} type Leader or Character card on your field gains +1000 power during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-Straw Hat Crew-[ST-01]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                        <div class="spnavi" id="view">
+              <a href="javascript:void(0);" class="prevBtn">PREV</a>
+              <a href="javascript:void(0);" class="nextBtn">NEXT</a>
+            </div>
+
+            <div class="pagerCol foot">
+              <a href="javascript:void(0);" class="prevBtn">PREV</a>
+              <div class="pager"></div>
+              <a href="javascript:void(0);" class="nextBtn">NEXT</a>
+            </div>
+                      </div>
+            
+      </div>
+    
+    </article>
+  </main>
+
+  <footer>
+    <div class="snsShareCol">
+      <dl class="snsShareInner">
+        <dt>SHARE</dt>
+        <dd class="facebook"><a href="http://www.facebook.com/share.php?u=https://en.onepiece-cardgame.com/cardlist/" rel="nofollow" target="_blank" class="facebook"><img src="/images/common/ico_facebook.png" alt="facebook"></a></dd>
+        <dd class="twitter"><a href="http://twitter.com/share?text=CARD%20LIST｜ONE%20PIECE%20CARD%20GAME%20-%20Official%20Web%20Site&url=https://en.onepiece-cardgame.com/cardlist/&hashtags=onepiece,onepiececardgame" target="_blank" rel="noopener noreferrer"><img src="/images/common/ico_twitter.png" alt="Twitter"></a></dd>
+      </dl>
+    </div>
+    <div class="footerNavCol">
+      <div class="footerTitleCol">
+        <a href="/"><img src="/images/common/logo_op.png" alt="ONE PIECE CARD GAME" class="fLogo"></a>
+        <a class="icoGlobal" href="https://www.onepiece-cardgame.com/global/" target="_blank" rel="noopener">GLOBAL</a>
+        <dl class="socialMediaCol">
+          <dt>SOCIAL MEDIA</dt>
+          <dd class="youtube"><a href="https://www.youtube.com/channel/UCT5u6XqA2oaSqxsXKp3zubw" target="_blank" rel="noopener"><img src="/images/common/ico_youtube.png" alt="Official YouTube Channel"></a></dd>
+          <dd class="facebook"><a href="https://www.facebook.com/onepiecetcgen/" target="_blank" rel="noopener"><img src="/images/common/ico_facebook.png" alt="Official Facebook Page"></a></dd>
+          <dd class="twitter"><a href="https://twitter.com/ONEPIECE_tcg_EN" target="_blank" rel="noopener"><img src="/images/common/ico_twitter.png" alt="Official Twitter Account"></a></dd>
+        </dl>
+      </div>
+      <nav class="fnaviCol">
+        <ul class="navInner">
+          <li class="navCategoryCol">
+            <div class="navBtn"><a href="/beginners/" class="navForBeginners">FOR BEGINNERS</a></div>
+          </li>
+          <li class="navCategoryCol">
+            <div class="navBtn"><a href="/topics/" class="navTopics">TOPICS</a><span class="js_acBtn">＋</span></div>
+            <ul class="navSubContentsCol js_acCol">
+              <li><a href="/topics/">ALL</a></li>
+              <li><a href="/topics/?tags=products">PRODUCTS</a></li>
+              <li><a href="/topics/?tags=events">EVENTS</a></li>
+              <li><a href="/topics/?tags=promotions">PROMOTIONS</a></li>
+              <li><a href="/topics/?tags=other">OTHER</a></li>
+              <li><a href="/topics/?tags=organized_play">ORGANIZED PLAY</a></li>
+            </ul>
+          </li>
+          <li class="navCategoryCol">
+            <div class="navBtn"><a href="/products/" class="navProducts">PRODUCTS</a><span class="js_acBtn">＋</span></div>
+            <ul class="navSubContentsCol js_acCol">
+              <li><a href="/products/">ALL</a></li>
+              <li><a href="/products/?tags=decks">DECKS</a></li>
+              <li><a href="/products/?tags=boosters">BOOSTERS</a></li>
+              <li><a href="/products/?tags=other">OTHER</a></li>
+            </ul>
+          </li>
+          <li class="navCategoryCol">
+            <div class="navBtn"><a href="/events/" class="navEvents">EVENTS</a></div>
+          </li>
+          <li class="navCategoryCol">
+            <div class="navBtn"><a href="/cardlist/" class="navCardlist current">CARD LIST</a></div>            
+          </li>
+          <li class="navCategoryCol">
+                        <div class="navBtn"><a href="/rules/" class="navRules">RULES</a></div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <ul class="footerContactCol">
+      <li><a href="https://global.carddass.com/inquiry.php" rel="noopener" target="_blank">FOR INQUIRIES</a></li>
+      <li><a href="/cookie_policy.php">COOKIE POLICY</a></li>
+    </ul>
+
+    <div class="footerCopyrightCol">
+      <p class="txtCol">
+        All images, text and data on this website may not be reproduced without permission.<br>
+        Please note that the images used on this website may differ from the actual product as it is still under development.
+      </p>
+      <div class="logoCol">
+        <span class="bcg">
+          <img src="/images/common/logo_bcg.png" alt="BANDAI CARD GAMES">
+        </span>
+        <a href="https://www.bandai.co.jp/" target="_blank" rel="noopener" class="bandai">
+          <img src="/images/common/logo_bandai.png" alt="BANDAI">
+        </a>
+        <span class="bandai_namco">
+          <img src="/images/common/logo_bandai_namco.png?v2" alt="BANDAI NAMCO">
+        </span>
+      </div>
+      <small>&copy;Eiichiro Oda/Shueisha &copy;Eiichiro Oda/Shueisha, Toei Animation</small>
+    </div>
+
+  </footer>
+</body>
