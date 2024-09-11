@@ -132,7 +132,7 @@ def extract_card_data(html_content, series_id):
         # Extract image URL
         image = card_element.find('div', class_='frontCol').find('img')
         if image:
-            image_src = image['src']
+            image_src = image['data-src']
             if image_src.startswith('..'):
                 image_src = image_src[2:]  # Remove the '..' from the beginning of the URL
             image_url = urljoin('https://en.onepiece-cardgame.com/', image_src)

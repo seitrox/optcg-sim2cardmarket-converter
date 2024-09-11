@@ -155,7 +155,7 @@ def extract_card_data(html_content: str, series_id: str) -> List[Dict[str, str]]
         # Extract image URL
         image = card_element.find("div", class_="frontCol").find("img")
         if image:
-            image_src = image["src"]
+            image_src = image["data-src"]
             if image_src.startswith(".."):
                 image_src = image_src[2:]  # Remove the '..' from the beginning of the URL
             image_url = urljoin(BASE_URL, image_src)
