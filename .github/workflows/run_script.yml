@@ -1,6 +1,7 @@
 name: Run Script and Commit Output
 
 on:
+  pull_request:
   schedule:
     # Runs daily at 00:00 UTC
     - cron: "0 0 * * *"
