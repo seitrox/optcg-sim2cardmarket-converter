@@ -6,8 +6,8 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 from data.ProductSeries import ProductSeries
-from src.config import BASE_URL, RAW_DATA_DIR, CARD_LIST_URL, RESULTS_DIR
-from src.data.Card import Card
+from config import BASE_URL, RAW_DATA_DIR, CARD_LIST_URL, RESULTS_DIR
+from data.Card import Card
 
 
 def get_product_series(url: str):
