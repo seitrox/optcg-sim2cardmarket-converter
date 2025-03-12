@@ -168,7 +168,7 @@ def write_cards_data_to_csv(cards_data: List[Card]):
         writer.writerows([asdict(prop) for prop in cards_data ])
     print(f"card data csv written!")
 
-def get_converter_csv(input_file: str, output_file: str):
+def write_converter_csv(input_file: str, output_file: str):
     with open(input_file, "r", newline="", encoding="utf-8") as infile, open(
         output_file, "w", newline="", encoding="utf-8"
     ) as outfile:
@@ -229,11 +229,12 @@ def write_formated_cards_data_to_csv(cards_data: List[Card]):
 def main():
     product_series = get_product_series(CARD_LIST_URL)
     all_cards_data = get_all_cards_data(product_series)
+    RESULTS_DIR.mkdir(exist_ok=True)
     write_cards_data_to_csv(all_cards_data)
 
     input_csv = RESULTS_DIR / "card_data.csv"
     output_csv = RESULTS_DIR / "converter_card_data.csv"
-    get_converter_csv(str(input_csv), str(output_csv))
+    write_converter_csv(str(input_csv), str(output_csv))
     write_formated_cards_data_to_csv(all_cards_data)
 
 
