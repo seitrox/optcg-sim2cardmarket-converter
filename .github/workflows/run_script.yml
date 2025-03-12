@@ -14,8 +14,6 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
 
       - name: Set Up Python
         uses: actions/setup-python@v5
@@ -25,16 +23,14 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
 
-      - name: Run Script
-        run: python src/scraper.py
-
       - name: Extract branch name
         shell: bash
         run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
         id: extract_branch
 
-      - name: Commit and Push Changes
-        run: |
+      - name: execute script and push results
+        run: | 
+                python src/scraper.py
                 git config user.name "github-actions[bot]"
                 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
                 git add .
