@@ -37,7 +37,7 @@ function convert() {
     const idInput = document.getElementById('idInput').value.trim();
     const idsWithNumbersAndX = idInput.split('\n').filter(Boolean);
     const ids = idsWithNumbersAndX.map(id => id.replace(/^\d+x/, ''));
-    fetch('results/converter_card_data.csv')
+    fetch('src/results/converter_card_data.csv')
         .then(response => response.text())
         .then(data => {
             const rows = data.split('\n');
