@@ -31,6 +31,7 @@ jobs:
         id: extract_branch
 
       - name: execute script and push results
+        continue-on-error: true
         run: | 
                 python src/scraper.py
                 git config user.name github-actions
