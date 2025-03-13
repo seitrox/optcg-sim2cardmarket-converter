@@ -1,0 +1,40 @@
+name: Run Script and Commit Output
+
+on:
+  pull_request:
+  schedule:
+    # Runs daily at 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set Up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Extract branch name
+        shell: bash
+        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+        id: extract_branch
+
+      - name: execute script and push results
+        run: | 
+                python src/scraper.py
+                git config user.name github-actions
+                git config user.email github-actions@github.com
+                git add .
+                git commit -m "updated cards data"
+                git push origin HEAD:${{steps.extract_branch.outputs.branch}}
