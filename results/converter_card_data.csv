@@ -1,119 +1,5 @@
 id|name
-ST10-001|Trafalgar Law
-ST10-002|Monkey.D.Luffy
-ST10-003|"Eustass""Captain""Kid"
-ST10-004|Sanji
-ST10-005|Jinbe
-ST10-006|Monkey.D.Luffy
-ST10-007|Killer
-ST10-008|Shachi & Penguin
-ST10-009|Jean Bart
-ST10-010|Trafalgar Law
-ST10-011|Heat
-ST10-012|Bepo
-ST10-013|"Eustass""Captain""Kid"
-ST10-014|Wire
-ST10-015|Gum-Gum Giant Sumo Slap
-ST10-016|Gum-Gum Kong Gatling
-ST10-017|Punk Vise
-ST14-001|Monkey.D.Luffy
-ST14-002|Usopp
-ST14-003|Sanji
-ST14-004|Jinbe
-ST14-005|Tony Tony.Chopper
-ST14-006|Nami
-ST14-007|Nico Robin
-ST14-008|Haredas
-ST14-009|Franky
-ST14-010|Brook
-ST14-011|Heracles
-ST14-012|Monkey.D.Luffy
-ST14-013|Roronoa Zoro
-ST14-014|Gum-Gum Giant Rifle
-ST14-015|Gum-Gum Diable Three-Swords Style Mouten Jet Six Hundred Pound Phoenix Cannon
-ST14-016|I Have My Crew!!
-ST14-017|Thousand Sunny
-ST02-001|"Eustass""Captain""Kid"
-ST02-002|Vito
-ST02-003|Urouge
-ST02-004|"Capone""Gang""Bege"
-ST02-005|Killer
-ST02-006|Koby
-ST02-007|Jewelry Bonney
-ST02-008|Scratchmen Apoo
-ST02-009|Trafalgar Law
-ST02-010|Basil Hawkins
-ST02-011|Heat
-ST02-012|Bepo
-ST02-013|"Eustass""Captain""Kid"
-ST02-014|X.Drake
-ST02-015|Scalpel
-ST02-016|Repel
-ST02-017|Straw Sword
-P-001|Monkey.D.Luffy
-P-002|I Smell Adventure!!!
-P-003|"Eustass""Captain""Kid"
-P-004|Crocodile
-P-005|Kaido
-P-006|Monkey.D.Luffy
-P-007|Monkey.D.Luffy
-P-008|Yamato
-P-009|Trafalgar Law
-P-010|Kaido
-P-011|Uta
-P-012|Jellyfish Pirates
-P-013|Gordon
-P-014|Koby
-P-015|Sunny-Kun
-P-016|Shanks
-P-017|Trafalgar Law
-P-018|Bartolomeo
-P-019|Bepo
-P-020|Helmeppo
-P-021|Benn.Beckman
-P-022|Monkey.D.Luffy
-P-023|Yasopp
-P-024|I'm Gonna Be King of the Pirates!!
-P-025|Smoker
-P-026|Morgan
-P-027|General Franky
-P-028|Portgas.D.Ace
-P-029|Bartolomeo
-P-030|Jinbe
-P-031|Uta
-P-032|Sengoku
-P-033|Monkey.D.Luffy
-P-034|Sanji
-P-035|Monkey.D.Luffy
-P-036|Monkey.D.Luffy
-P-037|Monkey.D.Luffy
-P-039|Bellamy
-P-041|Monkey.D.Luffy
-P-042|Roronoa Zoro
-P-043|Monkey.D.Luffy
-P-045|Roronoa Zoro
-P-046|Yamato
-P-047|Monkey.D.Luffy
-P-048|Arlong
-P-049|Usopp
-P-050|Sanji
-P-051|Shanks
-P-052|Dracule Mihawk
-P-053|Nami
-P-054|Monkey.D.Garp
-P-055|Monkey.D.Luffy
-P-056|Roronoa Zoro
-P-062|Hody & Hyouzou
-P-065|Tony Tony.Chopper
-P-068|Sanji
-P-069|Koala
-P-071|Marco
-P-076|Sakazuki
-ST11-001|Uta
-ST11-002|Uta
-ST11-003|Backlight
-ST11-004|New Genesis
-ST11-005|I'm invincible
+PRB01-001|Sanji
 EB01-001|Kouzuki Oden
 EB01-002|Izo
 EB01-003|Kid & Killer
@@ -175,212 +61,244 @@ EB01-058|Mont Blanc Cricket
 EB01-059|Kingdom Come
 EB01-060|Did Someone Say...Kami?
 EB01-061|Mr.2.Bon.KureiBentham
-ST13-001|Sabo
-ST13-002|Portgas.D.Ace
-ST13-003|Monkey.D.Luffy
-ST13-004|Edward.Newgate
-ST13-005|Emporio.Ivankov
-ST13-006|Curly.Dadan
-ST13-007|Sabo
-ST13-008|Sabo
-ST13-009|Shanks
-ST13-010|Portgas.D.Ace
-ST13-011|Portgas.D.Ace
-ST13-012|Makino
-ST13-013|Monkey.D.Garp
-ST13-014|Monkey.D.Luffy
-ST13-015|Monkey.D.Luffy
-ST13-016|Yamato
-ST13-017|Flame Dragon King
-ST13-018|Gum-Gum Jet Spear
-ST13-019|The Three Brothers' Bond
-ST01-001|Monkey.D.Luffy
-ST01-002|Usopp
-ST01-003|Karoo
-ST01-004|Sanji
-ST01-005|Jinbe
-ST01-006|Tony Tony.Chopper
-ST01-007|Nami
-ST01-008|Nico Robin
-ST01-009|Nefeltari Vivi
-ST01-010|Franky
-ST01-011|Brook
-ST01-012|Monkey.D.Luffy
-ST01-013|Roronoa Zoro
-ST01-014|Guard Point
-ST01-015|Gum-Gum Jet Pistol
-ST01-016|Diable Jambe
-ST01-017|Thousand Sunny
-ST12-001|Roronoa Zoro & Sanji
-ST12-002|Kuina
-ST12-003|Dracule Mihawk
-ST12-004|Humandrill
-ST12-005|Perona
-ST12-006|Yosaku & Johnny
-ST12-007|Rika
-ST12-008|Roronoa Zoro
-ST12-009|Elephant True Bluefin
-ST12-010|Emporio.Ivankov
-ST12-011|Sanji
-ST12-012|Charlotte Pudding
-ST12-013|Zeff
-ST12-014|Duval
-ST12-015|Patty & Carne
-ST12-016|Lion Strike
-ST12-017|Plastic Surgery Shot
-ST04-001|Kaido
-ST04-002|Ulti
-ST04-003|Kaido
-ST04-004|King
-ST04-005|Queen
-ST04-006|Sasaki
-ST04-007|Sheepshead
-ST04-008|Jack
-ST04-009|Ginrummy
-ST04-010|Who's.Who
-ST04-011|Black Maria
-ST04-012|Page One
-ST04-013|X.Drake
-ST04-014|"Lead Performer ""Disaster"""
-ST04-015|Brachio Bomber
-ST04-016|Blast Breath
-ST04-017|Onigashima Island
-ST06-001|Sakazuki
-ST06-002|Koby
-ST06-003|Jango
-ST06-004|Smoker
-ST06-005|Sengoku
-ST06-006|Tashigi
-ST06-007|Tsuru
-ST06-008|Hina
-ST06-009|Fullbody
-ST06-010|Helmeppo
-ST06-011|Momonga
-ST06-012|Monkey.D.Garp
-ST06-013|T-Bone
-ST06-014|Shockwave
-ST06-015|Great Eruption
-ST06-016|White Out
-ST06-017|Navy HQ
-OP04-001|Nefeltari Vivi
-OP04-002|Igaram
-OP04-003|Usopp
-OP04-004|Karoo
-OP04-005|Kung Fu Jugon
-OP04-006|Koza
-OP04-007|Sanji
-OP04-008|Chaka
-OP04-009|Super Spot-Billed Duck Troops
-OP04-010|Tony Tony.Chopper
-OP04-011|Nami
-OP04-012|Nefeltari Cobra
-OP04-013|Pell
-OP04-014|Monkey.D.Luffy
-OP04-015|Roronoa Zoro
-OP04-016|Bad Manners Kick Course
-OP04-017|Happiness Punch
-OP04-018|Enchanting Vertigo Dance
-OP04-019|Donquixote Doflamingo
-OP04-020|Issho
-OP04-021|Viola
-OP04-022|Eric
-OP04-023|Kuro
-OP04-024|Sugar
-OP04-025|Giolla
-OP04-026|Senor Pink
-OP04-027|Daddy Masterson
-OP04-028|Diamante
-OP04-029|Dellinger
-OP04-030|Trebol
-OP04-031|Donquixote Doflamingo
-OP04-032|Baby 5
-OP04-033|Machvise
-OP04-034|Lao.G
-OP04-035|Spiderweb
-OP04-036|Donquixote Family
-OP04-037|Flapping Thread
-OP04-038|The Weak Do Not Have the Right to Choose How They Die!!!
-OP04-039|Rebecca
-OP04-040|Queen
-OP04-041|Apis
-OP04-042|Ipponmatsu
-OP04-043|Ulti
-OP04-044|Kaido
-OP04-045|King
-OP04-046|Queen
-OP04-047|Ice Oni
-OP04-048|Sasaki
-OP04-049|Jack
-OP04-050|Hanger
-OP04-051|Who's.Who
-OP04-052|Black Maria
-OP04-053|Page One
-OP04-054|Rokki
-OP04-055|Plague Rounds
-OP04-056|Gum-Gum Red Roc
-OP04-057|Dragon Twister Demolition Breath
-OP04-058|Crocodile
-OP04-059|Iceburg
-OP04-060|Crocodile
-OP04-061|Tom
-OP04-062|Bananagator
-OP04-063|Franky
-OP04-064|Ms. All Sunday
-OP04-065|Miss.GoldenweekMarianne
-OP04-066|Miss.ValentineMikita
-OP04-067|Miss.MerryChristmasDrophy
-OP04-068|Yokozuna
-OP04-069|Mr.2.Bon.KureiBentham
-OP04-070|Mr.3Galdino
-OP04-071|Mr.4Babe
-OP04-072|Mr.5Gem
-OP04-073|Mr.13 & Ms.Friday
-OP04-074|Colors Trap
-OP04-075|Nez-Palm Cannon
-OP04-076|Weakness...Is an Unforgivable Sin.
-OP04-077|Ideo
-OP04-078|Oimo & Kashii
-OP04-079|Orlumbus
-OP04-080|Gyats
-OP04-081|Cavendish
-OP04-082|Kyros
-OP04-083|Sabo
-OP04-084|Stussy
-OP04-085|Suleiman
-OP04-086|Chinjao
-OP04-087|Trafalgar Law
-OP04-088|Hajrudin
-OP04-089|Bartolomeo
-OP04-090|Monkey.D.Luffy
-OP04-091|Leo
-OP04-092|Rebecca
-OP04-093|Gum-Gum King Kong Gun
-OP04-094|Trueno Bastardo
-OP04-095|Barrier!!
-OP04-096|Corrida Coliseum
-OP04-097|Otama
-OP04-098|Toko
-OP04-099|Olin
-OP04-100|"Capone""Gang""Bege"
-OP04-101|Carmel
-OP04-102|Kin'emon
-OP04-103|Kouzuki Hiyori
-OP04-104|Sanji
-OP04-105|Charlotte Amande
-OP04-106|Charlotte Bavarois
-OP04-107|Charlotte Perospero
-OP04-108|Charlotte Moscato
-OP04-109|Tonoyasu
-OP04-110|Pound
-OP04-111|Hera
-OP04-112|Yamato
-OP04-113|Rabiyan
-OP04-114|Randolph
-OP04-115|Gun Modoki
-OP04-116|Diable Jambe Joue Shot
-OP04-117|Heavenly Fire
-OP04-118|Nefeltari Vivi
-OP04-119|Donquixote Rosinante
+OP10-001|Smoker
+OP10-002|Caesar Clown
+OP10-003|Sugar
+OP10-004|Vergo
+OP10-005|Sanji
+OP10-006|Caesar Clown
+OP10-007|Ceaser Soldier
+OP10-008|Scotch
+OP10-009|Smiley
+OP10-010|Chadros.Higelyges Brownbeard
+OP10-011|Tony Tony.Chopper
+OP10-012|Dragon Number Thirteen
+OP10-013|Nami
+OP10-014|Franky
+OP10-015|Mocha
+OP10-016|Monet
+OP10-017|Rock
+OP10-018|Ten-Layer Igloo
+OP10-019|Divine Departure
+OP10-020|Gum-Gum UFO
+OP10-021|Punk Hazard
+OP10-022|Trafalgar Law
+OP10-023|Issho
+OP10-024|Edward.Newgate
+OP10-025|Enel
+OP10-026|Kin'emon
+OP10-027|Kin'emon
+OP10-028|Kouzuki Momonosuke
+OP10-029|Dracule Mihawk
+OP10-030|Smoker
+OP10-031|Sengoku
+OP10-032|Tashigi
+OP10-033|Nami
+OP10-034|Franky
+OP10-035|Brook
+OP10-036|Perona
+OP10-037|Lim
+OP10-038|Roronoa Zoro
+OP10-039|Gum-Gum Dragon Fire Pistol Twister Star
+OP10-040|The Weak Do Not Have the Right to Choose How They Die
+OP10-041|Radio Knife
+OP10-042|Usopp
+OP10-043|Moocy
+OP10-044|Cub
+OP10-045|Cavendish
+OP10-046|Kyros
+OP10-047|Koala
+OP10-048|Sai
+OP10-049|Sabo
+OP10-050|Hajrudin
+OP10-051|Hack
+OP10-052|Bartolomeo
+OP10-053|Bian
+OP10-054|Blue Gilly
+OP10-055|Marco
+OP10-056|Mansherry
+OP10-057|Leo
+OP10-058|Rebecca
+OP10-059|Fo...llow...Me...and...I...Will...Gui...de...You
+OP10-060|Barrier-Barrier Pistol
+OP10-061|Special Long-Range Attack!! Bagworm
+OP10-062|Violet
+OP10-063|Vinsmoke Sanji
+OP10-064|Clone Soldier
+OP10-065|Sugar
+OP10-066|Giolla
+OP10-067|Senor Pink
+OP10-068|Diamante
+OP10-069|Fighting Fish
+OP10-070|Trebol
+OP10-071|Donquixote Doflamingo
+OP10-072|Donquixote Rosinante
+OP10-073|Buffalo
+OP10-074|Pica
+OP10-075|Foxy
+OP10-076|Baby 5
+OP10-077|Bellamy
+OP10-078|I Do Not Forgive Those Who Laugh at My Family!!!
+OP10-079|God Thread
+OP10-080|Little Black Bears
+OP10-081|Usopp
+OP10-082|Kuzan
+OP10-083|Kouzuki Momonosuke
+OP10-084|Sanjuan.Wolf
+OP10-085|Jesus Burgess
+OP10-086|Shiryu
+OP10-087|Tony Tony.Chopper
+OP10-088|Nami
+OP10-089|Nico Robin
+OP10-090|Franky
+OP10-091|Brook
+OP10-092|Perona
+OP10-093|Saint Homing
+OP10-094|Ryuma
+OP10-095|Roronoa Zoro
+OP10-096|There’s No Longer Any Need for the Seven Warlords of the Sea!!!
+OP10-097|Gum-Gum Rhino Schneider
+OP10-098|Liberation
+OP10-099|"Eustass""Captain""Kid"
+OP10-100|Inazuma
+OP10-101|Urouge
+OP10-102|Emporio.Ivankov
+OP10-103|"Capone""Gang""Bege"
+OP10-104|Caribou
+OP10-105|Cavendish
+OP10-106|Killer
+OP10-107|Jewelry Bonney
+OP10-108|Scratchmen Apoo
+OP10-109|Basil Hawkins
+OP10-110|Heat & Wire
+OP10-111|Monkey.D.Luffy
+OP10-112|"Eustass""Captain""Kid"
+OP10-113|Roronoa Zoro
+OP10-114|X.Drake
+OP10-115|Let's Meet Again in the New World
+OP10-116|Damned Punk
+OP10-117|ROOM
+OP10-118|Monkey.D.Luffy
+OP10-119|Trafalgar Law
+OP09-001|Shanks
+OP09-002|Uta
+OP09-003|Shachi & Penguin
+OP09-004|Shanks
+OP09-005|Silvers Rayleigh
+OP09-006|Howling Gab
+OP09-007|Heat
+OP09-008|Building Snake
+OP09-009|Benn.Beckman
+OP09-010|Bonk Punch
+OP09-011|Hongo
+OP09-012|Monster
+OP09-013|Yasopp
+OP09-014|Limejuice
+OP09-015|Lucky.Roux
+OP09-016|Rockstar
+OP09-017|Wire
+OP09-018|Get Out of Here!
+OP09-019|Nobody Hurts a Friend of Mine!!!!
+OP09-020|Come On!! We'll Fight You!!
+OP09-021|Red Force
+OP09-022|Lim
+OP09-023|Adio
+OP09-024|Usopp
+OP09-025|Crocodile
+OP09-026|Sakazuki
+OP09-027|Sabo
+OP09-028|Sanji
+OP09-029|Tony Tony.Chopper
+OP09-030|Trafalgar Law
+OP09-031|Donquixote Doflamingo
+OP09-032|Donquixote Rosinante
+OP09-033|Nico Robin
+OP09-034|Perona
+OP09-035|Portgas.D.Ace
+OP09-036|Monkey.D.Luffy
+OP09-037|Lim
+OP09-038|Rob Lucci
+OP09-039|Gum-Gum Cuatro Jet Cross Shock Bazooka
+OP09-040|Thunder Lance Flip Caliber Phoenix Shot
+OP09-041|Soul Franky Swing Arm Boxing Solid
+OP09-042|Buggy
+OP09-043|Alvida
+OP09-044|Izo
+OP09-045|Cabaji
+OP09-046|Crocodile
+OP09-047|Kouzuki Oden
+OP09-048|Dracule Mihawk
+OP09-049|Jozu
+OP09-050|Nami
+OP09-051|Buggy
+OP09-052|Marco
+OP09-053|Mohji
+OP09-054|Richie
+OP09-055|Mr.1Daz.Bonez
+OP09-056|Mr.3Galdino
+OP09-057|Cross Guild
+OP09-058|Special Muggy Ball
+OP09-059|Murder at the Steam Bath
+OP09-060|Emptee Bluffs Island
+OP09-061|Monkey.D.Luffy
+OP09-062|Nico Robin
+OP09-063|Usopp
+OP09-064|Killer
+OP09-065|Sanji
+OP09-066|Jean Bart
+OP09-067|Jinbe
+OP09-068|Tony Tony.Chopper
+OP09-069|Trafalgar Law
+OP09-070|Nami
+OP09-071|Nico Robin
+OP09-072|Franky
+OP09-073|Brook
+OP09-074|Bepo
+OP09-075|"Eustass""Captain""Kid"
+OP09-076|Roronoa Zoro
+OP09-077|Gum-Gum Lightning
+OP09-078|Gum-Gum Giant
+OP09-079|Gum-Gum Jump Rope
+OP09-080|Thousand Sunny
+OP09-081|Marshall.D.Teach
+OP09-082|Avalo Pizarro
+OP09-083|Van Augur
+OP09-084|Catarina Devon
+OP09-085|Gecko Moria
+OP09-086|Jesus Burgess
+OP09-087|Charlotte Pudding
+OP09-088|Shiryu
+OP09-089|Stronger
+OP09-090|Doc Q
+OP09-091|Vasco Shot
+OP09-092|Marshall.D.Teach
+OP09-093|Marshall.D.Teach
+OP09-094|Peachbeard
+OP09-095|Laffitte
+OP09-096|My Era...Begins!!
+OP09-097|Black Vortex
+OP09-098|Black Hole
+OP09-099|Fullalead
+OP09-100|Karasu
+OP09-101|Kuzan
+OP09-102|Professor Clover
+OP09-103|Koala
+OP09-104|Sabo
+OP09-105|Sanji
+OP09-106|Nico Olvia
+OP09-107|Nico Robin
+OP09-108|Bartholomew Kuma
+OP09-109|Jaguar.D.Saul
+OP09-110|Pierre
+OP09-111|Brook
+OP09-112|Belo Betty
+OP09-113|Morley
+OP09-114|Lindbergh
+OP09-115|Ice Block Partisan
+OP09-116|Never Underestimate the Power of Miracles!!
+OP09-117|Dereshi!
+OP09-118|Gol.D.Roger
+OP09-119|Monkey.D.Luffy
 OP08-001|Tony Tony.Chopper
 OP08-002|Marco
 OP08-003|Twenty Doctors
@@ -500,446 +418,6 @@ OP08-116|Burn Bazooka
 OP08-117|Burn Blade
 OP08-118|Silvers Rayleigh
 OP08-119|Kaido & Linlin
-ST09-001|Yamato
-ST09-002|Uzuki Tempura
-ST09-003|Ulti
-ST09-004|Kaido
-ST09-005|Kouzuki Oden
-ST09-006|Kouzuki Momonosuke
-ST09-007|Shinobu
-ST09-008|Shimotsuki Ushimaru
-ST09-009|Fugetsu Omusubi
-ST09-010|Portgas.D.Ace
-ST09-011|Monkey.D.Luffy
-ST09-012|Yamato
-ST09-013|Yamato
-ST09-014|Narikabura Arrow
-ST09-015|Thunder Bagua
-ST05-001|Shanks
-ST05-002|Ain
-ST05-003|Ann
-ST05-004|Uta
-ST05-005|Carina
-ST05-006|Gild Tesoro
-ST05-007|Gordon
-ST05-008|Shiki
-ST05-009|Scarlet
-ST05-010|Zephyr
-ST05-011|Douglas Bullet
-ST05-012|Baccarat
-ST05-013|Bins
-ST05-014|Buena Festa
-ST05-015|Dr. Indigo
-ST05-016|Lion's Threat Imperial Earth Bind
-ST05-017|Union Armada
-ST03-001|Crocodile
-ST03-002|Edward Weevil
-ST03-003|Crocodile
-ST03-004|Gecko Moria
-ST03-005|Dracule Mihawk
-ST03-006|Jinbe
-ST03-007|Sentomaru
-ST03-008|Trafalgar Law
-ST03-009|Donquixote Doflamingo
-ST03-010|Bartholomew Kuma
-ST03-011|Buggy
-ST03-012|Pacifista
-ST03-013|Boa Hancock
-ST03-014|Marshall.D.Teach
-ST03-015|Sables
-ST03-016|Thrust Pad Cannon
-ST03-017|Love-Love Mellow
-ST07-001|Charlotte Linlin
-ST07-002|Charlotte Anana
-ST07-003|Charlotte Katakuri
-ST07-004|Charlotte Snack
-ST07-005|Charlotte Daifuku
-ST07-006|Charlotte Flampe
-ST07-007|Charlotte Brulee
-ST07-008|Charlotte Pudding
-ST07-009|Charlotte Mont-d'or
-ST07-010|Charlotte Linlin
-ST07-011|Zeus
-ST07-012|Baron Tamago
-ST07-013|Prometheus
-ST07-014|Pekoms
-ST07-015|Soul Pocus
-ST07-016|Power Mochi
-ST07-017|Queen Mama Chanter
-OP02-001|Edward.Newgate
-OP02-002|Monkey.D.Garp
-OP02-003|Atmos
-OP02-004|Edward.Newgate
-OP02-005|Curly.Dadan
-OP02-006|Kingdew
-OP02-007|Thatch
-OP02-008|Jozu
-OP02-009|Squard
-OP02-010|Dogura
-OP02-011|Vista
-OP02-012|Blenheim
-OP02-013|Portgas.D.Ace
-OP02-014|Whitey Bay
-OP02-015|Makino
-OP02-016|Magura
-OP02-017|Masked Deuce
-OP02-018|Marco
-OP02-019|Rakuyo
-OP02-020|LittleOars Jr.
-OP02-021|Seaquake
-OP02-022|Whitebeard Pirates
-OP02-023|You May Be a Fool...but I Still Love You
-OP02-024|Moby Dick
-OP02-025|Kin'emon
-OP02-026|Sanji
-OP02-027|Inuarashi
-OP02-028|Usopp
-OP02-029|Carrot
-OP02-030|Kouzuki Oden
-OP02-031|Kouzuki Toki
-OP02-032|Shishilian
-OP02-033|Jinbe
-OP02-034|Tony Tony.Chopper
-OP02-035|Trafalgar Law
-OP02-036|Nami
-OP02-037|Nico Robin
-OP02-038|Nekomamushi
-OP02-039|Franky
-OP02-040|Brook
-OP02-041|Monkey.D.Luffy
-OP02-042|Yamato
-OP02-043|Roronoa Zoro
-OP02-044|Wanda
-OP02-045|Three Sword Style Oni Giri
-OP02-046|Diable Jambe Venaison Shoot
-OP02-047|Paradise Totsuka
-OP02-048|Land of Wano
-OP02-049|Emporio.Ivankov
-OP02-050|Inazuma
-OP02-051|Emporio.Ivankov
-OP02-052|Cabaji
-OP02-053|Crocodile
-OP02-054|Gecko Moria
-OP02-055|Dracule Mihawk
-OP02-056|Donquixote Doflamingo
-OP02-057|Bartholomew Kuma
-OP02-058|Buggy
-OP02-059|Boa Hancock
-OP02-060|Mohji
-OP02-061|Morley
-OP02-062|Monkey.D.Luffy
-OP02-063|Mr.1Daz.Bonez
-OP02-064|Mr.2.Bon.KureiBentham
-OP02-065|Mr.3Galdino
-OP02-066|Impel Down All Stars
-OP02-067|Arabesque Brick Fist
-OP02-068|Gum-Gum Rain
-OP02-069|DEATH WINK
-OP02-070|New Kama Land
-OP02-071|Magellan
-OP02-072|Zephyr
-OP02-073|Little Sadi
-OP02-074|Saldeath
-OP02-075|Shiki
-OP02-076|Shiryu
-OP02-077|Solitaire
-OP02-078|Daifugo
-OP02-079|Douglas Bullet
-OP02-080|Dobon
-OP02-081|Domino
-OP02-082|Byrnndi World
-OP02-083|Hannyabal
-OP02-084|Blugori
-OP02-085|Magellan
-OP02-086|Minokoala
-OP02-087|Minotaur
-OP02-088|Sphinx
-OP02-089|Judgment of Hell
-OP02-090|Hydra
-OP02-091|Venom Road
-OP02-092|Impel Down
-OP02-093|Smoker
-OP02-094|Isuka
-OP02-095|Onigumo
-OP02-096|Kuzan
-OP02-097|Komille
-OP02-098|Koby
-OP02-099|Sakazuki
-OP02-100|Jango
-OP02-101|Strawberry
-OP02-102|Smoker
-OP02-103|Sengoku
-OP02-104|Sentomaru
-OP02-105|Tashigi
-OP02-106|Tsuru
-OP02-107|Doberman
-OP02-108|Donquixote Rosinante
-OP02-109|Jaguar.D.Saul
-OP02-110|Hina
-OP02-111|Fullbody
-OP02-112|Bell-mère
-OP02-113|Helmeppo
-OP02-114|Borsalino
-OP02-115|Monkey.D.Garp
-OP02-116|Yamakaji
-OP02-117|Ice Age
-OP02-118|Yasakani Sacred Jewel
-OP02-119|Meteor Volcano
-OP02-120|Uta
-OP02-121|Kuzan
-ST08-001|Monkey.D.Luffy
-ST08-002|Uta
-ST08-003|Gaimon
-ST08-004|Koby
-ST08-005|Shanks
-ST08-006|Shirahoshi
-ST08-007|Nefeltari Vivi
-ST08-008|Higuma
-ST08-009|Makino
-ST08-010|Monkey.D.Garp
-ST08-011|Monkey.D.Luffy
-ST08-012|Laboon
-ST08-013|Mr.2.Bon.KureiBentham
-ST08-014|Gum-Gum Bell
-ST08-015|Gum-Gum Pistol
-OP05-001|Sabo
-OP05-002|Belo Betty
-OP05-003|Inazuma
-OP05-004|Emporio.Ivankov
-OP05-005|Karasu
-OP05-006|Koala
-OP05-007|Sabo
-OP05-008|Chaka
-OP05-009|Toh-Toh
-OP05-010|Nico Robin
-OP05-011|Bartholomew Kuma
-OP05-012|Hack
-OP05-013|Bunny Joe
-OP05-014|Pell
-OP05-015|Belo Betty
-OP05-016|Morley
-OP05-017|Lindbergh
-OP05-018|Emporio Energy Hormone
-OP05-019|Fire Fist
-OP05-020|Four Thousand-Brick Fist
-OP05-021|Revolutionary Army HQ
-OP05-022|Donquixote Rosinante
-OP05-023|Vergo
-OP05-024|Kuween
-OP05-025|Gladius
-OP05-026|Sarquiss
-OP05-027|Trafalgar Law
-OP05-028|Donquixote Doflamingo
-OP05-029|Donquixote Doflamingo
-OP05-030|Donquixote Rosinante
-OP05-031|Buffalo
-OP05-032|Pica
-OP05-033|Baby 5
-OP05-034|Baby 5
-OP05-035|Bellamy
-OP05-036|Monet
-OP05-037|Because the Side of Justice Will Be Whichever Side Wins!!
-OP05-038|Charlestone
-OP05-039|Stick-Stickem Meteora
-OP05-040|Birdcage
-OP05-041|Sakazuki
-OP05-042|Issho
-OP05-043|Ulti
-OP05-044|John Giant
-OP05-045|Stainless
-OP05-046|Dalmatian
-OP05-047|Basil Hawkins
-OP05-048|Bastille
-OP05-049|Haccha
-OP05-050|Hina
-OP05-051|Borsalino
-OP05-052|Maynard
-OP05-053|Mozambia
-OP05-054|Monkey.D.Garp
-OP05-055|X.Drake
-OP05-056|X.Barrels
-OP05-057|Hound Blaze
-OP05-058|It's a Waste of Human Life!!
-OP05-059|Let Us Begin the World of Violence!!!
-OP05-060|Monkey.D.Luffy
-OP05-061|Uso-Hachi
-OP05-062|O-Nami
-OP05-063|O-Robi
-OP05-064|Killer
-OP05-065|San-Gorou
-OP05-066|Jinbe
-OP05-067|Zoro-Juurou
-OP05-068|Chopa-Emon
-OP05-069|Trafalgar Law
-OP05-070|Fra-Nosuke
-OP05-071|Bepo
-OP05-072|Hone-Kichi
-OP05-073|Miss DoublefingerZala
-OP05-074|"Eustass""Captain""Kid"
-OP05-075|Mr.1Daz.Bonez
-OP05-076|When You're at Sea You Fight against Pirates!!
-OP05-077|Gamma Knife
-OP05-078|Punk Rotten
-OP05-079|Viola
-OP05-080|Elizabello II
-OP05-081|One-Legged Toy Soldier
-OP05-082|Shirahoshi
-OP05-083|Sterry
-OP05-084|Saint Charlos
-OP05-085|Nefeltari Cobra
-OP05-086|Nefeltari Vivi
-OP05-087|Hakuba
-OP05-088|Mansherry
-OP05-089|Saint Mjosgard
-OP05-090|Riku Doldo III
-OP05-091|Rebecca
-OP05-092|Saint Rosward
-OP05-093|Rob Lucci
-OP05-094|Haute Couture Patch★Work
-OP05-095|Dragon Claw
-OP05-096|I Bid 500 Million!!
-OP05-097|Mary Geoise
-OP05-098|Enel
-OP05-099|Amazon
-OP05-100|Enel
-OP05-101|Ohm
-OP05-102|Gedatsu
-OP05-103|Kotori
-OP05-104|Conis
-OP05-105|Satori
-OP05-106|Shura
-OP05-107|Lieutenant Spacey
-OP05-108|Nola
-OP05-109|Pagaya
-OP05-110|Holly
-OP05-111|Hotori
-OP05-112|Captain McKinley
-OP05-113|Yama
-OP05-114|El Thor
-OP05-115|Two-Hundred Million Volts Amaru
-OP05-116|Hino Bird Zap
-OP05-117|Upper Yard
-OP05-118|Kaido
-OP05-119|Monkey.D.Luffy
-OP06-001|Uta
-OP06-002|Inazuma
-OP06-003|Emporio.Ivankov
-OP06-004|Baron Omatsuri
-OP06-005|Gasparde
-OP06-006|Saga
-OP06-007|Shanks
-OP06-008|Schneider
-OP06-009|Shuraiya
-OP06-010|Douglas Bullet
-OP06-011|Tot Musica
-OP06-012|Bear.King
-OP06-013|Monkey.D.Luffy
-OP06-014|Ratchet
-OP06-015|Lily Carnation
-OP06-016|Raise Max
-OP06-017|Meteor-Strike of Love
-OP06-018|Gum-Gum King Kong Gatling
-OP06-019|Blue Dragon Seal Water Stream
-OP06-020|Hody Jones
-OP06-021|Perona
-OP06-022|Yamato
-OP06-023|Arlong
-OP06-024|Ikaros Much
-OP06-025|Camie
-OP06-026|Koushirou
-OP06-027|Gyro
-OP06-028|Zeo
-OP06-029|Daruma
-OP06-030|Dosun
-OP06-031|Hatchan
-OP06-032|Hammond
-OP06-033|Vander Decken IX
-OP06-034|Hyouzou
-OP06-035|Hody Jones
-OP06-036|Ryuma
-OP06-037|Wadatsumi
-OP06-038|The Billion-fold World Trichiliocosm
-OP06-039|You Ain't Even Worth Killing Time!!
-OP06-040|Shark Arrows
-OP06-041|The Ark Noah
-OP06-042|Vinsmoke Reiju
-OP06-043|Aramaki
-OP06-044|Gion
-OP06-045|Kuzan
-OP06-046|Sakazuki
-OP06-047|Charlotte Pudding
-OP06-048|Zeff
-OP06-049|Sengoku
-OP06-050|Tashigi
-OP06-051|Tsuru
-OP06-052|Tokikake
-OP06-053|Jaguar.D.Saul
-OP06-054|Borsalino
-OP06-055|Monkey.D.Garp
-OP06-056|Ama no Murakumo Sword
-OP06-057|But I Will Never Doubt a Woman's Tears!!!!
-OP06-058|Gravity Blade Raging Tiger
-OP06-059|White Snake
-OP06-060|Vinsmoke Ichiji
-OP06-061|Vinsmoke Ichiji
-OP06-062|Vinsmoke Judge
-OP06-063|Vinsmoke Sora
-OP06-064|Vinsmoke Niji
-OP06-065|Vinsmoke Niji
-OP06-066|Vinsmoke Yonji
-OP06-067|Vinsmoke Yonji
-OP06-068|Vinsmoke Reiju
-OP06-069|Vinsmoke Reiju
-OP06-070|Eldoraggo
-OP06-071|Gild Tesoro
-OP06-072|Cosette
-OP06-073|Shiki
-OP06-074|Zephyr Navy
-OP06-075|Count Battler
-OP06-076|Hitokiri Kamazo
-OP06-077|Black Bug
-OP06-078|GERMA 66
-OP06-079|Kingdom of GERMA
-OP06-080|Gecko Moria
-OP06-081|Absalom
-OP06-082|Inuppe
-OP06-083|Oars
-OP06-084|Jigoro of the Wind
-OP06-085|Kumacy
-OP06-086|Gecko Moria
-OP06-087|Cerberus
-OP06-088|Sai
-OP06-089|Taralan
-OP06-090|Dr. Hogback
-OP06-091|Victoria Cindry
-OP06-092|Brook
-OP06-093|Perona
-OP06-094|Lola
-OP06-095|Shadows Asgard
-OP06-096|...Nothing...at All!!!
-OP06-097|Negative Hollow
-OP06-098|Thriller Bark
-OP06-099|Aisa
-OP06-100|Inuarashi
-OP06-101|O-Nami
-OP06-102|Kamakiri
-OP06-103|Kawamatsu
-OP06-104|Kikunojo
-OP06-105|Genbo
-OP06-106|Kouzuki Hiyori
-OP06-107|Kouzuki Momonosuke
-OP06-108|Tenguyama Hitetsu
-OP06-109|Denjiro
-OP06-110|Nekomamushi
-OP06-111|Braham
-OP06-112|Raizo
-OP06-113|Raki
-OP06-114|Wyper
-OP06-115|You're the One Who Should Disappear.
-OP06-116|Reject
-OP06-117|The Ark Maxim
-OP06-118|Roronoa Zoro
-OP06-119|Sanji
 OP07-001|Monkey.D.Dragon
 OP07-002|Ain
 OP07-003|Outlook III
@@ -1059,127 +537,363 @@ OP07-116|Blaze Slice
 OP07-117|Egghead
 OP07-118|Sabo
 OP07-119|Portgas.D.Ace
-OP01-001|Roronoa Zoro
-OP01-002|Trafalgar Law
-OP01-003|Monkey.D.Luffy
-OP01-004|Usopp
-OP01-005|Uta
-OP01-006|Otama
-OP01-007|Caribou
-OP01-008|Cavendish
-OP01-009|Carrot
-OP01-010|Komachiyo
-OP01-011|Gordon
-OP01-012|Sai
-OP01-013|Sanji
-OP01-014|Jinbe
-OP01-015|Tony Tony.Chopper
-OP01-016|Nami
-OP01-017|Nico Robin
-OP01-018|Hajrudin
-OP01-019|Bartolomeo
-OP01-020|Hyogoro
-OP01-021|Franky
-OP01-022|Brook
-OP01-023|Marco
-OP01-024|Monkey.D.Luffy
-OP01-025|Roronoa Zoro
-OP01-026|Gum-Gum Fire-Fist Pistol Red Hawk
-OP01-027|Round Table
-OP01-028|Green Star Rafflesia
-OP01-029|Radical Beam!!
-OP01-030|In Two Years!! At the Sabaody Archipelago!!
-OP01-031|Kouzuki Oden
-OP01-032|Ashura Doji
-OP01-033|Izo
-OP01-034|Inuarashi
-OP01-035|Okiku
-OP01-036|Otsuru
-OP01-037|Kawamatsu
-OP01-038|Kanjuro
-OP01-039|Killer
-OP01-040|Kin'emon
-OP01-041|Kouzuki Momonosuke
-OP01-042|Komurasaki
-OP01-043|Shinobu
-OP01-044|Shachi
-OP01-045|Jean Bart
-OP01-046|Denjiro
-OP01-047|Trafalgar Law
-OP01-048|Nekomamushi
-OP01-049|Bepo
-OP01-050|Penguin
-OP01-051|"Eustass""Captain""Kid"
-OP01-052|Raizo
-OP01-053|Wire
-OP01-054|X.Drake
-OP01-055|You Can Be My Samurai!!
-OP01-056|Demon Face
-OP01-057|Paradise Waterfall
-OP01-058|Punk Gibson
-OP01-059|BE-BENG!!
-OP01-060|Donquixote Doflamingo
-OP01-061|Kaido
-OP01-062|Crocodile
-OP01-063|Arlong
-OP01-064|Alvida
-OP01-065|Vergo
-OP01-066|Krieg
-OP01-067|Crocodile
-OP01-068|Gecko Moria
-OP01-069|Caesar Clown
-OP01-070|Dracule Mihawk
-OP01-071|Jinbe
-OP01-072|Smiley
-OP01-073|Donquixote Doflamingo
-OP01-074|Bartholomew Kuma
-OP01-075|Pacifista
-OP01-076|Bellamy
-OP01-077|Perona
-OP01-078|Boa Hancock
-OP01-079|Ms. All Sunday
-OP01-080|Miss DoublefingerZala
-OP01-081|Mocha
-OP01-082|Monet
-OP01-083|Mr.1Daz.Bonez
-OP01-084|Mr.2.Bon.KureiBentham
-OP01-085|Mr.3Galdino
-OP01-086|Overheat
-OP01-087|Officer Agents
-OP01-088|Desert Spada
-OP01-089|Crescent Cutlass
-OP01-090|Baroque Works
-OP01-091|King
-OP01-092|Urashima
-OP01-093|Ulti
-OP01-094|Kaido
-OP01-095|Kyoshirou
-OP01-096|King
-OP01-097|Queen
-OP01-098|Kurozumi Orochi
-OP01-099|Kurozumi Semimaru
-OP01-100|Kurozumi Higurashi
-OP01-101|Sasaki
-OP01-102|Jack
-OP01-103|Scratchmen Apoo
-OP01-104|Speed
-OP01-105|Bao Huang
-OP01-106|Basil Hawkins
-OP01-107|Babanuki
-OP01-108|Hitokiri Kamazo
-OP01-109|Who's.Who
-OP01-110|Fukurokuju
-OP01-111|Black Maria
-OP01-112|Page One
-OP01-113|Holedem
-OP01-114|X.Drake
-OP01-115|Elephant's Marchoo
-OP01-116|Artificial Devil Fruit SMILE
-OP01-117|Sheep's Horn
-OP01-118|Ulti-Mortar
-OP01-119|Thunder Bagua
-OP01-120|Shanks
-OP01-121|Yamato
+OP06-001|Uta
+OP06-002|Inazuma
+OP06-003|Emporio.Ivankov
+OP06-004|Baron Omatsuri
+OP06-005|Gasparde
+OP06-006|Saga
+OP06-007|Shanks
+OP06-008|Schneider
+OP06-009|Shuraiya
+OP06-010|Douglas Bullet
+OP06-011|Tot Musica
+OP06-012|Bear.King
+OP06-013|Monkey.D.Luffy
+OP06-014|Ratchet
+OP06-015|Lily Carnation
+OP06-016|Raise Max
+OP06-017|Meteor-Strike of Love
+OP06-018|Gum-Gum King Kong Gatling
+OP06-019|Blue Dragon Seal Water Stream
+OP06-020|Hody Jones
+OP06-021|Perona
+OP06-022|Yamato
+OP06-023|Arlong
+OP06-024|Ikaros Much
+OP06-025|Camie
+OP06-026|Koushirou
+OP06-027|Gyro
+OP06-028|Zeo
+OP06-029|Daruma
+OP06-030|Dosun
+OP06-031|Hatchan
+OP06-032|Hammond
+OP06-033|Vander Decken IX
+OP06-034|Hyouzou
+OP06-035|Hody Jones
+OP06-036|Ryuma
+OP06-037|Wadatsumi
+OP06-038|The Billion-fold World Trichiliocosm
+OP06-039|You Ain't Even Worth Killing Time!!
+OP06-040|Shark Arrows
+OP06-041|The Ark Noah
+OP06-042|Vinsmoke Reiju
+OP06-043|Aramaki
+OP06-044|Gion
+OP06-045|Kuzan
+OP06-046|Sakazuki
+OP06-047|Charlotte Pudding
+OP06-048|Zeff
+OP06-049|Sengoku
+OP06-050|Tashigi
+OP06-051|Tsuru
+OP06-052|Tokikake
+OP06-053|Jaguar.D.Saul
+OP06-054|Borsalino
+OP06-055|Monkey.D.Garp
+OP06-056|Ama no Murakumo Sword
+OP06-057|But I Will Never Doubt a Woman's Tears!!!!
+OP06-058|Gravity Blade Raging Tiger
+OP06-059|White Snake
+OP06-060|Vinsmoke Ichiji
+OP06-061|Vinsmoke Ichiji
+OP06-062|Vinsmoke Judge
+OP06-063|Vinsmoke Sora
+OP06-064|Vinsmoke Niji
+OP06-065|Vinsmoke Niji
+OP06-066|Vinsmoke Yonji
+OP06-067|Vinsmoke Yonji
+OP06-068|Vinsmoke Reiju
+OP06-069|Vinsmoke Reiju
+OP06-070|Eldoraggo
+OP06-071|Gild Tesoro
+OP06-072|Cosette
+OP06-073|Shiki
+OP06-074|Zephyr Navy
+OP06-075|Count Battler
+OP06-076|Hitokiri Kamazo
+OP06-077|Black Bug
+OP06-078|GERMA 66
+OP06-079|Kingdom of GERMA
+OP06-080|Gecko Moria
+OP06-081|Absalom
+OP06-082|Inuppe
+OP06-083|Oars
+OP06-084|Jigoro of the Wind
+OP06-085|Kumacy
+OP06-086|Gecko Moria
+OP06-087|Cerberus
+OP06-088|Sai
+OP06-089|Taralan
+OP06-090|Dr. Hogback
+OP06-091|Victoria Cindry
+OP06-092|Brook
+OP06-093|Perona
+OP06-094|Lola
+OP06-095|Shadows Asgard
+OP06-096|...Nothing...at All!!!
+OP06-097|Negative Hollow
+OP06-098|Thriller Bark
+OP06-099|Aisa
+OP06-100|Inuarashi
+OP06-101|O-Nami
+OP06-102|Kamakiri
+OP06-103|Kawamatsu
+OP06-104|Kikunojo
+OP06-105|Genbo
+OP06-106|Kouzuki Hiyori
+OP06-107|Kouzuki Momonosuke
+OP06-108|Tenguyama Hitetsu
+OP06-109|Denjiro
+OP06-110|Nekomamushi
+OP06-111|Braham
+OP06-112|Raizo
+OP06-113|Raki
+OP06-114|Wyper
+OP06-115|You're the One Who Should Disappear.
+OP06-116|Reject
+OP06-117|The Ark Maxim
+OP06-118|Roronoa Zoro
+OP06-119|Sanji
+OP05-001|Sabo
+OP05-002|Belo Betty
+OP05-003|Inazuma
+OP05-004|Emporio.Ivankov
+OP05-005|Karasu
+OP05-006|Koala
+OP05-007|Sabo
+OP05-008|Chaka
+OP05-009|Toh-Toh
+OP05-010|Nico Robin
+OP05-011|Bartholomew Kuma
+OP05-012|Hack
+OP05-013|Bunny Joe
+OP05-014|Pell
+OP05-015|Belo Betty
+OP05-016|Morley
+OP05-017|Lindbergh
+OP05-018|Emporio Energy Hormone
+OP05-019|Fire Fist
+OP05-020|Four Thousand-Brick Fist
+OP05-021|Revolutionary Army HQ
+OP05-022|Donquixote Rosinante
+OP05-023|Vergo
+OP05-024|Kuween
+OP05-025|Gladius
+OP05-026|Sarquiss
+OP05-027|Trafalgar Law
+OP05-028|Donquixote Doflamingo
+OP05-029|Donquixote Doflamingo
+OP05-030|Donquixote Rosinante
+OP05-031|Buffalo
+OP05-032|Pica
+OP05-033|Baby 5
+OP05-034|Baby 5
+OP05-035|Bellamy
+OP05-036|Monet
+OP05-037|Because the Side of Justice Will Be Whichever Side Wins!!
+OP05-038|Charlestone
+OP05-039|Stick-Stickem Meteora
+OP05-040|Birdcage
+OP05-041|Sakazuki
+OP05-042|Issho
+OP05-043|Ulti
+OP05-044|John Giant
+OP05-045|Stainless
+OP05-046|Dalmatian
+OP05-047|Basil Hawkins
+OP05-048|Bastille
+OP05-049|Haccha
+OP05-050|Hina
+OP05-051|Borsalino
+OP05-052|Maynard
+OP05-053|Mozambia
+OP05-054|Monkey.D.Garp
+OP05-055|X.Drake
+OP05-056|X.Barrels
+OP05-057|Hound Blaze
+OP05-058|It's a Waste of Human Life!!
+OP05-059|Let Us Begin the World of Violence!!!
+OP05-060|Monkey.D.Luffy
+OP05-061|Uso-Hachi
+OP05-062|O-Nami
+OP05-063|O-Robi
+OP05-064|Killer
+OP05-065|San-Gorou
+OP05-066|Jinbe
+OP05-067|Zoro-Juurou
+OP05-068|Chopa-Emon
+OP05-069|Trafalgar Law
+OP05-070|Fra-Nosuke
+OP05-071|Bepo
+OP05-072|Hone-Kichi
+OP05-073|Miss DoublefingerZala
+OP05-074|"Eustass""Captain""Kid"
+OP05-075|Mr.1Daz.Bonez
+OP05-076|When You're at Sea You Fight against Pirates!!
+OP05-077|Gamma Knife
+OP05-078|Punk Rotten
+OP05-079|Viola
+OP05-080|Elizabello II
+OP05-081|One-Legged Toy Soldier
+OP05-082|Shirahoshi
+OP05-083|Sterry
+OP05-084|Saint Charlos
+OP05-085|Nefeltari Cobra
+OP05-086|Nefeltari Vivi
+OP05-087|Hakuba
+OP05-088|Mansherry
+OP05-089|Saint Mjosgard
+OP05-090|Riku Doldo III
+OP05-091|Rebecca
+OP05-092|Saint Rosward
+OP05-093|Rob Lucci
+OP05-094|Haute Couture Patch★Work
+OP05-095|Dragon Claw
+OP05-096|I Bid 500 Million!!
+OP05-097|Mary Geoise
+OP05-098|Enel
+OP05-099|Amazon
+OP05-100|Enel
+OP05-101|Ohm
+OP05-102|Gedatsu
+OP05-103|Kotori
+OP05-104|Conis
+OP05-105|Satori
+OP05-106|Shura
+OP05-107|Lieutenant Spacey
+OP05-108|Nola
+OP05-109|Pagaya
+OP05-110|Holly
+OP05-111|Hotori
+OP05-112|Captain McKinley
+OP05-113|Yama
+OP05-114|El Thor
+OP05-115|Two-Hundred Million Volts Amaru
+OP05-116|Hino Bird Zap
+OP05-117|Upper Yard
+OP05-118|Kaido
+OP05-119|Monkey.D.Luffy
+OP04-001|Nefeltari Vivi
+OP04-002|Igaram
+OP04-003|Usopp
+OP04-004|Karoo
+OP04-005|Kung Fu Jugon
+OP04-006|Koza
+OP04-007|Sanji
+OP04-008|Chaka
+OP04-009|Super Spot-Billed Duck Troops
+OP04-010|Tony Tony.Chopper
+OP04-011|Nami
+OP04-012|Nefeltari Cobra
+OP04-013|Pell
+OP04-014|Monkey.D.Luffy
+OP04-015|Roronoa Zoro
+OP04-016|Bad Manners Kick Course
+OP04-017|Happiness Punch
+OP04-018|Enchanting Vertigo Dance
+OP04-019|Donquixote Doflamingo
+OP04-020|Issho
+OP04-021|Viola
+OP04-022|Eric
+OP04-023|Kuro
+OP04-024|Sugar
+OP04-025|Giolla
+OP04-026|Senor Pink
+OP04-027|Daddy Masterson
+OP04-028|Diamante
+OP04-029|Dellinger
+OP04-030|Trebol
+OP04-031|Donquixote Doflamingo
+OP04-032|Baby 5
+OP04-033|Machvise
+OP04-034|Lao.G
+OP04-035|Spiderweb
+OP04-036|Donquixote Family
+OP04-037|Flapping Thread
+OP04-038|The Weak Do Not Have the Right to Choose How They Die!!!
+OP04-039|Rebecca
+OP04-040|Queen
+OP04-041|Apis
+OP04-042|Ipponmatsu
+OP04-043|Ulti
+OP04-044|Kaido
+OP04-045|King
+OP04-046|Queen
+OP04-047|Ice Oni
+OP04-048|Sasaki
+OP04-049|Jack
+OP04-050|Hanger
+OP04-051|Who's.Who
+OP04-052|Black Maria
+OP04-053|Page One
+OP04-054|Rokki
+OP04-055|Plague Rounds
+OP04-056|Gum-Gum Red Roc
+OP04-057|Dragon Twister Demolition Breath
+OP04-058|Crocodile
+OP04-059|Iceburg
+OP04-060|Crocodile
+OP04-061|Tom
+OP04-062|Bananagator
+OP04-063|Franky
+OP04-064|Ms. All Sunday
+OP04-065|Miss.GoldenweekMarianne
+OP04-066|Miss.ValentineMikita
+OP04-067|Miss.MerryChristmasDrophy
+OP04-068|Yokozuna
+OP04-069|Mr.2.Bon.KureiBentham
+OP04-070|Mr.3Galdino
+OP04-071|Mr.4Babe
+OP04-072|Mr.5Gem
+OP04-073|Mr.13 & Ms.Friday
+OP04-074|Colors Trap
+OP04-075|Nez-Palm Cannon
+OP04-076|Weakness...Is an Unforgivable Sin.
+OP04-077|Ideo
+OP04-078|Oimo & Kashii
+OP04-079|Orlumbus
+OP04-080|Gyats
+OP04-081|Cavendish
+OP04-082|Kyros
+OP04-083|Sabo
+OP04-084|Stussy
+OP04-085|Suleiman
+OP04-086|Chinjao
+OP04-087|Trafalgar Law
+OP04-088|Hajrudin
+OP04-089|Bartolomeo
+OP04-090|Monkey.D.Luffy
+OP04-091|Leo
+OP04-092|Rebecca
+OP04-093|Gum-Gum King Kong Gun
+OP04-094|Trueno Bastardo
+OP04-095|Barrier!!
+OP04-096|Corrida Coliseum
+OP04-097|Otama
+OP04-098|Toko
+OP04-099|Olin
+OP04-100|"Capone""Gang""Bege"
+OP04-101|Carmel
+OP04-102|Kin'emon
+OP04-103|Kouzuki Hiyori
+OP04-104|Sanji
+OP04-105|Charlotte Amande
+OP04-106|Charlotte Bavarois
+OP04-107|Charlotte Perospero
+OP04-108|Charlotte Moscato
+OP04-109|Tonoyasu
+OP04-110|Pound
+OP04-111|Hera
+OP04-112|Yamato
+OP04-113|Rabiyan
+OP04-114|Randolph
+OP04-115|Gun Modoki
+OP04-116|Diable Jambe Joue Shot
+OP04-117|Heavenly Fire
+OP04-118|Nefeltari Vivi
+OP04-119|Donquixote Rosinante
 OP03-001|Portgas.D.Ace
 OP03-002|Adio
 OP03-003|Izo
@@ -1303,3 +1017,585 @@ OP03-120|Tropical Torment
 OP03-121|Thunder Bolt
 OP03-122|Sogeking
 OP03-123|Charlotte Katakuri
+OP02-001|Edward.Newgate
+OP02-002|Monkey.D.Garp
+OP02-003|Atmos
+OP02-004|Edward.Newgate
+OP02-005|Curly.Dadan
+OP02-006|Kingdew
+OP02-007|Thatch
+OP02-008|Jozu
+OP02-009|Squard
+OP02-010|Dogura
+OP02-011|Vista
+OP02-012|Blenheim
+OP02-013|Portgas.D.Ace
+OP02-014|Whitey Bay
+OP02-015|Makino
+OP02-016|Magura
+OP02-017|Masked Deuce
+OP02-018|Marco
+OP02-019|Rakuyo
+OP02-020|LittleOars Jr.
+OP02-021|Seaquake
+OP02-022|Whitebeard Pirates
+OP02-023|You May Be a Fool...but I Still Love You
+OP02-024|Moby Dick
+OP02-025|Kin'emon
+OP02-026|Sanji
+OP02-027|Inuarashi
+OP02-028|Usopp
+OP02-029|Carrot
+OP02-030|Kouzuki Oden
+OP02-031|Kouzuki Toki
+OP02-032|Shishilian
+OP02-033|Jinbe
+OP02-034|Tony Tony.Chopper
+OP02-035|Trafalgar Law
+OP02-036|Nami
+OP02-037|Nico Robin
+OP02-038|Nekomamushi
+OP02-039|Franky
+OP02-040|Brook
+OP02-041|Monkey.D.Luffy
+OP02-042|Yamato
+OP02-043|Roronoa Zoro
+OP02-044|Wanda
+OP02-045|Three Sword Style Oni Giri
+OP02-046|Diable Jambe Venaison Shoot
+OP02-047|Paradise Totsuka
+OP02-048|Land of Wano
+OP02-049|Emporio.Ivankov
+OP02-050|Inazuma
+OP02-051|Emporio.Ivankov
+OP02-052|Cabaji
+OP02-053|Crocodile
+OP02-054|Gecko Moria
+OP02-055|Dracule Mihawk
+OP02-056|Donquixote Doflamingo
+OP02-057|Bartholomew Kuma
+OP02-058|Buggy
+OP02-059|Boa Hancock
+OP02-060|Mohji
+OP02-061|Morley
+OP02-062|Monkey.D.Luffy
+OP02-063|Mr.1Daz.Bonez
+OP02-064|Mr.2.Bon.KureiBentham
+OP02-065|Mr.3Galdino
+OP02-066|Impel Down All Stars
+OP02-067|Arabesque Brick Fist
+OP02-068|Gum-Gum Rain
+OP02-069|DEATH WINK
+OP02-070|New Kama Land
+OP02-071|Magellan
+OP02-072|Zephyr
+OP02-073|Little Sadi
+OP02-074|Saldeath
+OP02-075|Shiki
+OP02-076|Shiryu
+OP02-077|Solitaire
+OP02-078|Daifugo
+OP02-079|Douglas Bullet
+OP02-080|Dobon
+OP02-081|Domino
+OP02-082|Byrnndi World
+OP02-083|Hannyabal
+OP02-084|Blugori
+OP02-085|Magellan
+OP02-086|Minokoala
+OP02-087|Minotaur
+OP02-088|Sphinx
+OP02-089|Judgment of Hell
+OP02-090|Hydra
+OP02-091|Venom Road
+OP02-092|Impel Down
+OP02-093|Smoker
+OP02-094|Isuka
+OP02-095|Onigumo
+OP02-096|Kuzan
+OP02-097|Komille
+OP02-098|Koby
+OP02-099|Sakazuki
+OP02-100|Jango
+OP02-101|Strawberry
+OP02-102|Smoker
+OP02-103|Sengoku
+OP02-104|Sentomaru
+OP02-105|Tashigi
+OP02-106|Tsuru
+OP02-107|Doberman
+OP02-108|Donquixote Rosinante
+OP02-109|Jaguar.D.Saul
+OP02-110|Hina
+OP02-111|Fullbody
+OP02-112|Bell-mère
+OP02-113|Helmeppo
+OP02-114|Borsalino
+OP02-115|Monkey.D.Garp
+OP02-116|Yamakaji
+OP02-117|Ice Age
+OP02-118|Yasakani Sacred Jewel
+OP02-119|Meteor Volcano
+OP02-120|Uta
+OP02-121|Kuzan
+OP01-001|Roronoa Zoro
+OP01-002|Trafalgar Law
+OP01-003|Monkey.D.Luffy
+OP01-004|Usopp
+OP01-005|Uta
+OP01-006|Otama
+OP01-007|Caribou
+OP01-008|Cavendish
+OP01-009|Carrot
+OP01-010|Komachiyo
+OP01-011|Gordon
+OP01-012|Sai
+OP01-013|Sanji
+OP01-014|Jinbe
+OP01-015|Tony Tony.Chopper
+OP01-016|Nami
+OP01-017|Nico Robin
+OP01-018|Hajrudin
+OP01-019|Bartolomeo
+OP01-020|Hyogoro
+OP01-021|Franky
+OP01-022|Brook
+OP01-023|Marco
+OP01-024|Monkey.D.Luffy
+OP01-025|Roronoa Zoro
+OP01-026|Gum-Gum Fire-Fist Pistol Red Hawk
+OP01-027|Round Table
+OP01-028|Green Star Rafflesia
+OP01-029|Radical Beam!!
+OP01-030|In Two Years!! At the Sabaody Archipelago!!
+OP01-031|Kouzuki Oden
+OP01-032|Ashura Doji
+OP01-033|Izo
+OP01-034|Inuarashi
+OP01-035|Okiku
+OP01-036|Otsuru
+OP01-037|Kawamatsu
+OP01-038|Kanjuro
+OP01-039|Killer
+OP01-040|Kin'emon
+OP01-041|Kouzuki Momonosuke
+OP01-042|Komurasaki
+OP01-043|Shinobu
+OP01-044|Shachi
+OP01-045|Jean Bart
+OP01-046|Denjiro
+OP01-047|Trafalgar Law
+OP01-048|Nekomamushi
+OP01-049|Bepo
+OP01-050|Penguin
+OP01-051|"Eustass""Captain""Kid"
+OP01-052|Raizo
+OP01-053|Wire
+OP01-054|X.Drake
+OP01-055|You Can Be My Samurai!!
+OP01-056|Demon Face
+OP01-057|Paradise Waterfall
+OP01-058|Punk Gibson
+OP01-059|BE-BENG!!
+OP01-060|Donquixote Doflamingo
+OP01-061|Kaido
+OP01-062|Crocodile
+OP01-063|Arlong
+OP01-064|Alvida
+OP01-065|Vergo
+OP01-066|Krieg
+OP01-067|Crocodile
+OP01-068|Gecko Moria
+OP01-069|Caesar Clown
+OP01-070|Dracule Mihawk
+OP01-071|Jinbe
+OP01-072|Smiley
+OP01-073|Donquixote Doflamingo
+OP01-074|Bartholomew Kuma
+OP01-075|Pacifista
+OP01-076|Bellamy
+OP01-077|Perona
+OP01-078|Boa Hancock
+OP01-079|Ms. All Sunday
+OP01-080|Miss DoublefingerZala
+OP01-081|Mocha
+OP01-082|Monet
+OP01-083|Mr.1Daz.Bonez
+OP01-084|Mr.2.Bon.KureiBentham
+OP01-085|Mr.3Galdino
+OP01-086|Overheat
+OP01-087|Officer Agents
+OP01-088|Desert Spada
+OP01-089|Crescent Cutlass
+OP01-090|Baroque Works
+OP01-091|King
+OP01-092|Urashima
+OP01-093|Ulti
+OP01-094|Kaido
+OP01-095|Kyoshirou
+OP01-096|King
+OP01-097|Queen
+OP01-098|Kurozumi Orochi
+OP01-099|Kurozumi Semimaru
+OP01-100|Kurozumi Higurashi
+OP01-101|Sasaki
+OP01-102|Jack
+OP01-103|Scratchmen Apoo
+OP01-104|Speed
+OP01-105|Bao Huang
+OP01-106|Basil Hawkins
+OP01-107|Babanuki
+OP01-108|Hitokiri Kamazo
+OP01-109|Who's.Who
+OP01-110|Fukurokuju
+OP01-111|Black Maria
+OP01-112|Page One
+OP01-113|Holedem
+OP01-114|X.Drake
+OP01-115|Elephant's Marchoo
+OP01-116|Artificial Devil Fruit SMILE
+OP01-117|Sheep's Horn
+OP01-118|Ulti-Mortar
+OP01-119|Thunder Bagua
+OP01-120|Shanks
+OP01-121|Yamato
+ST21-001|Monkey.D.Luffy
+ST21-002|Usopp
+ST21-003|Sanji
+ST21-004|Jewelry Bonney
+ST21-005|Jinbe
+ST21-006|Stussy
+ST21-007|Sentomaru
+ST21-008|Tony Tony.Chopper
+ST21-009|Nami
+ST21-010|Nico Robin
+ST21-011|Franky
+ST21-012|Brook
+ST21-013|Vegapunk
+ST21-014|Monkey.D.Luffy
+ST21-015|Roronoa Zoro
+ST21-016|Gum-Gum Dawn Whip
+ST21-017|Gum-Gum Mole Pistol
+ST20-001|Charlotte Katakuri
+ST20-002|Charlotte Cracker
+ST20-003|Charlotte Brulee
+ST20-004|Charlotte Pudding
+ST20-005|Charlotte Linlin
+ST19-001|Smoker
+ST19-002|Sengoku
+ST19-003|Tashigi
+ST19-004|Hina
+ST19-005|Monkey.D.Garp
+ST18-001|Uso-Hachi
+ST18-002|O-Nami
+ST18-003|San-Gorou
+ST18-004|Zoro-Juurou
+ST18-005|Luffy-Tarou
+ST17-001|Crocodile
+ST17-002|Trafalgar Law
+ST17-003|Buggy
+ST17-004|Boa Hancock
+ST17-005|Marshall.D.Teach
+ST16-001|Uta
+ST16-002|Gordon
+ST16-003|Charlotte Katakuri
+ST16-004|Shanks
+ST16-005|Monkey.D.Luffy
+ST15-001|Atmos
+ST15-002|Edward.Newgate
+ST15-003|Kingdew
+ST15-004|Thatch
+ST15-005|Portgas.D.Ace
+ST14-001|Monkey.D.Luffy
+ST14-002|Usopp
+ST14-003|Sanji
+ST14-004|Jinbe
+ST14-005|Tony Tony.Chopper
+ST14-006|Nami
+ST14-007|Nico Robin
+ST14-008|Haredas
+ST14-009|Franky
+ST14-010|Brook
+ST14-011|Heracles
+ST14-012|Monkey.D.Luffy
+ST14-013|Roronoa Zoro
+ST14-014|Gum-Gum Giant Rifle
+ST14-015|Gum-Gum Diable Three-Swords Style Mouten Jet Six Hundred Pound Phoenix Cannon
+ST14-016|I Have My Crew!!
+ST14-017|Thousand Sunny
+ST13-001|Sabo
+ST13-002|Portgas.D.Ace
+ST13-003|Monkey.D.Luffy
+ST13-004|Edward.Newgate
+ST13-005|Emporio.Ivankov
+ST13-006|Curly.Dadan
+ST13-007|Sabo
+ST13-008|Sabo
+ST13-009|Shanks
+ST13-010|Portgas.D.Ace
+ST13-011|Portgas.D.Ace
+ST13-012|Makino
+ST13-013|Monkey.D.Garp
+ST13-014|Monkey.D.Luffy
+ST13-015|Monkey.D.Luffy
+ST13-016|Yamato
+ST13-017|Flame Dragon King
+ST13-018|Gum-Gum Jet Spear
+ST13-019|The Three Brothers' Bond
+ST12-001|Roronoa Zoro & Sanji
+ST12-002|Kuina
+ST12-003|Dracule Mihawk
+ST12-004|Humandrill
+ST12-005|Perona
+ST12-006|Yosaku & Johnny
+ST12-007|Rika
+ST12-008|Roronoa Zoro
+ST12-009|Elephant True Bluefin
+ST12-010|Emporio.Ivankov
+ST12-011|Sanji
+ST12-012|Charlotte Pudding
+ST12-013|Zeff
+ST12-014|Duval
+ST12-015|Patty & Carne
+ST12-016|Lion Strike
+ST12-017|Plastic Surgery Shot
+ST11-001|Uta
+ST11-002|Uta
+ST11-003|Backlight
+ST11-004|New Genesis
+ST11-005|I'm invincible
+ST10-001|Trafalgar Law
+ST10-002|Monkey.D.Luffy
+ST10-003|"Eustass""Captain""Kid"
+ST10-004|Sanji
+ST10-005|Jinbe
+ST10-006|Monkey.D.Luffy
+ST10-007|Killer
+ST10-008|Shachi & Penguin
+ST10-009|Jean Bart
+ST10-010|Trafalgar Law
+ST10-011|Heat
+ST10-012|Bepo
+ST10-013|"Eustass""Captain""Kid"
+ST10-014|Wire
+ST10-015|Gum-Gum Giant Sumo Slap
+ST10-016|Gum-Gum Kong Gatling
+ST10-017|Punk Vise
+ST09-001|Yamato
+ST09-002|Uzuki Tempura
+ST09-003|Ulti
+ST09-004|Kaido
+ST09-005|Kouzuki Oden
+ST09-006|Kouzuki Momonosuke
+ST09-007|Shinobu
+ST09-008|Shimotsuki Ushimaru
+ST09-009|Fugetsu Omusubi
+ST09-010|Portgas.D.Ace
+ST09-011|Monkey.D.Luffy
+ST09-012|Yamato
+ST09-013|Yamato
+ST09-014|Narikabura Arrow
+ST09-015|Thunder Bagua
+ST08-001|Monkey.D.Luffy
+ST08-002|Uta
+ST08-003|Gaimon
+ST08-004|Koby
+ST08-005|Shanks
+ST08-006|Shirahoshi
+ST08-007|Nefeltari Vivi
+ST08-008|Higuma
+ST08-009|Makino
+ST08-010|Monkey.D.Garp
+ST08-011|Monkey.D.Luffy
+ST08-012|Laboon
+ST08-013|Mr.2.Bon.KureiBentham
+ST08-014|Gum-Gum Bell
+ST08-015|Gum-Gum Pistol
+ST07-001|Charlotte Linlin
+ST07-002|Charlotte Anana
+ST07-003|Charlotte Katakuri
+ST07-004|Charlotte Snack
+ST07-005|Charlotte Daifuku
+ST07-006|Charlotte Flampe
+ST07-007|Charlotte Brulee
+ST07-008|Charlotte Pudding
+ST07-009|Charlotte Mont-d'or
+ST07-010|Charlotte Linlin
+ST07-011|Zeus
+ST07-012|Baron Tamago
+ST07-013|Prometheus
+ST07-014|Pekoms
+ST07-015|Soul Pocus
+ST07-016|Power Mochi
+ST07-017|Queen Mama Chanter
+ST06-001|Sakazuki
+ST06-002|Koby
+ST06-003|Jango
+ST06-004|Smoker
+ST06-005|Sengoku
+ST06-006|Tashigi
+ST06-007|Tsuru
+ST06-008|Hina
+ST06-009|Fullbody
+ST06-010|Helmeppo
+ST06-011|Momonga
+ST06-012|Monkey.D.Garp
+ST06-013|T-Bone
+ST06-014|Shockwave
+ST06-015|Great Eruption
+ST06-016|White Out
+ST06-017|Navy HQ
+ST05-001|Shanks
+ST05-002|Ain
+ST05-003|Ann
+ST05-004|Uta
+ST05-005|Carina
+ST05-006|Gild Tesoro
+ST05-007|Gordon
+ST05-008|Shiki
+ST05-009|Scarlet
+ST05-010|Zephyr
+ST05-011|Douglas Bullet
+ST05-012|Baccarat
+ST05-013|Bins
+ST05-014|Buena Festa
+ST05-015|Dr. Indigo
+ST05-016|Lion's Threat Imperial Earth Bind
+ST05-017|Union Armada
+ST04-001|Kaido
+ST04-002|Ulti
+ST04-003|Kaido
+ST04-004|King
+ST04-005|Queen
+ST04-006|Sasaki
+ST04-007|Sheepshead
+ST04-008|Jack
+ST04-009|Ginrummy
+ST04-010|Who's.Who
+ST04-011|Black Maria
+ST04-012|Page One
+ST04-013|X.Drake
+ST04-014|"Lead Performer ""Disaster"""
+ST04-015|Brachio Bomber
+ST04-016|Blast Breath
+ST04-017|Onigashima Island
+ST03-001|Crocodile
+ST03-002|Edward Weevil
+ST03-003|Crocodile
+ST03-004|Gecko Moria
+ST03-005|Dracule Mihawk
+ST03-006|Jinbe
+ST03-007|Sentomaru
+ST03-008|Trafalgar Law
+ST03-009|Donquixote Doflamingo
+ST03-010|Bartholomew Kuma
+ST03-011|Buggy
+ST03-012|Pacifista
+ST03-013|Boa Hancock
+ST03-014|Marshall.D.Teach
+ST03-015|Sables
+ST03-016|Thrust Pad Cannon
+ST03-017|Love-Love Mellow
+ST02-001|"Eustass""Captain""Kid"
+ST02-002|Vito
+ST02-003|Urouge
+ST02-004|"Capone""Gang""Bege"
+ST02-005|Killer
+ST02-006|Koby
+ST02-007|Jewelry Bonney
+ST02-008|Scratchmen Apoo
+ST02-009|Trafalgar Law
+ST02-010|Basil Hawkins
+ST02-011|Heat
+ST02-012|Bepo
+ST02-013|"Eustass""Captain""Kid"
+ST02-014|X.Drake
+ST02-015|Scalpel
+ST02-016|Repel
+ST02-017|Straw Sword
+ST01-001|Monkey.D.Luffy
+ST01-002|Usopp
+ST01-003|Karoo
+ST01-004|Sanji
+ST01-005|Jinbe
+ST01-006|Tony Tony.Chopper
+ST01-007|Nami
+ST01-008|Nico Robin
+ST01-009|Nefeltari Vivi
+ST01-010|Franky
+ST01-011|Brook
+ST01-012|Monkey.D.Luffy
+ST01-013|Roronoa Zoro
+ST01-014|Guard Point
+ST01-015|Gum-Gum Jet Pistol
+ST01-016|Diable Jambe
+ST01-017|Thousand Sunny
+P-001|Monkey.D.Luffy
+P-002|I Smell Adventure!!!
+P-003|"Eustass""Captain""Kid"
+P-004|Crocodile
+P-005|Kaido
+P-006|Monkey.D.Luffy
+P-007|Monkey.D.Luffy
+P-008|Yamato
+P-009|Trafalgar Law
+P-010|Kaido
+P-011|Uta
+P-012|Jellyfish Pirates
+P-013|Gordon
+P-014|Koby
+P-015|Sunny-Kun
+P-016|Shanks
+P-017|Trafalgar Law
+P-018|Bartolomeo
+P-019|Bepo
+P-020|Helmeppo
+P-021|Benn.Beckman
+P-022|Monkey.D.Luffy
+P-023|Yasopp
+P-024|I'm Gonna Be King of the Pirates!!
+P-025|Smoker
+P-026|Morgan
+P-027|General Franky
+P-028|Portgas.D.Ace
+P-029|Bartolomeo
+P-030|Jinbe
+P-031|Uta
+P-032|Sengoku
+P-033|Monkey.D.Luffy
+P-034|Sanji
+P-035|Monkey.D.Luffy
+P-036|Monkey.D.Luffy
+P-037|Monkey.D.Luffy
+P-039|Bellamy
+P-041|Monkey.D.Luffy
+P-042|Roronoa Zoro
+P-043|Monkey.D.Luffy
+P-045|Roronoa Zoro
+P-046|Yamato
+P-047|Monkey.D.Luffy
+P-048|Arlong
+P-049|Usopp
+P-050|Sanji
+P-051|Shanks
+P-052|Dracule Mihawk
+P-053|Nami
+P-054|Monkey.D.Garp
+P-055|Monkey.D.Luffy
+P-056|Roronoa Zoro
+P-057|Fleeting Lullaby
+P-058|Where the Wind Blows
+P-059|The World's Continuation
+P-060|Tot Musica
+P-061|Monkey.D.Luffy
+P-062|Hody & Hyouzou
+P-065|Tony Tony.Chopper
+P-068|Sanji
+P-069|Koala
+P-070|Carrot
+P-071|Marco
+P-076|Sakazuki
+P-077|Ulti
+P-078|Adio
+P-079|Lim
+P-083|Shanks
