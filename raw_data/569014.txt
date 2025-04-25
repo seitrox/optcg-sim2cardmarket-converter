@@ -144,22 +144,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="alternate" hreflang="en-gr" href="https://en.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="en-pt" href="https://en.onepiece-cardgame.com/">
   <link rel="stylesheet" href="/css/lib/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="/css/layout.css?250409">
+  <link rel="stylesheet" href="/css/layout.css?250411">
   <script src="/js/lib/jquery.min.js?v=3.6.0"></script>
   <script src="/js/lib/jquery.easing.1.4.min.js"></script>
   <script src="/js/lib/jquery.fancybox.min.js"></script>
   <script src="/js/lib/lazyload.min.js"></script>
-  <script src="/js/common.js?250409"></script>
-  <link rel="stylesheet" href="/css/layout_en.css?250409">
-  <script src="/js/common_en.js?250409"></script>
-  <link rel="stylesheet" href="/css/cardlist.css?250409">
-  <script src="/js/cardlist.js?250409"></script>
-  <link rel="stylesheet" href="/css/cardlist_en.css?2504094">
-  <script src="/js/cardlist_en.js?2504094"></script>
+  <script src="/js/common.js?250411"></script>
+  <link rel="stylesheet" href="/css/layout_en.css?250411">
+  <script src="/js/common_en.js?250411"></script>
+  <link rel="stylesheet" href="/css/cardlist.css?250411">
+  <script src="/js/cardlist.js?250411"></script>
+  <link rel="stylesheet" href="/css/cardlist_en.css?2504114">
+  <script src="/js/cardlist_en.js?2504114"></script>
   <link rel="stylesheet" href="../css/lib/jquery.selmodal.css">
-  <script src="../js/modal.js?250409"></script>
-  <script src="../js/pager.js?250409"></script>
+  <script src="../js/modal.js?250411"></script>
+  <script src="../js/pager.js?250411"></script>
   <script src="../js/lib/jquery.selmodal.js"></script>
+  <script>
+    function Post(obj) {
+      var name = obj.name;
+      if (obj.checked) {
+          val = obj.value;
+      } else {
+          val = "";
+      }
+      // hidden追加
+      $('<input>').attr({
+          'type': 'hidden',
+          'name': name,
+          'value': val
+      }).appendTo($('#frmSearch'));
+      $('#frmSearch').submit();
+    }
+  </script>
 </head>
 
 <body id="cardlist">
@@ -285,7 +302,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h2 class="categoryTitle">CARD LIST</h2>
       <div class="contentsWrap isIndex">
         <div class="searchCol">
-          <form action="" method="post">
+          <form action="" method="post" id="frmSearch">
             <div class="formsetDefaultArea">
               <div class="freewordsCol">
                 <input class="freewords" type="text" name="freewords" placeholder="Search..." value="" id="form-free">
@@ -390,6 +407,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="checkBtn disable"></div>
                 </div>
               </div>
+              
+              <div class="blockCol">
+                <h3 class="searchTit">Block icon</h3>
+                <div class="checkbtnCol">
+                  <a href="javascript:void(0);" class="checkbtnAll checked checkBtn">ALL</a>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_1" value="1" >
+                  <label class="checkBtn" for="block_icon_1">1</label>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_2" value="2" >
+                  <label class="checkBtn" for="block_icon_2">2</label>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_3" value="3" >
+                  <label class="checkBtn" for="block_icon_3">3</label>
+                  <div class="checkBtn disable"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="checkReprints">
+              <label>
+                                <input type="checkbox" name="reprintsFlag"  style="appearance: auto;" onchange="Post(this)">
+                <span class="checkReprintsText">Hide reprint cards</span>
+              </label>
             </div>
 
             <div class="commonBtn submitBtn"><input type="submit" value="SEARCH"><span>SEARCH</span></div>
@@ -417,7 +456,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
         <div class="resultCol">
                   
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-001.png?250409" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-001.png?250411" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="ST14-001">
@@ -430,7 +469,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-001.png?250409" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-001.png?250411" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -445,7 +484,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] All of your Characters gain +1 cost. If you have a Character with a cost of 8 or more, this Leader gains +1000 power.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -456,7 +498,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-002.png?250409" alt="Usopp"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-002.png?250411" alt="Usopp"></a>
 
                     
           <dl class="modalCol" id="ST14-002">
@@ -469,7 +511,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-002.png?250409" alt="Usopp">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-002.png?250411" alt="Usopp">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -484,7 +526,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>4000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [When Attacking] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -495,7 +540,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-003.png?250409" alt="Sanji"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-003.png?250411" alt="Sanji"></a>
 
                     
           <dl class="modalCol" id="ST14-003">
@@ -508,7 +553,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-003.png?250409" alt="Sanji">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-003.png?250411" alt="Sanji">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -523,7 +568,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[On Play] If you have a Character with a cost of 6 or more, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -534,7 +582,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-004.png?250409" alt="Jinbe"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-004.png?250411" alt="Jinbe"></a>
 
                     
           <dl class="modalCol" id="ST14-004">
@@ -547,7 +595,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-004.png?250409" alt="Jinbe">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-004.png?250411" alt="Jinbe">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -562,7 +610,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>4000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Fish-Man/The Sun Pirates</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn] Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -573,7 +624,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-005.png?250409" alt="Tony Tony.Chopper"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-005.png?250411" alt="Tony Tony.Chopper"></a>
 
                     
           <dl class="modalCol" id="ST14-005">
@@ -586,7 +637,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-005.png?250409" alt="Tony Tony.Chopper">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-005.png?250411" alt="Tony Tony.Chopper">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -601,7 +652,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Animal/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>-</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -612,7 +666,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-006"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-006.png?250409" alt="Nami"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-006"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-006.png?250411" alt="Nami"></a>
 
                     
           <dl class="modalCol" id="ST14-006">
@@ -625,7 +679,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-006.png?250409" alt="Nami">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-006.png?250411" alt="Nami">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -640,7 +694,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>2000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On Play] If you have 6 or less cards in your hand and a Character with a cost of 8 or more, draw 1 card.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -651,7 +708,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-007"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-007.png?250409" alt="Nico Robin"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-007"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-007.png?250411" alt="Nico Robin"></a>
 
                     
           <dl class="modalCol" id="ST14-007">
@@ -664,7 +721,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-007.png?250409" alt="Nico Robin">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-007.png?250411" alt="Nico Robin">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -679,7 +736,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>7000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[On Play]/[When Attacking] If you have a Character with a cost of 8 or more, give up to 1 of your opponent's Characters −5 cost during this turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -690,7 +750,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-008"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-008.png?250409" alt="Haredas"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-008"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-008.png?250411" alt="Haredas"></a>
 
                     
           <dl class="modalCol" id="ST14-008">
@@ -703,7 +763,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-008.png?250409" alt="Haredas">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-008.png?250411" alt="Haredas">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -718,7 +778,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>2000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Sky Island</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] You may rest this Character: Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn. Then, if you have a Character with a cost of 8 or more, draw 1 card and trash 1 card from your hand.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -729,7 +792,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-009"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-009.png?250409" alt="Franky"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-009"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-009.png?250411" alt="Franky"></a>
 
                     
           <dl class="modalCol" id="ST14-009">
@@ -742,7 +805,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-009.png?250409" alt="Franky">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-009.png?250411" alt="Franky">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -757,7 +820,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [Opponent's Turn] If you have a Character with a cost of 6 or more, this Character cannot be K.O.'d by your opponent's effects and gains +2000 power.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -768,7 +834,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-010"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-010.png?250409" alt="Brook"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-010"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-010.png?250411" alt="Brook"></a>
 
                     
           <dl class="modalCol" id="ST14-010">
@@ -781,7 +847,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-010.png?250409" alt="Brook">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-010.png?250411" alt="Brook">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -796,7 +862,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>7000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>-</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -807,7 +876,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-011"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-011.png?250409" alt="Heracles"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-011"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-011.png?250411" alt="Heracles"></a>
 
                     
           <dl class="modalCol" id="ST14-011">
@@ -820,7 +889,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-011.png?250409" alt="Heracles">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-011.png?250411" alt="Heracles">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -835,7 +904,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>2000</div>
                   <div class="counter"><h3>Counter</h3>2000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Bowin Island</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] You may rest this Character: Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -846,7 +918,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-012"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-012.png?250409" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-012"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-012.png?250411" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="ST14-012">
@@ -859,7 +931,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-012.png?250409" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-012.png?250411" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -874,7 +946,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>10000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>If you have a Character with a cost of 10 or more, this Character gains [Rush].<br>(This card can attack on the turn in which it is played.)</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -885,7 +960,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-013"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-013.png?250409" alt="Roronoa Zoro"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-013"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-013.png?250411" alt="Roronoa Zoro"></a>
 
                     
           <dl class="modalCol" id="ST14-013">
@@ -898,7 +973,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-013.png?250409" alt="Roronoa Zoro">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-013.png?250411" alt="Roronoa Zoro">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -913,7 +988,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>8000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>-</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -924,7 +1002,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-014"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-014.png?250409" alt="Gum-Gum Giant Rifle"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-014"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-014.png?250411" alt="Gum-Gum Giant Rifle"></a>
 
                     
           <dl class="modalCol" id="ST14-014">
@@ -937,7 +1015,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-014.png?250409" alt="Gum-Gum Giant Rifle">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-014.png?250411" alt="Gum-Gum Giant Rifle">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -952,7 +1030,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Counter] If you have a Character with a cost of 8 or more, up to 1 of your Leader or Character cards gains +3000 power during this battle.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] Add up to 1 of your Character cards with a cost of 2 or less from your trash to your hand.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -963,7 +1044,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-015"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-015.png?250409" alt="Gum-Gum Diable Three-Swords Style Mouten Jet Six Hundred Pound Phoenix Cannon"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-015"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-015.png?250411" alt="Gum-Gum Diable Three-Swords Style Mouten Jet Six Hundred Pound Phoenix Cannon"></a>
 
                     
           <dl class="modalCol" id="ST14-015">
@@ -976,7 +1057,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-015.png?250409" alt="Gum-Gum Diable Three-Swords Style Mouten Jet Six Hundred Pound Phoenix Cannon">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-015.png?250411" alt="Gum-Gum Diable Three-Swords Style Mouten Jet Six Hundred Pound Phoenix Cannon">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -991,7 +1072,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -1002,7 +1086,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-016"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-016.png?250409" alt="I Have My Crew!!"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-016"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-016.png?250411" alt="I Have My Crew!!"></a>
 
                     
           <dl class="modalCol" id="ST14-016">
@@ -1015,7 +1099,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-016.png?250409" alt="I Have My Crew!!">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-016.png?250411" alt="I Have My Crew!!">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1030,7 +1114,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Main] Draw 1 card. Then, up to 1 of your Characters gains +3 cost until the end of your opponent's next turn.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                
@@ -1041,7 +1128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-017"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-017.png?250409" alt="Thousand Sunny"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST14-017"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-017.png?250411" alt="Thousand Sunny"></a>
 
                     
           <dl class="modalCol" id="ST14-017">
@@ -1054,7 +1141,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-017.png?250409" alt="Thousand Sunny">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST14-017.png?250411" alt="Thousand Sunny">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1069,7 +1156,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>All of your black {Straw Hat Crew} type Characters gain +1 cost.<br>[On Play] If your Leader has the {Straw Hat Crew} type, draw 1 card.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-3D2Y- [ST-14]</div>                

@@ -144,22 +144,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="alternate" hreflang="en-gr" href="https://en.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="en-pt" href="https://en.onepiece-cardgame.com/">
   <link rel="stylesheet" href="/css/lib/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="/css/layout.css?250409">
+  <link rel="stylesheet" href="/css/layout.css?250411">
   <script src="/js/lib/jquery.min.js?v=3.6.0"></script>
   <script src="/js/lib/jquery.easing.1.4.min.js"></script>
   <script src="/js/lib/jquery.fancybox.min.js"></script>
   <script src="/js/lib/lazyload.min.js"></script>
-  <script src="/js/common.js?250409"></script>
-  <link rel="stylesheet" href="/css/layout_en.css?250409">
-  <script src="/js/common_en.js?250409"></script>
-  <link rel="stylesheet" href="/css/cardlist.css?250409">
-  <script src="/js/cardlist.js?250409"></script>
-  <link rel="stylesheet" href="/css/cardlist_en.css?2504094">
-  <script src="/js/cardlist_en.js?2504094"></script>
+  <script src="/js/common.js?250411"></script>
+  <link rel="stylesheet" href="/css/layout_en.css?250411">
+  <script src="/js/common_en.js?250411"></script>
+  <link rel="stylesheet" href="/css/cardlist.css?250411">
+  <script src="/js/cardlist.js?250411"></script>
+  <link rel="stylesheet" href="/css/cardlist_en.css?2504114">
+  <script src="/js/cardlist_en.js?2504114"></script>
   <link rel="stylesheet" href="../css/lib/jquery.selmodal.css">
-  <script src="../js/modal.js?250409"></script>
-  <script src="../js/pager.js?250409"></script>
+  <script src="../js/modal.js?250411"></script>
+  <script src="../js/pager.js?250411"></script>
   <script src="../js/lib/jquery.selmodal.js"></script>
+  <script>
+    function Post(obj) {
+      var name = obj.name;
+      if (obj.checked) {
+          val = obj.value;
+      } else {
+          val = "";
+      }
+      // hidden追加
+      $('<input>').attr({
+          'type': 'hidden',
+          'name': name,
+          'value': val
+      }).appendTo($('#frmSearch'));
+      $('#frmSearch').submit();
+    }
+  </script>
 </head>
 
 <body id="cardlist">
@@ -285,7 +302,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h2 class="categoryTitle">CARD LIST</h2>
       <div class="contentsWrap isIndex">
         <div class="searchCol">
-          <form action="" method="post">
+          <form action="" method="post" id="frmSearch">
             <div class="formsetDefaultArea">
               <div class="freewordsCol">
                 <input class="freewords" type="text" name="freewords" placeholder="Search..." value="" id="form-free">
@@ -390,6 +407,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="checkBtn disable"></div>
                 </div>
               </div>
+              
+              <div class="blockCol">
+                <h3 class="searchTit">Block icon</h3>
+                <div class="checkbtnCol">
+                  <a href="javascript:void(0);" class="checkbtnAll checked checkBtn">ALL</a>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_1" value="1" >
+                  <label class="checkBtn" for="block_icon_1">1</label>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_2" value="2" >
+                  <label class="checkBtn" for="block_icon_2">2</label>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_3" value="3" >
+                  <label class="checkBtn" for="block_icon_3">3</label>
+                  <div class="checkBtn disable"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="checkReprints">
+              <label>
+                                <input type="checkbox" name="reprintsFlag"  style="appearance: auto;" onchange="Post(this)">
+                <span class="checkReprintsText">Hide reprint cards</span>
+              </label>
             </div>
 
             <div class="commonBtn submitBtn"><input type="submit" value="SEARCH"><span>SEARCH</span></div>
@@ -417,10 +456,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
         <div class="resultCol">
                   
-          <a class="modalOpen" data-fancybox="group_1" data-src="#P-029_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-029_p1.png?250409" alt="Bartolomeo"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-029_r1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-029_r1.png?250411" alt="Bartolomeo"></a>
 
                     
-          <dl class="modalCol" id="P-029_p1">
+          <dl class="modalCol" id="P-029_r1">
             <dt>
               <button class="scrollBtn">ボタン</button>
               <div class="infoCol">
@@ -430,7 +469,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-029_p1.png?250409" alt="Bartolomeo">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-029_r1.png?250411" alt="Bartolomeo">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -445,7 +484,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>3000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>FILM/Supernovas/Barto Club</div>
                 <div class="text"><h3>Effect</h3>[End of Your Turn] You may rest this Character: Set up to 1 of your {FILM} type Characters other than [Bartolomeo] as active.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -456,7 +498,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#P-057_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-057_p1.png?250409" alt="Fleeting Lullaby"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-057_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-057_p1.png?250411" alt="Fleeting Lullaby"></a>
 
                     
           <dl class="modalCol" id="P-057_p1">
@@ -469,7 +511,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-057_p1.png?250409" alt="Fleeting Lullaby">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-057_p1.png?250411" alt="Fleeting Lullaby">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -484,7 +526,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Music/FILM</div>
                 <div class="text"><h3>Effect</h3>[Main] If your Leader is [Uta], up to 2 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] Activate this card's [Main] effect.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -495,7 +540,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#P-058_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-058_p1.png?250409" alt="Where the Wind Blows"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-058_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-058_p1.png?250411" alt="Where the Wind Blows"></a>
 
                     
           <dl class="modalCol" id="P-058_p1">
@@ -508,7 +553,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-058_p1.png?250409" alt="Where the Wind Blows">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-058_p1.png?250411" alt="Where the Wind Blows">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -523,7 +568,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Music/FILM</div>
                 <div class="text"><h3>Effect</h3>[Main] If your Leader is [Uta], set all of your {FILM} type Characters as active at the end of this turn.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] Set all of your {FILM} type Characters as active.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -534,7 +582,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#P-059_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-059_p1.png?250409" alt="The World&#039;s Continuation"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-059_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-059_p1.png?250411" alt="The World&#039;s Continuation"></a>
 
                     
           <dl class="modalCol" id="P-059_p1">
@@ -547,7 +595,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-059_p1.png?250409" alt="The World&#039;s Continuation">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-059_p1.png?250411" alt="The World&#039;s Continuation">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -562,7 +610,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Music/FILM</div>
                 <div class="text"><h3>Effect</h3>[Counter] If your Leader is [Uta], you may return any number of Characters on your field to the owner's hand. Up to 1 of your Leader or Character cards gains +2000 power during this battle for every returned Character.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -573,7 +624,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#P-060_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-060_p1.png?250409" alt="Tot Musica"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-060_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-060_p1.png?250411" alt="Tot Musica"></a>
 
                     
           <dl class="modalCol" id="P-060_p1">
@@ -586,7 +637,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-060_p1.png?250409" alt="Tot Musica">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-060_p1.png?250411" alt="Tot Musica">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -601,7 +652,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Music/FILM</div>
                 <div class="text"><h3>Effect</h3>[Main] You may rest 1 of your [Uta] cards: Rest up to 2 of your opponent's DON!! cards.<br></div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -612,10 +666,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#P-061_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-061_p1.png?250409" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-061_r1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-061_r1.png?250411" alt="Monkey.D.Luffy"></a>
 
                     
-          <dl class="modalCol" id="P-061_p1">
+          <dl class="modalCol" id="P-061_r1">
             <dt>
               <button class="scrollBtn">ボタン</button>
               <div class="infoCol">
@@ -625,7 +679,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-061_p1.png?250409" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-061_r1.png?250411" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -640,7 +694,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>10000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>FILM/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>-</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -651,7 +708,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST11-001_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-001_p1.png?250409" alt="Uta"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST11-001_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-001_p1.png?250411" alt="Uta"></a>
 
                     
           <dl class="modalCol" id="ST11-001_p1">
@@ -664,7 +721,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-001_p1.png?250409" alt="Uta">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-001_p1.png?250411" alt="Uta">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -679,7 +736,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>FILM</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [When Attacking] [Once Per Turn] Reveal 1 card from the top of your deck and add up to 1 {FILM} type card to your hand. Then, place the rest at the bottom of your deck.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -690,7 +750,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST11-003_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-003_p2.png?250409" alt="Backlight"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST11-003_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-003_p2.png?250411" alt="Backlight"></a>
 
                     
           <dl class="modalCol" id="ST11-003_p2">
@@ -703,7 +763,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-003_p2.png?250409" alt="Backlight">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-003_p2.png?250411" alt="Backlight">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -718,7 +778,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Music/FILM</div>
                 <div class="text"><h3>Effect</h3>[Main] If your Leader is [Uta], choose one:<br>• Rest up to 1 of your opponent's Characters with a cost of 5 or less.<br>• K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -729,7 +792,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST11-004_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-004_p2.png?250409" alt="New Genesis"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST11-004_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-004_p2.png?250411" alt="New Genesis"></a>
 
                     
           <dl class="modalCol" id="ST11-004_p2">
@@ -742,7 +805,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-004_p2.png?250409" alt="New Genesis">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-004_p2.png?250411" alt="New Genesis">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -757,7 +820,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Music/FILM</div>
                 <div class="text"><h3>Effect</h3>[Main] If your Leader is [Uta], look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [New Genesis] and add it to your hand. Then, place the rest at the bottom of your deck in any order and set up to 1 of your DON!! cards as active.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -768,7 +834,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST11-005_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-005_p2.png?250409" alt="I&#039;m invincible"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST11-005_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-005_p2.png?250411" alt="I&#039;m invincible"></a>
 
                     
           <dl class="modalCol" id="ST11-005_p2">
@@ -781,7 +847,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-005_p2.png?250409" alt="I&#039;m invincible">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST11-005_p2.png?250411" alt="I&#039;m invincible">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -796,7 +862,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Music/FILM</div>
                 <div class="text"><h3>Effect</h3>[Main] Set up to 1 of your [Uta] Leader as active.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -807,7 +876,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST16-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-001.png?250409" alt="Uta"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST16-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-001.png?250411" alt="Uta"></a>
 
                     
           <dl class="modalCol" id="ST16-001">
@@ -820,7 +889,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-001.png?250409" alt="Uta">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-001.png?250411" alt="Uta">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -835,7 +904,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
                 <div class="feature"><h3>Type</h3>FILM</div>
                 <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[Activate: Main] [Once Per Turn] You may trash 1 {FILM} type card from your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -846,7 +918,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST16-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-002.png?250409" alt="Gordon"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST16-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-002.png?250411" alt="Gordon"></a>
 
                     
           <dl class="modalCol" id="ST16-002">
@@ -859,7 +931,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-002.png?250409" alt="Gordon">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-002.png?250411" alt="Gordon">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -874,7 +946,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
                 <div class="feature"><h3>Type</h3>FILM</div>
                 <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On Your Opponent's Attack] You may trash any number of {Music} type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -885,7 +960,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST16-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-003.png?250409" alt="Charlotte Katakuri"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST16-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-003.png?250411" alt="Charlotte Katakuri"></a>
 
                     
           <dl class="modalCol" id="ST16-003">
@@ -898,7 +973,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-003.png?250409" alt="Charlotte Katakuri">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-003.png?250411" alt="Charlotte Katakuri">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -913,7 +988,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>4000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
                 <div class="feature"><h3>Type</h3>FILM/Big Mom Pirates</div>
                 <div class="text"><h3>Effect</h3>If your Leader has the {FILM} type and you have 6 or more rested cards, this Character gains +2000 power.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -924,7 +1002,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST16-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-004.png?250409" alt="Shanks"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST16-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-004.png?250411" alt="Shanks"></a>
 
                     
           <dl class="modalCol" id="ST16-004">
@@ -937,7 +1015,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-004.png?250409" alt="Shanks">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-004.png?250411" alt="Shanks">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -952,7 +1030,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>11000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
                 <div class="feature"><h3>Type</h3>FILM/The Four Emperors/Red-Haired Pirates</div>
                 <div class="text"><h3>Effect</h3>[On Play] K.O. up to 1 of your opponent's rested Characters.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                
@@ -963,7 +1044,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST16-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-005.png?250409" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST16-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-005.png?250411" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="ST16-005">
@@ -976,7 +1057,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-005.png?250409" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST16-005.png?250411" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -991,7 +1072,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>3000</div>
                   <div class="counter"><h3>Counter</h3>2000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
                 <div class="feature"><h3>Type</h3>FILM/Supernovas/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>If you have a rested [Uta], this Character gains +1000 power.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Green Uta- [ST-16]</div>                

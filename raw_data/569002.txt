@@ -144,22 +144,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="alternate" hreflang="en-gr" href="https://en.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="en-pt" href="https://en.onepiece-cardgame.com/">
   <link rel="stylesheet" href="/css/lib/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="/css/layout.css?250409">
+  <link rel="stylesheet" href="/css/layout.css?250411">
   <script src="/js/lib/jquery.min.js?v=3.6.0"></script>
   <script src="/js/lib/jquery.easing.1.4.min.js"></script>
   <script src="/js/lib/jquery.fancybox.min.js"></script>
   <script src="/js/lib/lazyload.min.js"></script>
-  <script src="/js/common.js?250409"></script>
-  <link rel="stylesheet" href="/css/layout_en.css?250409">
-  <script src="/js/common_en.js?250409"></script>
-  <link rel="stylesheet" href="/css/cardlist.css?250409">
-  <script src="/js/cardlist.js?250409"></script>
-  <link rel="stylesheet" href="/css/cardlist_en.css?2504094">
-  <script src="/js/cardlist_en.js?2504094"></script>
+  <script src="/js/common.js?250411"></script>
+  <link rel="stylesheet" href="/css/layout_en.css?250411">
+  <script src="/js/common_en.js?250411"></script>
+  <link rel="stylesheet" href="/css/cardlist.css?250411">
+  <script src="/js/cardlist.js?250411"></script>
+  <link rel="stylesheet" href="/css/cardlist_en.css?2504114">
+  <script src="/js/cardlist_en.js?2504114"></script>
   <link rel="stylesheet" href="../css/lib/jquery.selmodal.css">
-  <script src="../js/modal.js?250409"></script>
-  <script src="../js/pager.js?250409"></script>
+  <script src="../js/modal.js?250411"></script>
+  <script src="../js/pager.js?250411"></script>
   <script src="../js/lib/jquery.selmodal.js"></script>
+  <script>
+    function Post(obj) {
+      var name = obj.name;
+      if (obj.checked) {
+          val = obj.value;
+      } else {
+          val = "";
+      }
+      // hidden追加
+      $('<input>').attr({
+          'type': 'hidden',
+          'name': name,
+          'value': val
+      }).appendTo($('#frmSearch'));
+      $('#frmSearch').submit();
+    }
+  </script>
 </head>
 
 <body id="cardlist">
@@ -285,7 +302,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h2 class="categoryTitle">CARD LIST</h2>
       <div class="contentsWrap isIndex">
         <div class="searchCol">
-          <form action="" method="post">
+          <form action="" method="post" id="frmSearch">
             <div class="formsetDefaultArea">
               <div class="freewordsCol">
                 <input class="freewords" type="text" name="freewords" placeholder="Search..." value="" id="form-free">
@@ -390,6 +407,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="checkBtn disable"></div>
                 </div>
               </div>
+              
+              <div class="blockCol">
+                <h3 class="searchTit">Block icon</h3>
+                <div class="checkbtnCol">
+                  <a href="javascript:void(0);" class="checkbtnAll checked checkBtn">ALL</a>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_1" value="1" >
+                  <label class="checkBtn" for="block_icon_1">1</label>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_2" value="2" >
+                  <label class="checkBtn" for="block_icon_2">2</label>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_3" value="3" >
+                  <label class="checkBtn" for="block_icon_3">3</label>
+                  <div class="checkBtn disable"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="checkReprints">
+              <label>
+                                <input type="checkbox" name="reprintsFlag"  style="appearance: auto;" onchange="Post(this)">
+                <span class="checkReprintsText">Hide reprint cards</span>
+              </label>
             </div>
 
             <div class="commonBtn submitBtn"><input type="submit" value="SEARCH"><span>SEARCH</span></div>
@@ -417,7 +456,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
         <div class="resultCol">
                   
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-001.png?250409" alt="Eustass&quot;Captain&quot;Kid"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-001.png?250411" alt="Eustass&quot;Captain&quot;Kid"></a>
 
                     
           <dl class="modalCol" id="ST02-001">
@@ -430,7 +469,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-001.png?250409" alt="Eustass&quot;Captain&quot;Kid">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-001.png?250411" alt="Eustass&quot;Captain&quot;Kid">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -445,7 +484,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Kid Pirates</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn]  ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Set this Leader as active.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                
@@ -456,7 +498,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-002.png?250409" alt="Vito"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-002.png?250411" alt="Vito"></a>
 
                     
           <dl class="modalCol" id="ST02-002">
@@ -469,7 +511,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-002.png?250409" alt="Vito">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-002.png?250411" alt="Vito">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -484,7 +526,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Firetank Pirates</div>
                 <div class="text"><h3>Effect</h3>-</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                
@@ -495,7 +540,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-003.png?250409" alt="Urouge"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-003.png?250411" alt="Urouge"></a>
 
                     
           <dl class="modalCol" id="ST02-003">
@@ -508,7 +553,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-003.png?250409" alt="Urouge">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-003.png?250411" alt="Urouge">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -523,7 +568,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>3000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Fallen Monk Pirates</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] If you have 3 or more Characters, this card gains +2000 power.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                
@@ -534,7 +582,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-004.png?250409" alt="Capone&quot;Gang&quot;Bege"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-004.png?250411" alt="Capone&quot;Gang&quot;Bege"></a>
 
                     
           <dl class="modalCol" id="ST02-004">
@@ -547,7 +595,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-004.png?250409" alt="Capone&quot;Gang&quot;Bege">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-004.png?250411" alt="Capone&quot;Gang&quot;Bege">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -562,7 +610,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>1000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Firetank Pirates</div>
                 <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                
@@ -573,7 +624,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-005.png?250409" alt="Killer"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-005.png?250411" alt="Killer"></a>
 
                     
           <dl class="modalCol" id="ST02-005">
@@ -586,7 +637,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-005.png?250409" alt="Killer">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-005.png?250411" alt="Killer">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -601,7 +652,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>3000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Kid Pirates</div>
                 <div class="text"><h3>Effect</h3>[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] Play this card.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>
@@ -612,7 +666,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-006"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-006.png?250409" alt="Koby"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-006"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-006.png?250411" alt="Koby"></a>
 
                     
           <dl class="modalCol" id="ST02-006">
@@ -625,7 +679,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-006.png?250409" alt="Koby">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-006.png?250411" alt="Koby">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -640,7 +694,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Navy</div>
                 <div class="text"><h3>Effect</h3>-</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                
@@ -651,7 +708,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-007"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-007.png?250409" alt="Jewelry Bonney"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-007"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-007.png?250411" alt="Jewelry Bonney"></a>
 
                     
           <dl class="modalCol" id="ST02-007">
@@ -664,7 +721,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-007.png?250409" alt="Jewelry Bonney">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-007.png?250411" alt="Jewelry Bonney">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -679,7 +736,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>1000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Bonney Pirates</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>
@@ -690,7 +750,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-008"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-008.png?250409" alt="Scratchmen Apoo"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-008"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-008.png?250411" alt="Scratchmen Apoo"></a>
 
                     
           <dl class="modalCol" id="ST02-008">
@@ -703,7 +763,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-008.png?250409" alt="Scratchmen Apoo">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-008.png?250411" alt="Scratchmen Apoo">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -718,7 +778,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>3000</div>
                   <div class="counter"><h3>Counter</h3>2000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/On-Air Pirates</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [When Attacking] Rest up to 1 of your opponent's DON!! cards.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>
@@ -729,7 +792,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-009"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-009.png?250409" alt="Trafalgar Law"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-009"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-009.png?250411" alt="Trafalgar Law"></a>
 
                     
           <dl class="modalCol" id="ST02-009">
@@ -742,7 +805,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-009.png?250409" alt="Trafalgar Law">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-009.png?250411" alt="Trafalgar Law">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -757,7 +820,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Heart Pirates</div>
                 <div class="text"><h3>Effect</h3>[On Play] Set up to 1 of your {Supernovas} or {Heart Pirates} type rested Characters with a cost of 5 or less as active.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>
@@ -768,7 +834,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-010"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-010.png?250409" alt="Basil Hawkins"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-010"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-010.png?250411" alt="Basil Hawkins"></a>
 
                     
           <dl class="modalCol" id="ST02-010">
@@ -781,7 +847,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-010.png?250409" alt="Basil Hawkins">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-010.png?250411" alt="Basil Hawkins">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -796,7 +862,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Hawkins Pirates</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [Once Per Turn] [Your Turn] If this Character battles your opponent's Character, set this card as active.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                
@@ -807,7 +876,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-011"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-011.png?250409" alt="Heat"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-011"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-011.png?250411" alt="Heat"></a>
 
                     
           <dl class="modalCol" id="ST02-011">
@@ -820,7 +889,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-011.png?250409" alt="Heat">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-011.png?250411" alt="Heat">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -835,7 +904,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>4000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Kid Pirates</div>
                 <div class="text"><h3>Effect</h3>-</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                
@@ -846,7 +918,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-012"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-012.png?250409" alt="Bepo"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-012"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-012.png?250411" alt="Bepo"></a>
 
                     
           <dl class="modalCol" id="ST02-012">
@@ -859,7 +931,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-012.png?250409" alt="Bepo">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-012.png?250411" alt="Bepo">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -874,7 +946,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>3000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Minks/Heart Pirates</div>
                 <div class="text"><h3>Effect</h3>-</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                
@@ -885,7 +960,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-013"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-013.png?250409" alt="Eustass&quot;Captain&quot;Kid"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-013"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-013.png?250411" alt="Eustass&quot;Captain&quot;Kid"></a>
 
                     
           <dl class="modalCol" id="ST02-013">
@@ -898,7 +973,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-013.png?250409" alt="Eustass&quot;Captain&quot;Kid">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-013.png?250411" alt="Eustass&quot;Captain&quot;Kid">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -913,7 +988,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>7000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Kid Pirates</div>
                 <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[DON!! x1] [End of Your Turn] Set this Character as active.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_08'>Errata Card</a></div>
@@ -924,7 +1002,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-014"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-014.png?250409" alt="X.Drake"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-014"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-014.png?250411" alt="X.Drake"></a>
 
                     
           <dl class="modalCol" id="ST02-014">
@@ -937,7 +1015,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-014.png?250409" alt="X.Drake">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-014.png?250411" alt="X.Drake">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -952,7 +1030,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Navy/Supernovas/Drake Pirates</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [Your Turn] If this Character is rested, your {Supernovas} or {Navy} type Leaders and Characters gain +1000 power.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                
@@ -963,7 +1044,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-015"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-015.png?250409" alt="Scalpel"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-015"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-015.png?250411" alt="Scalpel"></a>
 
                     
           <dl class="modalCol" id="ST02-015">
@@ -976,7 +1057,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-015.png?250409" alt="Scalpel">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-015.png?250411" alt="Scalpel">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -991,7 +1072,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Heart Pirates</div>
                 <div class="text"><h3>Effect</h3>[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your DON!! cards as active.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] Set up to 2 of your DON!! cards as active.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>
@@ -1002,7 +1086,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-016"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-016.png?250409" alt="Repel"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-016"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-016.png?250411" alt="Repel"></a>
 
                     
           <dl class="modalCol" id="ST02-016">
@@ -1015,7 +1099,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-016.png?250409" alt="Repel">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-016.png?250411" alt="Repel">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1030,7 +1114,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Kid Pirates</div>
                 <div class="text"><h3>Effect</h3>[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, set up to 1 of your DON!! cards as active.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>
@@ -1041,7 +1128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-017"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-017.png?250409" alt="Straw Sword"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST02-017"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-017.png?250411" alt="Straw Sword"></a>
 
                     
           <dl class="modalCol" id="ST02-017">
@@ -1054,7 +1141,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-017.png?250409" alt="Straw Sword">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST02-017.png?250411" alt="Straw Sword">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1069,7 +1156,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Hawkins Pirates</div>
                 <div class="text"><h3>Effect</h3>[Main] Rest up to 1 of your opponent's Characters.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] Play up to 1 {Supernovas} type card with a cost of 2 or less from your hand.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Worst Generation-[ST-02]</div>                <div class="getInfo remarks"><h3>Notes</h3><a href='/rules/errata_card/#errata_02'>Errata Card</a></div>

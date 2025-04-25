@@ -144,22 +144,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="alternate" hreflang="en-gr" href="https://en.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="en-pt" href="https://en.onepiece-cardgame.com/">
   <link rel="stylesheet" href="/css/lib/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="/css/layout.css?250409">
+  <link rel="stylesheet" href="/css/layout.css?250411">
   <script src="/js/lib/jquery.min.js?v=3.6.0"></script>
   <script src="/js/lib/jquery.easing.1.4.min.js"></script>
   <script src="/js/lib/jquery.fancybox.min.js"></script>
   <script src="/js/lib/lazyload.min.js"></script>
-  <script src="/js/common.js?250409"></script>
-  <link rel="stylesheet" href="/css/layout_en.css?250409">
-  <script src="/js/common_en.js?250409"></script>
-  <link rel="stylesheet" href="/css/cardlist.css?250409">
-  <script src="/js/cardlist.js?250409"></script>
-  <link rel="stylesheet" href="/css/cardlist_en.css?2504094">
-  <script src="/js/cardlist_en.js?2504094"></script>
+  <script src="/js/common.js?250411"></script>
+  <link rel="stylesheet" href="/css/layout_en.css?250411">
+  <script src="/js/common_en.js?250411"></script>
+  <link rel="stylesheet" href="/css/cardlist.css?250411">
+  <script src="/js/cardlist.js?250411"></script>
+  <link rel="stylesheet" href="/css/cardlist_en.css?2504114">
+  <script src="/js/cardlist_en.js?2504114"></script>
   <link rel="stylesheet" href="../css/lib/jquery.selmodal.css">
-  <script src="../js/modal.js?250409"></script>
-  <script src="../js/pager.js?250409"></script>
+  <script src="../js/modal.js?250411"></script>
+  <script src="../js/pager.js?250411"></script>
   <script src="../js/lib/jquery.selmodal.js"></script>
+  <script>
+    function Post(obj) {
+      var name = obj.name;
+      if (obj.checked) {
+          val = obj.value;
+      } else {
+          val = "";
+      }
+      // hidden追加
+      $('<input>').attr({
+          'type': 'hidden',
+          'name': name,
+          'value': val
+      }).appendTo($('#frmSearch'));
+      $('#frmSearch').submit();
+    }
+  </script>
 </head>
 
 <body id="cardlist">
@@ -285,7 +302,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h2 class="categoryTitle">CARD LIST</h2>
       <div class="contentsWrap isIndex">
         <div class="searchCol">
-          <form action="" method="post">
+          <form action="" method="post" id="frmSearch">
             <div class="formsetDefaultArea">
               <div class="freewordsCol">
                 <input class="freewords" type="text" name="freewords" placeholder="Search..." value="" id="form-free">
@@ -390,6 +407,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="checkBtn disable"></div>
                 </div>
               </div>
+              
+              <div class="blockCol">
+                <h3 class="searchTit">Block icon</h3>
+                <div class="checkbtnCol">
+                  <a href="javascript:void(0);" class="checkbtnAll checked checkBtn">ALL</a>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_1" value="1" >
+                  <label class="checkBtn" for="block_icon_1">1</label>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_2" value="2" >
+                  <label class="checkBtn" for="block_icon_2">2</label>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_3" value="3" >
+                  <label class="checkBtn" for="block_icon_3">3</label>
+                  <div class="checkBtn disable"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="checkReprints">
+              <label>
+                                <input type="checkbox" name="reprintsFlag"  style="appearance: auto;" onchange="Post(this)">
+                <span class="checkReprintsText">Hide reprint cards</span>
+              </label>
             </div>
 
             <div class="commonBtn submitBtn"><input type="submit" value="SEARCH"><span>SEARCH</span></div>
@@ -417,7 +456,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
         <div class="resultCol">
                   
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-001.png?250409" alt="Roronoa Zoro &amp; Sanji"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-001.png?250411" alt="Roronoa Zoro &amp; Sanji"></a>
 
                     
           <dl class="modalCol" id="ST12-001">
@@ -430,7 +469,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-001.png?250409" alt="Roronoa Zoro &amp; Sanji">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-001.png?250411" alt="Roronoa Zoro &amp; Sanji">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -445,7 +484,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green/Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [When Attacking] [Once Per Turn] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Set up to 1 of your Characters with 7000 power or less as active.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -456,7 +498,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-002.png?250409" alt="Kuina"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-002.png?250411" alt="Kuina"></a>
 
                     
           <dl class="modalCol" id="ST12-002">
@@ -469,7 +511,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-002.png?250409" alt="Kuina">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-002.png?250411" alt="Kuina">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -484,7 +526,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>2000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Frost Moon Village</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 4 or less.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] Play this card.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -495,7 +540,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-003.png?250409" alt="Dracule Mihawk"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-003.png?250411" alt="Dracule Mihawk"></a>
 
                     
           <dl class="modalCol" id="ST12-003">
@@ -508,7 +553,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-003.png?250409" alt="Dracule Mihawk">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-003.png?250411" alt="Dracule Mihawk">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -523,7 +568,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>4000</div>
                   <div class="counter"><h3>Counter</h3>2000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>The Seven Warlords of the Sea/Muggy Kingdom</div>
                 <div class="text"><h3>Effect</h3>[On Play] If you have 2 or less Characters, play up to 1 {Muggy Kingdom} type or &lt;Slash&gt; attribute Character card with a cost of 4 or less other than [Dracule Mihawk] from your hand rested.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -534,7 +582,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-004.png?250409" alt="Humandrill"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-004.png?250411" alt="Humandrill"></a>
 
                     
           <dl class="modalCol" id="ST12-004">
@@ -547,7 +595,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-004.png?250409" alt="Humandrill">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-004.png?250411" alt="Humandrill">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -562,7 +610,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Animal/Muggy Kingdom</div>
                 <div class="text"><h3>Effect</h3>-</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -573,7 +624,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-005.png?250409" alt="Perona"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-005.png?250411" alt="Perona"></a>
 
                     
           <dl class="modalCol" id="ST12-005">
@@ -586,7 +637,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-005.png?250409" alt="Perona">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-005.png?250411" alt="Perona">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -601,7 +652,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Muggy Kingdom/Thriller Bark Pirates</div>
                 <div class="text"><h3>Effect</h3>-</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -612,7 +666,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-006"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-006.png?250409" alt="Yosaku &amp; Johnny"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-006"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-006.png?250411" alt="Yosaku &amp; Johnny"></a>
 
                     
           <dl class="modalCol" id="ST12-006">
@@ -625,7 +679,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-006.png?250409" alt="Yosaku &amp; Johnny">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-006.png?250411" alt="Yosaku &amp; Johnny">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -640,7 +694,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>3000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>East Blue</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [When Attacking] Choose one:<br>• Rest up to 1 of your opponent's Characters with a cost of 2 or less.<br>• K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -651,7 +708,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-007"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-007.png?250409" alt="Rika"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-007"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-007.png?250411" alt="Rika"></a>
 
                     
           <dl class="modalCol" id="ST12-007">
@@ -664,7 +721,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-007.png?250409" alt="Rika">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-007.png?250411" alt="Rika">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -679,7 +736,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>2000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>East Blue</div>
                 <div class="text"><h3>Effect</h3>[On Play] ➁ (You may rest the specified number of DON!! cards in your cost area.): If your opponent has 3 or more Life cards, set up to 1 of your &lt;Slash&gt; attribute Characters with a cost of 4 or less as active.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -690,7 +750,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-008"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-008.png?250409" alt="Roronoa Zoro"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-008"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-008.png?250411" alt="Roronoa Zoro"></a>
 
                     
           <dl class="modalCol" id="ST12-008">
@@ -703,7 +763,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-008.png?250409" alt="Roronoa Zoro">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-008.png?250411" alt="Roronoa Zoro">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -718,7 +778,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost of 6 or less.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -729,7 +792,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-009"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-009.png?250409" alt="Elephant True Bluefin"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-009"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-009.png?250411" alt="Elephant True Bluefin"></a>
 
                     
           <dl class="modalCol" id="ST12-009">
@@ -742,7 +805,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-009.png?250409" alt="Elephant True Bluefin">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-009.png?250411" alt="Elephant True Bluefin">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -757,7 +820,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>3000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Animal</div>
                 <div class="text"><h3>Effect</h3>-</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -768,7 +834,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-010"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-010.png?250409" alt="Emporio.Ivankov"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-010"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-010.png?250411" alt="Emporio.Ivankov"></a>
 
                     
           <dl class="modalCol" id="ST12-010">
@@ -781,7 +847,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-010.png?250409" alt="Emporio.Ivankov">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-010.png?250411" alt="Emporio.Ivankov">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -796,7 +862,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>4000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Impel Down/Revolutionary Army</div>
                 <div class="text"><h3>Effect</h3>[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a cost of 2. Then, place the rest at the top or bottom of your deck.<br>[When Attacking] [Once Per Turn] Draw 1 card if you have 6 or less cards in your hand.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -807,7 +876,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-011"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-011.png?250409" alt="Sanji"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-011"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-011.png?250411" alt="Sanji"></a>
 
                     
           <dl class="modalCol" id="ST12-011">
@@ -820,7 +889,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-011.png?250409" alt="Sanji">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-011.png?250411" alt="Sanji">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -835,7 +904,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>3000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [When Attacking] If you have 5 or less cards in your hand, this Character gains +2000 power until the start of your next turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -846,7 +918,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-012"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-012.png?250409" alt="Charlotte Pudding"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-012"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-012.png?250411" alt="Charlotte Pudding"></a>
 
                     
           <dl class="modalCol" id="ST12-012">
@@ -859,7 +931,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-012.png?250409" alt="Charlotte Pudding">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-012.png?250411" alt="Charlotte Pudding">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -874,7 +946,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>2000</div>
                   <div class="counter"><h3>Counter</h3>2000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Big Mom Pirates</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] Return this Character to the owner's hand.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -885,7 +960,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-013"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-013.png?250409" alt="Zeff"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-013"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-013.png?250411" alt="Zeff"></a>
 
                     
           <dl class="modalCol" id="ST12-013">
@@ -898,7 +973,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-013.png?250409" alt="Zeff">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-013.png?250411" alt="Zeff">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -913,7 +988,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>East Blue</div>
                 <div class="text"><h3>Effect</h3>[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.<br>[When Attacking] Reveal 1 card from the top of your deck and play up to 1 Character card with a cost of 2 rested. Then, place the rest at the top or bottom of your deck.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -924,7 +1002,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-014"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-014.png?250409" alt="Duval"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-014"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-014.png?250411" alt="Duval"></a>
 
                     
           <dl class="modalCol" id="ST12-014">
@@ -937,7 +1015,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-014.png?250409" alt="Duval">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-014.png?250411" alt="Duval">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -952,7 +1030,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>1000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>The Flying Fish Riders</div>
                 <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -963,7 +1044,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-015"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-015.png?250409" alt="Patty &amp; Carne"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-015"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-015.png?250411" alt="Patty &amp; Carne"></a>
 
                     
           <dl class="modalCol" id="ST12-015">
@@ -976,7 +1057,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-015.png?250409" alt="Patty &amp; Carne">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-015.png?250411" alt="Patty &amp; Carne">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -991,7 +1072,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>4000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>East Blue</div>
                 <div class="text"><h3>Effect</h3>-</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -1002,7 +1086,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-016"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-016.png?250409" alt="Lion Strike"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-016"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-016.png?250411" alt="Lion Strike"></a>
 
                     
           <dl class="modalCol" id="ST12-016">
@@ -1015,7 +1099,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-016.png?250409" alt="Lion Strike">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-016.png?250411" alt="Lion Strike">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1030,7 +1114,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Main]/[Counter] Rest up to 1 of your opponent's Leader or Character cards with a cost of 4 or less.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] Activate this card's [Main] effect.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                
@@ -1041,7 +1128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-017"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-017.png?250409" alt="Plastic Surgery Shot"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST12-017"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-017.png?250411" alt="Plastic Surgery Shot"></a>
 
                     
           <dl class="modalCol" id="ST12-017">
@@ -1054,7 +1141,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-017.png?250409" alt="Plastic Surgery Shot">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST12-017.png?250411" alt="Plastic Surgery Shot">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1069,7 +1156,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, reveal 1 card from the top of your deck, play up to 1 Character card with a cost of 2, and place the rest at the top or bottom of your deck.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-Zoro &amp; Sanji- [ST-12]</div>                

@@ -144,22 +144,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="alternate" hreflang="en-gr" href="https://en.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="en-pt" href="https://en.onepiece-cardgame.com/">
   <link rel="stylesheet" href="/css/lib/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="/css/layout.css?250409">
+  <link rel="stylesheet" href="/css/layout.css?250411">
   <script src="/js/lib/jquery.min.js?v=3.6.0"></script>
   <script src="/js/lib/jquery.easing.1.4.min.js"></script>
   <script src="/js/lib/jquery.fancybox.min.js"></script>
   <script src="/js/lib/lazyload.min.js"></script>
-  <script src="/js/common.js?250409"></script>
-  <link rel="stylesheet" href="/css/layout_en.css?250409">
-  <script src="/js/common_en.js?250409"></script>
-  <link rel="stylesheet" href="/css/cardlist.css?250409">
-  <script src="/js/cardlist.js?250409"></script>
-  <link rel="stylesheet" href="/css/cardlist_en.css?2504094">
-  <script src="/js/cardlist_en.js?2504094"></script>
+  <script src="/js/common.js?250411"></script>
+  <link rel="stylesheet" href="/css/layout_en.css?250411">
+  <script src="/js/common_en.js?250411"></script>
+  <link rel="stylesheet" href="/css/cardlist.css?250411">
+  <script src="/js/cardlist.js?250411"></script>
+  <link rel="stylesheet" href="/css/cardlist_en.css?2504114">
+  <script src="/js/cardlist_en.js?2504114"></script>
   <link rel="stylesheet" href="../css/lib/jquery.selmodal.css">
-  <script src="../js/modal.js?250409"></script>
-  <script src="../js/pager.js?250409"></script>
+  <script src="../js/modal.js?250411"></script>
+  <script src="../js/pager.js?250411"></script>
   <script src="../js/lib/jquery.selmodal.js"></script>
+  <script>
+    function Post(obj) {
+      var name = obj.name;
+      if (obj.checked) {
+          val = obj.value;
+      } else {
+          val = "";
+      }
+      // hidden追加
+      $('<input>').attr({
+          'type': 'hidden',
+          'name': name,
+          'value': val
+      }).appendTo($('#frmSearch'));
+      $('#frmSearch').submit();
+    }
+  </script>
 </head>
 
 <body id="cardlist">
@@ -285,7 +302,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h2 class="categoryTitle">CARD LIST</h2>
       <div class="contentsWrap isIndex">
         <div class="searchCol">
-          <form action="" method="post">
+          <form action="" method="post" id="frmSearch">
             <div class="formsetDefaultArea">
               <div class="freewordsCol">
                 <input class="freewords" type="text" name="freewords" placeholder="Search..." value="" id="form-free">
@@ -390,6 +407,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="checkBtn disable"></div>
                 </div>
               </div>
+              
+              <div class="blockCol">
+                <h3 class="searchTit">Block icon</h3>
+                <div class="checkbtnCol">
+                  <a href="javascript:void(0);" class="checkbtnAll checked checkBtn">ALL</a>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_1" value="1" >
+                  <label class="checkBtn" for="block_icon_1">1</label>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_2" value="2" >
+                  <label class="checkBtn" for="block_icon_2">2</label>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_3" value="3" >
+                  <label class="checkBtn" for="block_icon_3">3</label>
+                  <div class="checkBtn disable"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="checkReprints">
+              <label>
+                                <input type="checkbox" name="reprintsFlag"  style="appearance: auto;" onchange="Post(this)">
+                <span class="checkReprintsText">Hide reprint cards</span>
+              </label>
             </div>
 
             <div class="commonBtn submitBtn"><input type="submit" value="SEARCH"><span>SEARCH</span></div>
@@ -417,7 +456,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
         <div class="resultCol">
                   
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-001.png?250409" alt="Sabo"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-001.png?250411" alt="Sabo"></a>
 
                     
           <dl class="modalCol" id="ST13-001">
@@ -430,7 +469,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-001.png?250409" alt="Sabo">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-001.png?250411" alt="Sabo">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -445,7 +484,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Red/Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Dressrosa/Revolutionary Army</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 of your Characters with a cost of 3 or more and 7000 power or more to the top of your Life cards face-up: Up to 1 of your Characters gains +2000 power until the start of your next turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -456,7 +498,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-001_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-001_p1.png?250409" alt="Sabo"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-001_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-001_p1.png?250411" alt="Sabo"></a>
 
                     
           <dl class="modalCol" id="ST13-001_p1">
@@ -469,7 +511,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-001_p1.png?250409" alt="Sabo">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-001_p1.png?250411" alt="Sabo">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -484,7 +526,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Red/Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Dressrosa/Revolutionary Army</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 of your Characters with a cost of 3 or more and 7000 power or more to the top of your Life cards face-up: Up to 1 of your Characters gains +2000 power until the start of your next turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -495,7 +540,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-002.png?250409" alt="Portgas.D.Ace"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-002.png?250411" alt="Portgas.D.Ace"></a>
 
                     
           <dl class="modalCol" id="ST13-002">
@@ -508,7 +553,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-002.png?250409" alt="Portgas.D.Ace">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-002.png?250411" alt="Portgas.D.Ace">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -523,7 +568,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Blue/Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Whitebeard Pirates</div>
                 <div class="text"><h3>Effect</h3>[DON!! x2] [Activate: Main] [Once Per Turn] Look at 5 cards from the top of your deck and add up to 1 Character card with a cost of 5 to the top of your Life cards face-up. Then, place the rest at the bottom of your deck in any order.<br>[End of Your Turn] Trash all your face-up Life cards.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -534,7 +582,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-002_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-002_p1.png?250409" alt="Portgas.D.Ace"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-002_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-002_p1.png?250411" alt="Portgas.D.Ace"></a>
 
                     
           <dl class="modalCol" id="ST13-002_p1">
@@ -547,7 +595,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-002_p1.png?250409" alt="Portgas.D.Ace">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-002_p1.png?250411" alt="Portgas.D.Ace">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -562,7 +610,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Blue/Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Whitebeard Pirates</div>
                 <div class="text"><h3>Effect</h3>[DON!! x2] [Activate: Main] [Once Per Turn] Look at 5 cards from the top of your deck and add up to 1 Character card with a cost of 5 to the top of your Life cards face-up. Then, place the rest at the bottom of your deck in any order.<br>[End of Your Turn] Trash all your face-up Life cards.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -573,7 +624,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-003.png?250409" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-003.png?250411" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="ST13-003">
@@ -586,7 +637,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-003.png?250409" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-003.png?250411" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -601,7 +652,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black/Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>Your face-up Life cards are placed at the bottom of your deck instead of being added to your hand, according to the rules.<br>[DON!! x2] [Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If you have 0 Life cards, add up to 2 Character cards with a cost of 5 from your hand or trash to the top of your Life cards face-up.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -612,7 +666,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-003_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-003_p1.png?250409" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-003_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-003_p1.png?250411" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="ST13-003_p1">
@@ -625,7 +679,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-003_p1.png?250409" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-003_p1.png?250411" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -640,7 +694,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>5000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Black/Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>Your face-up Life cards are placed at the bottom of your deck instead of being added to your hand, according to the rules.<br>[DON!! x2] [Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If you have 0 Life cards, add up to 2 Character cards with a cost of 5 from your hand or trash to the top of your Life cards face-up.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -651,7 +708,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-004.png?250409" alt="Edward.Newgate"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-004.png?250411" alt="Edward.Newgate"></a>
 
                     
           <dl class="modalCol" id="ST13-004">
@@ -664,7 +721,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-004.png?250409" alt="Edward.Newgate">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-004.png?250411" alt="Edward.Newgate">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -679,7 +736,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>7000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>The Four Emperors/Whitebeard Pirates</div>
                 <div class="text"><h3>Effect</h3>[On Play] Add 1 card from the top of your deck to the top of your Life cards. Then, look at all your Life cards; place 1 card at the top of your deck and place the rest back in your Life area in any order.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -690,7 +750,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-004_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-004_p1.png?250409" alt="Edward.Newgate"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-004_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-004_p1.png?250411" alt="Edward.Newgate"></a>
 
                     
           <dl class="modalCol" id="ST13-004_p1">
@@ -703,7 +763,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-004_p1.png?250409" alt="Edward.Newgate">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-004_p1.png?250411" alt="Edward.Newgate">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -718,7 +778,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>7000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>The Four Emperors/Whitebeard Pirates</div>
                 <div class="text"><h3>Effect</h3>[On Play] Add 1 card from the top of your deck to the top of your Life cards. Then, look at all your Life cards; place 1 card at the top of your deck and place the rest back in your Life area in any order.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -729,7 +792,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-005.png?250409" alt="Emporio.Ivankov"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-005.png?250411" alt="Emporio.Ivankov"></a>
 
                     
           <dl class="modalCol" id="ST13-005">
@@ -742,7 +805,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-005.png?250409" alt="Emporio.Ivankov">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-005.png?250411" alt="Emporio.Ivankov">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -757,7 +820,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>4000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Revolutionary Army</div>
                 <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On Play] You may trash 1 card from the top or bottom of your Life cards: Reveal up to 1 Character card with a cost of 5 from your hand and add it to the top of your Life cards face-down.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -768,7 +834,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-005_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-005_p1.png?250409" alt="Emporio.Ivankov"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-005_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-005_p1.png?250411" alt="Emporio.Ivankov"></a>
 
                     
           <dl class="modalCol" id="ST13-005_p1">
@@ -781,7 +847,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-005_p1.png?250409" alt="Emporio.Ivankov">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-005_p1.png?250411" alt="Emporio.Ivankov">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -796,7 +862,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>4000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Revolutionary Army</div>
                 <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On Play] You may trash 1 card from the top or bottom of your Life cards: Reveal up to 1 Character card with a cost of 5 from your hand and add it to the top of your Life cards face-down.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -807,7 +876,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-006"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-006.png?250409" alt="Curly.Dadan"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-006"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-006.png?250411" alt="Curly.Dadan"></a>
 
                     
           <dl class="modalCol" id="ST13-006">
@@ -820,7 +889,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-006.png?250409" alt="Curly.Dadan">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-006.png?250411" alt="Curly.Dadan">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -835,7 +904,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>4000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Mountain Bandits</div>
                 <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On Play] Play up to 1 each of [Sabo], [Portgas.D.Ace], and [Monkey.D.Luffy] with a cost of 2 from your hand.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -846,7 +918,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-006_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-006_p1.png?250409" alt="Curly.Dadan"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-006_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-006_p1.png?250411" alt="Curly.Dadan"></a>
 
                     
           <dl class="modalCol" id="ST13-006_p1">
@@ -859,7 +931,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-006_p1.png?250409" alt="Curly.Dadan">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-006_p1.png?250411" alt="Curly.Dadan">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -874,7 +946,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>4000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Mountain Bandits</div>
                 <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On Play] Play up to 1 each of [Sabo], [Portgas.D.Ace], and [Monkey.D.Luffy] with a cost of 2 from your hand.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -885,7 +960,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-007"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-007.png?250409" alt="Sabo"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-007"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-007.png?250411" alt="Sabo"></a>
 
                     
           <dl class="modalCol" id="ST13-007">
@@ -898,7 +973,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-007.png?250409" alt="Sabo">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-007.png?250411" alt="Sabo">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -913,7 +988,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>2000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Goa Kingdom</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Sabo] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -924,7 +1002,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-007_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-007_p1.png?250409" alt="Sabo"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-007_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-007_p1.png?250411" alt="Sabo"></a>
 
                     
           <dl class="modalCol" id="ST13-007_p1">
@@ -937,7 +1015,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-007_p1.png?250409" alt="Sabo">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-007_p1.png?250411" alt="Sabo">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -952,7 +1030,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>2000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Goa Kingdom</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Sabo] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -963,7 +1044,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-008"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-008.png?250409" alt="Sabo"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-008"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-008.png?250411" alt="Sabo"></a>
 
                     
           <dl class="modalCol" id="ST13-008">
@@ -976,7 +1057,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-008.png?250409" alt="Sabo">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-008.png?250411" alt="Sabo">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -991,7 +1072,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Dressrosa/Revolutionary Army</div>
                 <div class="text"><h3>Effect</h3>[On Play] You may trash 1 card from the top or bottom of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1002,7 +1086,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-008_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-008_p1.png?250409" alt="Sabo"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-008_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-008_p1.png?250411" alt="Sabo"></a>
 
                     
           <dl class="modalCol" id="ST13-008_p1">
@@ -1015,7 +1099,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-008_p1.png?250409" alt="Sabo">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-008_p1.png?250411" alt="Sabo">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1030,7 +1114,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Dressrosa/Revolutionary Army</div>
                 <div class="text"><h3>Effect</h3>[On Play] You may trash 1 card from the top or bottom of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1041,7 +1128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-009"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-009.png?250409" alt="Shanks"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-009"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-009.png?250411" alt="Shanks"></a>
 
                     
           <dl class="modalCol" id="ST13-009">
@@ -1054,7 +1141,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-009.png?250409" alt="Shanks">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-009.png?250411" alt="Shanks">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1069,7 +1156,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>7000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>The Four Emperors/Red-Haired Pirates</div>
                 <div class="text"><h3>Effect</h3>[On Play] You may turn 1 of your face-up Life cards face-down: If your opponent has 7 or more cards in their hand, trash up to 1 card from the top of your opponent's Life cards.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1080,7 +1170,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-009_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-009_p1.png?250409" alt="Shanks"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-009_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-009_p1.png?250411" alt="Shanks"></a>
 
                     
           <dl class="modalCol" id="ST13-009_p1">
@@ -1093,7 +1183,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-009_p1.png?250409" alt="Shanks">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-009_p1.png?250411" alt="Shanks">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1108,7 +1198,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>7000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>The Four Emperors/Red-Haired Pirates</div>
                 <div class="text"><h3>Effect</h3>[On Play] You may turn 1 of your face-up Life cards face-down: If your opponent has 7 or more cards in their hand, trash up to 1 card from the top of your opponent's Life cards.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1119,7 +1212,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-010"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-010.png?250409" alt="Portgas.D.Ace"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-010"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-010.png?250411" alt="Portgas.D.Ace"></a>
 
                     
           <dl class="modalCol" id="ST13-010">
@@ -1132,7 +1225,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-010.png?250409" alt="Portgas.D.Ace">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-010.png?250411" alt="Portgas.D.Ace">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1147,7 +1240,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>2000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Goa Kingdom</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Portgas.D.Ace] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1158,7 +1254,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-010_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-010_p1.png?250409" alt="Portgas.D.Ace"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-010_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-010_p1.png?250411" alt="Portgas.D.Ace"></a>
 
                     
           <dl class="modalCol" id="ST13-010_p1">
@@ -1171,7 +1267,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-010_p1.png?250409" alt="Portgas.D.Ace">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-010_p1.png?250411" alt="Portgas.D.Ace">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1186,7 +1282,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>2000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Goa Kingdom</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Portgas.D.Ace] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1197,7 +1296,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-011"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-011.png?250409" alt="Portgas.D.Ace"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-011"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-011.png?250411" alt="Portgas.D.Ace"></a>
 
                     
           <dl class="modalCol" id="ST13-011">
@@ -1210,7 +1309,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-011.png?250409" alt="Portgas.D.Ace">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-011.png?250411" alt="Portgas.D.Ace">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1225,7 +1324,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>7000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Whitebeard Pirates</div>
                 <div class="text"><h3>Effect</h3>[On Play] If you have 2 or less Life cards, this Character gains [Rush].<br>(This card can attack on the turn in which it is played.)</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1236,7 +1338,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-011_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-011_p1.png?250409" alt="Portgas.D.Ace"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-011_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-011_p1.png?250411" alt="Portgas.D.Ace"></a>
 
                     
           <dl class="modalCol" id="ST13-011_p1">
@@ -1249,7 +1351,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-011_p1.png?250409" alt="Portgas.D.Ace">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-011_p1.png?250411" alt="Portgas.D.Ace">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1264,7 +1366,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>7000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Whitebeard Pirates</div>
                 <div class="text"><h3>Effect</h3>[On Play] If you have 2 or less Life cards, this Character gains [Rush].<br>(This card can attack on the turn in which it is played.)</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1275,7 +1380,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-012"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-012.png?250409" alt="Makino"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-012"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-012.png?250411" alt="Makino"></a>
 
                     
           <dl class="modalCol" id="ST13-012">
@@ -1288,7 +1393,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-012.png?250409" alt="Makino">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-012.png?250411" alt="Makino">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1303,7 +1408,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>2000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Windmill Village</div>
                 <div class="text"><h3>Effect</h3>[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Look at all of your Life cards and place them back in your Life area in any order.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1314,7 +1422,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-012_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-012_p1.png?250409" alt="Makino"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-012_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-012_p1.png?250411" alt="Makino"></a>
 
                     
           <dl class="modalCol" id="ST13-012_p1">
@@ -1327,7 +1435,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-012_p1.png?250409" alt="Makino">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-012_p1.png?250411" alt="Makino">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1342,7 +1450,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>2000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Windmill Village</div>
                 <div class="text"><h3>Effect</h3>[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Look at all of your Life cards and place them back in your Life area in any order.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1353,7 +1464,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-013"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-013.png?250409" alt="Monkey.D.Garp"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-013"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-013.png?250411" alt="Monkey.D.Garp"></a>
 
                     
           <dl class="modalCol" id="ST13-013">
@@ -1366,7 +1477,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-013.png?250409" alt="Monkey.D.Garp">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-013.png?250411" alt="Monkey.D.Garp">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1381,7 +1492,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>2000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Navy</div>
                 <div class="text"><h3>Effect</h3>[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1392,7 +1506,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-013_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-013_p1.png?250409" alt="Monkey.D.Garp"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-013_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-013_p1.png?250411" alt="Monkey.D.Garp"></a>
 
                     
           <dl class="modalCol" id="ST13-013_p1">
@@ -1405,7 +1519,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-013_p1.png?250409" alt="Monkey.D.Garp">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-013_p1.png?250411" alt="Monkey.D.Garp">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1420,7 +1534,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>2000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Navy</div>
                 <div class="text"><h3>Effect</h3>[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1431,7 +1548,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-014"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-014.png?250409" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-014"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-014.png?250411" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="ST13-014">
@@ -1444,7 +1561,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-014.png?250409" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-014.png?250411" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1459,7 +1576,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>2000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Goa Kingdom</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Monkey.D.Luffy] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1470,7 +1590,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-014_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-014_p1.png?250409" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-014_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-014_p1.png?250411" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="ST13-014_p1">
@@ -1483,7 +1603,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-014_p1.png?250409" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-014_p1.png?250411" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1498,7 +1618,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>2000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Goa Kingdom</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Monkey.D.Luffy] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1509,7 +1632,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-015"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-015.png?250409" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-015"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-015.png?250411" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="ST13-015">
@@ -1522,7 +1645,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-015.png?250409" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-015.png?250411" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1537,7 +1660,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn] This Character gains +2000 power until the start of your next turn. Then, if you have 1 or more Life cards, draw 1 card and trash 1 card from the top of your Life cards.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1548,7 +1674,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-015_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-015_p1.png?250409" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-015_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-015_p1.png?250411" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="ST13-015_p1">
@@ -1561,7 +1687,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-015_p1.png?250409" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-015_p1.png?250411" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1576,7 +1702,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Supernovas/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn] This Character gains +2000 power until the start of your next turn. Then, if you have 1 or more Life cards, draw 1 card and trash 1 card from the top of your Life cards.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1587,7 +1716,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-016"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-016.png?250409" alt="Yamato"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-016"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-016.png?250411" alt="Yamato"></a>
 
                     
           <dl class="modalCol" id="ST13-016">
@@ -1600,7 +1729,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-016.png?250409" alt="Yamato">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-016.png?250411" alt="Yamato">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1615,7 +1744,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>4000</div>
                   <div class="counter"><h3>Counter</h3>2000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Land of Wano</div>
                 <div class="text"><h3>Effect</h3>[Rush] (This card can attack on the turn in which it is played.)<br>[On Play] Look at all your Life cards; place 1 at the top of your deck and place the rest back in your Life area in any order.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1626,7 +1758,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-016_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-016_p1.png?250409" alt="Yamato"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-016_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-016_p1.png?250411" alt="Yamato"></a>
 
                     
           <dl class="modalCol" id="ST13-016_p1">
@@ -1639,7 +1771,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-016_p1.png?250409" alt="Yamato">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-016_p1.png?250411" alt="Yamato">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1654,7 +1786,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>4000</div>
                   <div class="counter"><h3>Counter</h3>2000</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Land of Wano</div>
                 <div class="text"><h3>Effect</h3>[Rush] (This card can attack on the turn in which it is played.)<br>[On Play] Look at all your Life cards; place 1 at the top of your deck and place the rest back in your Life area in any order.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1665,7 +1800,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-017"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-017.png?250409" alt="Flame Dragon King"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-017"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-017.png?250411" alt="Flame Dragon King"></a>
 
                     
           <dl class="modalCol" id="ST13-017">
@@ -1678,7 +1813,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-017.png?250409" alt="Flame Dragon King">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-017.png?250411" alt="Flame Dragon King">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1693,7 +1828,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Dressrosa/Revolutionary Army</div>
                 <div class="text"><h3>Effect</h3>[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, look at all your Life cards and place them back in your Life area in any order.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1704,7 +1842,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-018"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-018.png?250409" alt="Gum-Gum Jet Spear"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-018"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-018.png?250411" alt="Gum-Gum Jet Spear"></a>
 
                     
           <dl class="modalCol" id="ST13-018">
@@ -1717,7 +1855,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-018.png?250409" alt="Gum-Gum Jet Spear">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-018.png?250411" alt="Gum-Gum Jet Spear">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1732,7 +1870,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Punk Hazard/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 0 Life cards, draw 1 card.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
@@ -1743,7 +1884,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-019"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-019.png?250409" alt="The Three Brothers&#039; Bond"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST13-019"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-019.png?250411" alt="The Three Brothers&#039; Bond"></a>
 
                     
           <dl class="modalCol" id="ST13-019">
@@ -1756,7 +1897,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-019.png?250409" alt="The Three Brothers&#039; Bond">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST13-019.png?250411" alt="The Three Brothers&#039; Bond">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1771,7 +1912,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="power"><h3>Power</h3>-</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
+                <div class="col2">
                 <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
                 <div class="feature"><h3>Type</h3>Goa Kingdom</div>
                 <div class="text"><h3>Effect</h3>[Main] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] Activate this card's [Main] effect.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-The Three Brothers-[ST13]</div>                
