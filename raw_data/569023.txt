@@ -330,7 +330,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <option value="569027" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-BLACK Marshall.D.Teach- [ST-27]</option>
                   <option value="569026" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-PURPLE/BLACK Monkey.D.Luffy- [ST-26]</option>
                   <option value="569025" >STARTER DECK -BLUE Buggy- [ST-25]</option>
-                  <option value="569023" >STARTER DECK -RED Shanks- [ST-23]</option>
+                  <option value="569023" selected>STARTER DECK -RED Shanks- [ST-23]</option>
                   <option value="569021" >STARTER DECK EX -GEAR5- [ST-21]</option>
                   <option value="569020" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Yellow Charlotte Katakuri- [ST-20]</option>
                   <option value="569019" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Black Smoker- [ST-19]</option>
@@ -343,7 +343,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <option value="569012" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Zoro and Sanji- [ST-12]</option>
                   <option value="569011" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Uta- [ST-11]</option>
                   <option value="569010" >ULTRA DECK &lt;br class=&quot;spInline&quot;&gt;-The Three Captains- [ST-10]</option>
-                  <option value="569009" selected>STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Yamato- [ST-09]</option>
+                  <option value="569009" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Yamato- [ST-09]</option>
                   <option value="569008" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Monkey D. Luffy- [ST-08]</option>
                   <option value="569007" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Big Mom Pirates- [ST-07]</option>
                   <option value="569006" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Absolute Justice- [ST-06]</option>
@@ -462,20 +462,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
         <div class="resultCol">
                   
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-001.png?250509" alt="Yamato"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP09-001_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-001_p2.png?250509" alt="Shanks"></a>
 
                     
-          <dl class="modalCol" id="ST09-001">
+          <dl class="modalCol" id="OP09-001_p2">
             <dt>
               <button class="scrollBtn">ボタン</button>
               <div class="infoCol">
-                <span>ST09-001</span> | <span>L</span> | <span>LEADER</span>
+                <span>OP09-001</span> | <span>L</span> | <span>LEADER</span>
               </div>
-              <div class="cardName">Yamato</div>
+              <div class="cardName">Shanks</div>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-001.png?250509" alt="Yamato">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-001_p2.png?250509" alt="Shanks">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -483,188 +483,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="cost"><h3>Life</h3>5</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
-                  </div>
-                </div>
-                <div class="col2">
-                  <div class="power"><h3>Power</h3>5000</div>
-                  <div class="counter"><h3>Counter</h3>-</div>
-                </div>
-                <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
-                </div>
-                <div class="feature"><h3>Type</h3>Land of Wano</div>
-                <div class="text"><h3>Effect</h3>[DON!! x1] [Opponent's Turn] If you have 2 or less Life cards, this Leader gains +1000 power.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
-              </div>
-            </dd>
-          </dl>
-          
-                      
-                      
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-002.png?250509" alt="Uzuki Tempura"></a>
-
-                    
-          <dl class="modalCol" id="ST09-002">
-            <dt>
-              <button class="scrollBtn">ボタン</button>
-              <div class="infoCol">
-                <span>ST09-002</span> | <span>C</span> | <span>CHARACTER</span>
-              </div>
-              <div class="cardName">Uzuki Tempura</div>
-            </dt>
-            <dd>
-              <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-002.png?250509" alt="Uzuki Tempura">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
-              </div>
-              <div class="backCol">
-                <div class="col2">
-                  <div class="cost"><h3>Cost</h3>4</div>
-                  <div class="attribute">
-                    <h3>Attribute</h3>
                     <img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i>
                   </div>
                 </div>
                 <div class="col2">
                   <div class="power"><h3>Power</h3>5000</div>
-                  <div class="counter"><h3>Counter</h3>1000</div>
-                </div>
-                <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
-                </div>
-                <div class="feature"><h3>Type</h3>Land of Wano</div>
-                <div class="text"><h3>Effect</h3>-</div>
-                <div class="trigger"><h3>Trigger</h3>[Trigger] Rest up to 1 of your opponent's Characters with a cost of 2 or less and add this card to your hand.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
-              </div>
-            </dd>
-          </dl>
-          
-                      
-                      
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-003.png?250509" alt="Ulti"></a>
-
-                    
-          <dl class="modalCol" id="ST09-003">
-            <dt>
-              <button class="scrollBtn">ボタン</button>
-              <div class="infoCol">
-                <span>ST09-003</span> | <span>C</span> | <span>CHARACTER</span>
-              </div>
-              <div class="cardName">Ulti</div>
-            </dt>
-            <dd>
-              <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-003.png?250509" alt="Ulti">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
-              </div>
-              <div class="backCol">
-                <div class="col2">
-                  <div class="cost"><h3>Cost</h3>4</div>
-                  <div class="attribute">
-                    <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
-                  </div>
-                </div>
-                <div class="col2">
-                  <div class="power"><h3>Power</h3>6000</div>
-                  <div class="counter"><h3>Counter</h3>1000</div>
-                </div>
-                <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
-                </div>
-                <div class="feature"><h3>Type</h3>Animal Kingdom Pirates</div>
-                <div class="text"><h3>Effect</h3>-</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
-              </div>
-            </dd>
-          </dl>
-          
-                      
-                      
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-004.png?250509" alt="Kaido"></a>
-
-                    
-          <dl class="modalCol" id="ST09-004">
-            <dt>
-              <button class="scrollBtn">ボタン</button>
-              <div class="infoCol">
-                <span>ST09-004</span> | <span>C</span> | <span>CHARACTER</span>
-              </div>
-              <div class="cardName">Kaido</div>
-            </dt>
-            <dd>
-              <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-004.png?250509" alt="Kaido">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
-              </div>
-              <div class="backCol">
-                <div class="col2">
-                  <div class="cost"><h3>Cost</h3>4</div>
-                  <div class="attribute">
-                    <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
-                  </div>
-                </div>
-                <div class="col2">
-                  <div class="power"><h3>Power</h3>5000</div>
-                  <div class="counter"><h3>Counter</h3>1000</div>
-                </div>
-                <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
-                </div>
-                <div class="feature"><h3>Type</h3>The Four Emperors/Animal Kingdom Pirates</div>
-                <div class="text"><h3>Effect</h3>[DON!! x1] If you have 2 or less Life cards, this Character cannot be K.O.'d in battle.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
-              </div>
-            </dd>
-          </dl>
-          
-                      
-                      
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-005.png?250509" alt="Kouzuki Oden"></a>
-
-                    
-          <dl class="modalCol" id="ST09-005">
-            <dt>
-              <button class="scrollBtn">ボタン</button>
-              <div class="infoCol">
-                <span>ST09-005</span> | <span>SR</span> | <span>CHARACTER</span>
-              </div>
-              <div class="cardName">Kouzuki Oden</div>
-            </dt>
-            <dd>
-              <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-005.png?250509" alt="Kouzuki Oden">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
-              </div>
-              <div class="backCol">
-                <div class="col2">
-                  <div class="cost"><h3>Cost</h3>7</div>
-                  <div class="attribute">
-                    <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i>
-                  </div>
-                </div>
-                <div class="col2">
-                  <div class="power"><h3>Power</h3>7000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
                 <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
                 </div>
-                <div class="feature"><h3>Type</h3>Land of Wano/Kouzuki Clan</div>
-                <div class="text"><h3>Effect</h3>[DON!! x1] This Character gains [Double Attack].<br>(This card deals 2 damage.)<br>[On K.O.] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
+                <div class="feature"><h3>Type</h3>The Four Emperors/Red-Haired Pirates</div>
+                <div class="text"><h3>Effect</h3>[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>
@@ -672,104 +504,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-006"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-006.png?250509" alt="Kouzuki Momonosuke"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP09-006_r1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-006_r1.png?250509" alt="Howling Gab"></a>
 
                     
-          <dl class="modalCol" id="ST09-006">
+          <dl class="modalCol" id="OP09-006_r1">
             <dt>
               <button class="scrollBtn">ボタン</button>
               <div class="infoCol">
-                <span>ST09-006</span> | <span>C</span> | <span>CHARACTER</span>
+                <span>OP09-006</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
-              <div class="cardName">Kouzuki Momonosuke</div>
+              <div class="cardName">Howling Gab</div>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-006.png?250509" alt="Kouzuki Momonosuke">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
-              </div>
-              <div class="backCol">
-                <div class="col2">
-                  <div class="cost"><h3>Cost</h3>2</div>
-                  <div class="attribute">
-                    <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
-                  </div>
-                </div>
-                <div class="col2">
-                  <div class="power"><h3>Power</h3>4000</div>
-                  <div class="counter"><h3>Counter</h3>1000</div>
-                </div>
-                <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
-                </div>
-                <div class="feature"><h3>Type</h3>Land of Wano/Kouzuki Clan</div>
-                <div class="text"><h3>Effect</h3>-</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
-              </div>
-            </dd>
-          </dl>
-          
-                      
-                      
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-007"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-007.png?250509" alt="Shinobu"></a>
-
-                    
-          <dl class="modalCol" id="ST09-007">
-            <dt>
-              <button class="scrollBtn">ボタン</button>
-              <div class="infoCol">
-                <span>ST09-007</span> | <span>C</span> | <span>CHARACTER</span>
-              </div>
-              <div class="cardName">Shinobu</div>
-            </dt>
-            <dd>
-              <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-007.png?250509" alt="Shinobu">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
-              </div>
-              <div class="backCol">
-                <div class="col2">
-                  <div class="cost"><h3>Cost</h3>3</div>
-                  <div class="attribute">
-                    <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
-                  </div>
-                </div>
-                <div class="col2">
-                  <div class="power"><h3>Power</h3>2000</div>
-                  <div class="counter"><h3>Counter</h3>-</div>
-                </div>
-                <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
-                </div>
-                <div class="feature"><h3>Type</h3>Land of Wano</div>
-                <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On Block] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +4000 power during this battle.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
-              </div>
-            </dd>
-          </dl>
-          
-                      
-                      
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-008"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-008.png?250509" alt="Shimotsuki Ushimaru"></a>
-
-                    
-          <dl class="modalCol" id="ST09-008">
-            <dt>
-              <button class="scrollBtn">ボタン</button>
-              <div class="infoCol">
-                <span>ST09-008</span> | <span>C</span> | <span>CHARACTER</span>
-              </div>
-              <div class="cardName">Shimotsuki Ushimaru</div>
-            </dt>
-            <dd>
-              <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-008.png?250509" alt="Shimotsuki Ushimaru">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-006_r1.png?250509" alt="Howling Gab">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -777,104 +525,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="cost"><h3>Cost</h3>5</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i>
-                  </div>
-                </div>
-                <div class="col2">
-                  <div class="power"><h3>Power</h3>6000</div>
-                  <div class="counter"><h3>Counter</h3>-</div>
-                </div>
-                <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
-                </div>
-                <div class="feature"><h3>Type</h3>Land of Wano</div>
-                <div class="text"><h3>Effect</h3>[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 yellow {Land of Wano} type Character card with a cost of 4 or less from your hand.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
-              </div>
-            </dd>
-          </dl>
-          
-                      
-                      
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-009"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-009.png?250509" alt="Fugetsu Omusubi"></a>
-
-                    
-          <dl class="modalCol" id="ST09-009">
-            <dt>
-              <button class="scrollBtn">ボタン</button>
-              <div class="infoCol">
-                <span>ST09-009</span> | <span>C</span> | <span>CHARACTER</span>
-              </div>
-              <div class="cardName">Fugetsu Omusubi</div>
-            </dt>
-            <dd>
-              <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-009.png?250509" alt="Fugetsu Omusubi">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
-              </div>
-              <div class="backCol">
-                <div class="col2">
-                  <div class="cost"><h3>Cost</h3>3</div>
-                  <div class="attribute">
-                    <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i>
-                  </div>
-                </div>
-                <div class="col2">
-                  <div class="power"><h3>Power</h3>4000</div>
-                  <div class="counter"><h3>Counter</h3>1000</div>
-                </div>
-                <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
-                </div>
-                <div class="feature"><h3>Type</h3>Land of Wano</div>
-                <div class="text"><h3>Effect</h3>-</div>
-                <div class="trigger"><h3>Trigger</h3>[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 1 or less and add this card to your hand.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
-              </div>
-            </dd>
-          </dl>
-          
-                      
-                      
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-010"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-010.png?250509" alt="Portgas.D.Ace"></a>
-
-                    
-          <dl class="modalCol" id="ST09-010">
-            <dt>
-              <button class="scrollBtn">ボタン</button>
-              <div class="infoCol">
-                <span>ST09-010</span> | <span>SR</span> | <span>CHARACTER</span>
-              </div>
-              <div class="cardName">Portgas.D.Ace</div>
-            </dt>
-            <dd>
-              <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-010.png?250509" alt="Portgas.D.Ace">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
-              </div>
-              <div class="backCol">
-                <div class="col2">
-                  <div class="cost"><h3>Cost</h3>6</div>
-                  <div class="attribute">
-                    <h3>Attribute</h3>
                     <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
                   </div>
                 </div>
                 <div class="col2">
                   <div class="power"><h3>Power</h3>7000</div>
-                  <div class="counter"><h3>Counter</h3>-</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
                 <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
                 </div>
-                <div class="feature"><h3>Type</h3>Land of Wano/Whitebeard Pirates</div>
-                <div class="text"><h3>Effect</h3>[Once Per Turn] If this Character would be K.O.'d, you may trash 1 card from the top or bottom of your Life cards instead.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
+                <div class="feature"><h3>Type</h3>Red-Haired Pirates</div>
+                <div class="text"><h3>Effect</h3>-</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>
@@ -882,25 +546,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-011"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-011.png?250509" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP09-010_r1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-010_r1.png?250509" alt="Bonk Punch"></a>
 
                     
-          <dl class="modalCol" id="ST09-011">
+          <dl class="modalCol" id="OP09-010_r1">
             <dt>
               <button class="scrollBtn">ボタン</button>
               <div class="infoCol">
-                <span>ST09-011</span> | <span>C</span> | <span>CHARACTER</span>
+                <span>OP09-010</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
-              <div class="cardName">Monkey.D.Luffy</div>
+              <div class="cardName">Bonk Punch</div>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-011.png?250509" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-010_r1.png?250509" alt="Bonk Punch">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
                 <div class="col2">
-                  <div class="cost"><h3>Cost</h3>3</div>
+                  <div class="cost"><h3>Cost</h3>4</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
                     <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
@@ -911,12 +575,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
                 <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
                 </div>
-                <div class="feature"><h3>Type</h3>Land of Wano/Straw Hat Crew</div>
-                <div class="text"><h3>Effect</h3>-</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
+                <div class="feature"><h3>Type</h3>Red-Haired Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] Play up to 1 [Monster] from your hand.<br>[DON!! x1] [When Attacking] This Character gains +2000 power during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>
@@ -924,20 +588,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-012"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-012.png?250509" alt="Yamato"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP09-011_r1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-011_r1.png?250509" alt="Hongo"></a>
 
                     
-          <dl class="modalCol" id="ST09-012">
+          <dl class="modalCol" id="OP09-011_r1">
             <dt>
               <button class="scrollBtn">ボタン</button>
               <div class="infoCol">
-                <span>ST09-012</span> | <span>C</span> | <span>CHARACTER</span>
+                <span>OP09-011</span> | <span>UC</span> | <span>CHARACTER</span>
               </div>
-              <div class="cardName">Yamato</div>
+              <div class="cardName">Hongo</div>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-012.png?250509" alt="Yamato">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-011_r1.png?250509" alt="Hongo">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -953,12 +617,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="counter"><h3>Counter</h3>2000</div>
                 </div>
                 <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
                 </div>
-                <div class="feature"><h3>Type</h3>Land of Wano</div>
-                <div class="text"><h3>Effect</h3>[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power until the start of your next turn.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
+                <div class="feature"><h3>Type</h3>Red-Haired Pirates</div>
+                <div class="text"><h3>Effect</h3>[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>
@@ -966,20 +630,62 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-013"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-013.png?250509" alt="Yamato"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP09-012_r1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-012_r1.png?250509" alt="Monster"></a>
 
                     
-          <dl class="modalCol" id="ST09-013">
+          <dl class="modalCol" id="OP09-012_r1">
             <dt>
               <button class="scrollBtn">ボタン</button>
               <div class="infoCol">
-                <span>ST09-013</span> | <span>C</span> | <span>CHARACTER</span>
+                <span>OP09-012</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
-              <div class="cardName">Yamato</div>
+              <div class="cardName">Monster</div>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-013.png?250509" alt="Yamato">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-012_r1.png?250509" alt="Monster">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>3</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>4000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Animal/Red-Haired Pirates</div>
+                <div class="text"><h3>Effect</h3>If your Character [Bonk Punch] would be K.O.'d by an effect, you may trash this Character instead.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP09-013_r1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-013_r1.png?250509" alt="Yasopp"></a>
+
+                    
+          <dl class="modalCol" id="OP09-013_r1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP09-013</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Yasopp</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-013_r1.png?250509" alt="Yasopp">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -987,20 +693,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="cost"><h3>Cost</h3>5</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
+                    <img src="/images/cardlist/attribute/ico_type04.png" alt="Ranged"><i>Ranged</i>
                   </div>
                 </div>
                 <div class="col2">
-                  <div class="power"><h3>Power</h3>7000</div>
+                  <div class="power"><h3>Power</h3>6000</div>
                   <div class="counter"><h3>Counter</h3>1000</div>
                 </div>
                 <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
                 </div>
-                <div class="feature"><h3>Type</h3>Land of Wano</div>
-                <div class="text"><h3>Effect</h3>-</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
+                <div class="feature"><h3>Type</h3>Red-Haired Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.<br>[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>
@@ -1008,20 +714,146 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-014"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-014.png?250509" alt="Narikabura Arrow"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP09-014_r1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-014_r1.png?250509" alt="Limejuice"></a>
 
                     
-          <dl class="modalCol" id="ST09-014">
+          <dl class="modalCol" id="OP09-014_r1">
             <dt>
               <button class="scrollBtn">ボタン</button>
               <div class="infoCol">
-                <span>ST09-014</span> | <span>C</span> | <span>EVENT</span>
+                <span>OP09-014</span> | <span>UC</span> | <span>CHARACTER</span>
               </div>
-              <div class="cardName">Narikabura Arrow</div>
+              <div class="cardName">Limejuice</div>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-014.png?250509" alt="Narikabura Arrow">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-014_r1.png?250509" alt="Limejuice">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>3</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>3000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Red-Haired Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] Your opponent cannot activate up to 1 [Blocker] Character that has 4000 power or less during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP09-015_r1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-015_r1.png?250509" alt="Lucky.Roux"></a>
+
+                    
+          <dl class="modalCol" id="OP09-015_r1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP09-015</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Lucky.Roux</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-015_r1.png?250509" alt="Lucky.Roux">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type04.png" alt="Ranged"><i>Ranged</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Red-Haired Pirates</div>
+                <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On K.O.] If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with a base power of 6000 or less.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP09-016_r1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-016_r1.png?250509" alt="Rockstar"></a>
+
+                    
+          <dl class="modalCol" id="OP09-016_r1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP09-016</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Rockstar</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-016_r1.png?250509" alt="Rockstar">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Red-Haired Pirates</div>
+                <div class="text"><h3>Effect</h3>-</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP09-020_r1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-020_r1.png?250509" alt="Come On!! We&#039;ll Fight You!!"></a>
+
+                    
+          <dl class="modalCol" id="OP09-020_r1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP09-020</span> | <span>R</span> | <span>EVENT</span>
+              </div>
+              <div class="cardName">Come On!! We&#039;ll Fight You!!</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-020_r1.png?250509" alt="Come On!! We&#039;ll Fight You!!">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1037,12 +869,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
                 <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
                 </div>
-                <div class="feature"><h3>Type</h3>Land of Wano</div>
-                <div class="text"><h3>Effect</h3>[Counter] If you have 2 or less Life cards, give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.</div>
-                <div class="trigger"><h3>Trigger</h3>[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
+                <div class="feature"><h3>Type</h3>The Four Emperors/Red-Haired Pirates</div>
+                <div class="text"><h3>Effect</h3>[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Draw 1 card.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>
@@ -1050,41 +882,209 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-015"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-015.png?250509" alt="Thunder Bagua"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST23-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST23-001.png?250509" alt="Uta"></a>
 
                     
-          <dl class="modalCol" id="ST09-015">
+          <dl class="modalCol" id="ST23-001">
             <dt>
               <button class="scrollBtn">ボタン</button>
               <div class="infoCol">
-                <span>ST09-015</span> | <span>C</span> | <span>EVENT</span>
+                <span>ST23-001</span> | <span>SR</span> | <span>CHARACTER</span>
               </div>
-              <div class="cardName">Thunder Bagua</div>
+              <div class="cardName">Uta</div>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-015.png?250509" alt="Thunder Bagua">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST23-001.png?250509" alt="Uta">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
                 <div class="col2">
-                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="cost"><h3>Cost</h3>6</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    -<i></i>
+                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
                   </div>
                 </div>
                 <div class="col2">
-                  <div class="power"><h3>Power</h3>-</div>
+                  <div class="power"><h3>Power</h3>4000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>FILM</div>
+                <div class="text"><h3>Effect</h3>If you have a Character with 10000 power or more, give this card in your hand −4 cost.<br>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST23-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST23-002.png?250509" alt="Shanks"></a>
+
+                    
+          <dl class="modalCol" id="ST23-002">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST23-002</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Shanks</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST23-002.png?250509" alt="Shanks">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>9</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>10000</div>
                   <div class="counter"><h3>Counter</h3>-</div>
                 </div>
                 <div class="col2">
-                <div class="color"><h3>Color</h3>Yellow</div>
-                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
                 </div>
-                <div class="feature"><h3>Type</h3>Land of Wano</div>
-                <div class="text"><h3>Effect</h3>[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of the owner's Life cards face-up.</div>
-                <div class="trigger"><h3>Trigger</h3>[Trigger] Draw 1 card.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-Yamato-[ST-09]</div>                
+                <div class="feature"><h3>Type</h3>The Four Emperors/Red-Haired Pirates</div>
+                <div class="text"><h3>Effect</h3>If your opponent has a Character with 8000 base power or more, give this card in your hand −3 cost.<br>[On Play] If your Leader has the {Red-Haired Pirates} type or is [Uta], your Leader gains +2000 power until the end of your opponent's next End Phase.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST23-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST23-003.png?250509" alt="Benn.Beckman"></a>
+
+                    
+          <dl class="modalCol" id="ST23-003">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST23-003</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Benn.Beckman</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST23-003.png?250509" alt="Benn.Beckman">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type04.png" alt="Ranged"><i>Ranged</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Red-Haired Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] You may trash 1 card from your hand: If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with 4000 base power or less.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST23-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST23-004.png?250509" alt="Monkey.D.Luffy"></a>
+
+                    
+          <dl class="modalCol" id="ST23-004">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST23-004</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Monkey.D.Luffy</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST23-004.png?250509" alt="Monkey.D.Luffy">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>2000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>FILM/Supernovas/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Activate: Main] You may rest 1 of your DON!! cards and this Character: Give up to 1 of your opponent's Characters −1000 power during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST23-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST23-005.png?250509" alt="Yasopp"></a>
+
+                    
+          <dl class="modalCol" id="ST23-005">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST23-005</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Yasopp</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST23-005.png?250509" alt="Yasopp">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type04.png" alt="Ranged"><i>Ranged</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>1000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Red-Haired Pirates</div>
+                <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>-RED Shanks- [ST-23]</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>
