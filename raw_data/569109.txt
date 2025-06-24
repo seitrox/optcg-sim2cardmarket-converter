@@ -2,13 +2,11 @@
 <!doctype html>
 <html lang="en">
 <head prefix="og: http://ogp.me/ns#">
-<!-- en.onepiece-cardgame.com に対する OneTrust Cookie 同意通知の始点 -->
 <script type="text/javascript" src="https://cdn-apac.onetrust.com/consent/6e249468-3ba0-441d-bb98-e0ed56cd64fa/OtAutoBlock.js" ></script>
 <script src="https://cdn-apac.onetrust.com/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="6e249468-3ba0-441d-bb98-e0ed56cd64fa" ></script>
 <script type="text/javascript">
 function OptanonWrapper() { }
 </script>
-<!-- en.onepiece-cardgame.com に対する OneTrust Cookie 同意通知の終点 -->
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -34,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="twitter:description" content="The official site for the popular trading card game based on anime and manga series ONE PIECE. Find the latest news, products, events, rules, and videos for the game.">
   <meta name="twitter:image" content="https://en.onepiece-cardgame.com/ogp.png?0307">
   <meta name="theme-color" content="#fff">
-  <meta http-equiv="content-security-policy" content="script-src 'self' 'unsafe-inline' https://cdn.knowledge-llm.bnx-channel.app https://cdn-apac.onetrust.com/ https://www.google-analytics.com/ https://www.googletagmanager.com/ https://static.ads-twitter.com/ https://googleads.g.doubleclick.net/ https://develop.cdn.knowledge-llm.bnx-channel.app/ https://connect.facebook.net/ https://www.youtube.com/ ; style-src 'self' 'unsafe-inline' http://fonts.googleapis.com/ https://ton.twimg.com/ https://platform.twitter.com/ ; img-src 'self' https://en.onepiece-cardgame.com/ https://cdn-apac.onetrust.com/ https://t.co https://analytics.twitter.com/ https://www.google.co.jp/ https://www.google.com/ https://storage.googleapis.com/ https://www.googletagmanager.com/ https://www.facebook.com/ ;">
+  <meta http-equiv="content-security-policy" content="script-src 'self' 'unsafe-inline' *.hellouniweb.com https://appimg.chatplus.jp/ https://app.chatplus.jp/ https://cdn.knowledge-llm.bnx-channel.app https://cdn-apac.onetrust.com/ https://www.google-analytics.com/ https://www.googletagmanager.com/ https://static.ads-twitter.com/ https://googleads.g.doubleclick.net/ https://develop.cdn.knowledge-llm.bnx-channel.app/ https://connect.facebook.net/ https://www.youtube.com/ ; style-src 'self' 'unsafe-inline' https://app.chatplus.jp/ https://appimg.chatplus.jp/ https://www.googletagmanager.com/ http://fonts.googleapis.com/ https://ton.twimg.com/ https://platform.twitter.com/ ; img-src 'self' *.hellouniweb.com https://www.google.com.hk/ https://fonts.gstatic.com/ https://en.onepiece-cardgame.com/ https://cdn-apac.onetrust.com/ https://t.co https://analytics.twitter.com/ https://www.google.co.jp/ https://www.google.com/ https://storage.googleapis.com/ https://www.googletagmanager.com/ https://www.facebook.com/ ;">
   <link rel="shortcut icon" type="image/png" href="https://en.onepiece-cardgame.com/favicon.ico">
   <link rel="apple-touch-icon" href="https://en.onepiece-cardgame.com/webclip.png">
   <link href="https://en.onepiece-cardgame.com/favicon.ico" rel="shortcut icon">
