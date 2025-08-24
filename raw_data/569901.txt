@@ -334,6 +334,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <option value="569025" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-BLUE Buggy- [ST-25]</option>
                   <option value="569024" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-GREEN Jewelry Bonney- [ST-24]</option>
                   <option value="569023" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-RED Shanks- [ST-23]</option>
+                  <option value="569022" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Ace &amp; Newgate- [ST-22]</option>
                   <option value="569021" >STARTER DECK EX &lt;br class=&quot;spInline&quot;&gt;-GEAR5- [ST-21]</option>
                   <option value="569020" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Yellow Charlotte Katakuri- [ST-20]</option>
                   <option value="569019" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Black Smoker- [ST-19]</option>
@@ -448,7 +449,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="pageDetailCol">
           <div>
             <a href="javascript:void(0);" onclick="cardSerchReset();" class="reset">&#x00D7; Clear</a>
-            <div class="countCol">288 results</div>
+            <div class="countCol">289 results</div>
           </div>
 
           <div class="spnavi" id="view">
@@ -3104,6 +3105,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="feature"><h3>Type</h3>Land of Wano</div>
                 <div class="text"><h3>Effect</h3>[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Straw Hat Crew}, {Kid Pirates}, or {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] Activate this card's [Main] effect.</div>                <div class="getInfo"><h3>Card Set(s)</h3>Pirates League Store Qualifier</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP05-076_p4"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP05-076_p4.png?250820" alt="When You&#039;re at Sea You Fight against Pirates!!"></a>
+
+                    
+          <dl class="modalCol" id="OP05-076_p4">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP05-076</span> | <span>R</span> | <span>EVENT</span>
+              </div>
+              <div class="cardName">When You&#039;re at Sea You Fight against Pirates!!</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP05-076_p4.png?250820" alt="When You&#039;re at Sea You Fight against Pirates!!">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    -<i></i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>-</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Purple</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Land of Wano</div>
+                <div class="text"><h3>Effect</h3>[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Straw Hat Crew}, {Kid Pirates}, or {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Activate this card's [Main] effect.</div>                <div class="getInfo"><h3>Card Set(s)</h3>Pirates League Three Captains Battle &amp; Support Crew Battle</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>

@@ -334,6 +334,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <option value="569025" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-BLUE Buggy- [ST-25]</option>
                   <option value="569024" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-GREEN Jewelry Bonney- [ST-24]</option>
                   <option value="569023" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-RED Shanks- [ST-23]</option>
+                  <option value="569022" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Ace &amp; Newgate- [ST-22]</option>
                   <option value="569021" >STARTER DECK EX &lt;br class=&quot;spInline&quot;&gt;-GEAR5- [ST-21]</option>
                   <option value="569020" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Yellow Charlotte Katakuri- [ST-20]</option>
                   <option value="569019" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Black Smoker- [ST-19]</option>
@@ -834,7 +835,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
                 </div>
                 <div class="feature"><h3>Type</h3>Buggy Pirates</div>
-                <div class="text"><h3>Effect</h3>This Character cannot be K.O.'d in battle by <Slash> attribute cards.<br>[On Play] Look at 5 cards from the top of your deck; reveal up to 1 red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>
+                <div class="text"><h3>Effect</h3>This Character cannot be K.O.'d in battle by &lt;Slash&gt; attribute cards.<br>[On Play] Look at 5 cards from the top of your deck; reveal up to 1 red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>-PILLARS OF STRENGTH- [OP03]</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>

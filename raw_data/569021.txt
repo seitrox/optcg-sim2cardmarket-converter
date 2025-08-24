@@ -334,6 +334,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <option value="569025" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-BLUE Buggy- [ST-25]</option>
                   <option value="569024" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-GREEN Jewelry Bonney- [ST-24]</option>
                   <option value="569023" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-RED Shanks- [ST-23]</option>
+                  <option value="569022" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Ace &amp; Newgate- [ST-22]</option>
                   <option value="569021" selected>STARTER DECK EX &lt;br class=&quot;spInline&quot;&gt;-GEAR5- [ST-21]</option>
                   <option value="569020" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Yellow Charlotte Katakuri- [ST-20]</option>
                   <option value="569019" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Black Smoker- [ST-19]</option>
