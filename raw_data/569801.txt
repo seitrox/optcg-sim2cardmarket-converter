@@ -20,16 +20,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
   <meta name="format-detection" content="telephone=no">
   <meta name="Keywords" content="ONE PIECE,Luffy,Zolo,Nami,Usopp,Sanji,Chopper,Robin,Franky,Brook,Jimbei,Shanks,CARD GAME,Straw hat,Bandai,Eiichiro Oda,Oda-sensei,TCG">
-  <meta name="Description" content="The official site for the popular trading card game based on anime and manga series ONE PIECE. Find the latest news, products, events, rules, and videos for the game.">
+  <meta name="Description" content="The official ONE PIECE Card Game website. Find out about the latest cards, products, events, rules, FAQ and more! Set sail for the new era of card games!">
   <meta property="og:type" content="article">
   <meta property="og:title" content="CARD LIST｜ONE PIECE CARD GAME - Official Web Site">
   <meta property="og:image" content="https://en.onepiece-cardgame.com/ogp.png?0307">
   <meta property="og:url" content="https://en.onepiece-cardgame.com/cardlist/">
   <meta property="og:site_name" content="ONE PIECE CARD GAME - Official Web Site">
-  <meta property="og:description" content="The official site for the popular trading card game based on anime and manga series ONE PIECE. Find the latest news, products, events, rules, and videos for the game.">
+  <meta property="og:description" content="The official ONE PIECE Card Game website. Find out about the latest cards, products, events, rules, FAQ and more! Set sail for the new era of card games!">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="CARD LIST｜ONE PIECE CARD GAME - Official Web Site">
-  <meta name="twitter:description" content="The official site for the popular trading card game based on anime and manga series ONE PIECE. Find the latest news, products, events, rules, and videos for the game.">
+  <meta name="twitter:description" content="The official ONE PIECE Card Game website. Find out about the latest cards, products, events, rules, FAQ and more! Set sail for the new era of card games!">
   <meta name="twitter:image" content="https://en.onepiece-cardgame.com/ogp.png?0307">
   <meta name="theme-color" content="#fff">
   <meta http-equiv="content-security-policy" content="script-src 'self' 'unsafe-inline' *.hellouniweb.com https://appimg.chatplus.jp/ https://app.chatplus.jp/ https://cdn.knowledge-llm.bnx-channel.app https://cdn-apac.onetrust.com/ https://www.google-analytics.com/ https://www.googletagmanager.com/ https://static.ads-twitter.com/ https://googleads.g.doubleclick.net/ https://develop.cdn.knowledge-llm.bnx-channel.app/ https://connect.facebook.net/ https://www.youtube.com/ ; style-src 'self' 'unsafe-inline' https://app.chatplus.jp/ https://appimg.chatplus.jp/ https://www.googletagmanager.com/ http://fonts.googleapis.com/ https://ton.twimg.com/ https://platform.twitter.com/ ; img-src 'self' *.hellouniweb.com https://www.google.com.hk/ https://fonts.gstatic.com/ https://en.onepiece-cardgame.com/ https://cdn-apac.onetrust.com/ https://t.co https://analytics.twitter.com/ https://www.google.co.jp/ https://www.google.com/ https://storage.googleapis.com/ https://www.googletagmanager.com/ https://www.facebook.com/ ;">
@@ -142,21 +142,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="alternate" hreflang="en-gr" href="https://en.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="en-pt" href="https://en.onepiece-cardgame.com/">
   <link rel="stylesheet" href="/css/lib/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="/css/layout.css?250912">
+  <link rel="stylesheet" href="/css/layout.css?250925">
   <script src="/js/lib/jquery.min.js?v=3.6.0"></script>
   <script src="/js/lib/jquery.easing.1.4.min.js"></script>
   <script src="/js/lib/jquery.fancybox.min.js"></script>
   <script src="/js/lib/lazyload.min.js"></script>
-  <script src="/js/common.js?250912"></script>
-  <link rel="stylesheet" href="/css/layout_en.css?250912">
-  <script src="/js/common_en.js?250912"></script>
-  <link rel="stylesheet" href="/css/cardlist.css?250912">
-  <script src="/js/cardlist.js?250912"></script>
-  <link rel="stylesheet" href="/css/cardlist_en.css?2509124">
-  <script src="/js/cardlist_en.js?2509124"></script>
+  <script src="/js/common.js?250925"></script>
+  <link rel="stylesheet" href="/css/layout_en.css?250925">
+  <script src="/js/common_en.js?250925"></script>
+  <link rel="stylesheet" href="/css/cardlist.css?250925">
+  <script src="/js/cardlist.js?250925"></script>
+  <link rel="stylesheet" href="/css/cardlist_en.css?2509254">
+  <script src="/js/cardlist_en.js?2509254"></script>
   <link rel="stylesheet" href="../css/lib/jquery.selmodal.css">
-  <script src="../js/modal.js?250912"></script>
-  <script src="../js/pager.js?250912"></script>
+  <script src="../js/modal.js?250925"></script>
+  <script src="../js/pager.js?250925"></script>
   <script src="../js/lib/jquery.selmodal.js"></script>
   <script>
     function Post(obj) {
@@ -468,7 +468,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
         <div class="resultCol">
                   
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-001_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-001_p2.png?250912" alt="Roronoa Zoro"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-001_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-001_p2.png?250925" alt="Roronoa Zoro"></a>
 
                     
           <dl class="modalCol" id="OP01-001_p2">
@@ -481,7 +481,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-001_p2.png?250912" alt="Roronoa Zoro">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-001_p2.png?250925" alt="Roronoa Zoro">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -510,7 +510,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-004_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-004_p1.png?250912" alt="Usopp"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-004_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-004_p1.png?250925" alt="Usopp"></a>
 
                     
           <dl class="modalCol" id="OP01-004_p1">
@@ -523,7 +523,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-004_p1.png?250912" alt="Usopp">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-004_p1.png?250925" alt="Usopp">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -552,7 +552,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-005_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-005_p1.png?250912" alt="Uta"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-005_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-005_p1.png?250925" alt="Uta"></a>
 
                     
           <dl class="modalCol" id="OP01-005_p1">
@@ -565,7 +565,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-005_p1.png?250912" alt="Uta">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-005_p1.png?250925" alt="Uta">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -594,7 +594,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-005_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-005_p2.png?250912" alt="Uta"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-005_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-005_p2.png?250925" alt="Uta"></a>
 
                     
           <dl class="modalCol" id="OP01-005_p2">
@@ -607,7 +607,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-005_p2.png?250912" alt="Uta">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-005_p2.png?250925" alt="Uta">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -636,7 +636,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-006_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-006_p1.png?250912" alt="Otama"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-006_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-006_p1.png?250925" alt="Otama"></a>
 
                     
           <dl class="modalCol" id="OP01-006_p1">
@@ -649,7 +649,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-006_p1.png?250912" alt="Otama">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-006_p1.png?250925" alt="Otama">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -678,7 +678,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-013_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-013_p2.png?250912" alt="Sanji"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-013_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-013_p2.png?250925" alt="Sanji"></a>
 
                     
           <dl class="modalCol" id="OP01-013_p2">
@@ -691,7 +691,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-013_p2.png?250912" alt="Sanji">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-013_p2.png?250925" alt="Sanji">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -720,7 +720,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-013_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-013_p3.png?250912" alt="Sanji"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-013_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-013_p3.png?250925" alt="Sanji"></a>
 
                     
           <dl class="modalCol" id="OP01-013_p3">
@@ -733,7 +733,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-013_p3.png?250912" alt="Sanji">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-013_p3.png?250925" alt="Sanji">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -762,7 +762,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-013_p4"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-013_p4.png?250912" alt="Sanji"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-013_p4"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-013_p4.png?250925" alt="Sanji"></a>
 
                     
           <dl class="modalCol" id="OP01-013_p4">
@@ -775,7 +775,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-013_p4.png?250912" alt="Sanji">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-013_p4.png?250925" alt="Sanji">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -804,7 +804,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-014_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-014_p1.png?250912" alt="Jinbe"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-014_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-014_p1.png?250925" alt="Jinbe"></a>
 
                     
           <dl class="modalCol" id="OP01-014_p1">
@@ -817,7 +817,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-014_p1.png?250912" alt="Jinbe">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-014_p1.png?250925" alt="Jinbe">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -846,7 +846,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-016_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p2.png?250912" alt="Nami"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-016_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p2.png?250925" alt="Nami"></a>
 
                     
           <dl class="modalCol" id="OP01-016_p2">
@@ -859,7 +859,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p2.png?250912" alt="Nami">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p2.png?250925" alt="Nami">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -888,7 +888,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-016_p5"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p5.png?250912" alt="Nami"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-016_p5"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p5.png?250925" alt="Nami"></a>
 
                     
           <dl class="modalCol" id="OP01-016_p5">
@@ -901,7 +901,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p5.png?250912" alt="Nami">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p5.png?250925" alt="Nami">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -930,7 +930,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-016_p7"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p7.png?250912" alt="Nami"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-016_p7"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p7.png?250925" alt="Nami"></a>
 
                     
           <dl class="modalCol" id="OP01-016_p7">
@@ -943,7 +943,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p7.png?250912" alt="Nami">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p7.png?250925" alt="Nami">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -972,7 +972,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-017_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-017_p1.png?250912" alt="Nico Robin"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-017_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-017_p1.png?250925" alt="Nico Robin"></a>
 
                     
           <dl class="modalCol" id="OP01-017_p1">
@@ -985,7 +985,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-017_p1.png?250912" alt="Nico Robin">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-017_p1.png?250925" alt="Nico Robin">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1014,7 +1014,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-017_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-017_p2.png?250912" alt="Nico Robin"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-017_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-017_p2.png?250925" alt="Nico Robin"></a>
 
                     
           <dl class="modalCol" id="OP01-017_p2">
@@ -1027,7 +1027,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-017_p2.png?250912" alt="Nico Robin">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-017_p2.png?250925" alt="Nico Robin">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1056,7 +1056,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-021_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-021_p1.png?250912" alt="Franky"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-021_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-021_p1.png?250925" alt="Franky"></a>
 
                     
           <dl class="modalCol" id="OP01-021_p1">
@@ -1069,7 +1069,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-021_p1.png?250912" alt="Franky">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-021_p1.png?250925" alt="Franky">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1098,7 +1098,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-021_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-021_p3.png?250912" alt="Franky"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-021_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-021_p3.png?250925" alt="Franky"></a>
 
                     
           <dl class="modalCol" id="OP01-021_p3">
@@ -1111,7 +1111,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-021_p3.png?250912" alt="Franky">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-021_p3.png?250925" alt="Franky">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1140,7 +1140,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-022_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-022_p1.png?250912" alt="Brook"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-022_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-022_p1.png?250925" alt="Brook"></a>
 
                     
           <dl class="modalCol" id="OP01-022_p1">
@@ -1153,7 +1153,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-022_p1.png?250912" alt="Brook">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-022_p1.png?250925" alt="Brook">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1182,7 +1182,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-025_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-025_p3.png?250912" alt="Roronoa Zoro"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-025_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-025_p3.png?250925" alt="Roronoa Zoro"></a>
 
                     
           <dl class="modalCol" id="OP01-025_p3">
@@ -1195,7 +1195,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-025_p3.png?250912" alt="Roronoa Zoro">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-025_p3.png?250925" alt="Roronoa Zoro">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1224,7 +1224,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP02-015_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP02-015_p1.png?250912" alt="Makino"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP02-015_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP02-015_p1.png?250925" alt="Makino"></a>
 
                     
           <dl class="modalCol" id="OP02-015_p1">
@@ -1237,7 +1237,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP02-015_p1.png?250912" alt="Makino">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP02-015_p1.png?250925" alt="Makino">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1266,7 +1266,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP02-059_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP02-059_p2.png?250912" alt="Boa Hancock"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP02-059_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP02-059_p2.png?250925" alt="Boa Hancock"></a>
 
                     
           <dl class="modalCol" id="OP02-059_p2">
@@ -1279,7 +1279,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP02-059_p2.png?250912" alt="Boa Hancock">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP02-059_p2.png?250925" alt="Boa Hancock">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1308,7 +1308,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP03-001_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP03-001_p2.png?250912" alt="Portgas.D.Ace"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP03-001_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP03-001_p2.png?250925" alt="Portgas.D.Ace"></a>
 
                     
           <dl class="modalCol" id="OP03-001_p2">
@@ -1321,7 +1321,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP03-001_p2.png?250912" alt="Portgas.D.Ace">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP03-001_p2.png?250925" alt="Portgas.D.Ace">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1350,7 +1350,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP03-013_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP03-013_p2.png?250912" alt="Marco"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP03-013_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP03-013_p2.png?250925" alt="Marco"></a>
 
                     
           <dl class="modalCol" id="OP03-013_p2">
@@ -1363,7 +1363,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP03-013_p2.png?250912" alt="Marco">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP03-013_p2.png?250925" alt="Marco">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1392,7 +1392,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#OP07-091_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP07-091_p1.png?250912" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP07-091_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP07-091_p1.png?250925" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="OP07-091_p1">
@@ -1405,7 +1405,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP07-091_p1.png?250912" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP07-091_p1.png?250925" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1434,7 +1434,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#P-001_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-001_p3.png?250912" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-001_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-001_p3.png?250925" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="P-001_p3">
@@ -1447,7 +1447,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-001_p3.png?250912" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-001_p3.png?250925" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1476,7 +1476,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#P-001_p4"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-001_p4.png?250912" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-001_p4"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-001_p4.png?250925" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="P-001_p4">
@@ -1489,7 +1489,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-001_p4.png?250912" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-001_p4.png?250925" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1518,7 +1518,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#P-016_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-016_p1.png?250912" alt="Shanks"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-016_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-016_p1.png?250925" alt="Shanks"></a>
 
                     
           <dl class="modalCol" id="P-016_p1">
@@ -1531,7 +1531,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-016_p1.png?250912" alt="Shanks">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-016_p1.png?250925" alt="Shanks">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1560,7 +1560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#P-022_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-022_p1.png?250912" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-022_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-022_p1.png?250925" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="P-022_p1">
@@ -1573,7 +1573,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-022_p1.png?250912" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-022_p1.png?250925" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1602,7 +1602,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#P-028_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-028_p1.png?250912" alt="Portgas.D.Ace"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-028_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-028_p1.png?250925" alt="Portgas.D.Ace"></a>
 
                     
           <dl class="modalCol" id="P-028_p1">
@@ -1615,7 +1615,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-028_p1.png?250912" alt="Portgas.D.Ace">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-028_p1.png?250925" alt="Portgas.D.Ace">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1644,7 +1644,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-002_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-002_p1.png?250912" alt="Usopp"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-002_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-002_p1.png?250925" alt="Usopp"></a>
 
                     
           <dl class="modalCol" id="ST01-002_p1">
@@ -1657,7 +1657,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-002_p1.png?250912" alt="Usopp">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-002_p1.png?250925" alt="Usopp">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1686,7 +1686,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-002_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-002_p2.png?250912" alt="Usopp"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-002_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-002_p2.png?250925" alt="Usopp"></a>
 
                     
           <dl class="modalCol" id="ST01-002_p2">
@@ -1699,7 +1699,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-002_p2.png?250912" alt="Usopp">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-002_p2.png?250925" alt="Usopp">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1728,7 +1728,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-004_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-004_p2.png?250912" alt="Sanji"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-004_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-004_p2.png?250925" alt="Sanji"></a>
 
                     
           <dl class="modalCol" id="ST01-004_p2">
@@ -1741,7 +1741,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-004_p2.png?250912" alt="Sanji">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-004_p2.png?250925" alt="Sanji">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1770,7 +1770,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-005_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-005_p1.png?250912" alt="Jinbe"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-005_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-005_p1.png?250925" alt="Jinbe"></a>
 
                     
           <dl class="modalCol" id="ST01-005_p1">
@@ -1783,7 +1783,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-005_p1.png?250912" alt="Jinbe">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-005_p1.png?250925" alt="Jinbe">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1812,7 +1812,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-005_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-005_p2.png?250912" alt="Jinbe"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-005_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-005_p2.png?250925" alt="Jinbe"></a>
 
                     
           <dl class="modalCol" id="ST01-005_p2">
@@ -1825,7 +1825,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-005_p2.png?250912" alt="Jinbe">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-005_p2.png?250925" alt="Jinbe">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1854,7 +1854,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-006_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p1.png?250912" alt="Tony Tony.Chopper"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-006_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p1.png?250925" alt="Tony Tony.Chopper"></a>
 
                     
           <dl class="modalCol" id="ST01-006_p1">
@@ -1867,7 +1867,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p1.png?250912" alt="Tony Tony.Chopper">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p1.png?250925" alt="Tony Tony.Chopper">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1896,7 +1896,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-006_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p2.png?250912" alt="Tony Tony.Chopper"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-006_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p2.png?250925" alt="Tony Tony.Chopper"></a>
 
                     
           <dl class="modalCol" id="ST01-006_p2">
@@ -1909,7 +1909,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p2.png?250912" alt="Tony Tony.Chopper">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p2.png?250925" alt="Tony Tony.Chopper">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1938,7 +1938,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-006_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p3.png?250912" alt="Tony Tony.Chopper"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-006_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p3.png?250925" alt="Tony Tony.Chopper"></a>
 
                     
           <dl class="modalCol" id="ST01-006_p3">
@@ -1951,7 +1951,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p3.png?250912" alt="Tony Tony.Chopper">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p3.png?250925" alt="Tony Tony.Chopper">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1980,7 +1980,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-006_p4"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p4.png?250912" alt="Tony Tony.Chopper"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-006_p4"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p4.png?250925" alt="Tony Tony.Chopper"></a>
 
                     
           <dl class="modalCol" id="ST01-006_p4">
@@ -1993,7 +1993,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p4.png?250912" alt="Tony Tony.Chopper">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-006_p4.png?250925" alt="Tony Tony.Chopper">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2022,7 +2022,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-007_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-007_p1.png?250912" alt="Nami"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-007_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-007_p1.png?250925" alt="Nami"></a>
 
                     
           <dl class="modalCol" id="ST01-007_p1">
@@ -2035,7 +2035,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-007_p1.png?250912" alt="Nami">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-007_p1.png?250925" alt="Nami">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2064,7 +2064,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-008_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-008_p1.png?250912" alt="Nico Robin"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-008_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-008_p1.png?250925" alt="Nico Robin"></a>
 
                     
           <dl class="modalCol" id="ST01-008_p1">
@@ -2077,7 +2077,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-008_p1.png?250912" alt="Nico Robin">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-008_p1.png?250925" alt="Nico Robin">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2106,7 +2106,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-008_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-008_p2.png?250912" alt="Nico Robin"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-008_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-008_p2.png?250925" alt="Nico Robin"></a>
 
                     
           <dl class="modalCol" id="ST01-008_p2">
@@ -2119,7 +2119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-008_p2.png?250912" alt="Nico Robin">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-008_p2.png?250925" alt="Nico Robin">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2148,7 +2148,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-010_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-010_p1.png?250912" alt="Franky"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-010_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-010_p1.png?250925" alt="Franky"></a>
 
                     
           <dl class="modalCol" id="ST01-010_p1">
@@ -2161,7 +2161,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-010_p1.png?250912" alt="Franky">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-010_p1.png?250925" alt="Franky">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2190,7 +2190,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-010_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-010_p2.png?250912" alt="Franky"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-010_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-010_p2.png?250925" alt="Franky"></a>
 
                     
           <dl class="modalCol" id="ST01-010_p2">
@@ -2203,7 +2203,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-010_p2.png?250912" alt="Franky">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-010_p2.png?250925" alt="Franky">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2232,7 +2232,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-011_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-011_p1.png?250912" alt="Brook"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-011_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-011_p1.png?250925" alt="Brook"></a>
 
                     
           <dl class="modalCol" id="ST01-011_p1">
@@ -2245,7 +2245,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-011_p1.png?250912" alt="Brook">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-011_p1.png?250925" alt="Brook">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2274,7 +2274,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-011_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-011_p3.png?250912" alt="Brook"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-011_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-011_p3.png?250925" alt="Brook"></a>
 
                     
           <dl class="modalCol" id="ST01-011_p3">
@@ -2287,7 +2287,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-011_p3.png?250912" alt="Brook">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-011_p3.png?250925" alt="Brook">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2316,7 +2316,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-013_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-013_p1.png?250912" alt="Roronoa Zoro"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-013_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-013_p1.png?250925" alt="Roronoa Zoro"></a>
 
                     
           <dl class="modalCol" id="ST01-013_p1">
@@ -2329,7 +2329,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-013_p1.png?250912" alt="Roronoa Zoro">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-013_p1.png?250925" alt="Roronoa Zoro">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2358,7 +2358,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-013_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-013_p2.png?250912" alt="Roronoa Zoro"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-013_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-013_p2.png?250925" alt="Roronoa Zoro"></a>
 
                     
           <dl class="modalCol" id="ST01-013_p2">
@@ -2371,7 +2371,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-013_p2.png?250912" alt="Roronoa Zoro">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-013_p2.png?250925" alt="Roronoa Zoro">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2400,7 +2400,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST03-008_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST03-008_p1.png?250912" alt="Trafalgar Law"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST03-008_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST03-008_p1.png?250925" alt="Trafalgar Law"></a>
 
                     
           <dl class="modalCol" id="ST03-008_p1">
@@ -2413,7 +2413,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST03-008_p1.png?250912" alt="Trafalgar Law">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST03-008_p1.png?250925" alt="Trafalgar Law">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2442,7 +2442,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-012_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-012_p1.png?250912" alt="Yamato"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST09-012_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-012_p1.png?250925" alt="Yamato"></a>
 
                     
           <dl class="modalCol" id="ST09-012_p1">
@@ -2455,7 +2455,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-012_p1.png?250912" alt="Yamato">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST09-012_p1.png?250925" alt="Yamato">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2484,7 +2484,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST10-005_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST10-005_p1.png?250912" alt="Jinbe"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST10-005_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST10-005_p1.png?250925" alt="Jinbe"></a>
 
                     
           <dl class="modalCol" id="ST10-005_p1">
@@ -2497,7 +2497,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST10-005_p1.png?250912" alt="Jinbe">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST10-005_p1.png?250925" alt="Jinbe">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2526,7 +2526,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST10-006_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST10-006_p2.png?250912" alt="Monkey.D.Luffy"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST10-006_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST10-006_p2.png?250925" alt="Monkey.D.Luffy"></a>
 
                     
           <dl class="modalCol" id="ST10-006_p2">
@@ -2539,7 +2539,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST10-006_p2.png?250912" alt="Monkey.D.Luffy">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST10-006_p2.png?250925" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
