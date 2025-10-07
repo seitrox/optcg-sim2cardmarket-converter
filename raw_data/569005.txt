@@ -19,18 +19,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
   <meta name="format-detection" content="telephone=no">
-  <meta name="Keywords" content="ONE PIECE,Luffy,Zolo,Nami,Usopp,Sanji,Chopper,Robin,Franky,Brook,Jimbei,Shanks,CARD GAME,Straw hat,Bandai,Eiichiro Oda,Oda-sensei,TCG">
-  <meta name="Description" content="The official ONE PIECE Card Game website. Find out about the latest cards, products, events, rules, FAQ and more! Set sail for the new era of card games!">
+  <meta name="keywords" content="ONE PIECE,Luffy,Zolo,Nami,Usopp,Sanji,Chopper,Robin,Franky,Brook,Jimbei,Shanks,CARD GAME,Straw hat,Bandai,Eiichiro Oda,Oda-sensei,TCG">
+  <meta name="description" content="The official ONE PIECE Card Game website. Find out about the latest cards, products, events, rules, FAQ and more! Set sail for the new era of card games!">
   <meta property="og:type" content="article">
   <meta property="og:title" content="CARD LIST｜ONE PIECE CARD GAME - Official Web Site">
-  <meta property="og:image" content="https://en.onepiece-cardgame.com/ogp.png?0307">
+  <meta property="og:image" content="https://en.onepiece-cardgame.com/ogp.png">
   <meta property="og:url" content="https://en.onepiece-cardgame.com/cardlist/">
   <meta property="og:site_name" content="ONE PIECE CARD GAME - Official Web Site">
   <meta property="og:description" content="The official ONE PIECE Card Game website. Find out about the latest cards, products, events, rules, FAQ and more! Set sail for the new era of card games!">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="CARD LIST｜ONE PIECE CARD GAME - Official Web Site">
   <meta name="twitter:description" content="The official ONE PIECE Card Game website. Find out about the latest cards, products, events, rules, FAQ and more! Set sail for the new era of card games!">
-  <meta name="twitter:image" content="https://en.onepiece-cardgame.com/ogp.png?0307">
+  <meta name="twitter:image" content="https://en.onepiece-cardgame.com/ogp.png">
   <meta name="theme-color" content="#fff">
   <meta http-equiv="content-security-policy" content="script-src 'self' 'unsafe-inline' *.hellouniweb.com https://appimg.chatplus.jp/ https://app.chatplus.jp/ https://cdn.knowledge-llm.bnx-channel.app https://cdn-apac.onetrust.com/ https://www.google-analytics.com/ https://www.googletagmanager.com/ https://static.ads-twitter.com/ https://googleads.g.doubleclick.net/ https://develop.cdn.knowledge-llm.bnx-channel.app/ https://connect.facebook.net/ https://www.youtube.com/ ; style-src 'self' 'unsafe-inline' https://app.chatplus.jp/ https://appimg.chatplus.jp/ https://www.googletagmanager.com/ http://fonts.googleapis.com/ https://ton.twimg.com/ https://platform.twitter.com/ ; img-src 'self' *.hellouniweb.com https://www.google.com.hk/ https://fonts.gstatic.com/ https://en.onepiece-cardgame.com/ https://cdn-apac.onetrust.com/ https://t.co https://analytics.twitter.com/ https://www.google.co.jp/ https://www.google.com/ https://storage.googleapis.com/ https://www.googletagmanager.com/ https://www.facebook.com/ ;">
   <link rel="shortcut icon" type="image/png" href="https://en.onepiece-cardgame.com/favicon.ico">
@@ -141,22 +141,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="alternate" hreflang="en-ru" href="https://en.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="en-gr" href="https://en.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="en-pt" href="https://en.onepiece-cardgame.com/">
-  <link rel="stylesheet" href="/css/lib/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="/css/layout.css?251001">
-  <script src="/js/lib/jquery.min.js?v=3.6.0"></script>
+  <link rel="stylesheet" href="/renewal/css/lib/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/css/layout.css?251003">
+  <script src="/renewal/js/lib/jquery.min.js?v=3.7.1"></script>
   <script src="/js/lib/jquery.easing.1.4.min.js"></script>
-  <script src="/js/lib/jquery.fancybox.min.js"></script>
-  <script src="/js/lib/lazyload.min.js"></script>
-  <script src="/js/common.js?251001"></script>
-  <link rel="stylesheet" href="/css/layout_en.css?251001">
-  <script src="/js/common_en.js?251001"></script>
-  <link rel="stylesheet" href="/css/cardlist.css?251001">
-  <script src="/js/cardlist.js?251001"></script>
-  <link rel="stylesheet" href="/css/cardlist_en.css?2510014">
-  <script src="/js/cardlist_en.js?2510014"></script>
+  <script src="/renewal/js/lib/jquery.fancybox.min.js"></script>
+  <script src="/renewal/js/lib/lazyload.min.js"></script>
+  <script src="/js/common_re.js?251003"></script>
+  <link rel="stylesheet" href="/css/layout_en_re.css?251003">
+  <script src="/renewal/js/common.js?251003"></script>
+  <link rel="stylesheet" href="/renewal/css/common_overwrite.css?251003">
+  <link rel="stylesheet" href="/css/cardlist.css?251003">
+  <script src="/js/cardlist.js?251003"></script>
+  <link rel="stylesheet" href="/css/cardlist_en.css?2510034">
+  <script src="/js/cardlist_en.js?2510034"></script>
   <link rel="stylesheet" href="../css/lib/jquery.selmodal.css">
-  <script src="../js/modal.js?251001"></script>
-  <script src="../js/pager.js?251001"></script>
+  <script src="../js/modal.js?251003"></script>
+  <script src="../js/pager.js?251003"></script>
   <script src="../js/lib/jquery.selmodal.js"></script>
   <script>
     function Post(obj) {
@@ -182,118 +183,164 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKN2G96"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  <header>
-    <h1 class="logo"><a href="/">ONE PIECE CARD GAME</a></h1>
-    <div id="gnMenuCol">
-      <span class="spBtnGnSearch js_spBtnGnSearchOut">SEARCH</span>
-      <span class="btnGnMenu js_btnGnMenu">MENU</span>
+<header class="headerCol js-header">
+    <h1 class="logo"><a href="/"><img src="/renewal/images/common/logo_op.png" alt="ONE PIECE CARD GAME"></a></h1>
+    <div id="headerSpBtnCol">
+      <button class="headerSpBtn js_btnGnMenu" aria-label="Menu"></button>
     </div>
-    <div id="js_spGnSearchCol" class="spGnSearchCol">
-      <div class="spGnSearchInner">
-        <form action="/cardlist/" method="post" class="spGnSearchForm">
-          <input type="hidden" name="search" value="true">
-          <div class="spGnfreewordsCol">
-            <input class="spGnfreewords" type="text" name="freewords" placeholder="Search from cardlist">
-          </div>
-          <input class="spGnClearBtn" type="button" value="✕">
-          <input class="spGnSubmitSearch" type="submit" value="SEARCH">
-        </form>
-      </div>
-    </div>
-    <div id="headerNavCol" class="js_headerNavCol">
-      <div class="gnMenuHeader">
-        <div class="logo"><a href="/"><img src="/images/common/logo_op.png" alt="ONE PIECE CARD GAME"></a></div>
-        <div class="gnCloseCol">
-          <span class="spBtnGnSearch js_spBtnGnSearchIn">SEARCH</span>
-          <div class="gMenuClose js_gMenuClose">CLOSE</div>
-        </div>
-      </div>
-
-      <div class="headerNavTopCol">
-        <div class="gnSearchCol pc">
-          <form action="/cardlist/" method="post" class="gnSearchForm">
-            <input type="hidden" name="search" value="true">
-            <input class="gnfreewords" type="text" name="freewords" placeholder="Search from cardlist">
-            <input class="gnClearBtn" type="button" value="✕">
-            <input class="gnSubmitSearch" type="submit" value="SEARCH">
-            <span id="js_gnSearchBtn" class="gnSearchBtn">SEARCH</span>
-          </form>
-        </div>
-        <a class="icoGlobal" href="https://www.onepiece-cardgame.com/global/" target="_blank" rel="noopener">GLOBAL</a>
-        <dl class="socialMediaCol">
-          <dt>SOCIAL MEDIA</dt>
-          <dd class="youtube"><a href="https://www.youtube.com/channel/UCT5u6XqA2oaSqxsXKp3zubw" target="_blank" rel="noopener"><img src="/images/common/ico_youtube.png" alt="Official YouTube Channel"></a></dd>
-          <dd class="facebook"><a href="https://www.facebook.com/onepiecetcgen/" target="_blank" rel="noopener"><img src="/images/common/ico_facebook.png" alt="Official Facebook Page"></a></dd>
-          <dd class="twitter"><a href="https://twitter.com/ONEPIECE_tcg_EN" target="_blank" rel="noopener"><img src="/images/common/ico_twitter.png" alt="Official Twitter Account"></a></dd>
-          <dd class="instagram"><a href="https://www.instagram.com/onepiece_tcg_en/" target="_blank" rel="noopener"><img src="/images/common/ico_instagram.png" alt="Official Instagram Account"></a></dd>
-        </dl>
-        <span class="btnGnLanguage js_btnGnLanguage">LANGUAGE</span>
-        <div id="js_gnLanguageCol">
-          <ul class="gnLanguageInner">
-            <li><a class="languageBtn ja" href="https://www.onepiece-cardgame.com/">日本語<span>Japanese</span></a></li>
-            <li><a class="languageBtn cn" href="https://www.onepiece-cardgame.cn" target="_blank" rel="noopener">简体中文<span>Simplified Chinese</span></a></li>
-            <li><a class="languageBtn hk" href="https://asia-hk.onepiece-cardgame.com/">繁體中文(HK)<span>Traditional Chinese(HK)</span></a></li>
-            <li><a class="languageBtn tw" href="https://asia-tw.onepiece-cardgame.com/">繁體中文(TW)<span>Traditional Chinese(TW)</span></a></li>
-            <li><a class="languageBtn th" href="https://asia-th.onepiece-cardgame.com/">ไทย<span>Thai</span></a></li>
-            <li><a class="languageBtn ko" href="https://onepiece-cardgame.kr/" target="_blank" rel="noopener">한국어<span>Korean</span></a></li>
-            <li><a class="languageBtn asia-en" href="https://asia-en.onepiece-cardgame.com/">English(Asia)<span>English(Asia)</span></a></li>
-            <li><a class="languageBtn en current" href="https://en.onepiece-cardgame.com/">English<br class="spInline">(US/Europe/LatAm/Oceania)<span>English<br class="spInline">(US/Europe/LatAm/Oceania)</span></a></li>
-            <li><a class="languageBtn fr" href="https://fr.onepiece-cardgame.com/">Français<span>French</span></a></li>
-          </ul>
-        </div>
-      </div>
-      <nav class="gnaviCol">
-        <ul class="navInner">
-          <li class="navCategoryCol">
-            <div class="navBtn"><a href="/beginners/" class="navForBeginners">FOR BEGINNERS</a></div>
+    <div class="headerColInner">
+      <div class="headerColInnerWrap">
+        <div class="spMenuLogo">
+          <a href="/"><img src="/renewal/images/common/logo_op.png" alt="ONE PIECE CARD GAME"></a>
+        </div> 
+        <nav class="gnaviCol">
+  <ul class="navList">
+    <li class="navListItem">
+      <button class="navLink navForBeginners js-buttonMenu">FOR BEGINNERS</button>
+      <div class="menuCol">
+        <button class="menuColTit js-buttonMenu"><span class="menuColTitIcon forBeginners"></span>FOR BEGINNERS</button>
+        <ul class="menuColList">
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/beginners/">
+              <span class="menuColListLinkTit">START HERE</span>
+              <span class="menuColListLinkTxt">Learn about the ONE PIECE CARD GAME</span>
+            </a>
           </li>
-          <li class="navCategoryCol">
-            <div class="navBtn"><a href="/topics/" class="navTopics">TOPICS</a><span class="js_acBtn">＋</span></div>
-            <ul class="navSubContentsCol js_acCol">
-              <li><a href="/topics/">ALL</a></li>
-              <li><a href="/topics/?tags=products">PRODUCTS</a></li>
-              <li><a href="/topics/?tags=events">EVENTS</a></li>
-              <li><a href="/topics/?tags=promotions">PROMOTIONS</a></li>
-              <li><a href="/topics/?tags=other">OTHER</a></li>
-              <li><a href="/topics/?tags=organized_play">ORGANIZED PLAY</a></li>
-            </ul>
-          </li>
-          <li class="navCategoryCol">
-            <div class="navBtn"><a href="/products/" class="navProducts">PRODUCTS</a><span class="js_acBtn">＋</span></div>
-            <ul class="navSubContentsCol js_acCol">
-              <li><a href="/products/">ALL</a></li>
-              <li><a href="/products/?tags=decks">DECKS</a></li>
-              <li><a href="/products/?tags=boosters">BOOSTERS</a></li>
-              <li><a href="/products/?tags=other">OTHER</a></li>
-            </ul>
-          </li>
-          <li class="navCategoryCol">
-            <div class="navBtn"><a href="/events/" class="navEvents">EVENTS</a></div>
-          </li>
-          <li class="navCategoryCol">
-            <div class="navBtn"><a href="/cardlist/" class="navCardlist current">CARD LIST</a></div>            
-          </li>
-          <li class="navCategoryCol">
-                        <div class="navBtn"><a href="/rules/" class="navRules">RULES</a></div>
-          </li>
-          <li class="navCategoryCol">
-            <div class="navBtn"><a href="/forstore/" class="navForstores">FOR STORES</a></div>
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/beginners/how-to-play.php">
+              <span class="menuColListLinkTit">PLAY A GAME</span>
+              <span class="menuColListLinkTxt">Play a game and learn the rules</span>
+            </a>
           </li>
         </ul>
-      </nav>
-      <div class="gnMenuFooter">
-        <a class="icoGlobal" href="https://www.onepiece-cardgame.com/global/" target="_blank" rel="noopener">GLOBAL</a>
-        <dl class="socialMediaCol">
-          <dt>SOCIAL MEDIA</dt>
-          <dd class="youtube"><a href="https://www.youtube.com/channel/UCT5u6XqA2oaSqxsXKp3zubw" target="_blank" rel="noopener"><img src="/images/common/ico_youtube.png" alt="Official YouTube Channel"></a></dd>
-          <dd class="facebook"><a href="https://www.facebook.com/onepiecetcgen/" target="_blank" rel="noopener"><img src="/images/common/ico_facebook.png" alt="Official Facebook Page"></a></dd>
-          <dd class="twitter"><a href="https://twitter.com/ONEPIECE_tcg_EN" target="_blank" rel="noopener"><img src="/images/common/ico_twitter.png" alt="Official Twitter Account"></a></dd>
-          <dd class="instagram"><a href="https://www.instagram.com/onepiece_tcg_en/" target="_blank" rel="noopener"><img src="/images/common/ico_instagram.png" alt="Official Instagram Account"></a></dd>
-        </dl>
+      </div>
+    </li>
+
+    <li class="navListItem">
+      <button class="navLink navRules js-buttonMenu">RULES</button>
+      <div class="menuCol">
+        <button class="menuColTit js-buttonMenu"><span class="menuColTitIcon rules"></span>RULES</button>
+        <ul class="menuColList">
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/rules/">
+              <span class="menuColListLinkTit">RULES</span>
+              <span class="menuColListLinkTxt">Rules and important updates</span>
+            </a>
+          </li>
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/play-guide/">
+              <span class="menuColListLinkTit">PLAY GUIDE</span>
+              <span class="menuColListLinkTxt">Keep this handy while you play!</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="navListItem"><a href="/rules/faq/" class="navLink navQa">FAQ</a></li>
+    <li class="navListItem"><a href="/topics/" class="navLink navNews">NEWS</a></li>
+
+    <li class="navListItem">
+      <button class="navLink navProducts js-buttonMenu">PRODUCTS</button>
+      <div class="menuCol">
+        <button class="menuColTit js-buttonMenu"><span class="menuColTitIcon products"></span>PRODUCTS</button>
+        <ul class="menuColList">
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/products/">
+              <span class="menuColListLinkTit">ALL PRODUCTS</span>
+            </a>
+          </li>
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/products/?tags=decks">
+              <span class="menuColListLinkTit">DECKS</span>
+              <span class="menuColListLinkTxt">Ready to play! Everything you need in one set.</span>
+            </a>
+          </li>
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/products/?tags=boosters">
+              <span class="menuColListLinkTit">BOOSTERS</span>
+              <span class="menuColListLinkTxt">Add powerful new cards to your deck or collection.</span>
+            </a>
+          </li>
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/products/?tags=other">
+              <span class="menuColListLinkTit">OTHER</span>
+              <span class="menuColListLinkTxt">Other ONE PIECE CARD GAME merchandise.</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="navListItem">
+      <a href="/events/" class="navLink navEvents">EVENTS</a>
+          </li>
+
+    <li class="navListItem">
+      <button class="navLink navCardlist js-buttonMenu">CARDS</button>
+      <div class="menuCol">
+        <button class="menuColTit js-buttonMenu"><span class="menuColTitIcon cardlist"></span>CARDS</button>
+        <ul class="menuColList">
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/cardlist/">
+              <span class="menuColListLinkTit">FIND CARDS</span>
+            </a>
+          </li>
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/feature/deck/">
+              <span class="menuColListLinkTit">RECOMMENDED DECKS</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="navListItem"><a href="/forstore/" class="navLink navStorelist">FOR STORES</a></li>
+  </ul>
+</nav>
+        <div class="gnSearchCol">
+          <form action="/cardlist/" method="post" class="gnSearchForm">
+            <input type="hidden" name="search" value="true">
+            <input class="gnfreewords" type="text" name="freewords" placeholder="Search for cards">
+            <input class="gnClearBtn" type="button" value="×">
+            <input class="gnSubmitSearch" type="submit" value="SEARCH">
+          </form>
+        </div>
+
+        <div class="gnBottomCol">
+          <div class="languageCol">
+  <button class="languageColBtn">English<span> - NA<span>/</span>EU<span>/</span>OC<span>/</span>LA</span></button>
+  <div class="languageList js-scroll-wrapper">
+    <div class="languageListWrapper">
+      <ul class="languageListContent js-scroll-content">
+        <li class="languageListItem"><a href="https://www.onepiece-cardgame.com/" class="languageListLink jp">日本語<span>Japanese</span></a></li>
+        <li class="languageListItem"><a href="https://www.onepiece-cardgame.cn/" class="languageListLink cn">简体中文<span>Simplified Chinese</span></a></li>
+        <li class="languageListItem"><a href="https://asia-hk.onepiece-cardgame.com/" class="languageListLink tc">繁體中文(HK)<span>Traditional Chinese(HK)</span></a></li>
+        <li class="languageListItem"><a href="https://asia-tw.onepiece-cardgame.com/" class="languageListLink tc">繁體中文(TW)<span>Traditional Chinese(TW)</span></a></li>
+        <li class="languageListItem"><a href="https://asia-th.onepiece-cardgame.com/" class="languageListLink th">ไทย<span>Thai</span></a></li>
+        <li class="languageListItem"><a href="https://onepiece-cardgame.kr/" class="languageListLink kr">한국어<span>Korean</span></a></li>
+        <li class="languageListItem"><a href="https://asia-en.onepiece-cardgame.com/" class="languageListLink">English(Asia)<span>English(Asia)</span></a></li>
+        <li class="languageListItem current"><a href="https://en.onepiece-cardgame.com/" class="languageListLink">English(US/Europe/LatAm/Oceania)<span>English(US/Europe/LatAm/Oceania)</span></a></li>
+        <li class="languageListItem"><a href="https://fr.onepiece-cardgame.com/" class="languageListLink">Français<span>French</span></a></li>
+      </ul>
+    </div>
+    <div class="scroll-bar">
+      <div class="scroll-thumb js-scroll-thumb"></div>
+    </div>
+  </div>
+</div>
+
+          <div class="socialMediaCol">
+  <ul class="socialMediaList">
+    <li class="socialMediaListItem youtube"><a href="https://www.youtube.com/channel/UCT5u6XqA2oaSqxsXKp3zubw" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_youtube.png" alt="Official YouTube Channel"></a></li>
+    <li class="socialMediaListItem facebook"><a href="https://www.facebook.com/onepiecetcgen/" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_facebook.png" alt="Official Facebook Page"></a></li>
+    <li class="socialMediaListItem twitter"><a href="https://twitter.com/ONEPIECE_tcg_EN" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_x.png" alt="official X Account"></a></li>
+    <li class="socialMediaListItem instagram"><a href="https://www.instagram.com/onepiece_tcg_en/" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_instagram.png" alt="Official Instagram Account"></a></li>
+  </ul>
+</div>        </div>
       </div>
     </div>
-  </header>
-  <ul class="breadcrumbList">
+  </header>  <ul class="breadcrumbList">
     <li><a href="/">HOME</a></li>
     <li>CARD LIST</li>
   </ul>
@@ -468,7 +515,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
         <div class="resultCol">
                   
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-001.png?251001" alt="Shanks"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-001.png?251003" alt="Shanks"></a>
 
                     
           <dl class="modalCol" id="ST05-001">
@@ -481,7 +528,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-001.png?251001" alt="Shanks">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-001.png?251003" alt="Shanks">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -510,7 +557,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-002.png?251001" alt="Ain"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-002"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-002.png?251003" alt="Ain"></a>
 
                     
           <dl class="modalCol" id="ST05-002">
@@ -523,7 +570,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-002.png?251001" alt="Ain">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-002.png?251003" alt="Ain">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -552,7 +599,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-003.png?251001" alt="Ann"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-003"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-003.png?251003" alt="Ann"></a>
 
                     
           <dl class="modalCol" id="ST05-003">
@@ -565,7 +612,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-003.png?251001" alt="Ann">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-003.png?251003" alt="Ann">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -594,7 +641,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-004.png?251001" alt="Uta"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-004"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-004.png?251003" alt="Uta"></a>
 
                     
           <dl class="modalCol" id="ST05-004">
@@ -607,7 +654,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-004.png?251001" alt="Uta">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-004.png?251003" alt="Uta">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -636,7 +683,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-005.png?251001" alt="Carina"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-005.png?251003" alt="Carina"></a>
 
                     
           <dl class="modalCol" id="ST05-005">
@@ -649,7 +696,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-005.png?251001" alt="Carina">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-005.png?251003" alt="Carina">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -678,7 +725,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-006"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-006.png?251001" alt="Gild Tesoro"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-006"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-006.png?251003" alt="Gild Tesoro"></a>
 
                     
           <dl class="modalCol" id="ST05-006">
@@ -691,7 +738,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-006.png?251001" alt="Gild Tesoro">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-006.png?251003" alt="Gild Tesoro">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -720,7 +767,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-007"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-007.png?251001" alt="Gordon"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-007"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-007.png?251003" alt="Gordon"></a>
 
                     
           <dl class="modalCol" id="ST05-007">
@@ -733,7 +780,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-007.png?251001" alt="Gordon">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-007.png?251003" alt="Gordon">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -762,7 +809,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-008"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-008.png?251001" alt="Shiki"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-008"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-008.png?251003" alt="Shiki"></a>
 
                     
           <dl class="modalCol" id="ST05-008">
@@ -775,7 +822,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-008.png?251001" alt="Shiki">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-008.png?251003" alt="Shiki">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -804,7 +851,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-009"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-009.png?251001" alt="Scarlet"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-009"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-009.png?251003" alt="Scarlet"></a>
 
                     
           <dl class="modalCol" id="ST05-009">
@@ -817,7 +864,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-009.png?251001" alt="Scarlet">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-009.png?251003" alt="Scarlet">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -846,7 +893,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-010"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-010.png?251001" alt="Zephyr"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-010"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-010.png?251003" alt="Zephyr"></a>
 
                     
           <dl class="modalCol" id="ST05-010">
@@ -859,7 +906,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-010.png?251001" alt="Zephyr">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-010.png?251003" alt="Zephyr">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -888,7 +935,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-011"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-011.png?251001" alt="Douglas Bullet"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-011"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-011.png?251003" alt="Douglas Bullet"></a>
 
                     
           <dl class="modalCol" id="ST05-011">
@@ -901,7 +948,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-011.png?251001" alt="Douglas Bullet">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-011.png?251003" alt="Douglas Bullet">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -930,7 +977,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-012"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-012.png?251001" alt="Baccarat"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-012"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-012.png?251003" alt="Baccarat"></a>
 
                     
           <dl class="modalCol" id="ST05-012">
@@ -943,7 +990,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-012.png?251001" alt="Baccarat">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-012.png?251003" alt="Baccarat">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -972,7 +1019,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-013"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-013.png?251001" alt="Bins"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-013"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-013.png?251003" alt="Bins"></a>
 
                     
           <dl class="modalCol" id="ST05-013">
@@ -985,7 +1032,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-013.png?251001" alt="Bins">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-013.png?251003" alt="Bins">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1014,7 +1061,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-014"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-014.png?251001" alt="Buena Festa"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-014"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-014.png?251003" alt="Buena Festa"></a>
 
                     
           <dl class="modalCol" id="ST05-014">
@@ -1027,7 +1074,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-014.png?251001" alt="Buena Festa">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-014.png?251003" alt="Buena Festa">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1056,7 +1103,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-015"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-015.png?251001" alt="Dr. Indigo"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-015"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-015.png?251003" alt="Dr. Indigo"></a>
 
                     
           <dl class="modalCol" id="ST05-015">
@@ -1069,7 +1116,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-015.png?251001" alt="Dr. Indigo">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-015.png?251003" alt="Dr. Indigo">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1098,7 +1145,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-016"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-016.png?251001" alt="Lion&#039;s Threat Imperial Earth Bind"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-016"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-016.png?251003" alt="Lion&#039;s Threat Imperial Earth Bind"></a>
 
                     
           <dl class="modalCol" id="ST05-016">
@@ -1111,7 +1158,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-016.png?251001" alt="Lion&#039;s Threat Imperial Earth Bind">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-016.png?251003" alt="Lion&#039;s Threat Imperial Earth Bind">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1140,7 +1187,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
-          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-017"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-017.png?251001" alt="Union Armada"></a>
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST05-017"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-017.png?251003" alt="Union Armada"></a>
 
                     
           <dl class="modalCol" id="ST05-017">
@@ -1153,7 +1200,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </dt>
             <dd>
               <div class="frontCol">
-                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-017.png?251001" alt="Union Armada">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST05-017.png?251003" alt="Union Armada">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1198,99 +1245,231 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </article>
   </main>
 
-  <footer>
-    <div class="snsShareCol">
-      <dl class="snsShareInner">
-        <dt>SHARE</dt>
-        <dd class="facebook"><a href="http://www.facebook.com/share.php?u=https://en.onepiece-cardgame.com/cardlist/" rel="nofollow" target="_blank" class="facebook"><img src="/images/common/ico_facebook.png" alt="facebook"></a></dd>
-        <dd class="twitter"><a href="http://twitter.com/share?text=CARD%20LIST｜ONE%20PIECE%20CARD%20GAME%20-%20Official%20Web%20Site&url=https://en.onepiece-cardgame.com/cardlist/&hashtags=onepiece,onepiececardgame" target="_blank" rel="noopener noreferrer"><img src="/images/common/ico_twitter.png" alt="Twitter"></a></dd>
-      </dl>
+<footer class="footerCol">
+  <div class="footerBnrCol">
+    <ul class="footerBnrColList">
+  <li class="footerBnrColListItem"><a href="/events/official_shop/" class="footerBnrColListLink"><img class="lazy" src="/renewal/images/top/img_thumbnail.png" data-src="/renewal/images/common/thumbnail/thumbnail_official-shop.webp" alt="ONE PIECE CARD GAME Official Shop"></a></li>
+  <li class="footerBnrColListItem"><a href="https://app.onepiece-cardgame.com/en/" target="_blank" rel="noopener" class="footerBnrColListLink"><img class="lazy" src="/renewal/images/top/img_thumbnail.png" data-src="/renewal/images/common/thumbnail/thumbnail_tutorial-app.webp" alt="Tutorial App"></a></li>
+</ul>  </div>
+
+  <div class="footerIllust fadein">
+    <div class="footerIllustItem footerIllustChara">
+      <picture>
+        <source media="(min-width: 1000.1px)" srcset="/renewal/images/common/pc/footer_illust_chara.webp">
+        <img src="/renewal/images/common/sp/footer_illust_chara.webp" alt="">
+      </picture>
     </div>
-    <div class="footerNavCol">
-      <div class="footerTitleCol">
-        <a href="/"><img src="/images/common/logo_op.png" alt="ONE PIECE CARD GAME" class="fLogo"></a>
-        <a class="icoGlobal" href="https://www.onepiece-cardgame.com/global/" target="_blank" rel="noopener">GLOBAL</a>
-        <dl class="socialMediaCol">
-          <dt>SOCIAL MEDIA</dt>
-          <dd class="youtube"><a href="https://www.youtube.com/channel/UCT5u6XqA2oaSqxsXKp3zubw" target="_blank" rel="noopener"><img src="/images/common/ico_youtube.png" alt="Official YouTube Channel"></a></dd>
-          <dd class="facebook"><a href="https://www.facebook.com/onepiecetcgen/" target="_blank" rel="noopener"><img src="/images/common/ico_facebook.png" alt="Official Facebook Page"></a></dd>
-          <dd class="twitter"><a href="https://twitter.com/ONEPIECE_tcg_EN" target="_blank" rel="noopener"><img src="/images/common/ico_twitter.png" alt="Official Twitter Account"></a></dd>
-          <dd class="instagram"><a href="https://www.instagram.com/onepiece_tcg_en/" target="_blank" rel="noopener"><img src="/images/common/ico_instagram.png" alt="Official Instagram Account"></a></dd>
-        </dl>
+    <div class="footerIllustItem footerIllustTxt">
+      <div class="catch">
+        <picture>
+          <source media="(min-width: 1000.1px)" srcset="/renewal/images/common/pc/footer_illust_txt.webp">
+          <img src="/renewal/images/common/sp/footer_illust_txt.webp" alt="">
+        </picture>
       </div>
-      <nav class="fnaviCol">
-        <ul class="navInner">
-          <li class="navCategoryCol">
-            <div class="navBtn"><a href="/beginners/" class="navForBeginners">FOR BEGINNERS</a></div>
+      <div class="logo">
+        <picture>
+          <source media="(min-width: 1000.1px)" srcset="/renewal/images/common/pc/footer_illust_logo.webp">
+          <img src="/renewal/images/common/sp/footer_illust_logo.webp" alt="">
+        </picture>
+      </div>
+    </div>
+    <div class="footerIllustItem footerIllustCard">
+      <div class="footerIllustCardItem inItem">
+        <picture>
+          <source media="(min-width: 1000.1px)" srcset="/renewal/images/common/pc/footer_illust_card.webp">
+          <img src="/renewal/images/common/sp/footer_illust_card.webp" alt="">
+        </picture>
+      </div>
+      <ul class="footerIllustCardItem showItem">
+        <li class="cardItem card01"><img src="/renewal/images/common/pc/footer_illust_card01.png" alt=""></li>
+        <li class="cardItem card02"><img src="/renewal/images/common/pc/footer_illust_card02.png" alt=""></li>
+        <li class="cardItem card03"><img src="/renewal/images/common/pc/footer_illust_card03.png" alt=""></li>
+      </ul>
+    </div>
+    <div class="footerIllustItem footerIllustBg">
+      <div class="footerIllustBgItem showItem"></div>
+    </div>
+    <div class="autoBtnCol">
+      <button class="autoBtn js-bgAnimeBtn">
+        <img class="autoIcon stop" src="/renewal/images/common/ico-stop_white.png" alt="Stop animation">
+        <img class="autoIcon play" src="/renewal/images/common/ico-play_white.png" alt="Play animation">
+      </button>
+    </div>
+  </div>
+
+  <div class="footerColInner">
+    <div class="socialMediaCol">
+  <ul class="socialMediaList">
+    <li class="socialMediaListItem youtube"><a href="https://www.youtube.com/channel/UCT5u6XqA2oaSqxsXKp3zubw" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_youtube.png" alt="Official YouTube Channel"></a></li>
+    <li class="socialMediaListItem facebook"><a href="https://www.facebook.com/onepiecetcgen/" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_facebook.png" alt="Official Facebook Page"></a></li>
+    <li class="socialMediaListItem twitter"><a href="https://twitter.com/ONEPIECE_tcg_EN" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_x.png" alt="official X Account"></a></li>
+    <li class="socialMediaListItem instagram"><a href="https://www.instagram.com/onepiece_tcg_en/" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_instagram.png" alt="Official Instagram Account"></a></li>
+  </ul>
+</div>
+    <div class="languageCol">
+  <button class="languageColBtn">English<span> - NA<span>/</span>EU<span>/</span>OC<span>/</span>LA</span></button>
+  <div class="languageList js-scroll-wrapper">
+    <div class="languageListWrapper">
+      <ul class="languageListContent js-scroll-content">
+        <li class="languageListItem"><a href="https://www.onepiece-cardgame.com/" class="languageListLink jp">日本語<span>Japanese</span></a></li>
+        <li class="languageListItem"><a href="https://www.onepiece-cardgame.cn/" class="languageListLink cn">简体中文<span>Simplified Chinese</span></a></li>
+        <li class="languageListItem"><a href="https://asia-hk.onepiece-cardgame.com/" class="languageListLink tc">繁體中文(HK)<span>Traditional Chinese(HK)</span></a></li>
+        <li class="languageListItem"><a href="https://asia-tw.onepiece-cardgame.com/" class="languageListLink tc">繁體中文(TW)<span>Traditional Chinese(TW)</span></a></li>
+        <li class="languageListItem"><a href="https://asia-th.onepiece-cardgame.com/" class="languageListLink th">ไทย<span>Thai</span></a></li>
+        <li class="languageListItem"><a href="https://onepiece-cardgame.kr/" class="languageListLink kr">한국어<span>Korean</span></a></li>
+        <li class="languageListItem"><a href="https://asia-en.onepiece-cardgame.com/" class="languageListLink">English(Asia)<span>English(Asia)</span></a></li>
+        <li class="languageListItem current"><a href="https://en.onepiece-cardgame.com/" class="languageListLink">English(US/Europe/LatAm/Oceania)<span>English(US/Europe/LatAm/Oceania)</span></a></li>
+        <li class="languageListItem"><a href="https://fr.onepiece-cardgame.com/" class="languageListLink">Français<span>French</span></a></li>
+      </ul>
+    </div>
+    <div class="scroll-bar">
+      <div class="scroll-thumb js-scroll-thumb"></div>
+    </div>
+  </div>
+</div>
+
+    <nav class="gnaviCol">
+  <ul class="navList">
+    <li class="navListItem">
+      <button class="navLink navForBeginners js-buttonMenu">FOR BEGINNERS</button>
+      <div class="menuCol">
+        <button class="menuColTit js-buttonMenu"><span class="menuColTitIcon forBeginners"></span>FOR BEGINNERS</button>
+        <ul class="menuColList">
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/beginners/">
+              <span class="menuColListLinkTit">START HERE</span>
+              <span class="menuColListLinkTxt">Learn about the ONE PIECE CARD GAME</span>
+            </a>
           </li>
-          <li class="navCategoryCol">
-            <div class="navBtn"><a href="/topics/" class="navTopics">TOPICS</a><span class="js_acBtn">＋</span></div>
-            <ul class="navSubContentsCol js_acCol">
-              <li><a href="/topics/">ALL</a></li>
-              <li><a href="/topics/?tags=products">PRODUCTS</a></li>
-              <li><a href="/topics/?tags=events">EVENTS</a></li>
-              <li><a href="/topics/?tags=promotions">PROMOTIONS</a></li>
-              <li><a href="/topics/?tags=other">OTHER</a></li>
-              <li><a href="/topics/?tags=organized_play">ORGANIZED PLAY</a></li>
-            </ul>
-          </li>
-          <li class="navCategoryCol">
-            <div class="navBtn"><a href="/products/" class="navProducts">PRODUCTS</a><span class="js_acBtn">＋</span></div>
-            <ul class="navSubContentsCol js_acCol">
-              <li><a href="/products/">ALL</a></li>
-              <li><a href="/products/?tags=decks">DECKS</a></li>
-              <li><a href="/products/?tags=boosters">BOOSTERS</a></li>
-              <li><a href="/products/?tags=other">OTHER</a></li>
-            </ul>
-          </li>
-          <li class="navCategoryCol">
-            <div class="navBtn"><a href="/events/" class="navEvents">EVENTS</a></div>
-          </li>
-          <li class="navCategoryCol">
-            <div class="navBtn"><a href="/cardlist/" class="navCardlist current">CARD LIST</a></div>            
-          </li>
-          <li class="navCategoryCol">
-                        <div class="navBtn"><a href="/rules/" class="navRules">RULES</a></div>
-          </li>
-          <li class="navCategoryCol">
-            <div class="navBtn"><a href="/forstore/" class="navForstores">FOR STORES</a></div>
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/beginners/how-to-play.php">
+              <span class="menuColListLinkTit">PLAY A GAME</span>
+              <span class="menuColListLinkTxt">Play a game and learn the rules</span>
+            </a>
           </li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </li>
 
+    <li class="navListItem">
+      <button class="navLink navRules js-buttonMenu">RULES</button>
+      <div class="menuCol">
+        <button class="menuColTit js-buttonMenu"><span class="menuColTitIcon rules"></span>RULES</button>
+        <ul class="menuColList">
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/rules/">
+              <span class="menuColListLinkTit">RULES</span>
+              <span class="menuColListLinkTxt">Rules and important updates</span>
+            </a>
+          </li>
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/play-guide/">
+              <span class="menuColListLinkTit">PLAY GUIDE</span>
+              <span class="menuColListLinkTxt">Keep this handy while you play!</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="navListItem"><a href="/rules/faq/" class="navLink navQa">FAQ</a></li>
+    <li class="navListItem"><a href="/topics/" class="navLink navNews">NEWS</a></li>
+
+    <li class="navListItem">
+      <button class="navLink navProducts js-buttonMenu">PRODUCTS</button>
+      <div class="menuCol">
+        <button class="menuColTit js-buttonMenu"><span class="menuColTitIcon products"></span>PRODUCTS</button>
+        <ul class="menuColList">
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/products/">
+              <span class="menuColListLinkTit">ALL PRODUCTS</span>
+            </a>
+          </li>
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/products/?tags=decks">
+              <span class="menuColListLinkTit">DECKS</span>
+              <span class="menuColListLinkTxt">Ready to play! Everything you need in one set.</span>
+            </a>
+          </li>
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/products/?tags=boosters">
+              <span class="menuColListLinkTit">BOOSTERS</span>
+              <span class="menuColListLinkTxt">Add powerful new cards to your deck or collection.</span>
+            </a>
+          </li>
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/products/?tags=other">
+              <span class="menuColListLinkTit">OTHER</span>
+              <span class="menuColListLinkTxt">Other ONE PIECE CARD GAME merchandise.</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="navListItem">
+      <a href="/events/" class="navLink navEvents">EVENTS</a>
+          </li>
+
+    <li class="navListItem">
+      <button class="navLink navCardlist js-buttonMenu">CARDS</button>
+      <div class="menuCol">
+        <button class="menuColTit js-buttonMenu"><span class="menuColTitIcon cardlist"></span>CARDS</button>
+        <ul class="menuColList">
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/cardlist/">
+              <span class="menuColListLinkTit">FIND CARDS</span>
+            </a>
+          </li>
+          <li class="menuColListItem">
+            <a class="menuColListLink" href="/feature/deck/">
+              <span class="menuColListLinkTit">RECOMMENDED DECKS</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="navListItem"><a href="/forstore/" class="navLink navStorelist">FOR STORES</a></li>
+  </ul>
+</nav>
     <ul class="footerContactCol">
-      <li><a href="https://global.carddass.com/inquiry.php" rel="noopener" target="_blank">FOR INQUIRIES</a></li>
-      <li><a href="/cookie_policy.php">COOKIE POLICY</a></li>
+
+      <li class="footerContactColItem">
+        <a href="https://global.carddass.com/inquiry.php" rel="noopener" target="_blank" class="footerContactColLink">FOR INQUIRIES</a>
+      </li>
+      <li class="footerContactColItem">
+        <a href="/cookie_policy.php" class="footerContactColLink">COOKIE POLICY</a>
+      </li>
     </ul>
 
-    <div class="footerCopyrightCol">
-      <p class="txtCol">
-        All images, text and data on this website may not be reproduced without permission.<br>
-        Please note that the images used on this website may differ from the actual product as it is still under development.
-      </p>
-      <div class="txtCol">
-        <ul class="commonNoticeList isHalf mtS">
-          <li>*Apple, and the Apple logo are trademarks of Apple Inc. in North America or the local region. App Store is Apple Inc.’s service mark.</li>
-          <li>*Google Play and the Google Play logo are trademarks or registered trademarks of Google LLC.</li>
+    <a href="/" class="footerLogo"><img src="/renewal/images/common/logo_op_white.png" alt="ONE PIECE CARD GAME"></a>
+
+    <div class="footerTxtCol">
+      <div class="footerCopyCol">
+        <small>&copy;Eiichiro Oda/Shueisha <br class="sp">&copy;Eiichiro Oda/Shueisha, Toei Animation</small>
+      </div>
+
+      <div class="footerNoticeCol">
+        <p class="txtCol">
+          All images, text and data on this website may not be reproduced without permission.<br>
+          Please note that the images used on this website may differ from the actual product as it is still under development.
+        </p>
+        <ul class="noticeList">
+          <li class="noticeListItem">*Apple, and the Apple logo are trademarks of Apple Inc. in North America or the local region. App Store is Apple Inc.’s service mark.</li>
+          <li class="noticeListItem">*Google Play and the Google Play logo are trademarks or registered trademarks of Google LLC.</li>
         </ul>
       </div>
-      <div class="logoCol">
-        <a href="https://www.carddass.com/bcg/" target="_blank" rel="noopener" class="bcg">
-          <img src="/images/common/logo_bcg.png" alt="BANDAI CARD GAMES">
-        </a>
-        <a href="https://lp.bandai-tcg-plus.com/en/" target="_blank" rel="noopener" class="bandaitcg">
-        <img src="/images/common/logo_bandaitcg.png" alt="BANDAI TCG+">
-        <a href="https://www.bandai.co.jp/" target="_blank" rel="noopener" class="bandai">
-          <img src="/images/common/logo_bandai.png" alt="BANDAI">
-        </a>
-        <a href="https://www.bandainamco.co.jp/en/" target="_blank" rel="noopener" class="bandai_namco">
-          <img src="/images/common/logo_bandai_namco.png?v2" alt="BANDAI NAMCO">
-        </a>
-      </div>
-      <small>&copy;Eiichiro Oda/Shueisha &copy;Eiichiro Oda/Shueisha, Toei Animation</small>
     </div>
 
-  </footer>
-</body>
+
+    <div class="logoCol">
+      <a href="https://www.carddass.com/bcg/" target="_blank" rel="noopener" class="logoColLink bcg"><img src="/renewal/images/common/logo_bcg.png" alt="BANDAI CARD GAMES"></a>
+      <a href="https://lp.bandai-tcg-plus.com/en/" target="_blank" rel="noopener" class="logoColLink tcg-plus"><img src="/renewal/images/common/logo_tcg_plus.png" alt="BANDAI TCG+"></a>
+      <a href="https://www.bandai.co.jp/" target="_blank" rel="noopener" class="logoColLink bandai"><img src="/renewal/images/common/logo_bandai.png" alt="BANDAI"></a>
+      <a href="https://www.bandainamco.co.jp/en/" target="_blank" rel="noopener" class="logoColLink bandai_namco"><img src="/renewal/images/common/logo_bandai_namco.png" alt="BANDAI NAMCO"></a>
+    </div>
+
+  </div>
+</footer></body>
 </html>
