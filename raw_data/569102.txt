@@ -187,7 +187,7 @@ twq('config','qk7bi');
 <!-- End Twitter conversion tracking base code -->
   <link rel="stylesheet" href="/css/cardlist.css?251017">
   <script src="/js/cardlist.js?251017"></script>
-  <link rel="stylesheet" href="/css/cardlist_en.css?2510174">
+  <link rel="stylesheet" href="/css/cardlist_en.css?2510175">
   <script src="/js/cardlist_en.js?2510174"></script>
   <link rel="stylesheet" href="../css/lib/jquery.selmodal.css">
   <script src="../js/modal.js?251017"></script>
@@ -399,6 +399,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <option value="569301" >PREMIUM BOOSTER &lt;br class=&quot;spInline&quot;&gt;-ONE PIECE CARD THE BEST- [PRB-01]</option>
                   <option value="569202" >EXTRA BOOSTER &lt;br class=&quot;spInline&quot;&gt;-Anime 25th Collection- [EB-02]</option>
                   <option value="569201" >EXTRA BOOSTER &lt;br class=&quot;spInline&quot;&gt;-MEMORIAL COLLECTION- [EB-01]</option>
+                  <option value="569113" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-CARRYING ON HIS WILL- [OP-13]</option>
                   <option value="569112" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-LEGACY OF THE MASTER- [OP-12]</option>
                   <option value="569111" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-A FIST OF DIVINE SPEED- [OP-11]</option>
                   <option value="569110" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-ROYAL BLOOD- [OP-10]</option>
@@ -511,6 +512,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <label class="checkBtn" for="block_icon_2">2</label>
                   <input type="checkbox" name="block_icon[]" id="block_icon_3" value="3" >
                   <label class="checkBtn" for="block_icon_3">3</label>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_4" value="4" >
+                  <label class="checkBtn" for="block_icon_4">4</label>
                   <div class="checkBtn disable"></div>
                 </div>
               </div>
@@ -7252,10 +7255,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <div class="logoCol">
-      <a href="https://www.carddass.com/bcg/" target="_blank" rel="noopener" class="logoColLink bcg"><img src="/renewal/images/common/logo_bcg.png" alt="BANDAI CARD GAMES"></a>
+      <a href="https://www.carddass.com/bcg/en/" target="_blank" rel="noopener" class="logoColLink bcg"><img src="/renewal/images/common/logo_bcg.png" alt="BANDAI CARD GAMES"></a>
       <a href="https://lp.bandai-tcg-plus.com/en/" target="_blank" rel="noopener" class="logoColLink tcg-plus"><img src="/renewal/images/common/logo_tcg_plus.png" alt="BANDAI TCG+"></a>
-      <a href="https://www.bandai.co.jp/" target="_blank" rel="noopener" class="logoColLink bandai"><img src="/renewal/images/common/logo_bandai.png" alt="BANDAI"></a>
-      <a href="https://www.bandainamco.co.jp/en/" target="_blank" rel="noopener" class="logoColLink bandai_namco"><img src="/renewal/images/common/logo_bandai_namco.png" alt="BANDAI NAMCO"></a>
+      <a href="https://www.bandai.co.jp/en/" target="_blank" rel="noopener" class="logoColLink bandai"><img src="/renewal/images/common/logo_bandai.png" alt="BANDAI"></a>
+      <a href="https://www.bandainamco.co.jp/en/group/index.php" target="_blank" rel="noopener" class="logoColLink bandai_namco"><img src="/renewal/images/common/logo_bandai_namco.png" alt="BANDAI NAMCO"></a>
     </div>
 
   </div>

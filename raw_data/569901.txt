@@ -187,7 +187,7 @@ twq('config','qk7bi');
 <!-- End Twitter conversion tracking base code -->
   <link rel="stylesheet" href="/css/cardlist.css?251017">
   <script src="/js/cardlist.js?251017"></script>
-  <link rel="stylesheet" href="/css/cardlist_en.css?2510174">
+  <link rel="stylesheet" href="/css/cardlist_en.css?2510175">
   <script src="/js/cardlist_en.js?2510174"></script>
   <link rel="stylesheet" href="../css/lib/jquery.selmodal.css">
   <script src="../js/modal.js?251017"></script>
@@ -399,6 +399,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <option value="569301" >PREMIUM BOOSTER &lt;br class=&quot;spInline&quot;&gt;-ONE PIECE CARD THE BEST- [PRB-01]</option>
                   <option value="569202" >EXTRA BOOSTER &lt;br class=&quot;spInline&quot;&gt;-Anime 25th Collection- [EB-02]</option>
                   <option value="569201" >EXTRA BOOSTER &lt;br class=&quot;spInline&quot;&gt;-MEMORIAL COLLECTION- [EB-01]</option>
+                  <option value="569113" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-CARRYING ON HIS WILL- [OP-13]</option>
                   <option value="569112" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-LEGACY OF THE MASTER- [OP-12]</option>
                   <option value="569111" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-A FIST OF DIVINE SPEED- [OP-11]</option>
                   <option value="569110" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-ROYAL BLOOD- [OP-10]</option>
@@ -511,6 +512,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <label class="checkBtn" for="block_icon_2">2</label>
                   <input type="checkbox" name="block_icon[]" id="block_icon_3" value="3" >
                   <label class="checkBtn" for="block_icon_3">3</label>
+                  <input type="checkbox" name="block_icon[]" id="block_icon_4" value="4" >
+                  <label class="checkBtn" for="block_icon_4">4</label>
                   <div class="checkBtn disable"></div>
                 </div>
               </div>
@@ -532,7 +535,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="pageDetailCol">
           <div>
             <a href="javascript:void(0);" onclick="cardSerchReset();" class="reset">&#x00D7; Clear</a>
-            <div class="countCol">293 results</div>
+            <div class="countCol">306 results</div>
           </div>
 
           <div class="spnavi" id="view">
@@ -4329,6 +4332,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP07-053_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP07-053_p3.png?251017" alt="Portgas.D.Ace"></a>
+
+                    
+          <dl class="modalCol" id="OP07-053_p3">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP07-053</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Portgas.D.Ace</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP07-053_p3.png?251017" alt="Portgas.D.Ace">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Whitebeard Pirates</div>
+                <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On Play] Draw 2 cards and place 2 cards from your hand at the top or bottom of your deck in any order.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>3rd Anniversary Event</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP07-053_p4"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP07-053_p4.png?251017" alt="Portgas.D.Ace"></a>
+
+                    
+          <dl class="modalCol" id="OP07-053_p4">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP07-053</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Portgas.D.Ace</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP07-053_p4.png?251017" alt="Portgas.D.Ace">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>2</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Whitebeard Pirates</div>
+                <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On Play] Draw 2 cards and place 2 cards from your hand at the top or bottom of your deck in any order.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>3rd Anniversary Event</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP07-066_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP07-066_p1.png?251017" alt="Tony Tony.Chopper"></a>
 
                     
@@ -5372,6 +5459,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="feature"><h3>Type</h3>Red-Haired Pirates</div>
                 <div class="text"><h3>Effect</h3>[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.<br>[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>Championship 25-26 Offline Regionals Season 2</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP09-027_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-027_p2.png?251017" alt="Sabo"></a>
+
+                    
+          <dl class="modalCol" id="OP09-027_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP09-027</span> | <span>UC</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Sabo</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-027_p2.png?251017" alt="Sabo">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>ODYSSEY/Revolutionary Army</div>
+                <div class="text"><h3>Effect</h3>[When Attacking] [Once Per Turn] If you have 3 or more rested Characters, draw 1 card.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>3rd Anniversary Event</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP09-027_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-027_p3.png?251017" alt="Sabo"></a>
+
+                    
+          <dl class="modalCol" id="OP09-027_p3">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP09-027</span> | <span>UC</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Sabo</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP09-027_p3.png?251017" alt="Sabo">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>ODYSSEY/Revolutionary Army</div>
+                <div class="text"><h3>Effect</h3>[When Attacking] [Once Per Turn] If you have 3 or more rested Characters, draw 1 card.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>3rd Anniversary Event</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>
@@ -10965,6 +11136,300 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-101"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-101.png?251017" alt="Tony Tony.Chopper"></a>
+
+                    
+          <dl class="modalCol" id="P-101">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>P-101</span> | <span>P</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Tony Tony.Chopper</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-101.png?251017" alt="Tony Tony.Chopper">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Animal/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On Play] Give up to 1 rested DON!! card to your Leader.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>Store Tournament 2025 Vol. 4</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-102"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-102.png?251017" alt="Nami"></a>
+
+                    
+          <dl class="modalCol" id="P-102">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>P-102</span> | <span>P</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nami</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-102.png?251017" alt="Nami">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>4000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Egghead/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[On Play] If your Leader has the {Straw Hat Crew} type, set up to 2 of your DON!! cards as active.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>Store Tournament 2025 Vol. 4</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-103"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-103.png?251017" alt="Portgas.D.Ace"></a>
+
+                    
+          <dl class="modalCol" id="P-103">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>P-103</span> | <span>P</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Portgas.D.Ace</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-103.png?251017" alt="Portgas.D.Ace">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Whitebeard Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] Draw 2 cards and place 2 cards from your hand at the top or bottom of your deck in any order. Then, give up to 1 rested DON!! card to your Leader.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>Store Tournament 2025 Vol. 4</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-104"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-104.png?251017" alt="Shanks"></a>
+
+                    
+          <dl class="modalCol" id="P-104">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>P-104</span> | <span>P</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Shanks</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-104.png?251017" alt="Shanks">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>8</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>10000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Purple</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>The Four Emperors/Red-Haired Pirates/Former Roger Pirates</div>
+                <div class="text"><h3>Effect</h3>If either you or your opponent has 10 DON!! cards on the field, this Character cannot be removed from the field by your opponent's effects.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>Store Tournament 2025 Vol. 4</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-105"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-105.png?251017" alt="Sabo"></a>
+
+                    
+          <dl class="modalCol" id="P-105">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>P-105</span> | <span>P</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Sabo</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-105.png?251017" alt="Sabo">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Revolutionary Army</div>
+                <div class="text"><h3>Effect</h3>If your Leader has the {Revolutionary Army} type, this Character gains [Blocker] and +4 cost.<br>[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>Store Tournament 2025 Vol. 4</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-106"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-106.png?251017" alt="Monkey.D.Luffy"></a>
+
+                    
+          <dl class="modalCol" id="P-106">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>P-106</span> | <span>P</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Monkey.D.Luffy</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-106.png?251017" alt="Monkey.D.Luffy">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Egghead/The Four Emperors/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[End of Your Turn] You may turn 1 card from the top of your Life cards face-up: Set up to 1 of your {Egghead} type Characters as active.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Draw 1 card and K.O. up to 1 of your opponent's Characters with a cost of 2 or less.</div>                <div class="getInfo"><h3>Card Set(s)</h3>Store Tournament 2025 Vol. 4</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-107"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-107.png?251017" alt="Gol.D.Roger"></a>
+
+                    
+          <dl class="modalCol" id="P-107">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>P-107</span> | <span>P</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Gol.D.Roger</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-107.png?251017" alt="Gol.D.Roger">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>8</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>10000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Purple</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>King of the Pirates/Roger Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] If either you or your opponent has 10 DON!! cards on the field, your Leader gains +2000 power until the end of your opponent's next End Phase.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>Store Tournament 2025 Vol. 4</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-004_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-004_p1.png?251017" alt="Sanji"></a>
 
                     
@@ -11252,6 +11717,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="feature"><h3>Type</h3>Supernovas/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Rush] (This card can attack on the turn in which it is played.)<br>[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>Tournament Pack Vol.5</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-012_p5"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-012_p5.png?251017" alt="Monkey.D.Luffy"></a>
+
+                    
+          <dl class="modalCol" id="ST01-012_p5">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-012</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Monkey.D.Luffy</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-012_p5.png?251017" alt="Monkey.D.Luffy">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Supernovas/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Rush] (This card can attack on the turn in which it is played.)<br>[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>3rd Anniversary Event</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST01-012_p6"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-012_p6.png?251017" alt="Monkey.D.Luffy"></a>
+
+                    
+          <dl class="modalCol" id="ST01-012_p6">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST01-012</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Monkey.D.Luffy</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST01-012_p6.png?251017" alt="Monkey.D.Luffy">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>1</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Supernovas/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Rush] (This card can attack on the turn in which it is played.)<br>[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>3rd Anniversary Event</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>
@@ -13090,10 +13639,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <div class="logoCol">
-      <a href="https://www.carddass.com/bcg/" target="_blank" rel="noopener" class="logoColLink bcg"><img src="/renewal/images/common/logo_bcg.png" alt="BANDAI CARD GAMES"></a>
+      <a href="https://www.carddass.com/bcg/en/" target="_blank" rel="noopener" class="logoColLink bcg"><img src="/renewal/images/common/logo_bcg.png" alt="BANDAI CARD GAMES"></a>
       <a href="https://lp.bandai-tcg-plus.com/en/" target="_blank" rel="noopener" class="logoColLink tcg-plus"><img src="/renewal/images/common/logo_tcg_plus.png" alt="BANDAI TCG+"></a>
-      <a href="https://www.bandai.co.jp/" target="_blank" rel="noopener" class="logoColLink bandai"><img src="/renewal/images/common/logo_bandai.png" alt="BANDAI"></a>
-      <a href="https://www.bandainamco.co.jp/en/" target="_blank" rel="noopener" class="logoColLink bandai_namco"><img src="/renewal/images/common/logo_bandai_namco.png" alt="BANDAI NAMCO"></a>
+      <a href="https://www.bandai.co.jp/en/" target="_blank" rel="noopener" class="logoColLink bandai"><img src="/renewal/images/common/logo_bandai.png" alt="BANDAI"></a>
+      <a href="https://www.bandainamco.co.jp/en/group/index.php" target="_blank" rel="noopener" class="logoColLink bandai_namco"><img src="/renewal/images/common/logo_bandai_namco.png" alt="BANDAI NAMCO"></a>
     </div>
 
   </div>
