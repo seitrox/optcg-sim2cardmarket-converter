@@ -557,7 +557,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dt>
               <button class="scrollBtn">ボタン</button>
               <div class="infoCol">
-                <span>OP08-052</span> | <span>R</span> | <span>CHARACTER</span>
+                <span>OP08-052</span> | <span>TR</span> | <span>CHARACTER</span>
               </div>
               <div class="cardName">Portgas.D.Ace</div>
             </dt>

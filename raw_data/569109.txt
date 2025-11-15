@@ -6773,7 +6773,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dt>
               <button class="scrollBtn">ボタン</button>
               <div class="infoCol">
-                <span>ST18-004</span> | <span>SR</span> | <span>CHARACTER</span>
+                <span>ST18-004</span> | <span>TR</span> | <span>CHARACTER</span>
               </div>
               <div class="cardName">Zoro-Juurou</div>
             </dt>
