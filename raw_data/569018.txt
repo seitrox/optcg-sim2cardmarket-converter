@@ -37,8 +37,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link href="https://en.onepiece-cardgame.com/favicon.ico" rel="shortcut icon">
   <link rel="alternate" hreflang="ja" href="https://www.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="zh-Hans" href="https://www.onepiece-cardgame.cn">
-  <link rel="alternate" hreflang="zh-HK" href="https://asia-hk.onepiece-cardgame.com/">
-  <link rel="alternate" hreflang="zh-TW" href="https://asia-tw.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="zh-HK" href="https://asia-tc.onepiece-cardgame.com/">
+  <link rel="alternate" hreflang="zh-TW" href="https://asia-tc.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="th" href="https://asia-th.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="en-sg" href="https://asia-en.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="en-my" href="https://asia-en.onepiece-cardgame.com/">
@@ -314,8 +314,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <ul class="languageListContent js-scroll-content">
         <li class="languageListItem"><a href="https://www.onepiece-cardgame.com/" class="languageListLink jp">日本語<span>Japanese</span></a></li>
         <li class="languageListItem"><a href="https://www.onepiece-cardgame.cn/" class="languageListLink cn">简体中文<span>Simplified Chinese</span></a></li>
-        <li class="languageListItem"><a href="https://asia-hk.onepiece-cardgame.com/" class="languageListLink tc">繁體中文(HK)<span>Traditional Chinese(HK)</span></a></li>
-        <li class="languageListItem"><a href="https://asia-tw.onepiece-cardgame.com/" class="languageListLink tc">繁體中文(TW)<span>Traditional Chinese(TW)</span></a></li>
+        <li class="languageListItem"><a href="https://asia-tc.onepiece-cardgame.com/" class="languageListLink tc">繁體中文<span>Traditional Chinese</span></a></li>
         <li class="languageListItem"><a href="https://asia-th.onepiece-cardgame.com/" class="languageListLink th">ไทย<span>Thai</span></a></li>
         <li class="languageListItem"><a href="https://onepiece-cardgame.kr/" class="languageListLink kr">한국어<span>Korean</span></a></li>
         <li class="languageListItem"><a href="https://asia-en.onepiece-cardgame.com/" class="languageListLink">English(Asia)<span>English(Asia)</span></a></li>
@@ -1231,8 +1230,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <ul class="languageListContent js-scroll-content">
         <li class="languageListItem"><a href="https://www.onepiece-cardgame.com/" class="languageListLink jp">日本語<span>Japanese</span></a></li>
         <li class="languageListItem"><a href="https://www.onepiece-cardgame.cn/" class="languageListLink cn">简体中文<span>Simplified Chinese</span></a></li>
-        <li class="languageListItem"><a href="https://asia-hk.onepiece-cardgame.com/" class="languageListLink tc">繁體中文(HK)<span>Traditional Chinese(HK)</span></a></li>
-        <li class="languageListItem"><a href="https://asia-tw.onepiece-cardgame.com/" class="languageListLink tc">繁體中文(TW)<span>Traditional Chinese(TW)</span></a></li>
+        <li class="languageListItem"><a href="https://asia-tc.onepiece-cardgame.com/" class="languageListLink tc">繁體中文<span>Traditional Chinese</span></a></li>
         <li class="languageListItem"><a href="https://asia-th.onepiece-cardgame.com/" class="languageListLink th">ไทย<span>Thai</span></a></li>
         <li class="languageListItem"><a href="https://onepiece-cardgame.kr/" class="languageListLink kr">한국어<span>Korean</span></a></li>
         <li class="languageListItem"><a href="https://asia-en.onepiece-cardgame.com/" class="languageListLink">English(Asia)<span>English(Asia)</span></a></li>
