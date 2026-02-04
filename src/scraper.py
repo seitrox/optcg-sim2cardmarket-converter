@@ -104,6 +104,12 @@ def extract_card_data(html_content: str, product: ProductSeries) -> List[Card]:
             if attribute_h3:
                 card_data.attribute = attribute_h3.next_sibling.strip()
 
+
+        cost_local = card_element.find("div", class_="cost")
+        if cost_local:
+            cost_text = cost_local.find(string=True, recursive=False)
+            card_data.cost = cost_text.strip() if cost_text else ""
+
         power = card_element.find("div", class_="power")
         if power:
             power_text = power.find(string=True, recursive=False)
@@ -163,7 +169,7 @@ def write_cards_data_to_csv(cards_data: List[Card]):
     card_data_file = RESULTS_DIR / 'card_data.csv'
     with open(card_data_file,'w') as file:
         header_fields = [fld.name for fld in fields(Card)]
-        writer = csv.DictWriter(file, header_fields, delimiter='|')
+        writer = csv.DictWriter(file, header_fields, delimiter=',')
         writer.writeheader()
         writer.writerows([asdict(prop) for prop in cards_data ])
     print(f"card data csv written!")
@@ -172,9 +178,9 @@ def write_converter_csv(input_file: str, output_file: str):
     with open(input_file, "r", newline="", encoding="utf-8") as infile, open(
         output_file, "w", newline="", encoding="utf-8"
     ) as outfile:
-        reader = csv.DictReader(infile, delimiter="|")
+        reader = csv.DictReader(infile, delimiter=",")
         fieldnames = ["id", "name"]
-        writer = csv.DictWriter(outfile, fieldnames=fieldnames, delimiter="|")
+        writer = csv.DictWriter(outfile, fieldnames=fieldnames, delimiter=",")
         writer.writeheader()
         for row in reader:
             if row["alternate_art"] != "True":
