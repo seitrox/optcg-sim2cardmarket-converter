@@ -7,6 +7,7 @@ class Card:
     rarity: str = ''
     type: str = ''
     attribute: str = ''
+    cost: str = ''
     power: str = ''
     counter: str = ''
     color: str = ''

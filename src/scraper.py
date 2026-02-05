@@ -1,4 +1,5 @@
 import csv
+import argparse
 from dataclasses import fields, asdict
 from datetime import datetime, timedelta
 from typing import List
@@ -104,6 +105,12 @@ def extract_card_data(html_content: str, product: ProductSeries) -> List[Card]:
             if attribute_h3:
                 card_data.attribute = attribute_h3.next_sibling.strip()
 
+
+        cost_local = card_element.find("div", class_="cost")
+        if cost_local:
+            cost_text = cost_local.find(string=True, recursive=False)
+            card_data.cost = cost_text.strip() if cost_text else ""
+
         power = card_element.find("div", class_="power")
         if power:
             power_text = power.find(string=True, recursive=False)
@@ -159,22 +166,22 @@ def get_all_cards_data(product_series):
                 all_cards_data.extend(cards_data)
     return all_cards_data
 
-def write_cards_data_to_csv(cards_data: List[Card]):
+def write_cards_data_to_csv(cards_data: List[Card], delimiter_in: str):
     card_data_file = RESULTS_DIR / 'card_data.csv'
     with open(card_data_file,'w') as file:
         header_fields = [fld.name for fld in fields(Card)]
-        writer = csv.DictWriter(file, header_fields, delimiter='|')
+        writer = csv.DictWriter(file, header_fields, delimiter=delimiter_in)
         writer.writeheader()
         writer.writerows([asdict(prop) for prop in cards_data ])
     print(f"card data csv written!")
 
-def write_converter_csv(input_file: str, output_file: str):
+def write_converter_csv(input_file: str, output_file: str, delimiter_in: str):
     with open(input_file, "r", newline="", encoding="utf-8") as infile, open(
         output_file, "w", newline="", encoding="utf-8"
     ) as outfile:
-        reader = csv.DictReader(infile, delimiter="|")
+        reader = csv.DictReader(infile, delimiter=delimiter_in)
         fieldnames = ["id", "name"]
-        writer = csv.DictWriter(outfile, fieldnames=fieldnames, delimiter="|")
+        writer = csv.DictWriter(outfile, fieldnames=fieldnames, delimiter=delimiter_in)
         writer.writeheader()
         for row in reader:
             if row["alternate_art"] != "True":
@@ -226,19 +233,24 @@ def write_formated_cards_data_to_csv(cards_data: List[Card]):
     print(f"formated csv written!")
 
 
-def main():
+def main(args):
     product_series = get_product_series(CARD_LIST_URL)
     all_cards_data = get_all_cards_data(product_series)
     RESULTS_DIR.mkdir(exist_ok=True)
-    write_cards_data_to_csv(all_cards_data)
+    write_cards_data_to_csv(all_cards_data, args.delimiter)
 
     input_csv = RESULTS_DIR / "card_data.csv"
     output_csv = RESULTS_DIR / "converter_card_data.csv"
-    write_converter_csv(str(input_csv), str(output_csv))
+    write_converter_csv(str(input_csv), str(output_csv), args.delimiter)
     write_formated_cards_data_to_csv(all_cards_data)
 
 
 
 
 if __name__ == "__main__":
-    main()
+    argparser = argparse.ArgumentParser("optcg-sim2cardmarket-converter")
+    argparser.add_argument("--delimiter", default='|', type=str, help="optionally modify the delimiter for" \
+    "outputting the resulting csv files. Default: \"|\"")
+    args = argparser.parse_args()
+
+    main(args)
