@@ -352,8 +352,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li class="socialMediaListItem youtube"><a href="https://www.youtube.com/channel/UCT5u6XqA2oaSqxsXKp3zubw" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_youtube.png" alt="Official YouTube Channel"></a></li>
     <li class="socialMediaListItem facebook"><a href="https://www.facebook.com/onepiecetcgen/" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_facebook.png" alt="Official Facebook Page"></a></li>
     <li class="socialMediaListItem twitter"><a href="https://twitter.com/ONEPIECE_tcg_EN" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_x.png" alt="official X Account"></a></li>
-    <li class="socialMediaListItem instagram"><a href="https://www.instagram.com/onepiece_tcg_en/" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_instagram.png" alt="Official Instagram Account"></a></li>
-  </ul>
+      </ul>
 </div>        </div>
       </div>
     </div>
@@ -7962,8 +7961,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li class="socialMediaListItem youtube"><a href="https://www.youtube.com/channel/UCT5u6XqA2oaSqxsXKp3zubw" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_youtube.png" alt="Official YouTube Channel"></a></li>
     <li class="socialMediaListItem facebook"><a href="https://www.facebook.com/onepiecetcgen/" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_facebook.png" alt="Official Facebook Page"></a></li>
     <li class="socialMediaListItem twitter"><a href="https://twitter.com/ONEPIECE_tcg_EN" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_x.png" alt="official X Account"></a></li>
-    <li class="socialMediaListItem instagram"><a href="https://www.instagram.com/onepiece_tcg_en/" target="_blank" rel="noopener" class="socialMediaListLink"><img src="/renewal/images/common/ico_instagram.png" alt="Official Instagram Account"></a></li>
-  </ul>
+      </ul>
 </div>
     <div class="languageCol uniweb-translation-mask">
   <button class="languageColBtn"><span>English</span><span> - NA<span>/</span>EU<span>/</span>OC<span>/</span>LA</span></button>
