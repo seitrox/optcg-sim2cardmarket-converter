@@ -382,6 +382,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <option value="569203" >EXTRA BOOSTER &lt;br class=&quot;spInline&quot;&gt;-ONE PIECE HEROINES EDITION- [EB-03]</option>
                   <option value="569202" >EXTRA BOOSTER &lt;br class=&quot;spInline&quot;&gt;-Anime 25th Collection- [EB-02]</option>
                   <option value="569201" >EXTRA BOOSTER &lt;br class=&quot;spInline&quot;&gt;-MEMORIAL COLLECTION- [EB-01]</option>
+                  <option value="569115" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-ADVENTURE ON KAMI’S ISLAND- &lt;br class=&quot;spInline&quot;&gt;[OP15-EB04]</option>
                   <option value="569114" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-THE AZURE SEA’S SEVEN- [OP14-EB04]</option>
                   <option value="569113" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-CARRYING ON HIS WILL- [OP-13]</option>
                   <option value="569112" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-LEGACY OF THE MASTER- [OP-12]</option>
@@ -520,7 +521,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="pageDetailCol">
           <div>
             <a href="javascript:void(0);" onclick="cardSerchReset();" class="reset">&#x00D7; Clear</a>
-            <div class="countCol">338 results</div>
+            <div class="countCol">343 results</div>
           </div>
 
           <div class="spnavi" id="view">
@@ -1202,6 +1203,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="feature"><h3>Type</h3>Animal</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −4 cost during this turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>Treasure Cup May 2025~</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB02-006_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB02-006_p2.png?260305" alt="Yamato"></a>
+
+                    
+          <dl class="modalCol" id="EB02-006_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB02-006</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Yamato</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB02-006_p2.png?260305" alt="Yamato">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>7000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Land of Wano</div>
+                <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn] If your Leader has the {Land of Wano} type or is [Portgas.D.Ace], give up to 1 rested DON!! card to 1 of your Leader. Then, this Character gains [Rush] during this turn.<br></div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>Extra Grand Battle for Stores 2026 May</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>
@@ -7131,6 +7174,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP14-033_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-033_p2.png?260305" alt="Perona"></a>
+
+                    
+          <dl class="modalCol" id="OP14-033_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP14-033</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Perona</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-033_p2.png?260305" alt="Perona">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Muggy Kingdom/Thriller Bark Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] Up to 2 of your opponent's Characters with a cost of 5 or less cannot be rested until the end of your opponent's next End Phase.<br>[On K.O.] You may rest 1 of your cards: Play up to 1 green Character card with a cost of 5 or less from your hand.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>Extra Grand Battle for Stores 2026 May</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#P-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-001.png?260305" alt="Monkey.D.Luffy"></a>
 
                     
@@ -12675,6 +12760,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-115"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-115.png?260305" alt="Boa Hancock"></a>
+
+                    
+          <dl class="modalCol" id="P-115">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>P-115</span> | <span>P</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Boa Hancock</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-115.png?260305" alt="Boa Hancock">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>7000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>The Seven Warlords of the Sea/Kuja Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Play up to 1 yellow Character card with 5000 power or less and a [Trigger] from your hand.</div>                <div class="getInfo"><h3>Card Set(s)</h3>OP15-EB04 Release Event</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-115_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-115_p1.png?260305" alt="Boa Hancock"></a>
+
+                    
+          <dl class="modalCol" id="P-115_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>P-115</span> | <span>P</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Boa Hancock</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-115_p1.png?260305" alt="Boa Hancock">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>7000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>The Seven Warlords of the Sea/Kuja Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Play up to 1 yellow Character card with 5000 power or less and a [Trigger] from your hand.</div>                <div class="getInfo"><h3>Card Set(s)</h3>OP15-EB04 Release Event</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#P-117"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-117.png?260305" alt="Nami"></a>
 
                     
@@ -12710,6 +12879,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="feature"><h3>Type</h3>East Blue</div>
                 <div class="text"><h3>Effect</h3>Under the rules of this game, you can only include {East Blue} type cards in your deck and when your deck is reduced to 0, you win the game instead of losing.<br>[DON!! x1] When this Leader's attack deals damage to your opponent's Life, you may trash 1 card from the top of your deck.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>Store Tournament 2025 Vol. 4</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#P-119"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-119.png?260305" alt="Portgas.D.Ace"></a>
+
+                    
+          <dl class="modalCol" id="P-119">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>P-119</span> | <span>P</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Portgas.D.Ace</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/P-119.png?260305" alt="Portgas.D.Ace">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Whitebeard Pirates</div>
+                <div class="text"><h3>Effect</h3>-</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>Pirates Party 2026 Vol. 1</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>
