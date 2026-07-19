@@ -404,6 +404,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <option value="569103" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-PILLARS OF STRENGTH- [OP-03]</option>
                   <option value="569102" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-PARAMOUNT WAR- [OP-02]</option>
                   <option value="569101" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-ROMANCE DAWN- [OP-01]</option>
+                  <option value="569036" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-YELLOW Eustass&quot;Captain&quot;Kid- [ST-36]</option>
+                  <option value="569035" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-RED/BLACK Sabo- [ST-35]</option>
+                  <option value="569034" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-PURPLE Charlotte Katakuri- [ST-34]</option>
+                  <option value="569033" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-BLUE Kuzan- [ST-33]</option>
+                  <option value="569032" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-GREEN Roronoa Zoro- [ST-32]</option>
+                  <option value="569031" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-RED Monkey.D.Luffy- [ST-31]</option>
                   <option value="569030" >STARTER DECK EX &lt;br class=&quot;spInline&quot;&gt;-Luffy &amp; Ace- [ST-30]</option>
                   <option value="569029" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Egghead- [ST-29]</option>
                   <option value="569028" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-GREEN/YELLOW Yamato- [ST-28]</option>
@@ -533,7 +539,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="pageDetailCol">
           <div>
             <a href="javascript:void(0);" onclick="cardSerchReset();" class="reset">&#x00D7; Clear</a>
-            <div class="countCol">173 results</div>
+            <div class="countCol">177 results</div>
           </div>
 
           <div class="spnavi" id="view">
@@ -4876,6 +4882,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP14-005_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-005_p1.png?260715" alt="Killer"></a>
+
+                    
+          <dl class="modalCol" id="OP14-005_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP14-005</span> | <span>C</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Killer</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-005_p1.png?260715" alt="Killer">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>1000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Supernovas/Kid Pirates</div>
+                <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>Illustration Box Vol.8</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP14-014_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-014_p1.png?260715" alt="Eustass&quot;Captain&quot;Kid"></a>
 
                     
@@ -4911,6 +4959,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="feature"><h3>Type</h3>Supernovas/Kid Pirates</div>
                 <div class="text"><h3>Effect</h3>[Blocker]<br>[On Play] If your Leader has the {Supernovas} type, play up to 1 red Character card with 2000 power or less from your hand.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>Premium Card Collection -Best Selection Vol.6-</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP14-014_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-014_p2.png?260715" alt="Eustass&quot;Captain&quot;Kid"></a>
+
+                    
+          <dl class="modalCol" id="OP14-014_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP14-014</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Eustass&quot;Captain&quot;Kid</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-014_p2.png?260715" alt="Eustass&quot;Captain&quot;Kid">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Supernovas/Kid Pirates</div>
+                <div class="text"><h3>Effect</h3>[Blocker]<br>[On Play] If your Leader has the {Supernovas} type, play up to 1 red Character card with 2000 power or less from your hand.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>Illustration Box Vol.8</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>
@@ -4995,6 +5085,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="feature"><h3>Type</h3>The Seven Warlords of the Sea/Baroque Works</div>
                 <div class="text"><h3>Effect</h3>[Main] Look at 3 cards from the top of your deck; reveal up to 1 card with a type including "Baroque Works" other than [Disappointed?] and add it to your hand. Then, trash the rest.</div>
                 <div class="trigger"><h3>Trigger</h3>[Trigger] Activate this card's [Main] effect.</div>                <div class="getInfo"><h3>Card Set(s)</h3>Premium Card Collection -Best Selection Vol.6-</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP14-107_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-107_p1.png?260715" alt="Shakuyaku"></a>
+
+                    
+          <dl class="modalCol" id="OP14-107_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP14-107</span> | <span>UC</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Shakuyaku</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-107_p1.png?260715" alt="Shakuyaku">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Amazon Lily</div>
+                <div class="text"><h3>Effect</h3>[On Play] If your opponent has 3 or less Life cards, draw 2 cards and trash 2 cards from your hand.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] If your Leader has the {Kuja Pirates} type, play this card.</div>                <div class="getInfo"><h3>Card Set(s)</h3>Illustration Box Vol.7</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP14-108_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-108_p1.png?260715" alt="Silvers Rayleigh"></a>
+
+                    
+          <dl class="modalCol" id="OP14-108_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP14-108</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Silvers Rayleigh</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-108_p1.png?260715" alt="Silvers Rayleigh">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Former Roger Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] If your Leader is multicolored and your opponent has 3 or less Life cards, K.O. up to 1 of your opponent's Characters with 7000 base power or less.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Activate this card's [On Play] effect.</div>                <div class="getInfo"><h3>Card Set(s)</h3>Illustration Box Vol.7</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
             </dd>

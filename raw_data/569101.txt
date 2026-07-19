@@ -404,6 +404,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <option value="569103" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-PILLARS OF STRENGTH- [OP-03]</option>
                   <option value="569102" >BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-PARAMOUNT WAR- [OP-02]</option>
                   <option value="569101" selected>BOOSTER PACK &lt;br class=&quot;spInline&quot;&gt;-ROMANCE DAWN- [OP-01]</option>
+                  <option value="569036" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-YELLOW Eustass&quot;Captain&quot;Kid- [ST-36]</option>
+                  <option value="569035" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-RED/BLACK Sabo- [ST-35]</option>
+                  <option value="569034" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-PURPLE Charlotte Katakuri- [ST-34]</option>
+                  <option value="569033" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-BLUE Kuzan- [ST-33]</option>
+                  <option value="569032" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-GREEN Roronoa Zoro- [ST-32]</option>
+                  <option value="569031" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-RED Monkey.D.Luffy- [ST-31]</option>
                   <option value="569030" >STARTER DECK EX &lt;br class=&quot;spInline&quot;&gt;-Luffy &amp; Ace- [ST-30]</option>
                   <option value="569029" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-Egghead- [ST-29]</option>
                   <option value="569028" >STARTER DECK &lt;br class=&quot;spInline&quot;&gt;-GREEN/YELLOW Yamato- [ST-28]</option>
