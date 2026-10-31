@@ -547,7 +547,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="pageDetailCol">
           <div>
             <a href="javascript:void(0);" onclick="cardSerchReset();" class="reset">&#x00D7; Clear</a>
-            <div class="countCol">61 results</div>
+            <div class="countCol">96 results</div>
           </div>
 
           <div class="spnavi" id="view">
@@ -564,6 +564,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
         <div class="resultCol">
                   
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB03-001_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB03-001_p2.png?261016" alt="Nefeltari Vivi"></a>
+
+                    
+          <dl class="modalCol" id="EB03-001_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB03-001</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Nefeltari Vivi</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB03-001_p2.png?261016" alt="Nefeltari Vivi">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red/Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Alabasta</div>
+                <div class="text"><h3>Effect</h3>[Once Per Turn] If your Character with a base cost of 4 or more would be K.O.'d, you may trash 1 card from your hand instead.<br>[Activate: Main] You may rest this Leader: Give up to 1 of your opponent's Characters −2000 power during this turn. Then, up to 1 of your Characters without a [When Attacking] effect gains [Rush] during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-001.png?261016" alt="Jewelry Bonney"></a>
 
                     
@@ -578,6 +620,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-001.png?261016" alt="Jewelry Bonney">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>7000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Supernovas/Bonney Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] If your Leader has the {Supernovas} type, draw 2 cards and play up to 2 Character cards with 2000 power or less from your hand.<br>[Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Leader or Characters with 6000 power or more −1000 power until the end of your opponent's next End Phase.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-001_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-001_p1.png?261016" alt="Jewelry Bonney"></a>
+
+                    
+          <dl class="modalCol" id="EB05-001_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-001</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Jewelry Bonney</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-001_p1.png?261016" alt="Jewelry Bonney">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -732,6 +816,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-004_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-004_p1.png?261016" alt="Baby 5"></a>
+
+                    
+          <dl class="modalCol" id="EB05-004_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-004</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Baby 5</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-004_p1.png?261016" alt="Baby 5">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Punk Hazard/Donquixote Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] You may reveal 2 Event cards from your hand: Draw 2 cards.<br>[On K.O.] Play up to 1 Character card with 6000 power or less from your hand rested.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-005"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-005.png?261016" alt="Belo Betty"></a>
 
                     
@@ -788,6 +914,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-006.png?261016" alt="Miss Buckingham Stussy">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>2000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Rocks Pirates</div>
+                <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: Choose one:<br>• Give up to 1 Character +3000 power during this turn.<br>• Give up to 1 Character −4000 power during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-006_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-006_p1.png?261016" alt="Miss Buckingham Stussy"></a>
+
+                    
+          <dl class="modalCol" id="EB05-006_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-006</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Miss Buckingham Stussy</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-006_p1.png?261016" alt="Miss Buckingham Stussy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -984,6 +1152,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-010_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-010_p1.png?261016" alt="Nico Robin"></a>
+
+                    
+          <dl class="modalCol" id="EB05-010_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-010</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Nico Robin</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-010_p1.png?261016" alt="Nico Robin">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green/Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Once Per Turn] When one of your Characters with the &lt;Wisdom&gt; attribute and without [Blocker] is K.O.'d, add up to 1 card from the top of your deck to the top of your Life cards.<br>[Activate: Main] [Once Per Turn] Set up to 1 of your Characters with the &lt;Wisdom&gt; attribute and 6000 power or less as active.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-010_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-010_p2.png?261016" alt="Nico Robin"></a>
+
+                    
+          <dl class="modalCol" id="EB05-010_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-010</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Nico Robin</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-010_p2.png?261016" alt="Nico Robin">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green/Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Once Per Turn] When one of your Characters with the &lt;Wisdom&gt; attribute and without [Blocker] is K.O.'d, add up to 1 card from the top of your deck to the top of your Life cards.<br>[Activate: Main] [Once Per Turn] Set up to 1 of your Characters with the &lt;Wisdom&gt; attribute and 6000 power or less as active.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-011"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-011.png?261016" alt="Otohime"></a>
 
                     
@@ -1152,6 +1404,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-014_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-014_p1.png?261016" alt="Shirahoshi"></a>
+
+                    
+          <dl class="modalCol" id="EB05-014_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-014</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Shirahoshi</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-014_p1.png?261016" alt="Shirahoshi">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>-</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>X</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Merfolk/Fish-Man Island</div>
+                <div class="text"><h3>Effect</h3>[On Play] Look at 5 cards from the top of your deck; reveal up to a total of 2 [Megalo] or {Neptunian} type cards and add them to your hand. Then, trash the rest.<br>[Activate: Main] You may rest this Character: Up to 1 of your {Neptunian} type Characters with 6000 power or less gains [Rush] during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-014_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-014_p2.png?261016" alt="Shirahoshi"></a>
+
+                    
+          <dl class="modalCol" id="EB05-014_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-014</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Shirahoshi</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-014_p2.png?261016" alt="Shirahoshi">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>-</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>X</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Merfolk/Fish-Man Island</div>
+                <div class="text"><h3>Effect</h3>[On Play] Look at 5 cards from the top of your deck; reveal up to a total of 2 [Megalo] or {Neptunian} type cards and add them to your hand. Then, trash the rest.<br>[Activate: Main] You may rest this Character: Up to 1 of your {Neptunian} type Characters with 6000 power or less gains [Rush] during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-015"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-015.png?261016" alt="Tashigi"></a>
 
                     
@@ -1236,6 +1572,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-016_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-016_p1.png?261016" alt="Nico Robin"></a>
+
+                    
+          <dl class="modalCol" id="EB05-016_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-016</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nico Robin</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-016_p1.png?261016" alt="Nico Robin">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Your Turn] [On Play] Play up to 1 Character card with a cost of 5 or less and the &lt;Wisdom&gt; attribute from your hand.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Rest up to 1 of your opponent's Characters with a cost of 6 or less.</div>                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-017"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-017.png?261016" alt="Mermaid Cafe Dancers"></a>
 
                     
@@ -1292,6 +1670,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-018.png?261016" alt="Rebecca">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>1000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Dressrosa</div>
+                <div class="text"><h3>Effect</h3>[On Play] Up to 1 of your opponent's rested Characters with a cost of 6 or less will not become active in your opponent's next Refresh Phase.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-018_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-018_p1.png?261016" alt="Rebecca"></a>
+
+                    
+          <dl class="modalCol" id="EB05-018_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-018</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Rebecca</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-018_p1.png?261016" alt="Rebecca">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1418,6 +1838,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-021.png?261016" alt="Alvida">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>9</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>7000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Cross Guild</div>
+                <div class="text"><h3>Effect</h3>[On Play] Draw 2 cards and play up to 1 {Cross Guild} type Character card with a cost of 8 or less from your hand. Then, you cannot play Character cards during this turn.<br>[When Attacking] Negate the effect of up to 1 of your opponent's Characters during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-021_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-021_p1.png?261016" alt="Alvida"></a>
+
+                    
+          <dl class="modalCol" id="EB05-021_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-021</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Alvida</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-021_p1.png?261016" alt="Alvida">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1740,6 +2202,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-028_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-028_p1.png?261016" alt="Boa Hancock"></a>
+
+                    
+          <dl class="modalCol" id="EB05-028_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-028</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Boa Hancock</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-028_p1.png?261016" alt="Boa Hancock">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Impel Down/The Seven Warlords of the Sea/Kuja Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] If your opponent has 9 or more cards in their hand, they trash 4 cards from their hand.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-029"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-029.png?261016" alt="Kimono Sleeve Cage"></a>
 
                     
@@ -1992,6 +2496,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-034_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-034_p1.png?261016" alt="Sugar"></a>
+
+                    
+          <dl class="modalCol" id="EB05-034_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-034</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Sugar</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-034_p1.png?261016" alt="Sugar">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>-</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Purple</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Donquixote Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] DON!! −2: If you have 7 or more DON!! cards on your field, give up to 1 of your opponent's Characters −4000 power during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-035"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-035.png?261016" alt="Speed"></a>
 
                     
@@ -2090,6 +2636,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-037.png?261016" alt="Black Maria">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>2000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Purple</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Animal Kingdom Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-037_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-037_p1.png?261016" alt="Black Maria"></a>
+
+                    
+          <dl class="modalCol" id="EB05-037_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-037</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Black Maria</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-037_p1.png?261016" alt="Black Maria">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2370,6 +2958,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-043_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-043_p1.png?261016" alt="Perona"></a>
+
+                    
+          <dl class="modalCol" id="EB05-043_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-043</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Perona</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-043_p1.png?261016" alt="Perona">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Thriller Bark Pirates</div>
+                <div class="text"><h3>Effect</h3>[On K.O.] K.O. or rest up to 1 of your opponent's Characters with a cost of 6 or less.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-044"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-044.png?261016" alt="Ms. Father&#039;s Day"></a>
 
                     
@@ -2468,6 +3098,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-046.png?261016" alt="Yamato">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Land of Wano</div>
+                <div class="text"><h3>Effect</h3>If your opponent has a Character with 8000 base power or more, this Character gains [Blocker] and +3000 power.<br>[On Your Opponent's Attack]  You may trash 1 card from your hand: If you have 10 or more cards in your trash, your Leader's base power becomes 7000 during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-046_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-046_p1.png?261016" alt="Yamato"></a>
+
+                    
+          <dl class="modalCol" id="EB05-046_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-046</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Yamato</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-046_p1.png?261016" alt="Yamato">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2748,6 +3420,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-052_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-052_p1.png?261016" alt="Gloriosa"></a>
+
+                    
+          <dl class="modalCol" id="EB05-052_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-052</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Gloriosa</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-052_p1.png?261016" alt="Gloriosa">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Amazon Lily/Rocks Pirates</div>
+                <div class="text"><h3>Effect</h3>If you would take damage, you may trash this Character instead.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Draw 2 cards and trash 1 card from your hand.</div>                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-053"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-053.png?261016" alt="Charlotte Praline"></a>
 
                     
@@ -2874,6 +3588,132 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-055_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-055_p1.png?261016" alt="Nami"></a>
+
+                    
+          <dl class="modalCol" id="EB05-055_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-055</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nami</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-055_p1.png?261016" alt="Nami">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>East Blue/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Your Turn] [On Play] If your Leader has the &lt;Wisdom&gt; attribute, add up to 1 card from the top of your deck to the top of your Life cards.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card.</div>                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-055_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-055_p2.png?261016" alt="Nami"></a>
+
+                    
+          <dl class="modalCol" id="EB05-055_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-055</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nami</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-055_p2.png?261016" alt="Nami">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>East Blue/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Your Turn] [On Play] If your Leader has the &lt;Wisdom&gt; attribute, add up to 1 card from the top of your deck to the top of your Life cards.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card.</div>                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-055_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-055_p3.png?261016" alt="Nami"></a>
+
+                    
+          <dl class="modalCol" id="EB05-055_p3">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-055</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nami</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-055_p3.png?261016" alt="Nami">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>East Blue/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Your Turn] [On Play] If your Leader has the &lt;Wisdom&gt; attribute, add up to 1 card from the top of your deck to the top of your Life cards.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card.</div>                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-056"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-056.png?261016" alt="Nico Olvia"></a>
 
                     
@@ -2930,6 +3770,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-057.png?261016" alt="Nojiko">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>-</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>East Blue</div>
+                <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to 1 of your Leader or Character cards with the &lt;Special&gt; or &lt;Wisdom&gt; attribute.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] If you have 2 or less Life cards, play up to 1 Character card with 6000 power or less and a [Trigger] from your hand.</div>                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-057_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-057_p1.png?261016" alt="Nojiko"></a>
+
+                    
+          <dl class="modalCol" id="EB05-057_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-057</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nojiko</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-057_p1.png?261016" alt="Nojiko">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -3118,6 +4000,594 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Once Per Turn] If one of your Characters with 6000 base power or less would be removed from the field by your opponent, you may add 1 card from the top of your Life cards to your hand instead.<br>[On Play] Play up to 1 red Character card with a cost of 2 or less from your hand.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-061_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-061_p1.png?261016" alt="Nami"></a>
+
+                    
+          <dl class="modalCol" id="EB05-061_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-061</span> | <span>SEC</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nami</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-061_p1.png?261016" alt="Nami">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>3</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>4000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Once Per Turn] If one of your Characters with 6000 base power or less would be removed from the field by your opponent, you may add 1 card from the top of your Life cards to your hand instead.<br>[On Play] Play up to 1 red Character card with a cost of 2 or less from your hand.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP11-022_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP11-022_p2.png?261016" alt="Shirahoshi"></a>
+
+                    
+          <dl class="modalCol" id="OP11-022_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP11-022</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Shirahoshi</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP11-022_p2.png?261016" alt="Shirahoshi">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green/Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Merfolk/Fish-Man Island</div>
+                <div class="text"><h3>Effect</h3>This Leader cannot attack.<br>[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards and turn 1 card from the top of your Life cards face-up: Play up to 1 {Neptunian} type Character card or [Megalo] with a cost equal to or less than the number of DON!! cards on your field from your hand.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP11-041_p4"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP11-041_p4.png?261016" alt="Nami"></a>
+
+                    
+          <dl class="modalCol" id="OP11-041_p4">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP11-041</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Nami</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP11-041_p4.png?261016" alt="Nami">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue/Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Your Turn] [Once Per Turn] This effect can be activated when a card is removed from your or your opponent's Life cards. If you have 7 or less cards in your hand, draw 1 card.<br>[DON!! x1] [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: This Leader gains +2000 power during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP13-100_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP13-100_p2.png?261016" alt="Jewelry Bonney"></a>
+
+                    
+          <dl class="modalCol" id="OP13-100_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP13-100</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Jewelry Bonney</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP13-100_p2.png?261016" alt="Jewelry Bonney">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Egghead/Bonney Pirates</div>
+                <div class="text"><h3>Effect</h3>[Your Turn] [Once Per Turn] This effect can be activated when you play a Character with a [Trigger]. Give up to 2 rested DON!! cards to 1 of your Leader or Character cards.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP14-041_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-041_p3.png?261016" alt="Boa Hancock"></a>
+
+                    
+          <dl class="modalCol" id="OP14-041_p3">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP14-041</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Boa Hancock</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-041_p3.png?261016" alt="Boa Hancock">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue/Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>The Seven Warlords of the Sea/Kuja Pirates</div>
+                <div class="text"><h3>Effect</h3>[Opponent's Turn] When you play a Character, draw 1 card.<br>[DON!! x1] [Once Per Turn] When one of your {Amazon Lily} or {Kuja Pirates} type Characters with 5000 base power or more is K.O.'d, add up to 1 card from the top of your opponent's Life cards to the owner's hand.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP15-039_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP15-039_p2.png?261016" alt="Rebecca"></a>
+
+                    
+          <dl class="modalCol" id="OP15-039_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP15-039</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Rebecca</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP15-039_p2.png?261016" alt="Rebecca">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Dressrosa</div>
+                <div class="text"><h3>Effect</h3>This Leader cannot attack.<br>[Activate: Main] You may rest this Leader and return 1 of your {Dressrosa} type Characters to the owner's hand: Play up to 1 {Dressrosa} type Character card with a cost of 3 from your hand.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-006_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-006_p2.png?261016" alt="Miss Buckingham Stussy"></a>
+
+                    
+          <dl class="modalCol" id="EB05-006_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-006</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Miss Buckingham Stussy</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-006_p2.png?261016" alt="Miss Buckingham Stussy">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>2000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Rocks Pirates</div>
+                <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: Choose one:<br>• Give up to 1 Character +3000 power during this turn.<br>• Give up to 1 Character −4000 power during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-016_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-016_p2.png?261016" alt="Nico Robin"></a>
+
+                    
+          <dl class="modalCol" id="EB05-016_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-016</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nico Robin</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-016_p2.png?261016" alt="Nico Robin">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Your Turn] [On Play] Play up to 1 Character card with a cost of 5 or less and the &lt;Wisdom&gt; attribute from your hand.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Rest up to 1 of your opponent's Characters with a cost of 6 or less.</div>                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#EB05-031_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-031_p1.png?261016" alt="Vinsmoke Reiju"></a>
+
+                    
+          <dl class="modalCol" id="EB05-031_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>EB05-031</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Vinsmoke Reiju</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/EB05-031_p1.png?261016" alt="Vinsmoke Reiju">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Purple</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>The Vinsmoke Family/GERMA 66</div>
+                <div class="text"><h3>Effect</h3>[On Play] DON!! −1: If your Leader has the {The Vinsmoke Family} type, trash 10 cards from the top of your deck.<br>[Activate: Main] You may trash this Character: If your opponent has a Character with 8000 base power or more, add up to 4 DON!! cards as active from your DON!! deck.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP01-016_p10"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p10.png?261016" alt="Nami"></a>
+
+                    
+          <dl class="modalCol" id="OP01-016_p10">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP01-016</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nami</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP01-016_p10.png?261016" alt="Nami">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>2000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>X</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP14-033_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-033_p3.png?261016" alt="Perona"></a>
+
+                    
+          <dl class="modalCol" id="OP14-033_p3">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP14-033</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Perona</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP14-033_p3.png?261016" alt="Perona">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Muggy Kingdom/Thriller Bark Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] Up to 2 of your opponent's Characters with a cost of 5 or less cannot be rested until the end of your opponent's next End Phase.<br>[On K.O.] You may rest 1 of your cards: Play up to 1 green Character card with a cost of 5 or less from your hand.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP17-081_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP17-081_p1.png?261016" alt="Gerd"></a>
+
+                    
+          <dl class="modalCol" id="OP17-081_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP17-081</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Gerd</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP17-081_p1.png?261016" alt="Gerd">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>3000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Giant/Elbaph/New Giant Pirates</div>
+                <div class="text"><h3>Effect</h3>If your Leader has the {Elbaph} type, this Character gains +12 cost.<br>[On Play] You may trash 1 card from your hand: Add up to 1 Character card with a cost of 8 or less other than [Gerd] from your trash to your hand.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP17-109_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP17-109_p1.png?261016" alt="Charlotte Pudding"></a>
+
+                    
+          <dl class="modalCol" id="OP17-109_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP17-109</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Charlotte Pudding</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP17-109_p1.png?261016" alt="Charlotte Pudding">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>3</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>4000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Big Mom Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] You may trash 1 card with a [Trigger] from your hand: Draw 3 cards.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>                <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST17-004_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST17-004_p1.png?261016" alt="Boa Hancock"></a>
+
+                    
+          <dl class="modalCol" id="ST17-004_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST17-004</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Boa Hancock</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST17-004_p1.png?261016" alt="Boa Hancock">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>The Seven Warlords of the Sea/Kuja Pirates</div>
+                <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of your deck in any order. Then, give up to 1 rested DON!! card to 1 of your {The Seven Warlords of the Sea} type Leader or Character cards.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05]</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
