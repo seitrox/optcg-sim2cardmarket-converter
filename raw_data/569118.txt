@@ -548,7 +548,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="pageDetailCol">
           <div>
             <a href="javascript:void(0);" onclick="cardSerchReset();" class="reset">&#x00D7; Clear</a>
-            <div class="countCol">119 results</div>
+            <div class="countCol">159 results</div>
           </div>
 
           <div class="spnavi" id="view">
@@ -565,6 +565,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
         <div class="resultCol">
                   
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP17-119_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP17-119_p2.png?261016" alt="Loki"></a>
+
+                    
+          <dl class="modalCol" id="OP17-119_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP17-119</span> | <span>SEC</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Loki</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP17-119_p2.png?261016" alt="Loki">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>8000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Giant/Elbaph</div>
+                <div class="text"><h3>Effect</h3>This Character gains +12 cost, and if it is your opponent's turn, this Character gains +3000 power.<br>[On Play] K.O. your opponent's Characters with a total cost of 4 or less.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP17-119_p3"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP17-119_p3.png?261016" alt="Loki"></a>
+
+                    
+          <dl class="modalCol" id="OP17-119_p3">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP17-119</span> | <span>SEC</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Loki</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP17-119_p3.png?261016" alt="Loki">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>8000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Giant/Elbaph</div>
+                <div class="text"><h3>Effect</h3>This Character gains +12 cost, and if it is your opponent's turn, this Character gains +3000 power.<br>[On Play] K.O. your opponent's Characters with a total cost of 4 or less.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-001"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-001.png?261016" alt="Karoo"></a>
 
                     
@@ -579,6 +663,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-001.png?261016" alt="Karoo">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red/Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Animal/Alabasta</div>
+                <div class="text"><h3>Effect</h3>All of your Characters with both the {Animal} and {Alabasta} types gain [Rush] and +1000 power.<br>[Once Per Turn] When your {Alabasta} type Character is K.O.'d, draw 1 card.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-001_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-001_p1.png?261016" alt="Karoo"></a>
+
+                    
+          <dl class="modalCol" id="OP18-001_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-001</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Karoo</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-001_p1.png?261016" alt="Karoo">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -705,6 +831,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-004.png?261016" alt="Karoo">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>3</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>4000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Animal/Alabasta</div>
+                <div class="text"><h3>Effect</h3>Apply each of the following effects based on this Character's power:<br>• If it has 5000 power or more, this Character gains [Rush].<br>• If it has 6000 power or more, this Character gains [Banish].<br>• If it has 7000 power or more, this Character gains [Unblockable].</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-004_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-004_p1.png?261016" alt="Karoo"></a>
+
+                    
+          <dl class="modalCol" id="OP18-004_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-004</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Karoo</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-004_p1.png?261016" alt="Karoo">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -999,6 +1167,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-011.png?261016" alt="Nefeltari Vivi">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>-</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Alabasta</div>
+                <div class="text"><h3>Effect</h3>All of your Characters with both the {Animal} and {Alabasta} types gain +1000 power.<br>[Opponent's Turn] This Character gains [Blocker] and +6000 power.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-011_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-011_p1.png?261016" alt="Nefeltari Vivi"></a>
+
+                    
+          <dl class="modalCol" id="OP18-011_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-011</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nefeltari Vivi</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-011_p1.png?261016" alt="Nefeltari Vivi">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1447,6 +1657,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-021_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-021_p1.png?261016" alt="Franky"></a>
+
+                    
+          <dl class="modalCol" id="OP18-021_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-021</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Franky</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-021_p1.png?261016" alt="Franky">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green/Purple</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Water Seven/The Franky Family/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>All Stage cards in your hand have a +3000 Counter.<br>[Activate: Main] [Once Per Turn] DON!! −1: Play up to 1 Stage card with a cost of 5 or less from your hand.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-022"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-022.png?261016" alt="Monkey.D.Luffy"></a>
 
                     
@@ -1461,6 +1713,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-022.png?261016" alt="Monkey.D.Luffy">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Water Seven/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[DON!! x3] [When Attacking] [Once Per Turn] You may set this Leader as active. If you do, this Leader will not become active in your next Refresh Phase.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-022_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-022_p1.png?261016" alt="Monkey.D.Luffy"></a>
+
+                    
+          <dl class="modalCol" id="OP18-022_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-022</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Monkey.D.Luffy</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-022_p1.png?261016" alt="Monkey.D.Luffy">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1783,6 +2077,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-029_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-029_p1.png?261016" alt="Tony Tony.Chopper"></a>
+
+                    
+          <dl class="modalCol" id="OP18-029_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-029</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Tony Tony.Chopper</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-029_p1.png?261016" alt="Tony Tony.Chopper">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>9</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Animal/Water Seven/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Rush]<br>[When Attacking] [Once Per Turn] Give up to 3 rested DON!! cards to your Leader and set this Character as active. Then, this Character will not become active in your next Refresh Phase.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-030"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-030.png?261016" alt="Nami"></a>
 
                     
@@ -1839,6 +2175,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-031.png?261016" alt="Nico Robin">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>X</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Water Seven/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Opponent's Turn] If your Character would be removed from the field by your opponent's effect, you may rest this Character instead.<br>[End of Your Turn] Set up to 1 of your {Water Seven} type cards and up to 1 of your DON!! cards as active.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-031_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-031_p1.png?261016" alt="Nico Robin"></a>
+
+                    
+          <dl class="modalCol" id="OP18-031_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-031</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nico Robin</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-031_p1.png?261016" alt="Nico Robin">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>X</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Water Seven/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[Opponent's Turn] If your Character would be removed from the field by your opponent's effect, you may rest this Character instead.<br>[End of Your Turn] Set up to 1 of your {Water Seven} type cards and up to 1 of your DON!! cards as active.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-031_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-031_p2.png?261016" alt="Nico Robin"></a>
+
+                    
+          <dl class="modalCol" id="OP18-031_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-031</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nico Robin</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-031_p2.png?261016" alt="Nico Robin">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -1965,6 +2385,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-034.png?261016" alt="Franky">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>7000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Water Seven/The Franky Family/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[On Play] Play up to 1 {The Franky Family} or {Straw Hat Crew} type card with a cost of 5 or less from your hand. Then, if you have a Stage with a cost of 5 or more, rest up to 1 of your opponent's Characters with a cost of 6 or less.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-034_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-034_p1.png?261016" alt="Franky"></a>
+
+                    
+          <dl class="modalCol" id="OP18-034_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-034</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Franky</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-034_p1.png?261016" alt="Franky">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2287,6 +2749,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-041_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-041_p1.png?261016" alt="Ms. All Sunday"></a>
+
+                    
+          <dl class="modalCol" id="OP18-041_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-041</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Ms. All Sunday</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-041_p1.png?261016" alt="Ms. All Sunday">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Baroque Works</div>
+                <div class="text"><h3>Effect</h3>When your Character with a type including "Baroque Works" and 3000 base power or more is K.O.'d, draw 1 card, and your opponent trashes 1 card from their hand.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-042"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-042.png?261016" alt="Hack"></a>
 
                     
@@ -2497,6 +3001,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-046_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-046_p1.png?261016" alt="Mr.0 &amp; Ms. All Sunday"></a>
+
+                    
+          <dl class="modalCol" id="OP18-046_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-046</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Mr.0 &amp; Ms. All Sunday</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-046_p1.png?261016" alt="Mr.0 &amp; Ms. All Sunday">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>9</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type13.png?v" alt="Special/Wisdom"><i>Special/Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>10000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>The Seven Warlords of the Sea/Baroque Works</div>
+                <div class="text"><h3>Effect</h3>[On Play] Draw 2 cards and give your Leader and all of your Characters up to 2 rested DON!! cards each.<br>[On Your Opponent's Attack] You may trash 1 card from your hand: The base power of your Leader with a type including "Baroque Works" becomes 7000 during this turn.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-047"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-047.png?261016" alt="Mr.1(Daz.Bonez)"></a>
 
                     
@@ -2581,6 +3127,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-048_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-048_p1.png?261016" alt="Mr.1 &amp; Miss Doublefinger"></a>
+
+                    
+          <dl class="modalCol" id="OP18-048_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-048</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Mr.1 &amp; Miss Doublefinger</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-048_p1.png?261016" alt="Mr.1 &amp; Miss Doublefinger">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Baroque Works</div>
+                <div class="text"><h3>Effect</h3>[Rush] (This card can attack on the turn in which it is played.)<br>[On Play] Play up to 1 Character card with a type including "Baroque Works" and a cost of 5 or less from your hand.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-049"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-049.png?261016" alt="Mr.2.Bon.Kurei(Bentham)"></a>
 
                     
@@ -2595,6 +3183,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-049.png?261016" alt="Mr.2.Bon.Kurei(Bentham)">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Baroque Works</div>
+                <div class="text"><h3>Effect</h3>[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including "Baroque Works", add it to your hand and place the rest at the bottom of your deck in any order. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-049_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-049_p1.png?261016" alt="Mr.2.Bon.Kurei(Bentham)"></a>
+
+                    
+          <dl class="modalCol" id="OP18-049_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-049</span> | <span>TR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Mr.2.Bon.Kurei(Bentham)</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-049_p1.png?261016" alt="Mr.2.Bon.Kurei(Bentham)">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -2679,6 +3309,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-051.png?261016" alt="Mr.4 &amp; Miss.MerryChristmas">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type06.png?v" alt="Slash/Strike"><i>Slash/Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>3000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Baroque Works</div>
+                <div class="text"><h3>Effect</h3>[DON!! x1] This Character gains +1000 power.<br>[On Play] You may rest 5 of your DON!! cards: Place up to 1 Character with a cost of 6 or less and up to 1 Character with a cost of 5 or less at the bottom of the owner's deck in any order of the owner's choosing.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-051_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-051_p1.png?261016" alt="Mr.4 &amp; Miss.MerryChristmas"></a>
+
+                    
+          <dl class="modalCol" id="OP18-051_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-051</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Mr.4 &amp; Miss.MerryChristmas</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-051_p1.png?261016" alt="Mr.4 &amp; Miss.MerryChristmas">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -3085,6 +3757,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-060_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-060_p1.png?261016" alt="Saint Gunko"></a>
+
+                    
+          <dl class="modalCol" id="OP18-060_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-060</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Saint Gunko</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-060_p1.png?261016" alt="Saint Gunko">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Purple/Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Celestial Dragons/Holy Knights of God</div>
+                <div class="text"><h3>Effect</h3>[Once Per Turn] When a Character is played from your trash, draw 2 cards and trash 1 card from your hand.<br>[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If you have a Character with 8000 base power or more, add up to 1 DON!! card as active from your DON!! deck.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-060_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-060_p2.png?261016" alt="Saint Gunko"></a>
+
+                    
+          <dl class="modalCol" id="OP18-060_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-060</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Saint Gunko</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-060_p2.png?261016" alt="Saint Gunko">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Purple/Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Celestial Dragons/Holy Knights of God</div>
+                <div class="text"><h3>Effect</h3>[Once Per Turn] When a Character is played from your trash, draw 2 cards and trash 1 card from your hand.<br>[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If you have a Character with 8000 base power or more, add up to 1 DON!! card as active from your DON!! deck.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-061"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-061.png?261016" alt="Iceburg"></a>
 
                     
@@ -3099,6 +3855,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-061.png?261016" alt="Iceburg">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>2</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>-</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Purple</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Water Seven/Galley-La Company</div>
+                <div class="text"><h3>Effect</h3>[On Play] Look at 5 cards from the top of your deck; reveal up to a total of 2 Stage cards or {Water Seven} type cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-061_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-061_p1.png?261016" alt="Iceburg"></a>
+
+                    
+          <dl class="modalCol" id="OP18-061_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-061</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Iceburg</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-061_p1.png?261016" alt="Iceburg">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -3267,6 +4065,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-065.png?261016" alt="Saint Gunko">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>10</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type12.png?v" alt="?"><i>?</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>11000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Purple</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>X</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Celestial Dragons/Holy Knights of God</div>
+                <div class="text"><h3>Effect</h3>[Blocker]<br>[On Play] DON!! −1: Play up to 1 {Celestial Dragons} type Character card with 6000 power or less from your trash.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-065_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-065_p1.png?261016" alt="Saint Gunko"></a>
+
+                    
+          <dl class="modalCol" id="OP18-065_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-065</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Saint Gunko</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-065_p1.png?261016" alt="Saint Gunko">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>10</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type12.png?v" alt="?"><i>?</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>11000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Purple</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>X</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Celestial Dragons/Holy Knights of God</div>
+                <div class="text"><h3>Effect</h3>[Blocker]<br>[On Play] DON!! −1: Play up to 1 {Celestial Dragons} type Character card with 6000 power or less from your trash.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-065_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-065_p2.png?261016" alt="Saint Gunko"></a>
+
+                    
+          <dl class="modalCol" id="OP18-065_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-065</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Saint Gunko</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-065_p2.png?261016" alt="Saint Gunko">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -3883,6 +4765,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-079_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-079_p1.png?261016" alt="Spandam"></a>
+
+                    
+          <dl class="modalCol" id="OP18-079_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-079</span> | <span>L</span> | <span>LEADER</span>
+              </div>
+              <div class="cardName">Spandam</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-079_p1.png?261016" alt="Spandam">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Life</h3>4</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>5000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black/Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>CP9</div>
+                <div class="text"><h3>Effect</h3>[Activate: Main] You may rest 2 of your DON!! cards and this Leader and trash 1 card with a type including "CP" from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-080"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-080.png?261016" alt="Van Augur"></a>
 
                     
@@ -4051,6 +4975,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-083_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-083_p1.png?261016" alt="Saint Killingham"></a>
+
+                    
+          <dl class="modalCol" id="OP18-083_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-083</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Saint Killingham</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-083_p1.png?261016" alt="Saint Killingham">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>5</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Celestial Dragons/Holy Knights of God</div>
+                <div class="text"><h3>Effect</h3>[Your Turn] [On Play] Play up to 1 [Sleeptids] from your trash.<br>[On K.O.] You may trash 2 cards from your hand: Play this Character card from your trash.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-084"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-084.png?261016" alt="Saint Gunko"></a>
 
                     
@@ -4065,6 +5031,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-084.png?261016" alt="Saint Gunko">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>2000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Celestial Dragons/Holy Knights of God</div>
+                <div class="text"><h3>Effect</h3>[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Holy Knights of God} type card and add it to your hand. Then, trash the rest.<br>[Activate: Main] You may rest 4 of your DON!! cards: Play up to 1 {Holy Knights of God} type Character card with a cost of 6 or less from your trash.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-084_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-084_p1.png?261016" alt="Saint Gunko"></a>
+
+                    
+          <dl class="modalCol" id="OP18-084_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-084</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Saint Gunko</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-084_p1.png?261016" alt="Saint Gunko">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -4233,6 +5241,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-088.png?261016" alt="Saint Sommers">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>6000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Celestial Dragons/Holy Knights of God</div>
+                <div class="text"><h3>Effect</h3>[Your Turn] [On Play] If you have 6 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with a base cost of 4 or less.<br>[On K.O.] You may trash 2 cards from your hand: Play this Character card from your trash.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-088_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-088_p1.png?261016" alt="Saint Sommers"></a>
+
+                    
+          <dl class="modalCol" id="OP18-088_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-088</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Saint Sommers</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-088_p1.png?261016" alt="Saint Sommers">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -4471,6 +5521,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-093_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-093_p1.png?261016" alt="Sleeptids"></a>
+
+                    
+          <dl class="modalCol" id="OP18-093_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-093</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Sleeptids</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-093_p1.png?261016" alt="Sleeptids">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>9</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>3000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Elbaph</div>
+                <div class="text"><h3>Effect</h3>Under the rules of this game, you may have any number of this card in your deck.<br>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-093_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-093_p2.png?261016" alt="Sleeptids"></a>
+
+                    
+          <dl class="modalCol" id="OP18-093_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-093</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Sleeptids</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-093_p2.png?261016" alt="Sleeptids">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>9</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>3000</div>
+                  <div class="counter"><h3>Counter</h3>2000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Elbaph</div>
+                <div class="text"><h3>Effect</h3>Under the rules of this game, you may have any number of this card in your deck.<br>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-094"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-094.png?261016" alt="Hee Hee Hee!! I Smell Adventure!!"></a>
 
                     
@@ -4569,6 +5703,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-096.png?261016" alt="I&#039;ll Make the Call">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    -<i></i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>-</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Celestial Dragons/Holy Knights of God</div>
+                <div class="text"><h3>Effect</h3>[Main] You may rest 3 of your DON!! cards: Play up to 1 {Holy Knights of God} type Character card with a cost of 6 or less from your trash.<br>[Counter] If you have 10 or more cards in your trash, up to 1 of your Leader or Characters gains +4000 power during this battle.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-096_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-096_p1.png?261016" alt="I&#039;ll Make the Call"></a>
+
+                    
+          <dl class="modalCol" id="OP18-096_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-096</span> | <span>R</span> | <span>EVENT</span>
+              </div>
+              <div class="cardName">I&#039;ll Make the Call</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-096_p1.png?261016" alt="I&#039;ll Make the Call">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -4723,6 +5899,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-099_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-099_p1.png?261016" alt="Kaku"></a>
+
+                    
+          <dl class="modalCol" id="OP18-099_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-099</span> | <span>R</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Kaku</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-099_p1.png?261016" alt="Kaku">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>7</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>9000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>CP9</div>
+                <div class="text"><h3>Effect</h3>[On Play] Add up to 1 card with a type including "CP" from your hand to the top or bottom of your Life cards face-up.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] If your Leader's type includes "CP", draw 1 card and place up to 1 Character with a cost of 8 or less at the bottom of the owner's deck.</div>                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-100"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-100.png?261016" alt="Kalifa"></a>
 
                     
@@ -4737,6 +5955,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-100.png?261016" alt="Kalifa">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>7000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>CP9</div>
+                <div class="text"><h3>Effect</h3>[On Play] Draw 1 card, then add up to 1 card with a type including "CP" from your hand to the top or bottom of your Life cards face-up.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] If your Leader's type includes "CP", draw 1 card and rest up to 1 of your opponent's Leader or Characters.</div>                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-100_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-100_p1.png?261016" alt="Kalifa"></a>
+
+                    
+          <dl class="modalCol" id="OP18-100_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-100</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Kalifa</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-100_p1.png?261016" alt="Kalifa">
                 <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
               </div>
               <div class="backCol">
@@ -5311,6 +6571,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-113_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-113_p1.png?261016" alt="Rob Lucci"></a>
+
+                    
+          <dl class="modalCol" id="OP18-113_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-113</span> | <span>SR</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Rob Lucci</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-113_p1.png?261016" alt="Rob Lucci">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>8</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>10000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>CP9</div>
+                <div class="text"><h3>Effect</h3>[On Play]/[On K.O.] Trash up to 1 card from the top of your opponent's Life cards.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] If your Leader's type includes "CP", draw 1 card and place up to 1 Character with a cost of 8 or less at the bottom of the owner's deck.</div>                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-114"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-114.png?261016" alt="Wanze"></a>
 
                     
@@ -5521,6 +6823,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
                       
                       
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-118_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-118_p1.png?261016" alt="Monkey.D.Luffy"></a>
+
+                    
+          <dl class="modalCol" id="OP18-118_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-118</span> | <span>SEC</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Monkey.D.Luffy</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-118_p1.png?261016" alt="Monkey.D.Luffy">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>9</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>10000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Water Seven/Straw Hat Crew</div>
+                <div class="text"><h3>Effect</h3>[On Play] Set up to 3 of your DON!! cards as active. Then, up to 1 of your opponent's Characters cannot be rested until the end of your opponent's next End Phase.<br>[End of Your Turn] Set up to 1 of your {Water Seven} type cards as active.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
           <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-119"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-119.png?261016" alt="Saint Shamrock"></a>
 
                     
@@ -5555,6 +6899,342 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Celestial Dragons/Holy Knights of God</div>
                 <div class="text"><h3>Effect</h3>[On K.O.] You may trash 1 card from your hand: Play this Character card from your trash.<br>[Activate: Main] [Once Per Turn] If this Character was played on this turn, play up to 1 {Holy Knights of God} type Character card with a cost of 6 or less from your trash.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-119_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-119_p1.png?261016" alt="Saint Shamrock"></a>
+
+                    
+          <dl class="modalCol" id="OP18-119_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-119</span> | <span>SEC</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Saint Shamrock</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-119_p1.png?261016" alt="Saint Shamrock">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>8</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>9000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Celestial Dragons/Holy Knights of God</div>
+                <div class="text"><h3>Effect</h3>[On K.O.] You may trash 1 card from your hand: Play this Character card from your trash.<br>[Activate: Main] [Once Per Turn] If this Character was played on this turn, play up to 1 {Holy Knights of God} type Character card with a cost of 6 or less from your trash.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-119_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-119_p2.png?261016" alt="Saint Shamrock"></a>
+
+                    
+          <dl class="modalCol" id="OP18-119_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-119</span> | <span>SEC</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Saint Shamrock</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-119_p2.png?261016" alt="Saint Shamrock">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>8</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>9000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Celestial Dragons/Holy Knights of God</div>
+                <div class="text"><h3>Effect</h3>[On K.O.] You may trash 1 card from your hand: Play this Character card from your trash.<br>[Activate: Main] [Once Per Turn] If this Character was played on this turn, play up to 1 {Holy Knights of God} type Character card with a cost of 6 or less from your trash.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP13-012_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP13-012_p1.png?261016" alt="Nefeltari Vivi"></a>
+
+                    
+          <dl class="modalCol" id="OP13-012_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP13-012</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Nefeltari Vivi</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP13-012_p1.png?261016" alt="Nefeltari Vivi">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>2000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Red</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Alabasta</div>
+                <div class="text"><h3>Effect</h3>[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Alabasta} or {Straw Hat Crew} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP13-113_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP13-113_p2.png?261016" alt="Lilith"></a>
+
+                    
+          <dl class="modalCol" id="OP13-113_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP13-113</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Lilith</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP13-113_p2.png?261016" alt="Lilith">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>2000</div>
+                  <div class="counter"><h3>Counter</h3>1000</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Yellow</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>4</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Egghead/Scientist</div>
+                <div class="text"><h3>Effect</h3>[On Play] Look at 4 cards from the top of your deck; reveal up to 1 card with a [Trigger] other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.</div>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Activate this card's [On Play] effect.</div>                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP17-040_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP17-040_p2.png?261016" alt="Edward.Newgate"></a>
+
+                    
+          <dl class="modalCol" id="OP17-040_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP17-040</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Edward.Newgate</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP17-040_p2.png?261016" alt="Edward.Newgate">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>6</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>8000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Blue</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Rocks Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] Draw 1 card.<br>[Once Per Turn] When your Leader with a type including "Rocks Pirates" attacks or is attacked, you may trash 1 card from your hand to activate this effect. Your Leader gains +3000 power during this battle.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#OP18-084_p2"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-084_p2.png?261016" alt="Saint Gunko"></a>
+
+                    
+          <dl class="modalCol" id="OP18-084_p2">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>OP18-084</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Saint Gunko</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/OP18-084_p2.png?261016" alt="Saint Gunko">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>1</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>2000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Black</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Celestial Dragons/Holy Knights of God</div>
+                <div class="text"><h3>Effect</h3>[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Holy Knights of God} type card and add it to your hand. Then, trash the rest.<br>[Activate: Main] You may rest 4 of your DON!! cards: Play up to 1 {Holy Knights of God} type Character card with a cost of 6 or less from your trash.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST24-004_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST24-004_p1.png?261016" alt="Law &amp; Bepo"></a>
+
+                    
+          <dl class="modalCol" id="ST24-004_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST24-004</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Law &amp; Bepo</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST24-004_p1.png?261016" alt="Law &amp; Bepo">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>10</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type06.png?v" alt="Slash/Strike"><i>Slash/Strike</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>11000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Green</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>3</div>
+                </div>
+                <div class="feature"><h3>Type</h3>Minks/Supernovas/Heart Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] Rest up to 1 of your opponent's Characters and that Character will not become active in your opponent's next Refresh Phase. Then, if your opponent has 2 or more rested Characters, your Leader gains +2000 power until the end of your opponent's next End Phase.</div>
+                                <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
+                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+              </div>
+            </dd>
+          </dl>
+          
+                      
+                      
+          <a class="modalOpen" data-fancybox="group_1" data-src="#ST34-004_p1"><img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST34-004_p1.png?261016" alt="Charlotte Linlin"></a>
+
+                    
+          <dl class="modalCol" id="ST34-004_p1">
+            <dt>
+              <button class="scrollBtn">ボタン</button>
+              <div class="infoCol">
+                <span>ST34-004</span> | <span>SP CARD</span> | <span>CHARACTER</span>
+              </div>
+              <div class="cardName">Charlotte Linlin</div>
+            </dt>
+            <dd>
+              <div class="frontCol">
+                <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST34-004_p1.png?261016" alt="Charlotte Linlin">
+                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+              </div>
+              <div class="backCol">
+                <div class="col2">
+                  <div class="cost"><h3>Cost</h3>10</div>
+                  <div class="attribute">
+                    <h3>Attribute</h3>
+                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="power"><h3>Power</h3>12000</div>
+                  <div class="counter"><h3>Counter</h3>-</div>
+                </div>
+                <div class="col2">
+                <div class="color"><h3>Color</h3>Purple</div>
+                <div class="block"><h3>Block<br class="spInline"> icon</h3>5</div>
+                </div>
+                <div class="feature"><h3>Type</h3>The Four Emperors/Big Mom Pirates</div>
+                <div class="text"><h3>Effect</h3>[On Play] DON!! −4, you may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, up to 1 of your opponent's Characters' base power becomes 0 during this turn.</div>
                                 <div class="getInfo"><h3>Card Set(s)</h3>BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]</div>                
                 <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
               </div>
