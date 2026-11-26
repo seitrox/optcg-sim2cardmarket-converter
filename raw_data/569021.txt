@@ -14,20 +14,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KKN2G96');</script>
 <!-- End Google Tag Manager -->  <meta charset="utf-8">
-  <title>CARD LIST｜ONE PIECE CARD GAME - Official Web Site</title>
+  <title>CARDS｜ONE PIECE CARD GAME - Official Web Site</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
   <meta name="format-detection" content="telephone=no">
   <meta name="keywords" content="ONE PIECE,Luffy,Zolo,Nami,Usopp,Sanji,Chopper,Robin,Franky,Brook,Jimbei,Shanks,CARD GAME,Straw hat,Bandai,Eiichiro Oda,Oda-sensei,TCG">
   <meta name="description" content="The official ONE PIECE Card Game website. Find out about the latest cards, products, events, rules, FAQ and more! Set sail for the new era of card games!">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="CARD LIST｜ONE PIECE CARD GAME - Official Web Site">
+  <meta property="og:title" content="CARDS｜ONE PIECE CARD GAME - Official Web Site">
   <meta property="og:image" content="https://en.onepiece-cardgame.com/ogp.png">
   <meta property="og:url" content="https://en.onepiece-cardgame.com/cardlist/">
   <meta property="og:site_name" content="ONE PIECE CARD GAME - Official Web Site">
   <meta property="og:description" content="The official ONE PIECE Card Game website. Find out about the latest cards, products, events, rules, FAQ and more! Set sail for the new era of card games!">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CARD LIST｜ONE PIECE CARD GAME - Official Web Site">
+  <meta name="twitter:title" content="CARDS｜ONE PIECE CARD GAME - Official Web Site">
   <meta name="twitter:description" content="The official ONE PIECE Card Game website. Find out about the latest cards, products, events, rules, FAQ and more! Set sail for the new era of card games!">
   <meta name="twitter:image" content="https://en.onepiece-cardgame.com/ogp.png">
   <meta name="theme-color" content="#fff">
@@ -141,24 +141,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="alternate" hreflang="en-ru" href="https://en.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="en-gr" href="https://en.onepiece-cardgame.com/">
   <link rel="alternate" hreflang="en-pt" href="https://en.onepiece-cardgame.com/">
-  <link rel="stylesheet" href="/renewal/css/lib/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="/css/layout.css?261016">
   <script src="/renewal/js/lib/jquery.min.js?v=3.7.1"></script>
-  <script src="/js/lib/jquery.easing.1.4.min.js"></script>
   <script src="/renewal/js/lib/jquery.fancybox.min.js"></script>
   <script src="/renewal/js/lib/lazyload.min.js"></script>
-  <script src="/js/common_re.js?261016"></script>
-  <link rel="stylesheet" href="/css/layout_en_re.css?261016">
   <script src="/renewal/js/common.js?261016"></script>
-  <link rel="stylesheet" href="/renewal/css/common_overwrite.css?261016">
-  <link rel="stylesheet" href="/css/cardlist.css?261016">
-  <script src="/js/cardlist.js?261016"></script>
-  <link rel="stylesheet" href="/css/cardlist_en.css?2610165">
-  <script src="/js/cardlist_en.js?2610164"></script>
-  <link rel="stylesheet" href="../css/lib/jquery.selmodal.css">
+  <link rel="stylesheet" href="/renewal/css/lib/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/renewal/css/layout.css?261016">
+  <link rel="stylesheet" href="/renewal/css/cardlist.css?261016">
+  <script src="/renewal/js/cardlist.js?261016"></script>
+  <script src="/renewal/js/fixed.js"></script>
+
   <script src="../js/modal.js?261016"></script>
-  <script src="../js/pager.js?261016"></script>
-  <script src="../js/lib/jquery.selmodal.js"></script>
+  <script src="../js/pager_1.16.js?261016"></script>
   <script>
     function Post(obj) {
       var name = obj.name;
@@ -368,27 +362,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>        </div>
       </div>
     </div>
-  </header>  <ul class="breadcrumbList">
-    <li><a href="/">HOME</a></li>
-    <li>CARD LIST</li>
-  </ul>
-  
+  </header>  
   <main class="mainCol">
-    <article>
-      <h2 class="categoryTitle">CARD LIST</h2>
+    <article class="articleCol">
+
+      <div class="layoutTop">
+        <div class="titleCol">
+          <span class="titleSub">CARDS</span>
+        </div>
+      </div>
+
       <div class="contentsWrap isIndex">
         <div class="searchCol">
           <form action="" method="post" id="frmSearch">
             <div class="formsetDefaultArea">
               <div class="freewordsCol">
-                <input class="freewords" type="text" name="freewords" placeholder="Search..." value="" id="form-free">
+                <h3 class="searchTit">Card Name &amp; Keyword Search</h3>
+                <input class="freewords" type="text" name="freewords" placeholder="Ex: Straw Hat Crew  Luffy" value="" id="form-free">
                 <input class="clearBtn" type="button" value="✕" onclick="clearText()">
-                <input class="freewordsSearchBtn" type="button" value="SEARCH" onclick="freewordsSearch()">
               </div>
-              <div class="seriesCol">
-                <select name="series" class="selectModal" id="series">
-                  <option value>Recording</option>
-                  <option value>ALL</option>
+
+              <div class="searchSelectBoxCol">
+                <h3 class="searchTit js-searchSelectTit">Booster</h3>
+                <button id="selectSeriesBtn" type="button" class="selectModalButton" data-tgt="series">No filter</button>
+                <select name="series" class="searchSelectBox" id="series">
+                  <option value>No filter</option>
                   <option value="569302" >PREMIUM BOOSTER &lt;br class=&quot;spInline&quot;&gt;-ONE PIECE CARD THE BEST vol.2- [PRB-02]</option>
                   <option value="569301" >PREMIUM BOOSTER &lt;br class=&quot;spInline&quot;&gt;-ONE PIECE CARD THE BEST- [PRB-01]</option>
                   <option value="569205" >EXTRA BOOSTER &lt;br class=&quot;spInline&quot;&gt;-ONE PIECE HEROINES EDITION vol.2- [EB-05]</option>
@@ -453,37 +451,70 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <option value="569801" >Other Product Card</option>
                 </select>
               </div>
+
+              <div id="seriesModal" class="modalFilterCol js-modalFilterCol">
+                <div class="modalFilter"></div>
+                <button class="modalTopClose js-seriesTopClose" type="button">Close</button>
+                <div class="modalSelectBoxWrap">
+                  <section class="modalSelectBoxCol">
+                    <h3 class="modalSelectTit">Select Booster</h3>
+                    <div class="selectFilterCol">
+                      <h4 class="searchTit">Search by Keyword</h4>
+                      <div class="selectFilterInputCol">
+                        <input type="text" value="" data-filter-input="seriesKeyword" onkeyup="filterItem('seriesKeyword')" placeholder="Ex: Booster" class="selectFilterInput" id="freeword_seriesKeyword">
+                        <button type="button" class="clearBtn js-ClearSeries">✕</button>
+                      </div>
+                    </div>
+                    <div class="modalSelectListCol js-series-scroll-wrapper">
+                      <div class="modalSelectListBox js-series-scroll-content">
+                        <ul class="modalSelectList">
+                          <li class="selectBtnCol" data-filter-type="seriesKeyword">
+                            <a href="javascript:void(0);" data-tags="seriesKeyword" class="selectBtn" data-value="">No filter</a>
+                          </li>
+                        </ul>
+                        <div class="selectFilterTxtCol" data-filter-no-result="seriesKeyword" hidden>
+                          No Results<br>
+                          Try Different Keywords
+                        </div>
+                        <div class="scroll-bar">
+                          <div class="scroll-thumb js-series-scroll-thumb"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="modalSelectClose js-seriesSelectClose" type="button">Select and Close</button>
+                  </section>
+                </div>
+              </div>
+
+              <button type="button" class="formsetDropBtn isSp js-dropbtnSp"><span class="is1">Add Criteria</span><span class="is2">Close Additional Criteria</span></button>
             </div>
 
-            <a href="javascript:void(0);" class="commonBtn formsetDropBtn"><span>Add more</span></a>
-
-            <div class="formsetDropArea">
-              <div class="colorCol">
+            <div class="js-dropAreaSp">
+            <div class="formsetSecondArea">
+              <div class="checkbtnWrap">
                 <h3 class="searchTit">Color</h3>
-                <div class="checkbtnCol">
-                  <a href="javascript:void(0);" class="checkbtnAll checked checkBtn">ALL</a>
+                <div class="checkbtnCol isColor">
                   <input type="checkbox" name="colors[]" id="color_Red" value="Red" >
-                  <label class="checkBtn isColor_Red" for="color_Red">Red</label>
+                  <label class="checkBtn" for="color_Red">Red</label>
                   <input type="checkbox" name="colors[]" id="color_Green" value="Green" >
-                  <label class="checkBtn isColor_Green" for="color_Green">Green</label>
+                  <label class="checkBtn" for="color_Green">Green</label>
                   <input type="checkbox" name="colors[]" id="color_Blue" value="Blue" >
-                  <label class="checkBtn isColor_Blue" for="color_Blue">Blue</label>
+                  <label class="checkBtn" for="color_Blue">Blue</label>
                   <input type="checkbox" name="colors[]" id="color_Purple" value="Purple" >
-                  <label class="checkBtn isColor_Purple" for="color_Purple">Purple</label>
+                  <label class="checkBtn" for="color_Purple">Purple</label>
                   <input type="checkbox" name="colors[]" id="color_Black" value="Black" >
-                  <label class="checkBtn isColor_Black" for="color_Black">Black</label>
+                  <label class="checkBtn" for="color_Black">Black</label>
                   <input type="checkbox" name="colors[]" id="color_Yellow" value="Yellow" >
-                  <label class="checkBtn isColor_Yellow" for="color_Yellow">Yellow</label>
+                  <label class="checkBtn" for="color_Yellow">Yellow</label>
                   <input type="checkbox" name="colors[]" id="color_mix" value="mix" >
-                  <label class="checkBtn isColor_mix" for="color_mix">Multicolor</label>
+                  <label class="checkBtn" for="color_mix">Multicolor</label>
                   <div class="checkBtn disable"></div>
                 </div>
               </div>
 
-              <div class="typeCol">
+              <div class="checkbtnWrap">
                 <h3 class="searchTit">Card type</h3>
                 <div class="checkbtnCol">
-                  <a href="javascript:void(0);" class="checkbtnAll checked checkBtn">ALL</a>
                   <input type="checkbox" name="categories[]" id="category_Leader" value="Leader" >
                   <label class="checkBtn" for="category_Leader">Leader</label>
                   <input type="checkbox" name="categories[]" id="category_Character" value="Character" >
@@ -496,25 +527,954 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
               </div>
 
-              <div class="illustTypeCol">
-                <h3 class="searchTit">Illustration Type</h3>                <div class="checkbtnCol">
-                  <a href="javascript:void(0);" class="checkbtnAll checked checkBtn">ALL</a>
+              <div class="checkbtnWrap">
+                <h3 class="searchTit">Illustration Type</h3>
+                <div class="checkbtnCol">
                   <input type="checkbox" name="illustrations[]" id="illustration_Comic" value="Comic" >
-                  <label class="checkBtn isIllustration_Comic" for="illustration_Comic">Comic</label>
+                  <label class="checkBtn" for="illustration_Comic">Comic</label>
                   <input type="checkbox" name="illustrations[]" id="illustration_Animation" value="Animation" >
-                  <label class="checkBtn isIllustration_Animation" for="illustration_Animation">Animation</label>
+                  <label class="checkBtn" for="illustration_Animation">Animation</label>
                   <input type="checkbox" name="illustrations[]" id="illustration_Original Illustrations" value="Original Illustrations" >
-                  <label class="checkBtn isIllustration_Original Illustrations" for="illustration_Original Illustrations">Original Illustrations</label>
+                  <label class="checkBtn" for="illustration_Original Illustrations">Original Illustrations</label>
                   <input type="checkbox" name="illustrations[]" id="illustration_Other" value="Other" >
-                  <label class="checkBtn isIllustration_Other" for="illustration_Other">Other</label>
+                  <label class="checkBtn" for="illustration_Other">Other</label>
                   <div class="checkBtn disable"></div>
                 </div>
               </div>
               
-              <div class="blockCol">
-                <h3 class="searchTit">Block icon</h3>
+              <div class="checkbtnWrap">
+                <h3 class="searchTit">Rarity</h3>
                 <div class="checkbtnCol">
-                  <a href="javascript:void(0);" class="checkbtnAll checked checkBtn">ALL</a>
+                  <input type="checkbox" name="rarity[]" id="rarity_L" value="L" >
+                  <label class="checkBtn" for="rarity_L">L</label>
+                  <input type="checkbox" name="rarity[]" id="rarity_C" value="C" >
+                  <label class="checkBtn" for="rarity_C">C</label>
+                  <input type="checkbox" name="rarity[]" id="rarity_UC" value="UC" >
+                  <label class="checkBtn" for="rarity_UC">UC</label>
+                  <input type="checkbox" name="rarity[]" id="rarity_R" value="R" >
+                  <label class="checkBtn" for="rarity_R">R</label>
+                  <input type="checkbox" name="rarity[]" id="rarity_SR" value="SR" >
+                  <label class="checkBtn" for="rarity_SR">SR</label>
+                  <input type="checkbox" name="rarity[]" id="rarity_SEC" value="SEC" >
+                  <label class="checkBtn" for="rarity_SEC">SEC</label>
+                  <input type="checkbox" name="rarity[]" id="rarity_P" value="P" >
+                  <label class="checkBtn" for="rarity_P">P</label>
+                  <input type="checkbox" name="rarity[]" id="rarity_SP CARD" value="SP CARD" >
+                  <label class="checkBtn" for="rarity_SP CARD">SP CARD</label>
+                  <input type="checkbox" name="rarity[]" id="rarity_TR" value="TR" >
+                  <label class="checkBtn" for="rarity_TR">TR</label>
+                  <div class="checkBtn disable"></div>
+                </div>
+              </div>
+
+              <button type="button" class="formsetDropBtn isPc js-dropbtnPc"><span class="is1">Add Criteria</span><span class="is2">Close Additional Criteria</span></button>
+            </div>
+
+            <div class="js-dropAreaPc">
+            <div class="formsetThirdArea">
+
+              <div class="rangePulldownWrap">
+                <h3 class="searchTit">Cost</h3>
+                <div class="rangePulldownCol">
+                  <div class="rangePulldownBox">
+                    <button type="button" class="rangePulldownBtn js-rangePulldownBtn" data-tgt="cost_min"><span class="txtDefault">Minimum</span></button>
+                    <select name="cost[min]" id="cost_min" class="rangePulldown js-rangePulldown">
+                      <option value="">No filter</option>
+                      <option value="0" >0</option>
+                      <option value="1" >1</option>
+                      <option value="2" >2</option>
+                      <option value="3" >3</option>
+                      <option value="4" >4</option>
+                      <option value="5" >5</option>
+                      <option value="6" >6</option>
+                      <option value="7" >7</option>
+                      <option value="8" >8</option>
+                      <option value="9" >9</option>
+                      <option value="10" >10</option>
+                    </select>
+                    <div class="rangeSelectListCol js-rangeSelectListCol">
+                      <ul class="rangeSelectList js-rangeSelectList">
+                        <li class="rangeSelectBtn" data-value="">No filter</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <span class="rangePulldownDash">–</span>
+                  <div class="rangePulldownBox">
+                    <button type="button" class="rangePulldownBtn js-rangePulldownBtn" data-tgt="cost_max"><span class="txtDefault">Maximum</span></button>
+                    <select name="cost[max]" id="cost_max" class="rangePulldown js-rangePulldown">
+                      <option value="">No filter</option>
+                      <option value="0" >0</option>
+                      <option value="1" >1</option>
+                      <option value="2" >2</option>
+                      <option value="3" >3</option>
+                      <option value="4" >4</option>
+                      <option value="5" >5</option>
+                      <option value="6" >6</option>
+                      <option value="7" >7</option>
+                      <option value="8" >8</option>
+                      <option value="9" >9</option>
+                      <option value="10" >10</option>
+                    </select>
+                    <div class="rangeSelectListCol js-rangeSelectListCol">
+                      <ul class="rangeSelectList js-rangeSelectList">
+                        <li class="rangeSelectBtn" data-value="">No filter</li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  <div class="checkBtn disable"></div>
+                </div>
+              </div>
+
+              <div class="rangePulldownWrap">
+                <h3 class="searchTit">Power</h3>
+                <div class="rangePulldownCol">
+                  <div class="rangePulldownBox">
+                    <button type="button" class="rangePulldownBtn js-rangePulldownBtn" data-tgt="power_min"><span class="txtDefault">Minimum</span></button>
+                    <select name="power[min]" id="power_min" class="rangePulldown js-rangePulldown">
+                      <option value="">No filter</option>
+                      <option value="0" >0</option>
+                      <option value="1000" >1000</option>
+                      <option value="2000" >2000</option>
+                      <option value="3000" >3000</option>
+                      <option value="4000" >4000</option>
+                      <option value="5000" >5000</option>
+                      <option value="6000" >6000</option>
+                      <option value="7000" >7000</option>
+                      <option value="8000" >8000</option>
+                      <option value="9000" >9000</option>
+                      <option value="10000" >10000</option>
+                      <option value="11000" >11000</option>
+                      <option value="12000" >12000</option>
+                      <option value="13000" >13000</option>
+                    </select>
+                    <div class="rangeSelectListCol js-rangeSelectListCol">
+                      <ul class="rangeSelectList js-rangeSelectList">
+                        <li class="rangeSelectBtn" data-value="">No filter</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <span class="rangePulldownDash">–</span>
+                  <div class="rangePulldownBox">
+                    <button type="button" class="rangePulldownBtn js-rangePulldownBtn" data-tgt="power_max"><span class="txtDefault">Maximum</span></button>
+                    <select name="power[max]" id="power_max" class="rangePulldown js-rangePulldown">
+                      <option value="">No filter</option>
+                      <option value="0" >0</option>
+                      <option value="1000" >1000</option>
+                      <option value="2000" >2000</option>
+                      <option value="3000" >3000</option>
+                      <option value="4000" >4000</option>
+                      <option value="5000" >5000</option>
+                      <option value="6000" >6000</option>
+                      <option value="7000" >7000</option>
+                      <option value="8000" >8000</option>
+                      <option value="9000" >9000</option>
+                      <option value="10000" >10000</option>
+                      <option value="11000" >11000</option>
+                      <option value="12000" >12000</option>
+                      <option value="13000" >13000</option>
+                    </select>
+                    <div class="rangeSelectListCol js-rangeSelectListCol">
+                      <ul class="rangeSelectList js-rangeSelectList">
+                        <li class="rangeSelectBtn" data-value="">No filter</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="checkBtn disable"></div>
+                </div>
+              </div>
+
+              <div class="checkbtnWrap">
+                <h3 class="searchTit">Counter</h3>
+                <div class="checkbtnCol">
+                  <input type="checkbox" name="counter[]" id="counter_Without" value="Without" >
+                  <label class="checkBtn" for="counter_Without">Without</label>
+                  <input type="checkbox" name="counter[]" id="counter_1000" value="1000" >
+                  <label class="checkBtn" for="counter_1000">1000</label>
+                  <input type="checkbox" name="counter[]" id="counter_2000" value="2000" >
+                  <label class="checkBtn" for="counter_2000">2000</label>
+                  <div class="checkBtn disable"></div>
+                </div>
+              </div>
+
+              <div class="checkbtnWrap">
+                <h3 class="searchTit">Attribute</h3>
+                <div class="checkbtnCol">
+                  <input type="checkbox" name="attribute[]" id="attribute_Strike" value="Strike" >
+                  <label class="checkBtn" for="attribute_Strike">Strike</label>
+                  <input type="checkbox" name="attribute[]" id="attribute_Special" value="Special" >
+                  <label class="checkBtn" for="attribute_Special">Special</label>
+                  <input type="checkbox" name="attribute[]" id="attribute_Ranged" value="Ranged" >
+                  <label class="checkBtn" for="attribute_Ranged">Ranged</label>
+                  <input type="checkbox" name="attribute[]" id="attribute_Wisdom" value="Wisdom" >
+                  <label class="checkBtn" for="attribute_Wisdom">Wisdom</label>
+                  <input type="checkbox" name="attribute[]" id="attribute_Slash" value="Slash" >
+                  <label class="checkBtn" for="attribute_Slash">Slash</label>
+                  <input type="checkbox" name="attribute[]" id="attribute_?" value="?" >
+                  <label class="checkBtn" for="attribute_?">?</label>
+                  <div class="checkBtn disable"></div>
+                </div>
+              </div>
+
+              <div class="searchFlexWrap">
+                <div class="radiobtnWrap" id="searchTrigger">
+                  <h3 class="searchTit">Trigger</h3>
+                  <div class="radiobtnCol">
+                    <label class="changeIcon"><input type="radio" name="trigger"  value="1">With </label>
+                    <label class="changeIcon"><input type="radio" name="trigger"  value="0">Without</label>
+                  </div>
+                </div>
+
+                <div class="traitWrap" id="searchTrait">
+                  <h3 class="searchTit">Type</h3>
+                  <div id="traitModal" class="modalFilterCol">
+                    <div class="modalFilter"></div>
+                    <button class="modalTopClose js-traitTopClose" type="button">Close</button>
+                    <div class="modalSelectBoxWrap">
+                      <section class="modalSelectBoxCol">
+                        <h3 class="modalSelectTit">Select the Type</h3>
+                        <div class="selectFilterCol">
+                          <h4 class="searchTit">Search by Keyword</h4>
+                          <div class="selectFilterInputCol">
+                            <input type="text" value="" data-filter-input="feature" onkeyup="filterItem('feature')" placeholder="Ex: Pirates" class="selectFilterInput" id="freeword_feature">
+                            <button type="button" class="clearBtn js-ClearFeature">✕</button>
+                          </div>
+                        </div>
+                        <div class="checkbtnWrap js-trait-scroll-wrapper">
+                          <div class="checkbtnBox js-trait-scroll-content">
+                            <div class="checkbtnCol">
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_?" value="?" >
+                                <label class="checkBtn" for="feature_?">?</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Baroque Works" value="Baroque Works" >
+                                <label class="checkBtn" for="feature_Baroque Works">Baroque Works</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_CP0" value="CP0" >
+                                <label class="checkBtn" for="feature_CP0">CP0</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_CP6" value="CP6" >
+                                <label class="checkBtn" for="feature_CP6">CP6</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_CP7" value="CP7" >
+                                <label class="checkBtn" for="feature_CP7">CP7</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_CP8" value="CP8" >
+                                <label class="checkBtn" for="feature_CP8">CP8</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_CP9" value="CP9" >
+                                <label class="checkBtn" for="feature_CP9">CP9</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_FILM" value="FILM" >
+                                <label class="checkBtn" for="feature_FILM">FILM</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_MONSTERS" value="MONSTERS" >
+                                <label class="checkBtn" for="feature_MONSTERS">MONSTERS</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_ODYSSEY" value="ODYSSEY" >
+                                <label class="checkBtn" for="feature_ODYSSEY">ODYSSEY</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_SMILE" value="SMILE" >
+                                <label class="checkBtn" for="feature_SMILE">SMILE</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Water Seven" value="Water Seven" >
+                                <label class="checkBtn" for="feature_Water Seven">Water Seven</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Accino Family" value="Accino Family" >
+                                <label class="checkBtn" for="feature_Accino Family">Accino Family</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Amazon Lily" value="Amazon Lily" >
+                                <label class="checkBtn" for="feature_Amazon Lily">Amazon Lily</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Alabasta" value="Alabasta" >
+                                <label class="checkBtn" for="feature_Alabasta">Alabasta</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Alchemi" value="Alchemi" >
+                                <label class="checkBtn" for="feature_Alchemi">Alchemi</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Impel Down" value="Impel Down" >
+                                <label class="checkBtn" for="feature_Impel Down">Impel Down</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Weevil&#039;s Mother" value="Weevil&#039;s Mother" >
+                                <label class="checkBtn" for="feature_Weevil&#039;s Mother">Weevil&#039;s Mother</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_The Vinsmoke Family" value="The Vinsmoke Family" >
+                                <label class="checkBtn" for="feature_The Vinsmoke Family">The Vinsmoke Family</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Egghead" value="Egghead" >
+                                <label class="checkBtn" for="feature_Egghead">Egghead</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Elbaph" value="Elbaph" >
+                                <label class="checkBtn" for="feature_Elbaph">Elbaph</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Ohara" value="Ohara" >
+                                <label class="checkBtn" for="feature_Ohara">Ohara</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_On-Air Pirates" value="On-Air Pirates" >
+                                <label class="checkBtn" for="feature_On-Air Pirates">On-Air Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Caribou Pirates" value="Caribou Pirates" >
+                                <label class="checkBtn" for="feature_Caribou Pirates">Caribou Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Kid Pirates" value="Kid Pirates" >
+                                <label class="checkBtn" for="feature_Kid Pirates">Kid Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Krieg Pirates" value="Krieg Pirates" >
+                                <label class="checkBtn" for="feature_Krieg Pirates">Krieg Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Cross Guild" value="Cross Guild" >
+                                <label class="checkBtn" for="feature_Cross Guild">Cross Guild</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Goa Kingdom" value="Goa Kingdom" >
+                                <label class="checkBtn" for="feature_Goa Kingdom">Goa Kingdom</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Kingdom of GERMA" value="Kingdom of GERMA" >
+                                <label class="checkBtn" for="feature_Kingdom of GERMA">Kingdom of GERMA</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Muggy Kingdom" value="Muggy Kingdom" >
+                                <label class="checkBtn" for="feature_Muggy Kingdom">Muggy Kingdom</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Frost Moon Village" value="Frost Moon Village" >
+                                <label class="checkBtn" for="feature_Frost Moon Village">Frost Moon Village</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Journalist" value="Journalist" >
+                                <label class="checkBtn" for="feature_Journalist">Journalist</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Gyro Pirates" value="Gyro Pirates" >
+                                <label class="checkBtn" for="feature_Gyro Pirates">Gyro Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Sabaody Archipelago" value="Sabaody Archipelago" >
+                                <label class="checkBtn" for="feature_Sabaody Archipelago">Sabaody Archipelago</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Jaya" value="Jaya" >
+                                <label class="checkBtn" for="feature_Jaya">Jaya</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_The Owner of Cindry&#039;s Shadow" value="The Owner of Cindry&#039;s Shadow" >
+                                <label class="checkBtn" for="feature_The Owner of Cindry&#039;s Shadow">The Owner of Cindry&#039;s Shadow</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Spade Pirates" value="Spade Pirates" >
+                                <label class="checkBtn" for="feature_Spade Pirates">Spade Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Thriller Bark Pirates" value="Thriller Bark Pirates" >
+                                <label class="checkBtn" for="feature_Thriller Bark Pirates">Thriller Bark Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Seraphim" value="Seraphim" >
+                                <label class="checkBtn" for="feature_Seraphim">Seraphim</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Sniper Island" value="Sniper Island" >
+                                <label class="checkBtn" for="feature_Sniper Island">Sniper Island</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_The Flying Fish Riders" value="The Flying Fish Riders" >
+                                <label class="checkBtn" for="feature_The Flying Fish Riders">The Flying Fish Riders</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Drum Kingdom" value="Drum Kingdom" >
+                                <label class="checkBtn" for="feature_Drum Kingdom">Drum Kingdom</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Treasure Pirates" value="Treasure Pirates" >
+                                <label class="checkBtn" for="feature_Treasure Pirates">Treasure Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Dressrosa" value="Dressrosa" >
+                                <label class="checkBtn" for="feature_Dressrosa">Dressrosa</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Donquixote Pirates" value="Donquixote Pirates" >
+                                <label class="checkBtn" for="feature_Donquixote Pirates">Donquixote Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_The Tontattas" value="The Tontattas" >
+                                <label class="checkBtn" for="feature_The Tontattas">The Tontattas</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Fake Straw Hat Crew" value="Fake Straw Hat Crew" >
+                                <label class="checkBtn" for="feature_Fake Straw Hat Crew">Fake Straw Hat Crew</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Heart Pirates" value="Heart Pirates" >
+                                <label class="checkBtn" for="feature_Heart Pirates">Heart Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Buggy Pirates" value="Buggy Pirates" >
+                                <label class="checkBtn" for="feature_Buggy Pirates">Buggy Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Baterilla" value="Baterilla" >
+                                <label class="checkBtn" for="feature_Baterilla">Baterilla</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Punk Hazard" value="Punk Hazard" >
+                                <label class="checkBtn" for="feature_Punk Hazard">Punk Hazard</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Big Mom Pirates" value="Big Mom Pirates" >
+                                <label class="checkBtn" for="feature_Big Mom Pirates">Big Mom Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Firetank Pirates" value="Firetank Pirates" >
+                                <label class="checkBtn" for="feature_Firetank Pirates">Firetank Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Windmill Village" value="Windmill Village" >
+                                <label class="checkBtn" for="feature_Windmill Village">Windmill Village</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Foolshout Island" value="Foolshout Island" >
+                                <label class="checkBtn" for="feature_Foolshout Island">Foolshout Island</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Foxy Pirates" value="Foxy Pirates" >
+                                <label class="checkBtn" for="feature_Foxy Pirates">Foxy Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Flevance" value="Flevance" >
+                                <label class="checkBtn" for="feature_Flevance">Flevance</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Kingdom of Prodence" value="Kingdom of Prodence" >
+                                <label class="checkBtn" for="feature_Kingdom of Prodence">Kingdom of Prodence</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Bellamy Pirates" value="Bellamy Pirates" >
+                                <label class="checkBtn" for="feature_Bellamy Pirates">Bellamy Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Bowin Island" value="Bowin Island" >
+                                <label class="checkBtn" for="feature_Bowin Island">Bowin Island</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Homies" value="Homies" >
+                                <label class="checkBtn" for="feature_Homies">Homies</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Whole Cake Island" value="Whole Cake Island" >
+                                <label class="checkBtn" for="feature_Whole Cake Island">Whole Cake Island</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Bonney Pirates" value="Bonney Pirates" >
+                                <label class="checkBtn" for="feature_Bonney Pirates">Bonney Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Minks" value="Minks" >
+                                <label class="checkBtn" for="feature_Minks">Minks</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Lunarian" value="Lunarian" >
+                                <label class="checkBtn" for="feature_Lunarian">Lunarian</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Lulucia Kingdom" value="Lulucia Kingdom" >
+                                <label class="checkBtn" for="feature_Lulucia Kingdom">Lulucia Kingdom</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Rumbar Pirates" value="Rumbar Pirates" >
+                                <label class="checkBtn" for="feature_Rumbar Pirates">Rumbar Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Rolling Pirates" value="Rolling Pirates" >
+                                <label class="checkBtn" for="feature_Rolling Pirates">Rolling Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Roger Pirates" value="Roger Pirates" >
+                                <label class="checkBtn" for="feature_Roger Pirates">Roger Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Rocks Pirates" value="Rocks Pirates" >
+                                <label class="checkBtn" for="feature_Rocks Pirates">Rocks Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Long Ring Long Land" value="Long Ring Long Land" >
+                                <label class="checkBtn" for="feature_Long Ring Long Land">Long Ring Long Land</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_World Pirates" value="World Pirates" >
+                                <label class="checkBtn" for="feature_World Pirates">World Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Land of Wano" value="Land of Wano" >
+                                <label class="checkBtn" for="feature_Land of Wano">Land of Wano</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Evil Black Drum Kingdom" value="Evil Black Drum Kingdom" >
+                                <label class="checkBtn" for="feature_Evil Black Drum Kingdom">Evil Black Drum Kingdom</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Plague" value="Plague" >
+                                <label class="checkBtn" for="feature_Plague">Plague</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Monkey Mountain Alliance" value="Monkey Mountain Alliance" >
+                                <label class="checkBtn" for="feature_Monkey Mountain Alliance">Monkey Mountain Alliance</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_The Seven Warlords of the Sea" value="The Seven Warlords of the Sea" >
+                                <label class="checkBtn" for="feature_The Seven Warlords of the Sea">The Seven Warlords of the Sea</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Music" value="Music" >
+                                <label class="checkBtn" for="feature_Music">Music</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Scientist" value="Scientist" >
+                                <label class="checkBtn" for="feature_Scientist">Scientist</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Neptunian" value="Neptunian" >
+                                <label class="checkBtn" for="feature_Neptunian">Neptunian</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Navy" value="Navy" >
+                                <label class="checkBtn" for="feature_Navy">Navy</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_King of the Pirates" value="King of the Pirates" >
+                                <label class="checkBtn" for="feature_King of the Pirates">King of the Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Revolutionary Army" value="Revolutionary Army" >
+                                <label class="checkBtn" for="feature_Revolutionary Army">Revolutionary Army</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Giant" value="Giant" >
+                                <label class="checkBtn" for="feature_Giant">Giant</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Fish-Man" value="Fish-Man" >
+                                <label class="checkBtn" for="feature_Fish-Man">Fish-Man</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Fish-Man Island" value="Fish-Man Island" >
+                                <label class="checkBtn" for="feature_Fish-Man Island">Fish-Man Island</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Kuja Pirates" value="Kuja Pirates" >
+                                <label class="checkBtn" for="feature_Kuja Pirates">Kuja Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Sky Island" value="Sky Island" >
+                                <label class="checkBtn" for="feature_Sky Island">Sky Island</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_The Moon" value="The Moon" >
+                                <label class="checkBtn" for="feature_The Moon">The Moon</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Former Baroque Works" value="Former Baroque Works" >
+                                <label class="checkBtn" for="feature_Former Baroque Works">Former Baroque Works</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Former Rumbar Pirates" value="Former Rumbar Pirates" >
+                                <label class="checkBtn" for="feature_Former Rumbar Pirates">Former Rumbar Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Former Roger Pirates" value="Former Roger Pirates" >
+                                <label class="checkBtn" for="feature_Former Roger Pirates">Former Roger Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Former Rocks Pirates" value="Former Rocks Pirates" >
+                                <label class="checkBtn" for="feature_Former Rocks Pirates">Former Rocks Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Former Navy" value="Former Navy" >
+                                <label class="checkBtn" for="feature_Former Navy">Former Navy</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Former Whitebeard Pirates" value="Former Whitebeard Pirates" >
+                                <label class="checkBtn" for="feature_Former Whitebeard Pirates">Former Whitebeard Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Blackbeard Pirates" value="Blackbeard Pirates" >
+                                <label class="checkBtn" for="feature_Blackbeard Pirates">Blackbeard Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Mountain Bandits" value="Mountain Bandits" >
+                                <label class="checkBtn" for="feature_Mountain Bandits">Mountain Bandits</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_The Four Emperors" value="The Four Emperors" >
+                                <label class="checkBtn" for="feature_The Four Emperors">The Four Emperors</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Merfolk" value="Merfolk" >
+                                <label class="checkBtn" for="feature_Merfolk">Merfolk</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_World Government" value="World Government" >
+                                <label class="checkBtn" for="feature_World Government">World Government</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Biological Weapon" value="Biological Weapon" >
+                                <label class="checkBtn" for="feature_Biological Weapon">Biological Weapon</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Mary Geoise" value="Mary Geoise" >
+                                <label class="checkBtn" for="feature_Mary Geoise">Mary Geoise</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Red-Haired Pirates" value="Red-Haired Pirates" >
+                                <label class="checkBtn" for="feature_Red-Haired Pirates">Red-Haired Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Red-Haired Pirates Allies" value="Red-Haired Pirates Allies" >
+                                <label class="checkBtn" for="feature_Red-Haired Pirates Allies">Red-Haired Pirates Allies</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Admiral" value="Admiral" >
+                                <label class="checkBtn" for="feature_Admiral">Admiral</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Supernovas" value="Supernovas" >
+                                <label class="checkBtn" for="feature_Supernovas">Supernovas</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Celestial Dragons" value="Celestial Dragons" >
+                                <label class="checkBtn" for="feature_Celestial Dragons">Celestial Dragons</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_East Blue" value="East Blue" >
+                                <label class="checkBtn" for="feature_East Blue">East Blue</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Peachbeard Pirates" value="Peachbeard Pirates" >
+                                <label class="checkBtn" for="feature_Peachbeard Pirates">Peachbeard Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Animal" value="Animal" >
+                                <label class="checkBtn" for="feature_Animal">Animal</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Whitebeard Pirates" value="Whitebeard Pirates" >
+                                <label class="checkBtn" for="feature_Whitebeard Pirates">Whitebeard Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Whitebeard Pirates Allies" value="Whitebeard Pirates Allies" >
+                                <label class="checkBtn" for="feature_Whitebeard Pirates Allies">Whitebeard Pirates Allies</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Straw Hat Crew" value="Straw Hat Crew" >
+                                <label class="checkBtn" for="feature_Straw Hat Crew">Straw Hat Crew</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Happosui Army" value="Happosui Army" >
+                                <label class="checkBtn" for="feature_Happosui Army">Happosui Army</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_The Victims&#039; Club" value="The Victims&#039; Club" >
+                                <label class="checkBtn" for="feature_The Victims&#039; Club">The Victims&#039; Club</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Animal Kingdom Pirates" value="Animal Kingdom Pirates" >
+                                <label class="checkBtn" for="feature_Animal Kingdom Pirates">Animal Kingdom Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Sprite" value="Sprite" >
+                                <label class="checkBtn" for="feature_Sprite">Sprite</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_The House of Lambs" value="The House of Lambs" >
+                                <label class="checkBtn" for="feature_The House of Lambs">The House of Lambs</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Neo Navy" value="Neo Navy" >
+                                <label class="checkBtn" for="feature_Neo Navy">Neo Navy</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Asuka Island" value="Asuka Island" >
+                                <label class="checkBtn" for="feature_Asuka Island">Asuka Island</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Eldoraggo Crew" value="Eldoraggo Crew" >
+                                <label class="checkBtn" for="feature_Eldoraggo Crew">Eldoraggo Crew</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Omatsuri Island" value="Omatsuri Island" >
+                                <label class="checkBtn" for="feature_Omatsuri Island">Omatsuri Island</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Jellyfish Pirates" value="Jellyfish Pirates" >
+                                <label class="checkBtn" for="feature_Jellyfish Pirates">Jellyfish Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Grantesoro" value="Grantesoro" >
+                                <label class="checkBtn" for="feature_Grantesoro">Grantesoro</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Trump Pirates" value="Trump Pirates" >
+                                <label class="checkBtn" for="feature_Trump Pirates">Trump Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Mecha Island" value="Mecha Island" >
+                                <label class="checkBtn" for="feature_Mecha Island">Mecha Island</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Crown Island" value="Crown Island" >
+                                <label class="checkBtn" for="feature_Crown Island">Crown Island</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_The Pirates Fest" value="The Pirates Fest" >
+                                <label class="checkBtn" for="feature_The Pirates Fest">The Pirates Fest</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Golden Lion Pirates" value="Golden Lion Pirates" >
+                                <label class="checkBtn" for="feature_Golden Lion Pirates">Golden Lion Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Shipbuilding Town" value="Shipbuilding Town" >
+                                <label class="checkBtn" for="feature_Shipbuilding Town">Shipbuilding Town</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Mugiwara Chase" value="Mugiwara Chase" >
+                                <label class="checkBtn" for="feature_Mugiwara Chase">Mugiwara Chase</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Galley-La Company" value="Galley-La Company" >
+                                <label class="checkBtn" for="feature_Galley-La Company">Galley-La Company</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_The Franky Family" value="The Franky Family" >
+                                <label class="checkBtn" for="feature_The Franky Family">The Franky Family</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Hot Springs Island" value="Hot Springs Island" >
+                                <label class="checkBtn" for="feature_Hot Springs Island">Hot Springs Island</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Jailer Beast" value="Jailer Beast" >
+                                <label class="checkBtn" for="feature_Jailer Beast">Jailer Beast</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_GERMA 66" value="GERMA 66" >
+                                <label class="checkBtn" for="feature_GERMA 66">GERMA 66</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Bluejam Pirates" value="Bluejam Pirates" >
+                                <label class="checkBtn" for="feature_Bluejam Pirates">Bluejam Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Botanist" value="Botanist" >
+                                <label class="checkBtn" for="feature_Botanist">Botanist</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Barto Club" value="Barto Club" >
+                                <label class="checkBtn" for="feature_Barto Club">Barto Club</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Mogaro Kingdom" value="Mogaro Kingdom" >
+                                <label class="checkBtn" for="feature_Mogaro Kingdom">Mogaro Kingdom</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Yonta Maria Fleet" value="Yonta Maria Fleet" >
+                                <label class="checkBtn" for="feature_Yonta Maria Fleet">Yonta Maria Fleet</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Beautiful Pirates" value="Beautiful Pirates" >
+                                <label class="checkBtn" for="feature_Beautiful Pirates">Beautiful Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Brownbeard Pirates" value="Brownbeard Pirates" >
+                                <label class="checkBtn" for="feature_Brownbeard Pirates">Brownbeard Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Former Big Mom Pirates" value="Former Big Mom Pirates" >
+                                <label class="checkBtn" for="feature_Former Big Mom Pirates">Former Big Mom Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Former Rolling Pirates" value="Former Rolling Pirates" >
+                                <label class="checkBtn" for="feature_Former Rolling Pirates">Former Rolling Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_The Akazaya Nine" value="The Akazaya Nine" >
+                                <label class="checkBtn" for="feature_The Akazaya Nine">The Akazaya Nine</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Kouzuki Clan" value="Kouzuki Clan" >
+                                <label class="checkBtn" for="feature_Kouzuki Clan">Kouzuki Clan</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Kurozumi Clan" value="Kurozumi Clan" >
+                                <label class="checkBtn" for="feature_Kurozumi Clan">Kurozumi Clan</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Buggy&#039;s Delivery" value="Buggy&#039;s Delivery" >
+                                <label class="checkBtn" for="feature_Buggy&#039;s Delivery">Buggy&#039;s Delivery</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_SWORD" value="SWORD" >
+                                <label class="checkBtn" for="feature_SWORD">SWORD</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Drake Pirates" value="Drake Pirates" >
+                                <label class="checkBtn" for="feature_Drake Pirates">Drake Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_New Giant Pirates" value="New Giant Pirates" >
+                                <label class="checkBtn" for="feature_New Giant Pirates">New Giant Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Arlong Pirates" value="Arlong Pirates" >
+                                <label class="checkBtn" for="feature_Arlong Pirates">Arlong Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_The Sun Pirates" value="The Sun Pirates" >
+                                <label class="checkBtn" for="feature_The Sun Pirates">The Sun Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Flying Pirates" value="Flying Pirates" >
+                                <label class="checkBtn" for="feature_Flying Pirates">Flying Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Former Arlong Pirates" value="Former Arlong Pirates" >
+                                <label class="checkBtn" for="feature_Former Arlong Pirates">Former Arlong Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_New Fish-Man Pirates" value="New Fish-Man Pirates" >
+                                <label class="checkBtn" for="feature_New Fish-Man Pirates">New Fish-Man Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Shandian Warrior" value="Shandian Warrior" >
+                                <label class="checkBtn" for="feature_Shandian Warrior">Shandian Warrior</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Vassals" value="Vassals" >
+                                <label class="checkBtn" for="feature_Vassals">Vassals</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Space Pirates" value="Space Pirates" >
+                                <label class="checkBtn" for="feature_Space Pirates">Space Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Hawkins Pirates" value="Hawkins Pirates" >
+                                <label class="checkBtn" for="feature_Hawkins Pirates">Hawkins Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Fallen Monk Pirates" value="Fallen Monk Pirates" >
+                                <label class="checkBtn" for="feature_Fallen Monk Pirates">Fallen Monk Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Five Elders" value="Five Elders" >
+                                <label class="checkBtn" for="feature_Five Elders">Five Elders</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Alvida Pirates" value="Alvida Pirates" >
+                                <label class="checkBtn" for="feature_Alvida Pirates">Alvida Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Black Cat Pirates" value="Black Cat Pirates" >
+                                <label class="checkBtn" for="feature_Black Cat Pirates">Black Cat Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Blackbeard Pirates Allies" value="Blackbeard Pirates Allies" >
+                                <label class="checkBtn" for="feature_Blackbeard Pirates Allies">Blackbeard Pirates Allies</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Former CP9" value="Former CP9" >
+                                <label class="checkBtn" for="feature_Former CP9">Former CP9</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Gasparde Pirates" value="Gasparde Pirates" >
+                                <label class="checkBtn" for="feature_Gasparde Pirates">Gasparde Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Giant Pirates" value="Giant Pirates" >
+                                <label class="checkBtn" for="feature_Giant Pirates">Giant Pirates</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Senor Pink&#039;s Wife" value="Senor Pink&#039;s Wife" >
+                                <label class="checkBtn" for="feature_Senor Pink&#039;s Wife">Senor Pink&#039;s Wife</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Holy Knights of God" value="Holy Knights of God" >
+                                <label class="checkBtn" for="feature_Holy Knights of God">Holy Knights of God</label>
+                              </div>
+                              <div class="js-checkBox" data-filter-type="feature">
+                                <input class="js-traitCheckBox" data-tags="feature" type="checkbox" name="feature[]" id="feature_Vice Admiral" value="Vice Admiral" >
+                                <label class="checkBtn" for="feature_Vice Admiral">Vice Admiral</label>
+                              </div>
+                              <div class="checkBtn disable"></div>
+                              <div class="selectFilterTxtCol" data-filter-no-result="feature" hidden>
+                                No Results<br>
+                                Try Different Keywords
+                              </div>
+                      
+                            </div>
+                            <div class="scroll-bar">
+                              <div class="scroll-thumb js-trait-scroll-thumb"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <button class="modalSelectClose js-traitClose" type="button">Select and Close</button>
+                      </section>
+                    </div>                  </div>
+                  <div class="traitCol">
+                    <div class="currentSearchCol">
+                      <ul class="currentSearchList js-traitCurrentList">
+                        <li class="currentSearchBtn js-currentSearchBtn" data-value="Straw Hat Crew">Straw Hat Crew</li>
+                      </ul>
+                    </div>
+                    <div class="currentSearchTxt js-traitcurrentTxt">The Type hasn't been selected</div>
+                    <button type="button" class="traitOpenBtn js-selectModalButton" data-tgt="trait">Select the Type</button>
+                    <div class="traitRadiobtnCol">
+                      <div class="radiobtnCol">
+                        <label class="changeIcon selectedTypesIcon"><input type="radio" name="featureFlag" value="or" >Has Any of the<br>Selected Types</label>
+                        <label class="changeIcon selectedTypesIcon"><input type="radio" name="featureFlag" value="and" >Has All of the<br>Selected Types</label>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="radiobtnWrap" id="searchReprints">
+                  <h3 class="searchTit">Reprinted Card</h3>
+                  <div class="radiobtnCol">
+                    <label class="changeIcon"><input type="radio" name="reprintsFlag" value="off" >Unhide</label>
+                    <label class="changeIcon"><input type="radio" name="reprintsFlag" value="on" >Hide</label>
+                  </div>
+                </div>
+
+                <div class="checkbtnWrap" id="searchBlockIcon">
+                  <h3 class="searchTit">Block icon</h3>
+                  <div class="checkbtnCol">
                   <input type="checkbox" name="block_icon[]" id="block_icon_1" value="1" >
                   <label class="checkBtn" for="block_icon_1">1</label>
                   <input type="checkbox" name="block_icon[]" id="block_icon_2" value="2" >
@@ -531,35 +1491,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
               </div>
 
-            </div>
-
-            <div class="checkReprints">
-              <label>
-                                <input type="checkbox" name="reprintsFlag"  style="appearance: auto;" onchange="Post(this)">
-                <span class="checkReprintsText">Hide reprint cards</span>
-              </label>
-            </div>
-
-            <div class="commonBtn submitBtn"><input type="submit" value="SEARCH"><span>SEARCH</span></div>
+              </div>
+            </div>            </div>            </div>
+            <div class="submitBtn"><input type="submit" value="SEARCH"><span>SEARCH</span></div>
           </form>
         </div>
     
     
         <div class="pageDetailCol">
-          <div>
-            <a href="javascript:void(0);" onclick="cardSerchReset();" class="reset">&#x00D7; Clear</a>
-            <div class="countCol">32 results</div>
+          <div class="pageBtnCol">
+            <a href="javascript:void(0);" onclick="cardSerchReset();" class="reset"><span class="resetIco">&#x00D7;</span> Clear</a>
+            <div class="countCol">32 Results</div>
           </div>
 
-          <div class="spnavi" id="view">
-            <a href="javascript:void(0);" class="prevBtn">PREV</a>
-            <a href="javascript:void(0);" class="nextBtn">NEXT</a>
-          </div>
-
-          <div class="pagerCol">
-            <a href="javascript:void(0);" class="prevBtn">PREV</a>
-            <div class="pager"></div>
-            <a href="javascript:void(0);" class="nextBtn">NEXT</a>
+          <div class="pagerCol top">
+            <a href="javascript:void(0);" class="prevBtn"></a>
+            <div class="pagerColInner"><div class="pager"></div></div>
+            <a href="javascript:void(0);" class="nextBtn"></a>
           </div>
         </div>
         
@@ -570,7 +1518,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-001">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-001</span> | <span>L</span> | <span>LEADER</span>
               </div>
@@ -579,14 +1527,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-001.png?261016" alt="Monkey.D.Luffy">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Life</h3>5</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -599,9 +1549,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>The Four Emperors/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -612,7 +1568,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-001_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-001</span> | <span>L</span> | <span>LEADER</span>
               </div>
@@ -621,14 +1577,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-001_p1.png?261016" alt="Monkey.D.Luffy">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Life</h3>5</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -641,9 +1599,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>The Four Emperors/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -654,7 +1618,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-002">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-002</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -663,14 +1627,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-002.png?261016" alt="Usopp">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>2</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type04.png?v" alt="Ranged"><i>Ranged</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type04.png" alt="Ranged"><i>Ranged</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -683,9 +1649,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x2] [Opponent's Turn] This Character gains +2000 power.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -696,7 +1668,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-002_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-002</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -705,14 +1677,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-002_p1.png?261016" alt="Usopp">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>2</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type04.png?v" alt="Ranged"><i>Ranged</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type04.png" alt="Ranged"><i>Ranged</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -725,9 +1699,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x2] [Opponent's Turn] This Character gains +2000 power.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -738,7 +1718,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-003">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-003</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -747,14 +1727,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-003.png?261016" alt="Sanji">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>2</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -767,9 +1749,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -780,7 +1768,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-003_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-003</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -789,14 +1777,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-003_p1.png?261016" alt="Sanji">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>2</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -809,9 +1799,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -822,7 +1818,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-004">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-004</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -831,14 +1827,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-004.png?261016" alt="Jewelry Bonney">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>1</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -851,9 +1849,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Egghead/Bonney Pirates</div>
                 <div class="text"><h3>Effect</h3>[DON!! x2] [On K.O.] Draw 1 card.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -864,7 +1868,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-004_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-004</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -873,14 +1877,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-004_p1.png?261016" alt="Jewelry Bonney">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>1</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -893,9 +1899,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Egghead/Bonney Pirates</div>
                 <div class="text"><h3>Effect</h3>[DON!! x2] [On K.O.] Draw 1 card.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -906,7 +1918,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-005">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-005</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -915,14 +1927,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-005.png?261016" alt="Jinbe">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>2</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -935,9 +1949,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Fish-Man/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>-</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -948,7 +1968,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-005_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-005</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -957,14 +1977,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-005_p1.png?261016" alt="Jinbe">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>2</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -977,9 +1999,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Fish-Man/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>-</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -990,7 +2018,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-006">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-006</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -999,14 +2027,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-006.png?261016" alt="Stussy">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>3</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1019,9 +2049,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Egghead</div>
                 <div class="text"><h3>Effect</h3>-</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1032,7 +2068,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-006_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-006</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1041,14 +2077,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-006_p1.png?261016" alt="Stussy">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>3</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1061,9 +2099,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Egghead</div>
                 <div class="text"><h3>Effect</h3>-</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1074,7 +2118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-007">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-007</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1083,14 +2127,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-007.png?261016" alt="Sentomaru">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>2</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1103,9 +2149,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Egghead/Navy</div>
                 <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1116,7 +2168,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-007_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-007</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1125,14 +2177,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-007_p1.png?261016" alt="Sentomaru">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>2</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1145,9 +2199,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Egghead/Navy</div>
                 <div class="text"><h3>Effect</h3>[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1158,7 +2218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-008">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-008</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1167,14 +2227,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-008.png?261016" alt="Tony Tony.Chopper">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>4</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type05.png" alt="Wisdom"><i>Wisdom</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1187,9 +2249,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Animal/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>-</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1200,7 +2268,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-008_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-008</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1209,14 +2277,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-008_p1.png?261016" alt="Tony Tony.Chopper">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>4</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type05.png" alt="Wisdom"><i>Wisdom</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1229,9 +2299,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Animal/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>-</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1242,7 +2318,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-009">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-009</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1251,14 +2327,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-009.png?261016" alt="Nami">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>3</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1271,9 +2349,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1284,7 +2368,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-009_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-009</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1293,14 +2377,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-009_p1.png?261016" alt="Nami">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>3</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type03.png?v" alt="Special"><i>Special</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type03.png" alt="Special"><i>Special</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1313,9 +2399,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1326,7 +2418,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-010">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-010</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1335,14 +2427,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-010.png?261016" alt="Nico Robin">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>3</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1355,9 +2449,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1368,7 +2468,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-010_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-010</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1377,14 +2477,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-010_p1.png?261016" alt="Nico Robin">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>3</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1397,9 +2499,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1410,7 +2518,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-011">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-011</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1419,14 +2527,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-011.png?261016" alt="Franky">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>3</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1439,9 +2549,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1452,7 +2568,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-011_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-011</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1461,14 +2577,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-011_p1.png?261016" alt="Franky">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>3</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1481,9 +2599,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1494,7 +2618,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-012">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-012</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1503,14 +2627,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-012.png?261016" alt="Brook">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>3</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1523,9 +2649,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1536,7 +2668,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-012_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-012</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1545,14 +2677,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-012_p1.png?261016" alt="Brook">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>3</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1565,9 +2699,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1578,7 +2718,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-013">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-013</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1587,14 +2727,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-013.png?261016" alt="Vegapunk">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>1</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type05.png" alt="Wisdom"><i>Wisdom</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1607,9 +2749,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Scientist/Egghead</div>
                 <div class="text"><h3>Effect</h3>-</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1620,7 +2768,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-013_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-013</span> | <span>C</span> | <span>CHARACTER</span>
               </div>
@@ -1629,14 +2777,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-013_p1.png?261016" alt="Vegapunk">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>1</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type05.png?v" alt="Wisdom"><i>Wisdom</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type05.png" alt="Wisdom"><i>Wisdom</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1649,9 +2799,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Scientist/Egghead</div>
                 <div class="text"><h3>Effect</h3>-</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1662,7 +2818,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-014">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-014</span> | <span>SR</span> | <span>CHARACTER</span>
               </div>
@@ -1671,14 +2827,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-014.png?261016" alt="Monkey.D.Luffy">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>5</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1691,9 +2849,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>The Four Emperors/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Rush] (This card can attack on the turn in which it is played.)<br>[When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1704,7 +2868,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-014_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-014</span> | <span>SR</span> | <span>CHARACTER</span>
               </div>
@@ -1713,14 +2877,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-014_p1.png?261016" alt="Monkey.D.Luffy">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>5</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type01.png?v" alt="Strike"><i>Strike</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type01.png" alt="Strike"><i>Strike</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1733,9 +2899,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>The Four Emperors/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Rush] (This card can attack on the turn in which it is played.)<br>[When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1746,7 +2918,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-015">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-015</span> | <span>SR</span> | <span>CHARACTER</span>
               </div>
@@ -1755,14 +2927,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-015.png?261016" alt="Roronoa Zoro">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>4</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1775,9 +2949,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x2] This Character gains [Rush].<br>[On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1788,7 +2968,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-015_p1">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-015</span> | <span>SR</span> | <span>CHARACTER</span>
               </div>
@@ -1797,14 +2977,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-015_p1.png?261016" alt="Roronoa Zoro">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>4</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    <img src="/images/cardlist/attribute/ico_type02.png?v" alt="Slash"><i>Slash</i>
+                    <div class="attrIcon"><img src="/images/cardlist/attribute/ico_type02.png" alt="Slash"><i>Slash</i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1817,9 +2999,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[DON!! x2] This Character gains [Rush].<br>[On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand.</div>
-                                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1830,7 +3018,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-016">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-016</span> | <span>C</span> | <span>EVENT</span>
               </div>
@@ -1839,14 +3027,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-016.png?261016" alt="Gum-Gum Dawn Whip">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>2</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    -<i></i>
+                    <div class="attrIcon">-<i></i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1859,9 +3049,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>The Four Emperors/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, up to 1 of your opponent's Characters with 4000 power or less cannot activate [Blocker] during this turn.</div>
-                <div class="trigger"><h3>Trigger</h3>[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.</div>
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
@@ -1872,7 +3068,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
           <dl class="modalCol" id="ST21-017">
             <dt>
-              <button class="scrollBtn">ボタン</button>
+              <button class="scrollBtn">button</button>
               <div class="infoCol">
                 <span>ST21-017</span> | <span>C</span> | <span>EVENT</span>
               </div>
@@ -1881,14 +3077,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dd>
               <div class="frontCol">
                 <img class="lazy" src="/images/cardlist/dummy.gif" data-src="../images/cardlist/card/ST21-017.png?261016" alt="Gum-Gum Mole Pistol">
-                <a href="javascript:void(0);" class="commonBtn textViewBtn"><span>TEXT VIEW</span></a>
+                <button class="viewChangeBtn textViewBtn" type="button">Switch to Text</button>
               </div>
+              <div class="rightCol">
               <div class="backCol">
                 <div class="col2">
                   <div class="cost"><h3>Cost</h3>4</div>
                   <div class="attribute">
                     <h3>Attribute</h3>
-                    -<i></i>
+                    <div class="attrIcon">-<i></i></div>
+
                   </div>
                 </div>
                 <div class="col2">
@@ -1901,28 +3099,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="feature"><h3>Type</h3>The Four Emperors/Straw Hat Crew</div>
                 <div class="text"><h3>Effect</h3>[Main] Give up to 1 of your opponent's Characters −5000 power during this turn. Then, if you have a Character with 6000 power or more, K.O. up to 1 of your opponent's Characters with 2000 power or less.</div>
-                <div class="trigger"><h3>Trigger</h3>[Trigger] Activate this card's [Main] effect.</div>                <div class="getInfo"><h3>Card Set(s)</h3>-GEAR5- [ST-21]</div>                
-                <a href="javascript:void(0);" class="commonBtn cardViewBtn"><span>CARD VIEW</span></a>
+                <div class="trigger"><h3>Trigger</h3>[Trigger] Activate this card's [Main] effect.</div>
+                  <button class="viewChangeBtn cardViewBtn" type="button">Switch to Card</button>
               </div>
+
+                <div class="getInfo"><h3>Information Obtained</h3>-GEAR5- [ST-21]                                    <div class="getInfoBtnCol">
+                    <a href="./?search=true&series=569021" class="getInfoBtn">CARDS</a>
+                                        <a href="/products/decks/st21.php" class="getInfoBtn">Product Information</a>
+                                      </div>
+                </div>                              </div>
             </dd>
           </dl>
           
                       
-                        <div class="spnavi" id="view">
-              <a href="javascript:void(0);" class="prevBtn">PREV</a>
-              <a href="javascript:void(0);" class="nextBtn">NEXT</a>
-            </div>
-
+            
+            <div class="pagerWrap">
             <div class="pagerCol foot">
-              <a href="javascript:void(0);" class="prevBtn">PREV</a>
-              <div class="pager"></div>
-              <a href="javascript:void(0);" class="nextBtn">NEXT</a>
+                <a href="javascript:void(0);" class="prevBtn"></a>
+                <div class="pagerColInner"><div class="pager"></div></div>
+                <a href="javascript:void(0);" class="nextBtn"></a>
+              </div>
             </div>
                       </div>
             
       </div>
     
     </article>
+
   </main>
 
 <footer class="footerCol">
